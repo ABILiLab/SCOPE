@@ -45,4 +45,9 @@ This step will generate and/or update intermediate feature files, including PSSM
 ```python
 python train_deepgcn_with_gaussion_weight.py
 ```
-
+# Residue Scoring with the SCOPE Model
+Run inference using the provided example input (`Example`):
+```python
+python infer.py
+```
+The results will be saved to the `InferResult` directory by default.
