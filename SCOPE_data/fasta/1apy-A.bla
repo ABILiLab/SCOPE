@@ -1,0 +1,1669 @@
+PSIBLAST 2.17.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           208,005,650 sequences; 71,627,808,805 total letters
+
+Results from round 1
+
+
+Query= 1apy-A
+
+Length=162
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+UniRef90_UPI0003EAE59D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  339     6e-117
+UniRef90_P20933 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  340     1e-115
+UniRef90_G7P6L2 Aspartylglucosaminidase n=2 Tax=Macaca TaxID=9539...  329     4e-111
+UniRef90_F6T3R7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  326     1e-110
+UniRef90_UPI0010A28D1C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  327     2e-110
+UniRef90_A0A250YG31 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  327     3e-110
+UniRef90_UPI0013F2C373 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  317     1e-107
+UniRef90_G5C3P6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  319     2e-107
+UniRef90_A0A452QGZ9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  317     6e-107
+UniRef90_A0A480T3W2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  315     5e-106
+UniRef90_G1LAI5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  315     7e-106
+UniRef90_A0A7J7ZF95 Aspartylglucosaminidase n=1 Tax=Pipistrellus ...  310     2e-105
+UniRef90_UPI0020209AD7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  315     3e-105
+UniRef90_A0A485P947 PREDICTED n=1 Tax=Lynx pardinus TaxID=191816 ...  310     3e-105
+UniRef90_A0AAW0J2N7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  314     3e-105
+UniRef90_UPI002021954A N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  314     3e-105
+UniRef90_UPI001FD4E989 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  312     4e-105
+UniRef90_UPI0023EB0F25 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  312     9e-105
+UniRef90_A0A7J7ZFJ5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  312     1e-104
+UniRef90_A0A8C5XZF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  311     2e-104
+UniRef90_A0A671FK36 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  311     3e-104
+UniRef90_UPI0018F59072 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  308     5e-104
+UniRef90_M3X0F1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  311     5e-104
+UniRef90_A0A8C3YCW9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  309     2e-103
+UniRef90_A0A6J2MQX7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  309     2e-103
+UniRef90_A0A1S3FZF6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  309     2e-103
+UniRef90_A0A7J7YZX4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  309     2e-103
+UniRef90_A0A7J8GK43 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  308     5e-103
+UniRef90_A0A8J5ZMJ7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  308     5e-103
+UniRef90_UPI000703E925 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  308     6e-103
+UniRef90_A0A1S3AQH8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  308     6e-103
+UniRef90_A0A2Y9E968 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  308     7e-103
+UniRef90_A0A8C0MW39 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  311     1e-102
+UniRef90_A0A9B0T5L9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  307     1e-102
+UniRef90_H0XCR8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  307     1e-102
+UniRef90_A0A8C8XGS6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  311     1e-102
+UniRef90_I3MI50 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  307     2e-102
+UniRef90_UPI001E1E022D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  306     2e-102
+UniRef90_A0A8C6RLN4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  306     4e-102
+UniRef90_UPI000813CDB6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  306     4e-102
+UniRef90_A0A8C5LHP2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  305     6e-102
+UniRef90_G1P2Y7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  305     6e-102
+UniRef90_A0A8P0P4R3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  311     9e-102
+UniRef90_A0A1U7R9P4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  302     1e-101
+UniRef90_UPI00293EA17F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  304     3e-101
+UniRef90_A0A8J6GBX2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  307     3e-101
+UniRef90_A0A2U4A7W5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  303     3e-101
+UniRef90_A0A8C0QAE8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  315     3e-101
+UniRef90_A0AAD4TKF0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  305     3e-101
+UniRef90_UPI00038C388D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  303     3e-101
+UniRef90_G1SGN6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  303     5e-101
+UniRef90_UPI002A3699D1 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  301     6e-101
+UniRef90_P30919 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  303     7e-101
+UniRef90_A0A2Y9S294 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  302     1e-100
+UniRef90_UPI0005ABA4D7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  300     2e-100
+UniRef90_G3SWT7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  301     2e-100
+UniRef90_UPI00339CDE36 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  301     2e-100
+UniRef90_A0A6P3FBM5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  301     2e-100
+UniRef90_A0A8B8S4B3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  298     2e-100
+UniRef90_A0A8B9X2I2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  301     2e-100
+UniRef90_A0A1U8D4A9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  301     3e-100
+UniRef90_F1MGY9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  301     3e-100
+UniRef90_UPI0028E753E6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  300     4e-100
+UniRef90_Q64191 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  301     4e-100
+UniRef90_A0A8B9X240 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  301     1e-99 
+UniRef90_UPI00196B4AC9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  299     1e-99 
+UniRef90_UPI0026604F18 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  300     1e-99 
+UniRef90_A0A8I3WDC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  300     2e-99 
+UniRef90_A0A5N4CFC6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  298     3e-99 
+UniRef90_UPI001BB24AC0 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  298     9e-99 
+UniRef90_A0A6I9KTN1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  296     1e-98 
+UniRef90_A0A5F5PLI4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  296     2e-98 
+UniRef90_A0AAU9Z3Y1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  296     3e-98 
+UniRef90_UPI001890823B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  295     5e-98 
+UniRef90_UPI0003F05EFE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  295     1e-97 
+UniRef90_UPI0021E2017C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  293     3e-97 
+UniRef90_UPI00210FB51F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  288     3e-95 
+UniRef90_UPI00243390A3 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  285     5e-94 
+UniRef90_M3YL44 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  284     6e-94 
+UniRef90_G3HGM6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  284     2e-93 
+UniRef90_UPI00032ADDE6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  283     3e-93 
+UniRef90_H0UZ36 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  281     2e-92 
+UniRef90_A0A1U7UPI5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  273     6e-92 
+UniRef90_UPI0024438823 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  277     3e-91 
+UniRef90_A0A7J8GJE3 Aspartylglucosaminidase n=1 Tax=Molossus molo...  271     7e-91 
+UniRef90_A0A6B0R4S7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  276     2e-90 
+UniRef90_A0A8C9JWC7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  276     3e-90 
+UniRef90_A0A8C2R1G0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  275     5e-90 
+UniRef90_A0A836CPQ7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  275     1e-88 
+UniRef90_A0A3Q7T3T8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  276     5e-88 
+UniRef90_UPI001CC5D05F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  267     6e-87 
+UniRef90_UPI00189D6BAF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  264     2e-86 
+UniRef90_F6YVD7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  266     4e-86 
+UniRef90_UPI0024BDB437 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  263     2e-85 
+UniRef90_A0A6I8NXL0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  263     3e-85 
+UniRef90_G3VWM7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  263     4e-85 
+UniRef90_UPI001C05C4F7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  261     2e-84 
+UniRef90_A0A4X2KJ88 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  261     2e-84 
+UniRef90_A0A6I8SB37 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  261     2e-84 
+UniRef90_UPI00237E9359 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  259     5e-84 
+UniRef90_A0A6I9PSI6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  259     6e-84 
+UniRef90_A0A6P8V9D5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  259     6e-84 
+UniRef90_A0A672ZJI9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  259     8e-84 
+UniRef90_UPI001ED7D52B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  259     1e-83 
+UniRef90_A0A4W6FBD4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  259     1e-83 
+UniRef90_A0A667ZNX2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  258     1e-83 
+UniRef90_UPI001FB5F423 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  258     2e-83 
+UniRef90_UPI0027DF4281 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  258     2e-83 
+UniRef90_A0A8T2KE08 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  258     3e-83 
+UniRef90_A0A3B4T7F9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  258     3e-83 
+UniRef90_UPI001CE10870 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  255     4e-83 
+UniRef90_UPI003B503E82 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  257     6e-83 
+UniRef90_A0A665VMX7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  257     6e-83 
+UniRef90_UPI00237E93E4 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  256     7e-83 
+UniRef90_Q5M7B8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  257     7e-83 
+UniRef90_A0A3Q1FNG6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  256     1e-82 
+UniRef90_UPI0035CC03C6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  256     2e-82 
+UniRef90_UPI003B595E57 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  256     2e-82 
+UniRef90_A0A3B4YQY6 Aspartylglucosaminidase n=1 Tax=Seriola lalan...  255     3e-82 
+UniRef90_H3D671 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  255     4e-82 
+UniRef90_UPI003461CA48 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  255     6e-82 
+UniRef90_UPI0024072B7C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  256     6e-82 
+UniRef90_A0AAV6SKH5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     6e-82 
+UniRef90_G3PW56 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  254     8e-82 
+UniRef90_A0A4U5UDC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  254     8e-82 
+UniRef90_A0AAV7D3N0 Aspartylglucosaminidase n=1 Tax=Engystomops p...  251     9e-82 
+UniRef90_A0A1A8FIM2 Aspartylglucosaminidase (Fragment) n=2 Tax=No...  251     1e-81 
+UniRef90_A0ABD0X3D1 Uncharacterized protein n=1 Tax=Umbra pygmaea...  253     1e-81 
+UniRef90_UPI001C8AADF5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  254     1e-81 
+UniRef90_A0A1S3RR04 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  253     1e-81 
+UniRef90_UPI002E13B749 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  253     1e-81 
+UniRef90_A0A672NVZ0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  253     2e-81 
+UniRef90_UPI0012ED9C1A N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  253     2e-81 
+UniRef90_UPI0027417989 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  253     2e-81 
+UniRef90_UPI003704087E N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  253     2e-81 
+UniRef90_A0A4Z2C451 Aspartylglucosaminidase n=1 Tax=Takifugu bima...  249     2e-81 
+UniRef90_A0A7M4FYH1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  253     3e-81 
+UniRef90_A0ABD1JQP9 Uncharacterized protein n=1 Tax=Coilia grayii...  253     3e-81 
+UniRef90_A0A6P7NUH4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  253     3e-81 
+UniRef90_A0A3Q3MRH2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  253     3e-81 
+UniRef90_A0A7L3P6M4 ASPG asparaginase (Fragment) n=1 Tax=Xiphorhy...  248     3e-81 
+UniRef90_A0A8C2XI86 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     3e-81 
+UniRef90_A0A3B3HJ42 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  253     4e-81 
+UniRef90_A0A3Q3FKV5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     4e-81 
+UniRef90_UPI001CA96786 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  251     4e-81 
+UniRef90_A0A3Q2P392 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     4e-81 
+UniRef90_K7G245 Aspartylglucosaminidase n=1 Tax=Pelodiscus sinens...  249     5e-81 
+UniRef90_A0AAN9CL25 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     5e-81 
+UniRef90_UPI002026A1DE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  252     5e-81 
+UniRef90_A0AAV7D4D6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     5e-81 
+UniRef90_H2UUC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  251     6e-81 
+UniRef90_A0A3Q3FJF0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     6e-81 
+UniRef90_A0AAD8LSI3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     6e-81 
+UniRef90_A0A1A8UMA1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  251     7e-81 
+UniRef90_A0A3Q3EIN9 Aspartylglucosaminidase n=2 Tax=Labrus bergyl...  253     8e-81 
+UniRef90_UPI00243000AF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  251     8e-81 
+UniRef90_A0A8D2LQU8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     1e-80 
+UniRef90_A0A218VF94 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  251     1e-80 
+UniRef90_A0A8C1I8C9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  252     1e-80 
+UniRef90_A0A6G1RJH8 Aspartylglucosaminidase (Fragment) n=1 Tax=Hy...  248     1e-80 
+UniRef90_A0A3Q2YUS7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  251     1e-80 
+UniRef90_A0A3P8V0A1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  251     1e-80 
+UniRef90_A0A670IU64 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  251     2e-80 
+UniRef90_A0AAV6SJD6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  251     2e-80 
+UniRef90_A0A7K4X629 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  250     2e-80 
+UniRef90_UPI00230582C0 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  251     2e-80 
+UniRef90_A0A5N4CF51 N-L-asparaginase n=1 Tax=Camelus dromedarius ...  248     2e-80 
+UniRef90_A0A8S4BJX6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  251     2e-80 
+UniRef90_A0A7K6V9A0 ASPG asparaginase (Fragment) n=3 Tax=Passerif...  245     2e-80 
+UniRef90_UPI003A90D599 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  251     2e-80 
+UniRef90_A0A674MYB6 Aspartylglucosaminidase n=1 Tax=Takifugu rubr...  249     2e-80 
+UniRef90_A0A3N0Z0U1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  250     3e-80 
+UniRef90_A0A8C5HMS0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  250     3e-80 
+UniRef90_UPI00214E9EF8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  251     3e-80 
+UniRef90_A0A3Q3AB66 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  250     3e-80 
+UniRef90_UPI0007041488 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  250     4e-80 
+UniRef90_UPI0036045169 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  249     5e-80 
+UniRef90_A0A8C6ZUU4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  249     6e-80 
+UniRef90_UPI001899B4B9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  249     6e-80 
+UniRef90_UPI001C04AAD2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  248     6e-80 
+UniRef90_A0A670XVE7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  249     7e-80 
+UniRef90_A0A2U9C584 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  249     7e-80 
+UniRef90_A0A8C8SDZ6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  250     7e-80 
+UniRef90_UPI001ABE3FF8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  251     9e-80 
+UniRef90_UPI00350EC902 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  248     1e-79 
+UniRef90_A0A9D3T5M3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  249     1e-79 
+UniRef90_UPI002AC88A51 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  251     1e-79 
+UniRef90_A0A672HZP4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  249     1e-79 
+UniRef90_UPI002B1D9121 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  248     1e-79 
+UniRef90_A0A8C8MM12 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  248     1e-79 
+UniRef90_A0A8C4X482 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  248     1e-79 
+UniRef90_A0A3P9AHU3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  248     1e-79 
+UniRef90_A0A8C6TQH9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     1e-79 
+UniRef90_UPI00234BBE69 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  248     1e-79 
+UniRef90_UPI00192F4214 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  250     2e-79 
+UniRef90_A0AAV2MIB8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  248     2e-79 
+UniRef90_UPI002FCD2047 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  248     2e-79 
+UniRef90_UPI001963DFA7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  245     2e-79 
+UniRef90_A0A401PJZ5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     3e-79 
+UniRef90_A0AAV1FCD9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  245     3e-79 
+UniRef90_UPI003A5B9FF5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  248     3e-79 
+UniRef90_A0A7L1X493 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  248     4e-79 
+UniRef90_UPI00234AEEEE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  248     4e-79 
+UniRef90_A0A8C2TCB3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  248     4e-79 
+UniRef90_A0A8D0GZ73 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  248     4e-79 
+UniRef90_A0A9Q1JHE5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     4e-79 
+UniRef90_UPI00383162C5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  249     5e-79 
+UniRef90_UPI001128F045 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  248     5e-79 
+UniRef90_A0A8C2TC75 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  248     5e-79 
+UniRef90_A0AA88SSX6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     5e-79 
+UniRef90_A0AAD1SFF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     5e-79 
+UniRef90_A0A8C9N8M5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     6e-79 
+UniRef90_A0A3B4GZ76 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     6e-79 
+UniRef90_A0AAV3B346 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     6e-79 
+UniRef90_UPI00074FF7D5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  247     7e-79 
+UniRef90_A0A2K5N0E8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     8e-79 
+UniRef90_A0A3Q3VS42 Uncharacterized protein n=1 Tax=Mola mola Tax...  246     8e-79 
+UniRef90_A0A7L2GY21 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     8e-79 
+UniRef90_A0A6P7J7R0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     8e-79 
+UniRef90_A8KC00 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  246     8e-79 
+UniRef90_A0A553QGI1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     9e-79 
+UniRef90_A0A8D0BS52 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     9e-79 
+UniRef90_A0A9N7Z578 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     9e-79 
+UniRef90_A0A6P9E1M7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     1e-78 
+UniRef90_A0A8D2MX76 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     1e-78 
+UniRef90_UPI003464B1A7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  246     1e-78 
+UniRef90_UPI001B7E89E4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  246     2e-78 
+UniRef90_A0A7K7WJ31 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     2e-78 
+UniRef90_A0A8V0XD67 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     2e-78 
+UniRef90_A0A6J2WCF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  245     2e-78 
+UniRef90_UPI001C4C2DCC N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  246     2e-78 
+UniRef90_UPI002FCD2670 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  246     2e-78 
+UniRef90_UPI00235A8C93 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  246     2e-78 
+UniRef90_A0AAV1FCD5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     3e-78 
+UniRef90_A0AA97JZB8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  245     3e-78 
+UniRef90_UPI0030816270 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  245     3e-78 
+UniRef90_UPI002435F3CA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  244     3e-78 
+UniRef90_UPI001BE9ECFA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  245     3e-78 
+UniRef90_A0A2I0MN95 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     3e-78 
+UniRef90_UPI0014721CF2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  244     3e-78 
+UniRef90_A0A3B5PQC9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     4e-78 
+UniRef90_UPI002FD74F25 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  245     4e-78 
+UniRef90_V8NZZ1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase (...  248     4e-78 
+UniRef90_A0A3Q1HLK6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     4e-78 
+UniRef90_A0A498N018 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     4e-78 
+UniRef90_A0A9D3RVF6 Aspartylglucosaminidase n=3 Tax=Anguilla TaxI...  244     4e-78 
+UniRef90_A0A9W7TS83 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     5e-78 
+UniRef90_A0A493SV40 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  246     5e-78 
+UniRef90_UPI002FC3142B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  244     5e-78 
+UniRef90_UPI00202B9814 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  245     5e-78 
+UniRef90_UPI001F073CD2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  245     6e-78 
+UniRef90_A0A669QZN4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     6e-78 
+UniRef90_A0A669QGW5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     7e-78 
+UniRef90_A0A674II95 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     7e-78 
+UniRef90_UPI0035B18AD8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  242     8e-78 
+UniRef90_A0A8T3CHP3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     8e-78 
+UniRef90_A0A9F5J0D1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  245     9e-78 
+UniRef90_A0AAY4CHY7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     9e-78 
+UniRef90_A0A7K8U2U8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     1e-77 
+UniRef90_A0A7L3RAM1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     1e-77 
+UniRef90_UPI0035A30447 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  244     1e-77 
+UniRef90_A0A6P3W4Z1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  243     1e-77 
+UniRef90_A0AAD1SFF4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  244     1e-77 
+UniRef90_UPI0035B017BD N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  243     1e-77 
+UniRef90_UPI00210F91EC N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  243     1e-77 
+UniRef90_A0A7L1N5I4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  243     1e-77 
+UniRef90_A0A8B9CEN6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  247     2e-77 
+UniRef90_UPI002FE1F85C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  241     2e-77 
+UniRef90_A0A2I4APK8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  242     3e-77 
+UniRef90_UPI00355BCB30 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  243     3e-77 
+UniRef90_A0A7L3WKR8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  243     3e-77 
+UniRef90_A0A401S9K6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  242     4e-77 
+UniRef90_UPI002303B905 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  243     4e-77 
+UniRef90_UPI0025A51147 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  242     4e-77 
+UniRef90_UPI00298BFB79 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  242     5e-77 
+UniRef90_A0A663ESX9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  242     5e-77 
+UniRef90_UPI001F080E50 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  242     5e-77 
+UniRef90_G1KEX1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  241     7e-77 
+UniRef90_A0A6J0UCB7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  242     8e-77 
+UniRef90_A0A7K4RNW8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  241     8e-77 
+UniRef90_E3TDQ8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  241     1e-76 
+UniRef90_UPI002242468D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  241     1e-76 
+UniRef90_A0A7J6BKD9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  240     1e-76 
+UniRef90_A0A7K4JR51 ASPG asparaginase (Fragment) n=1 Tax=Geococcy...  237     1e-76 
+UniRef90_A0A3Q2CE59 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  240     2e-76 
+UniRef90_UPI002ADE2731 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  240     2e-76 
+UniRef90_A0A852KTM4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  240     2e-76 
+UniRef90_A0A5N5NWK2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  239     3e-76 
+UniRef90_A0A9Q1HYT6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  239     7e-76 
+UniRef90_A0AAD7T9D6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  239     8e-76 
+UniRef90_A0AAD5B011 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  239     8e-76 
+UniRef90_UPI00234D535C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  239     1e-75 
+UniRef90_UPI002AD1F8BE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  238     1e-75 
+UniRef90_UPI00355BD4E1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  239     1e-75 
+UniRef90_A0A2K6T1Y7 Aspartylglucosaminidase n=1 Tax=Saimiri boliv...  237     1e-75 
+UniRef90_A0A8C9VED3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  238     2e-75 
+UniRef90_UPI002AD34248 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  238     3e-75 
+UniRef90_UPI0004D07320 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  237     3e-75 
+UniRef90_A0A3B3RW93 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  237     4e-75 
+UniRef90_A0A6P7X7U9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  237     5e-75 
+UniRef90_A0A4W4EMT1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  236     6e-75 
+UniRef90_UPI00398EA756 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  236     8e-75 
+UniRef90_A0AAV3Y5K9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  236     1e-74 
+UniRef90_A0A401NTT0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  236     1e-74 
+UniRef90_A0A672UJE8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  236     1e-74 
+UniRef90_UPI0007B8DAFF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  234     1e-74 
+UniRef90_UPI002F3528D6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  236     1e-74 
+UniRef90_UPI0024552B23 LOW QUALITY PROTEIN: N(4)-(beta-N-acetylgl...  236     1e-74 
+UniRef90_A0AA88MM33 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  236     1e-74 
+UniRef90_A0A6P8QP56 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  236     2e-74 
+UniRef90_A0A8B9RCB9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  235     2e-74 
+UniRef90_UPI0037E84F54 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  235     2e-74 
+UniRef90_UPI001B7F171F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  235     2e-74 
+UniRef90_UPI0031E454A0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  235     2e-74 
+UniRef90_UPI003A83799C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  235     2e-74 
+UniRef90_A0AAN8X6C9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  235     4e-74 
+UniRef90_UPI003A8A679B N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  235     4e-74 
+UniRef90_UPI0014255E61 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  235     6e-74 
+UniRef90_UPI00223E2DAC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  234     6e-74 
+UniRef90_A0AAE1JZX6 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  234     1e-73 
+UniRef90_A0A9P0H3S2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  233     1e-73 
+UniRef90_UPI001CF9CBEB N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  233     2e-73 
+UniRef90_A0AAE0QZ44 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  236     2e-73 
+UniRef90_UPI0024B565F2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  232     2e-73 
+UniRef90_A0A8S3YDP6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  227     3e-73 
+UniRef90_UPI00331400DE N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  232     3e-73 
+UniRef90_A0A087TQ27 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  231     3e-73 
+UniRef90_A0A401S9P5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  232     4e-73 
+UniRef90_A0A668A077 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  231     5e-73 
+UniRef90_UPI0034629FC9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  233     7e-73 
+UniRef90_UPI003B832163 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  232     7e-73 
+UniRef90_UPI001EE52DA3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  229     7e-73 
+UniRef90_UPI0039E97D1D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  231     8e-73 
+UniRef90_UPI00052E7DB7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  224     8e-73 
+UniRef90_UPI00355AA5FA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  231     9e-73 
+UniRef90_UPI0038322DCF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  231     1e-72 
+UniRef90_A0A9D3SRG7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  231     1e-72 
+UniRef90_A0A9Q0DFJ2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  231     1e-72 
+UniRef90_A0A8C5WD42 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  231     1e-72 
+UniRef90_A0A3L8SUU5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  231     2e-72 
+UniRef90_UPI001B887EAF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  230     2e-72 
+UniRef90_A0A8C3SBN6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  228     2e-72 
+UniRef90_A0A5B9GCJ8 Putative N(4)-(Beta-N-acetylglucosaminyl)-L-a...  226     2e-72 
+UniRef90_A0AAW0TFI1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  230     3e-72 
+UniRef90_A0A8J5J5V7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  229     3e-72 
+UniRef90_A0A1D1V9Z9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  230     3e-72 
+UniRef90_UPI001C70B7A3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  230     4e-72 
+UniRef90_UPI003B3A9D78 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  231     4e-72 
+UniRef90_A0AAW0TGK2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  230     4e-72 
+UniRef90_UPI00396A9F22 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  229     5e-72 
+UniRef90_A0A8C9YFQ4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  229     5e-72 
+UniRef90_UPI00351E92AF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  229     6e-72 
+UniRef90_UPI0031F9758D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  229     7e-72 
+UniRef90_UPI00223E66A2 LOW QUALITY PROTEIN: N(4)-(Beta-N-acetylgl...  228     9e-72 
+UniRef90_A0A674C2C0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  228     1e-71 
+UniRef90_UPI002E277140 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  228     1e-71 
+UniRef90_UPI002409A654 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  228     1e-71 
+UniRef90_UPI00188493D4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  228     1e-71 
+UniRef90_A0A851EZR4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  227     1e-71 
+UniRef90_A0A6A7G8U8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  229     1e-71 
+UniRef90_A0A423UA10 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  228     1e-71 
+UniRef90_A0A9D4KNX2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  228     2e-71 
+UniRef90_UPI00237DC05A N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  226     2e-71 
+UniRef90_F6SSI8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  227     2e-71 
+UniRef90_A0A7J7KS05 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  229     2e-71 
+UniRef90_A0A1S7IVQ5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  228     2e-71 
+UniRef90_UPI002AA50178 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  231     2e-71 
+UniRef90_UPI002445C0B3 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  228     2e-71 
+UniRef90_A0A674C265 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  228     3e-71 
+UniRef90_UPI0034E45DDC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  227     3e-71 
+UniRef90_A0A8C4Z508 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  227     4e-71 
+UniRef90_UPI0021C893E8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  228     4e-71 
+UniRef90_A0A8K1LJQ2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  228     4e-71 
+UniRef90_UPI0024950DCF N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  227     4e-71 
+UniRef90_A0A091F8C8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  226     4e-71 
+UniRef90_UPI001CF5FD6C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  227     5e-71 
+UniRef90_A0AAQ4RJL7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  226     5e-71 
+UniRef90_UPI001C8A56F7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  227     5e-71 
+UniRef90_V3ZYI5 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  227     5e-71 
+UniRef90_A0AAU9WH62 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  228     5e-71 
+UniRef90_A0A6A4VZ32 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  226     5e-71 
+UniRef90_A0A835U113 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  226     6e-71 
+UniRef90_UPI0038312FDC N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  227     6e-71 
+UniRef90_A0AAN9B1X9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  226     6e-71 
+UniRef90_A0A8C0GGX4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  226     7e-71 
+UniRef90_A0A8C5WTQ9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  225     8e-71 
+UniRef90_UPI0030C8218D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  227     8e-71 
+UniRef90_UPI00295AADC7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  226     9e-71 
+UniRef90_UPI0035B6A2AB N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  228     9e-71 
+UniRef90_A0A8C8JZF7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  225     1e-70 
+UniRef90_A0A8B7PMS1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  226     1e-70 
+UniRef90_A0A6L2PAK5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  226     2e-70 
+UniRef90_A0A091JED6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  224     2e-70 
+UniRef90_UPI001D0988BC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  226     2e-70 
+UniRef90_A0A665VLI2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  224     2e-70 
+UniRef90_UPI002B4F0A85 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  225     2e-70 
+UniRef90_A0A8J4Y292 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  225     2e-70 
+UniRef90_UPI0035F0FDAE N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  227     2e-70 
+UniRef90_A0A803VCQ0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  224     3e-70 
+UniRef90_UPI0005229F25 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  224     3e-70 
+UniRef90_A0A8K0A4W9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  225     3e-70 
+UniRef90_H2ZXE5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  223     4e-70 
+UniRef90_A0AAW2I9C8 Aspartylglucosaminidase n=1 Tax=Menopon galli...  223     5e-70 
+UniRef90_A0AAW1BAL2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  225     5e-70 
+UniRef90_A0A3B4CRV4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  224     5e-70 
+UniRef90_A7RFF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  223     6e-70 
+UniRef90_UPI0030B92ECB N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  223     6e-70 
+UniRef90_A0A913WSI0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  224     6e-70 
+UniRef90_T1KBF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  224     8e-70 
+UniRef90_A0A669C2D4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  223     8e-70 
+UniRef90_UPI0028C4419D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  224     8e-70 
+UniRef90_A0A8C2XG76 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  223     8e-70 
+UniRef90_A0A671V8S1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  223     1e-69 
+UniRef90_A0A1Y1LZF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  223     1e-69 
+UniRef90_UPI0009E3D4C7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  224     1e-69 
+UniRef90_A0A7R9KHS7 Aspartylglucosaminidase n=2 Tax=Medioppia sub...  224     2e-69 
+UniRef90_UPI000523C2FB N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  221     2e-69 
+UniRef90_A0A3B3ZVR1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  222     2e-69 
+UniRef90_A0A7R9GW91 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  223     2e-69 
+UniRef90_A0AAV7WSP8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  221     2e-69 
+UniRef90_A0AAJ7U349 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  223     3e-69 
+UniRef90_A0AAV2A765 Aspartylglucosaminidase n=2 Tax=Larinioides s...  219     3e-69 
+UniRef90_A0A1Z5L6S5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  222     4e-69 
+UniRef90_A0A7M7NLW0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  222     4e-69 
+UniRef90_W5N865 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  222     4e-69 
+UniRef90_A0A8X6QE07 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  218     5e-69 
+UniRef90_UPI001ED86729 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  222     5e-69 
+UniRef90_UPI00371E2C5A N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  221     6e-69 
+UniRef90_UPI001C723B6A N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  221     6e-69 
+UniRef90_UPI00065BF18C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  221     6e-69 
+UniRef90_A0A673GHT1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  219     6e-69 
+UniRef90_UPI000719B6FA N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  223     6e-69 
+UniRef90_UPI0037E817F6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  221     7e-69 
+UniRef90_UPI00355B8313 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  222     7e-69 
+UniRef90_A0A6F9D6R4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  222     8e-69 
+UniRef90_UPI00350F3C70 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  221     8e-69 
+UniRef90_H2Z8A4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  221     8e-69 
+UniRef90_A0A0C9SFJ7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  221     9e-69 
+UniRef90_Q4S3Z7 Chromosome 20 SCAF14744, whole genome shotgun seq...  220     9e-69 
+UniRef90_A0A4W3GNB9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  221     9e-69 
+UniRef90_A0A1S3IY47 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  221     1e-68 
+UniRef90_A0A8S1CLG8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  221     1e-68 
+UniRef90_A0A7N8YAL4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  221     1e-68 
+UniRef90_A0A093JUC1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  219     1e-68 
+UniRef90_UPI003AF50412 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  225     2e-68 
+UniRef90_A0AAN8J910 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  220     2e-68 
+UniRef90_UPI000523B501 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  220     2e-68 
+UniRef90_UPI0006D51134 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  220     2e-68 
+UniRef90_E0VAH9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  220     2e-68 
+UniRef90_A0A210Q8Q6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  219     2e-68 
+UniRef90_A0A146LSA1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  220     2e-68 
+UniRef90_UPI0024086EAF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  219     2e-68 
+UniRef90_UPI00313959A7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  219     3e-68 
+UniRef90_UPI003B21FA58 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  220     3e-68 
+UniRef90_A0A0B6ZRH8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  220     3e-68 
+UniRef90_A0A8D3D3S4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  219     3e-68 
+UniRef90_A0A8J6F347 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  219     3e-68 
+UniRef90_UPI002307E8E6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  220     4e-68 
+UniRef90_A0A8B7ZZJ1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  220     4e-68 
+UniRef90_A0AAV4VPG9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  219     4e-68 
+UniRef90_A0ABD0LWE4 Uncharacterized protein n=1 Tax=Batillaria at...  220     4e-68 
+UniRef90_A0A7L2Y9B5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  218     4e-68 
+UniRef90_A0A5E4QPW5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  219     4e-68 
+UniRef90_A0A433SSP7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  221     4e-68 
+UniRef90_UPI000521266D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  222     4e-68 
+UniRef90_UPI0023DA2A05 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  219     5e-68 
+UniRef90_A0AAV2A821 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  219     5e-68 
+UniRef90_UPI0031FD941B N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  219     5e-68 
+UniRef90_UPI00325AB9FD putative N(4)-(beta-N-acetylglucosaminyl)-...  219     6e-68 
+UniRef90_UPI0018CE70B9 putative N(4)-(beta-N-acetylglucosaminyl)-...  219     6e-68 
+UniRef90_A0A8X7CUB9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  218     7e-68 
+UniRef90_A0A8C4NGB0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  219     7e-68 
+UniRef90_A0A293MS46 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  218     7e-68 
+UniRef90_A0A7N6ATX9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  218     8e-68 
+UniRef90_A0A2J7Q108 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  219     8e-68 
+UniRef90_E9H0E1 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  218     9e-68 
+UniRef90_A0A9Q0XTE5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  216     1e-67 
+UniRef90_A0A8S4D4R8 (diamondback moth) hypothetical protein n=1 T...  215     1e-67 
+UniRef90_UPI0023E2C2EC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  219     1e-67 
+UniRef90_A0A852LP65 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  218     1e-67 
+UniRef90_UPI002FDDF774 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  218     2e-67 
+UniRef90_UPI002408F448 putative N(4)-(beta-N-acetylglucosaminyl)-...  218     2e-67 
+UniRef90_UPI0027DDEEE4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  218     2e-67 
+UniRef90_UPI001BB2B998 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  218     2e-67 
+UniRef90_A0A1I8M789 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  218     2e-67 
+UniRef90_A0A0L0BNW9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  218     2e-67 
+UniRef90_A0AAE0T9R9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  218     2e-67 
+UniRef90_A0AAN8P345 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  217     3e-67 
+UniRef90_UPI00245466DB N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  218     3e-67 
+UniRef90_A0A663M8N8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  216     3e-67 
+UniRef90_B3RYR9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  216     3e-67 
+UniRef90_A0AAE0XQK9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  217     4e-67 
+UniRef90_UPI0024132470 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  216     4e-67 
+UniRef90_A0AAW1U7J2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  216     4e-67 
+UniRef90_A0A4D5RMG7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  220     4e-67 
+UniRef90_A0A0D2VF75 Aspartylglucosaminidase n=2 Tax=Capsaspora ow...  218     5e-67 
+UniRef90_UPI0004F418E8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  220     5e-67 
+UniRef90_UPI002415B5E0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  217     5e-67 
+UniRef90_UPI001EE08D7D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  217     6e-67 
+UniRef90_A0A6J0BNZ0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  216     7e-67 
+
+
+>UniRef90_UPI0003EAE59D N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase isoform X1 n=2 
+Tax=Homo sapiens TaxID=9606 RepID=UPI0003EAE59D
+Length=227
+
+ Score = 339 bits (869),  Expect = 6e-117, Method: Compositional matrix adjust.
+ Identities = 161/162 (99%), Positives = 162/162 (100%), Gaps = 0/162 (0%)
+
+Query  1    SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG  60
+            SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG
+Sbjct  24   SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG  83
+
+Query  61   ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN  120
+            ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN
+Sbjct  84   ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN  143
+
+Query  121  EDLSTSASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP  162
+            EDLST+ASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP
+Sbjct  144  EDLSTTASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP  185
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1795681440345
+Results from round 2
+
+
+Query= 1apy-A
+
+Length=162
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_UPI0003EAE59D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  377     4e-132
+UniRef90_P20933 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  380     1e-131
+UniRef90_G5C3P6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  379     3e-131
+UniRef90_UPI0010A28D1C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  379     5e-131
+UniRef90_A0A452QGZ9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  378     7e-131
+UniRef90_A0A671FK36 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  378     9e-131
+UniRef90_A0A250YG31 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  378     2e-130
+UniRef90_F6T3R7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  376     3e-130
+UniRef90_G7P6L2 Aspartylglucosaminidase n=2 Tax=Macaca TaxID=9539...  377     4e-130
+UniRef90_A0A485P947 PREDICTED n=1 Tax=Lynx pardinus TaxID=191816 ...  372     6e-130
+UniRef90_M3X0F1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  375     1e-129
+UniRef90_UPI0020209AD7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  375     3e-129
+UniRef90_UPI0013F2C373 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  372     3e-129
+UniRef90_G1LAI5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  374     3e-129
+UniRef90_UPI002021954A N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  375     3e-129
+UniRef90_UPI0023EB0F25 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  374     3e-129
+UniRef90_A0A480T3W2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  373     4e-129
+UniRef90_UPI001FD4E989 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  372     7e-129
+UniRef90_A0A7J7YZX4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  374     7e-129
+UniRef90_A0AAW0J2N7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  374     8e-129
+UniRef90_A0A7J7ZFJ5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  373     9e-129
+UniRef90_A0A7J7ZF95 Aspartylglucosaminidase n=1 Tax=Pipistrellus ...  369     1e-128
+UniRef90_UPI000703E925 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  372     2e-128
+UniRef90_A0A8C8XGS6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  377     2e-128
+UniRef90_A0A8C3YCW9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  372     3e-128
+UniRef90_A0A7J8GK43 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  372     3e-128
+UniRef90_A0A8C5LHP2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  371     5e-128
+UniRef90_UPI0005ABA4D7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  369     9e-128
+UniRef90_A0A1S3AQH8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  370     1e-127
+UniRef90_UPI0018F59072 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  367     2e-127
+UniRef90_A0A6J2MQX7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     3e-127
+UniRef90_A0A8C5XZF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     3e-127
+UniRef90_A0A8C6RLN4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     3e-127
+UniRef90_P30919 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  369     3e-127
+UniRef90_UPI000813CDB6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  369     4e-127
+UniRef90_A0A8J6GBX2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  372     6e-127
+UniRef90_Q64191 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  368     8e-127
+UniRef90_I3MI50 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  367     1e-126
+UniRef90_A0A2Y9E968 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  367     2e-126
+UniRef90_A0A8B9X2I2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  367     3e-126
+UniRef90_A0A1U7R9P4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  364     3e-126
+UniRef90_UPI00038C388D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  366     4e-126
+UniRef90_UPI001E1E022D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  366     5e-126
+UniRef90_UPI001BB24AC0 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  366     6e-126
+UniRef90_G1P2Y7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  366     7e-126
+UniRef90_UPI00189D6BAF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     8e-126
+UniRef90_A0A2U4A7W5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  365     8e-126
+UniRef90_G1SGN6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  366     9e-126
+UniRef90_UPI00339CDE36 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  366     9e-126
+UniRef90_A0A6P3FBM5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  365     1e-125
+UniRef90_UPI0028E753E6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     1e-125
+UniRef90_A0A9B0T5L9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  365     1e-125
+UniRef90_A0A8P0P4R3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  371     1e-125
+UniRef90_A0A8B9X240 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  366     2e-125
+UniRef90_A0A1S3FZF6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  365     2e-125
+UniRef90_F1MGY9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  365     2e-125
+UniRef90_A0AAD4TKF0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  366     2e-125
+UniRef90_UPI00293EA17F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     4e-125
+UniRef90_A0A6I9PSI6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  363     5e-125
+UniRef90_UPI002A3699D1 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  362     5e-125
+UniRef90_A0A8C0MW39 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  368     6e-125
+UniRef90_A0A5F5PLI4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  363     6e-125
+UniRef90_A0A8J5ZMJ7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  363     6e-125
+UniRef90_UPI00210FB51F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  363     7e-125
+UniRef90_A0A1U8D4A9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  363     9e-125
+UniRef90_A0A4W6FBD4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     1e-124
+UniRef90_A0A2Y9S294 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     1e-124
+UniRef90_UPI003B503E82 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  362     2e-124
+UniRef90_A0A6I9KTN1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-124
+UniRef90_UPI0027DF4281 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  362     2e-124
+UniRef90_A0A3Q1FNG6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-124
+UniRef90_A0A3Q3MRH2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-124
+UniRef90_A0A5N4CFC6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-124
+UniRef90_UPI00196B4AC9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  361     3e-124
+UniRef90_G3SWT7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  361     4e-124
+UniRef90_A0A6P8V9D5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     4e-124
+UniRef90_UPI001CE10870 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  359     5e-124
+UniRef90_UPI0024BDB437 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  361     6e-124
+UniRef90_UPI0003F05EFE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  361     8e-124
+UniRef90_A0A8B8S4B3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     8e-124
+UniRef90_UPI001C05C4F7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  361     9e-124
+UniRef90_A0AAU9Z3Y1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     1e-123
+UniRef90_A0A3B4T7F9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     1e-123
+UniRef90_UPI0026604F18 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  360     1e-123
+UniRef90_A0A7L3P6M4 ASPG asparaginase (Fragment) n=1 Tax=Xiphorhy...  354     2e-123
+UniRef90_A0A6I8SB37 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     2e-123
+UniRef90_H0XCR8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  360     2e-123
+UniRef90_UPI001890823B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  359     2e-123
+UniRef90_A0A6G1RJH8 Aspartylglucosaminidase (Fragment) n=1 Tax=Hy...  356     2e-123
+UniRef90_A0A667ZNX2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     4e-123
+UniRef90_A0A7K6V9A0 ASPG asparaginase (Fragment) n=3 Tax=Passerif...  352     5e-123
+UniRef90_A0A8C2TC75 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     5e-123
+UniRef90_UPI00243390A3 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  358     6e-123
+UniRef90_A0AAV6SKH5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     7e-123
+UniRef90_A0A218VF94 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     9e-123
+UniRef90_UPI003A90D599 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  358     9e-123
+UniRef90_A0A9D3RVF6 Aspartylglucosaminidase n=3 Tax=Anguilla TaxI...  357     9e-123
+UniRef90_A0A4U5UDC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     1e-122
+UniRef90_UPI00350EC902 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     1e-122
+UniRef90_UPI001ED7D52B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     1e-122
+UniRef90_UPI0012ED9C1A N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  358     1e-122
+UniRef90_A0A3B4YQY6 Aspartylglucosaminidase n=1 Tax=Seriola lalan...  357     1e-122
+UniRef90_A0A7K4X629 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     2e-122
+UniRef90_A0A7L1X493 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     3e-122
+UniRef90_UPI00230582C0 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     3e-122
+UniRef90_UPI001C04AAD2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     3e-122
+UniRef90_A0A8C6ZUU4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     3e-122
+UniRef90_UPI00237E9359 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     3e-122
+UniRef90_A0A4Z2C451 Aspartylglucosaminidase n=1 Tax=Takifugu bima...  352     3e-122
+UniRef90_A0A6P7NUH4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     4e-122
+UniRef90_A0A6P7J7R0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     4e-122
+UniRef90_UPI001CC5D05F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     4e-122
+UniRef90_A0A672NVZ0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     5e-122
+UniRef90_UPI00234AEEEE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     5e-122
+UniRef90_A0A1A8FIM2 Aspartylglucosaminidase (Fragment) n=2 Tax=No...  352     6e-122
+UniRef90_A0A8C0QAE8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     6e-122
+UniRef90_A0A3Q3AB66 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     6e-122
+UniRef90_UPI0035CC03C6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     7e-122
+UniRef90_A0A8V0XD67 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     8e-122
+UniRef90_UPI001FB5F423 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     8e-122
+UniRef90_H2UUC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  354     9e-122
+UniRef90_H3D671 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  356     9e-122
+UniRef90_A0A8C2TCB3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     9e-122
+UniRef90_Q5M7B8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  355     9e-122
+UniRef90_A0A672HZP4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  355     1e-121
+UniRef90_UPI00396A9F22 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  355     1e-121
+UniRef90_A0AAV7D3N0 Aspartylglucosaminidase n=1 Tax=Engystomops p...  352     1e-121
+UniRef90_A0A8C1I8C9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     1e-121
+UniRef90_A0ABD1JQP9 Uncharacterized protein n=1 Tax=Coilia grayii...  355     1e-121
+UniRef90_UPI00237E93E4 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     1e-121
+UniRef90_A0A8I3WDC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     1e-121
+UniRef90_A0A3Q3EIN9 Aspartylglucosaminidase n=2 Tax=Labrus bergyl...  356     2e-121
+UniRef90_A0A493SV40 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     2e-121
+UniRef90_UPI00234BBE69 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     2e-121
+UniRef90_UPI003B595E57 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     2e-121
+UniRef90_A0A2U9C584 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     2e-121
+UniRef90_A0A7M4FYH1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     2e-121
+UniRef90_UPI003A83799C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  354     2e-121
+UniRef90_UPI00074FF7D5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  355     2e-121
+UniRef90_A0A672ZJI9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     3e-121
+UniRef90_A0A8S4BJX6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     3e-121
+UniRef90_A0A3Q3FKV5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     3e-121
+UniRef90_A0A674MYB6 Aspartylglucosaminidase n=1 Tax=Takifugu rubr...  352     3e-121
+UniRef90_A0A7L2GY21 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     3e-121
+UniRef90_A0A1S3RR04 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     3e-121
+UniRef90_A0A1A8UMA1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     4e-121
+UniRef90_A0A8D2MX76 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     4e-121
+UniRef90_A0A8D2LQU8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     4e-121
+UniRef90_A0A7K8U2U8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     4e-121
+UniRef90_UPI002026A1DE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     4e-121
+UniRef90_A0A663ESX9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     4e-121
+UniRef90_A0A3Q3FJF0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     5e-121
+UniRef90_A0A3Q2P392 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     7e-121
+UniRef90_UPI0021E2017C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  353     7e-121
+UniRef90_A0AA88SSX6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     7e-121
+UniRef90_A0A7L3RAM1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     7e-121
+UniRef90_A0A8T2KE08 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     8e-121
+UniRef90_A0A8C9N8M5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     9e-121
+UniRef90_UPI0024950DCF N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  352     2e-120
+UniRef90_A0A3Q2YUS7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     2e-120
+UniRef90_A0A7K4JR51 ASPG asparaginase (Fragment) n=1 Tax=Geococcy...  348     2e-120
+UniRef90_A0A670XVE7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     2e-120
+UniRef90_A0AAD1SFF4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     2e-120
+UniRef90_A0AAD1SFF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     2e-120
+UniRef90_A0A9D3T5M3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     2e-120
+UniRef90_UPI001F073CD2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  353     2e-120
+UniRef90_A0A669QGW5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     2e-120
+UniRef90_A0AAV7D4D6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     2e-120
+UniRef90_A0A9N7Z578 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     2e-120
+UniRef90_UPI003B3A9D78 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  354     2e-120
+UniRef90_UPI001F080E50 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  352     2e-120
+UniRef90_A0A6J2WCF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     2e-120
+UniRef90_UPI001963DFA7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     2e-120
+UniRef90_A0A7L1N5I4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     2e-120
+UniRef90_A0A665VMX7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     3e-120
+UniRef90_UPI001C8AADF5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  351     3e-120
+UniRef90_A0A087TQ27 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  351     3e-120
+UniRef90_A0AA97JZB8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     3e-120
+UniRef90_A0A6P3W4Z1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     4e-120
+UniRef90_UPI00192F4214 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  353     4e-120
+UniRef90_A0A3Q3VS42 Uncharacterized protein n=1 Tax=Mola mola Tax...  350     4e-120
+UniRef90_A0A3P8V0A1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     4e-120
+UniRef90_A0A8B9CEN6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     4e-120
+UniRef90_A0A6I8NXL0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     4e-120
+UniRef90_UPI002FE1F85C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     4e-120
+UniRef90_UPI003704087E N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  351     4e-120
+UniRef90_A0A852KTM4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     5e-120
+UniRef90_UPI002FCD2047 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  351     5e-120
+UniRef90_A0AAV2MIB8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     5e-120
+UniRef90_A0ABD0X3D1 Uncharacterized protein n=1 Tax=Umbra pygmaea...  350     6e-120
+UniRef90_A0A6P9E1M7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     6e-120
+UniRef90_G1KEX1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  351     6e-120
+UniRef90_UPI001BE9ECFA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  351     7e-120
+UniRef90_A0AAV1FCD9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     7e-120
+UniRef90_A0A7L3WKR8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     7e-120
+UniRef90_A0A2I0MN95 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  351     8e-120
+UniRef90_A0A8T3CHP3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     9e-120
+UniRef90_A0A3B3HJ42 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     9e-120
+UniRef90_A0A8C4X482 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     1e-119
+UniRef90_UPI001CA96786 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     1e-119
+UniRef90_UPI0027417989 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  350     1e-119
+UniRef90_UPI002E13B749 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  350     1e-119
+UniRef90_A0A8C6TQH9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     1e-119
+UniRef90_A0A4X2KJ88 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     1e-119
+UniRef90_UPI003461CA48 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  351     1e-119
+UniRef90_A0A669QZN4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     1e-119
+UniRef90_A0A7K4RNW8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     1e-119
+UniRef90_UPI001899B4B9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     2e-119
+UniRef90_UPI00235A8C93 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  350     2e-119
+UniRef90_A0AAV6SJD6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     2e-119
+UniRef90_A0A672UJE8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     2e-119
+UniRef90_A0AAV3B346 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     2e-119
+UniRef90_A0A8C5HMS0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     2e-119
+UniRef90_A0AAV2A765 Aspartylglucosaminidase n=2 Tax=Larinioides s...  346     3e-119
+UniRef90_G3PW56 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  349     3e-119
+UniRef90_F6YVD7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  349     3e-119
+UniRef90_A0A8D0GZ73 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     3e-119
+UniRef90_A0A3N0Z0U1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     3e-119
+UniRef90_UPI0014255E61 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  349     3e-119
+UniRef90_UPI002B1D9121 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     4e-119
+UniRef90_A0A3B5PQC9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     4e-119
+UniRef90_A0A9Q1HYT6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     5e-119
+UniRef90_V8NZZ1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase (...  352     5e-119
+UniRef90_A0AAV1FCD5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     5e-119
+UniRef90_UPI0030816270 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     5e-119
+UniRef90_A0AAD8LSI3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     5e-119
+UniRef90_A0A8D0BS52 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     6e-119
+UniRef90_A0A9Q1JHE5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     6e-119
+UniRef90_A0A3P9AHU3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     6e-119
+UniRef90_A0A913WSI0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  348     8e-119
+UniRef90_UPI0007041488 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  348     8e-119
+UniRef90_K7G245 Aspartylglucosaminidase n=1 Tax=Pelodiscus sinens...  344     8e-119
+UniRef90_UPI0024072B7C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     9e-119
+UniRef90_UPI002AC88A51 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  350     9e-119
+UniRef90_A0A8X6QE07 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  344     9e-119
+UniRef90_UPI00243000AF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  347     1e-118
+UniRef90_UPI002FCD2670 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  348     1e-118
+UniRef90_G3HGM6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  347     1e-118
+UniRef90_UPI003A5B9FF5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  347     1e-118
+UniRef90_UPI002303B905 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  348     1e-118
+UniRef90_A0A7K7WJ31 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  347     1e-118
+UniRef90_UPI001B7E89E4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  347     1e-118
+UniRef90_A0A670IU64 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  347     2e-118
+UniRef90_A0A8C8MM12 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  346     2e-118
+UniRef90_UPI0014721CF2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  347     2e-118
+UniRef90_UPI001C4C2DCC N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  347     2e-118
+UniRef90_UPI0037E817F6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  347     2e-118
+UniRef90_UPI0031E454A0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  347     2e-118
+UniRef90_UPI002435F3CA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  346     2e-118
+UniRef90_A0A8C2XI86 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  346     2e-118
+UniRef90_A0A6L2PAK5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  347     2e-118
+UniRef90_UPI00383162C5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     2e-118
+UniRef90_UPI003464B1A7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  346     3e-118
+UniRef90_UPI002FD74F25 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  346     3e-118
+UniRef90_A0A1S3IY47 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  346     4e-118
+UniRef90_A0AAN9CL25 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  346     5e-118
+UniRef90_UPI001C723B6A N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  345     6e-118
+UniRef90_A0A9F5J0D1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  347     7e-118
+UniRef90_A0A3Q1HLK6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  345     1e-117
+UniRef90_A0A7R9GW91 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  346     1e-117
+UniRef90_UPI00202B9814 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  346     1e-117
+UniRef90_A0A3B4GZ76 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  345     1e-117
+UniRef90_UPI0035A30447 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  345     1e-117
+UniRef90_UPI002409A654 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  345     1e-117
+UniRef90_UPI00210F91EC N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  345     1e-117
+UniRef90_A0AAV2A821 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  345     1e-117
+UniRef90_UPI001BB2B998 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  345     2e-117
+UniRef90_G3VWM7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  344     2e-117
+UniRef90_A0AAV4VPG9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  344     2e-117
+UniRef90_UPI002242468D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  344     2e-117
+UniRef90_UPI00214E9EF8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  345     2e-117
+UniRef90_A0AAY4CHY7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  344     2e-117
+UniRef90_A0A6A7G8U8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  345     2e-117
+UniRef90_UPI0025A51147 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  344     3e-117
+UniRef90_A0A553QGI1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  343     4e-117
+UniRef90_UPI0036045169 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  343     4e-117
+UniRef90_A8KC00 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  343     4e-117
+UniRef90_UPI001ABE3FF8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  346     5e-117
+UniRef90_A0A8B7PMS1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  344     5e-117
+UniRef90_UPI0034629FC9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  344     6e-117
+UniRef90_A0A3B3RW93 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  343     6e-117
+UniRef90_A0A1S7IVQ5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  343     7e-117
+UniRef90_A0A8X7CUB9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     7e-117
+UniRef90_A0A8C9VED3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  343     8e-117
+UniRef90_UPI003A8A679B N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  343     8e-117
+UniRef90_A0A9W7TS83 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  342     8e-117
+UniRef90_UPI001B887EAF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  342     9e-117
+UniRef90_UPI0039E97D1D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  342     9e-117
+UniRef90_A0A8J5J5V7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_A0A498N018 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_UPI002ADE2731 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  342     1e-116
+UniRef90_A0A3Q2CE59 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_A0A2I4APK8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_UPI001C70B7A3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  343     1e-116
+UniRef90_A0A5B9GCJ8 Putative N(4)-(Beta-N-acetylglucosaminyl)-L-a...  338     1e-116
+UniRef90_UPI002B4F0A85 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  342     2e-116
+UniRef90_A0A2J7Q108 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     2e-116
+UniRef90_UPI001128F045 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  342     2e-116
+UniRef90_UPI0035B18AD8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  340     2e-116
+UniRef90_A0A423UA10 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     3e-116
+UniRef90_A0A1D1V9Z9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     3e-116
+UniRef90_UPI0037E84F54 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  341     3e-116
+UniRef90_A0A401PJZ5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  340     4e-116
+UniRef90_A0AAV6V7M6 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  340     4e-116
+UniRef90_A0A8C8SDZ6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  342     4e-116
+UniRef90_A0A8B9RCB9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  341     5e-116
+UniRef90_UPI0035B6A2AB N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  343     6e-116
+UniRef90_A0A6P8QP56 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  341     6e-116
+UniRef90_A7RFF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  339     8e-116
+UniRef90_UPI00398EA756 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  340     9e-116
+UniRef90_A0AAE1JZX6 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-115
+UniRef90_UPI00355BCB30 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  340     1e-115
+UniRef90_UPI001EE52DA3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     1e-115
+UniRef90_A0A7M7NLW0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  340     1e-115
+UniRef90_UPI002FC3142B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  339     1e-115
+UniRef90_A0AAW0TFI1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  340     2e-115
+UniRef90_UPI00032ADDE6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  339     2e-115
+UniRef90_UPI0030C8218D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  340     2e-115
+UniRef90_A0AAW0TGK2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  339     2e-115
+UniRef90_UPI0035B017BD N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  339     2e-115
+UniRef90_A0A8C5WD42 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  340     3e-115
+UniRef90_A0AAN9ZJZ8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  340     3e-115
+UniRef90_UPI002AA50178 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  342     4e-115
+UniRef90_UPI002AD1F8BE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  338     4e-115
+UniRef90_A0A067RDR4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  339     5e-115
+UniRef90_A0A674II95 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  339     5e-115
+UniRef90_UPI0035311E6B N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  339     5e-115
+UniRef90_A0A9P0H3S2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     6e-115
+UniRef90_UPI00350F3C70 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     6e-115
+UniRef90_A0A401S9K6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  338     7e-115
+UniRef90_A0AAN8X6C9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     8e-115
+UniRef90_A0AAD7T9D6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  337     8e-115
+UniRef90_UPI00355BD4E1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     8e-115
+UniRef90_A0AAN9B1X9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     9e-115
+UniRef90_UPI00298BFB79 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  337     1e-114
+UniRef90_UPI0021197330 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     1e-114
+UniRef90_A0A0C9SFJ7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     2e-114
+UniRef90_UPI001ED86729 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     2e-114
+UniRef90_A0A8K0A4W9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  337     2e-114
+UniRef90_UPI003B832163 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  337     2e-114
+UniRef90_A0A401S9P5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  336     3e-114
+UniRef90_UPI002AD34248 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  337     3e-114
+UniRef90_UPI0021C893E8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     3e-114
+UniRef90_A0A6F9D6R4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  337     3e-114
+UniRef90_UPI003AF50412 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  341     4e-114
+UniRef90_A0A8B7ZZJ1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  336     4e-114
+UniRef90_A0A164WCC5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     4e-114
+UniRef90_M3YL44 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  334     4e-114
+UniRef90_E3TDQ8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  336     4e-114
+UniRef90_UPI0009E3D4C7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     5e-114
+UniRef90_UPI0023DA2A05 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     5e-114
+UniRef90_UPI0018CE70B9 putative N(4)-(beta-N-acetylglucosaminyl)-...  336     5e-114
+UniRef90_H0UZ36 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  335     5e-114
+UniRef90_A0A1W0X1S1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     6e-114
+UniRef90_UPI002408F448 putative N(4)-(beta-N-acetylglucosaminyl)-...  336     6e-114
+UniRef90_A0A5N5NWK2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  335     7e-114
+UniRef90_A0A8S3YDP6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  329     7e-114
+UniRef90_UPI0024438823 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  334     8e-114
+UniRef90_A0AAV3Y5K9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     1e-113
+UniRef90_A0AAN8J910 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     1e-113
+UniRef90_UPI00234D535C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  335     1e-113
+UniRef90_A0AAD5B011 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  334     1e-113
+UniRef90_UPI001B7F171F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  335     1e-113
+UniRef90_A0A6J0UCB7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  335     1e-113
+UniRef90_UPI00325AB9FD putative N(4)-(beta-N-acetylglucosaminyl)-...  335     2e-113
+UniRef90_UPI00331400DE N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  334     2e-113
+UniRef90_A0A401NTT0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  334     2e-113
+UniRef90_UPI002367DBFE N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  334     3e-113
+UniRef90_A0AAE0XQK9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  334     3e-113
+UniRef90_A0A8C9JWC7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  334     3e-113
+UniRef90_A0A1Y1LZF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  333     3e-113
+UniRef90_A0AAN7VIU4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  333     4e-113
+UniRef90_A0A433SSP7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     4e-113
+UniRef90_A0A7J6BKD9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  333     4e-113
+UniRef90_A0AAE0QZ44 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  337     4e-113
+UniRef90_T1KBF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  334     4e-113
+UniRef90_UPI002467DF39 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  334     4e-113
+UniRef90_A0A146LSA1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  333     5e-113
+UniRef90_UPI00295AADC7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  334     5e-113
+UniRef90_UPI00188493D4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  332     6e-113
+UniRef90_UPI00223E2DAC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  333     7e-113
+UniRef90_UPI0034DD6D42 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  333     7e-113
+UniRef90_A0A1Z5L6S5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  333     8e-113
+UniRef90_UPI0034E45DDC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  332     8e-113
+UniRef90_UPI002F3528D6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  332     9e-113
+UniRef90_A0A6A4VZ32 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  332     1e-112
+UniRef90_UPI001CF5FD6C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  333     1e-112
+UniRef90_A0AAU9WH62 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  334     1e-112
+UniRef90_A0A6B0R4S7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  332     1e-112
+UniRef90_A0A293MS46 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  332     1e-112
+UniRef90_A0A4W4EMT1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  332     1e-112
+UniRef90_UPI002E277140 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  331     2e-112
+UniRef90_A0AA88MM33 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  332     2e-112
+UniRef90_A0A7R9KHS7 Aspartylglucosaminidase n=2 Tax=Medioppia sub...  333     3e-112
+UniRef90_A0A836CPQ7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  335     3e-112
+UniRef90_UPI003AB4EC97 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  332     3e-112
+UniRef90_A0AAW2GJP1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  330     4e-112
+UniRef90_A0AAD7ZKF5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  332     4e-112
+UniRef90_UPI00355AA5FA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  331     5e-112
+UniRef90_A0A0B6ZRH8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  331     5e-112
+UniRef90_A0A8C2R1G0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  330     7e-112
+UniRef90_UPI00237E9E60 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  331     8e-112
+UniRef90_A0A0A1WRN7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  331     9e-112
+UniRef90_E0VAH9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  330     1e-111
+UniRef90_A0A7J8GJE3 Aspartylglucosaminidase n=1 Tax=Molossus molo...  324     1e-111
+UniRef90_A0A2W1BNY3 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  330     1e-111
+UniRef90_UPI00214EF542 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     1e-111
+UniRef90_A0A6P7X7U9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  330     1e-111
+UniRef90_A0A9Q0DFJ2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  330     1e-111
+UniRef90_UPI00067E0312 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     1e-111
+UniRef90_A0A6P8IA50 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  330     1e-111
+UniRef90_A0AAD8DVS0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     2e-111
+UniRef90_A0AAJ7DYP3 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     2e-111
+UniRef90_A0A6J2JJH9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     2e-111
+UniRef90_A0A6M2CJ28 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     2e-111
+UniRef90_A0A8B8Q0L6 beta-aspartyl-peptidase n=1 Tax=Rhodamnia arg...  330     2e-111
+UniRef90_UPI0024859D45 putative N(4)-(beta-N-acetylglucosaminyl)-...  329     2e-111
+UniRef90_UPI00273A9759 putative N(4)-(beta-N-acetylglucosaminyl)-...  330     2e-111
+UniRef90_A0A8J4Y292 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     2e-111
+UniRef90_UPI0024552B23 LOW QUALITY PROTEIN: N(4)-(beta-N-acetylgl...  329     2e-111
+UniRef90_A0A836GEC1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     2e-111
+UniRef90_UPI002ADD560C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     2e-111
+UniRef90_UPI0035F0FDAE N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  332     2e-111
+UniRef90_UPI00118308EF N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     2e-111
+UniRef90_A0A8K0JTW4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  330     3e-111
+UniRef90_A0A0J7KUU9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     3e-111
+UniRef90_A0A5E4QPW5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     3e-111
+UniRef90_UPI000719B6FA N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  331     3e-111
+UniRef90_UPI0026F39DD7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     3e-111
+UniRef90_UPI002FDDF774 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     3e-111
+UniRef90_UPI002415B5E0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  330     4e-111
+UniRef90_A0A6M2DTS8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     4e-111
+UniRef90_E2BPC3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  325     4e-111
+UniRef90_UPI0027DDEEE4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     4e-111
+UniRef90_A0A835U113 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  328     4e-111
+UniRef90_UPI003B9F4A26 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     4e-111
+UniRef90_F4W8L1 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  329     5e-111
+UniRef90_UPI003B21FA58 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     5e-111
+UniRef90_E9H0E1 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  327     5e-111
+UniRef90_UPI001EE08D7D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  329     5e-111
+UniRef90_A0A6J3C8S4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  328     6e-111
+UniRef90_UPI00313959A7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  328     6e-111
+UniRef90_UPI0031F9758D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  328     6e-111
+UniRef90_UPI0005EFEC8F N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  330     7e-111
+UniRef90_A0A7J7KS05 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     8e-111
+UniRef90_A0A8K0CED9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  327     8e-111
+UniRef90_UPI002ED1F39A N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  328     9e-111
+UniRef90_A0A0L0BNW9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  328     9e-111
+UniRef90_A0AAW2GGI1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  327     1e-110
+UniRef90_UPI003A7F5994 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  328     1e-110
+UniRef90_UPI000EFDD0DA N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  328     1e-110
+UniRef90_V3ZYI5 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  327     1e-110
+UniRef90_A0A9N9R9C3 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  327     1e-110
+UniRef90_A0A4D5RMG7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  331     1e-110
+UniRef90_A0A091F8C8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  326     1e-110
+UniRef90_A0A3L8SUU5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  327     1e-110
+UniRef90_UPI00193E366C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  327     1e-110
+UniRef90_A0A9D3SRG7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  327     2e-110
+UniRef90_UPI0006D51134 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  327     2e-110
+UniRef90_UPI0030B92ECB N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  326     2e-110
+UniRef90_UPI0013F192E6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  328     2e-110
+UniRef90_A0A8J2RGI2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  327     2e-110
+UniRef90_A0AAN7GE15 beta-aspartyl-peptidase n=1 Tax=Trapa incisa ...  333     2e-110
+UniRef90_A0A9P0FYA7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  328     2e-110
+UniRef90_UPI00371E2C5A N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  326     2e-110
+UniRef90_A0A034WLU4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  327     2e-110
+UniRef90_A0A1D2MM47 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  329     2e-110
+UniRef90_UPI002445C0B3 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  327     2e-110
+UniRef90_UPI00355B8313 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  327     3e-110
+UniRef90_UPI00065BF18C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  326     3e-110
+UniRef90_H2Z8A4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  326     3e-110
+UniRef90_A0A8J2KGE0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  326     3e-110
+UniRef90_A0A834KUT5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  327     4e-110
+UniRef90_A0A7R9LSR0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  326     4e-110
+UniRef90_UPI002307E8E6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  327     4e-110
+UniRef90_A0AAW2I9C8 Aspartylglucosaminidase n=1 Tax=Menopon galli...  324     4e-110
+UniRef90_A0A6P3UTE4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  326     4e-110
+UniRef90_UPI00308261A4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  326     4e-110
+UniRef90_UPI0028C4419D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  326     5e-110
+UniRef90_UPI0007B8DAFF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  324     6e-110
+UniRef90_UPI00307C4E9D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  325     6e-110
+UniRef90_UPI00158D290E N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  326     6e-110
+UniRef90_F6SSI8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  324     7e-110
+UniRef90_A0A9D4KNX2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  326     7e-110
+UniRef90_UPI001CF9CBEB N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  325     7e-110
+UniRef90_A0A851EZR4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  324     7e-110
+UniRef90_UPI0031FD941B N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  326     8e-110
+UniRef90_UPI0023B83298 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  326     8e-110
+UniRef90_A0A8C9YFQ4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  325     8e-110
+UniRef90_A0A3B4CRV4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  325     9e-110
+UniRef90_UPI00052E7DB7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  317     1e-109
+UniRef90_A0AAV1K5D9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  325     1e-109
+UniRef90_UPI0009489A3D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  326     1e-109
+UniRef90_UPI0010FB3753 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  325     1e-109
+UniRef90_UPI00223E66A2 LOW QUALITY PROTEIN: N(4)-(Beta-N-acetylgl...  324     1e-109
+UniRef90_A0A8K1LJQ2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  326     1e-109
+UniRef90_UPI0020342704 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  325     1e-109
+UniRef90_A0A5N5SM04 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  326     2e-109
+UniRef90_A0A091JED6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  323     2e-109
+UniRef90_UPI002491FBB5 putative N(4)-(beta-N-acetylglucosaminyl)-...  324     2e-109
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>UniRef90_UPI0003EAE59D N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase isoform X1 n=2 
+Tax=Homo sapiens TaxID=9606 RepID=UPI0003EAE59D
+Length=227
+
+ Score = 377 bits (970),  Expect = 4e-132, Method: Composition-based stats.
+ Identities = 161/162 (99%), Positives = 162/162 (100%), Gaps = 0/162 (0%)
+
+Query  1    SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG  60
+            SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG
+Sbjct  24   SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG  83
+
+Query  61   ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN  120
+            ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN
+Sbjct  84   ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN  143
+
+Query  121  EDLSTSASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP  162
+            EDLST+ASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP
+Sbjct  144  EDLSTTASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP  185
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.207    0.979    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0634    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1795681440345
+Results from round 3
+
+
+Query= 1apy-A
+
+Length=162
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_UPI0003EAE59D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  380     3e-133
+UniRef90_P20933 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  383     1e-132
+UniRef90_G5C3P6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  382     2e-132
+UniRef90_A0A452QGZ9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  381     2e-132
+UniRef90_UPI0010A28D1C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  381     4e-132
+UniRef90_A0A671FK36 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  381     5e-132
+UniRef90_A0A250YG31 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  380     1e-131
+UniRef90_A0A485P947 PREDICTED n=1 Tax=Lynx pardinus TaxID=191816 ...  376     2e-131
+UniRef90_F6T3R7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  379     2e-131
+UniRef90_G7P6L2 Aspartylglucosaminidase n=2 Tax=Macaca TaxID=9539...  379     3e-131
+UniRef90_M3X0F1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  379     4e-131
+UniRef90_G1LAI5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  378     9e-131
+UniRef90_UPI0020209AD7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  379     9e-131
+UniRef90_UPI002021954A N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  379     1e-130
+UniRef90_UPI001FD4E989 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  376     1e-130
+UniRef90_UPI0013F2C373 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  375     2e-130
+UniRef90_UPI0023EB0F25 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  377     2e-130
+UniRef90_A0A480T3W2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  376     2e-130
+UniRef90_A0A8C8XGS6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  382     3e-130
+UniRef90_A0AAW0J2N7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  377     3e-130
+UniRef90_A0A7J7ZFJ5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  377     3e-130
+UniRef90_A0A7J7YZX4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  377     4e-130
+UniRef90_A0A8C5LHP2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  376     4e-130
+UniRef90_A0A7J7ZF95 Aspartylglucosaminidase n=1 Tax=Pipistrellus ...  372     5e-130
+UniRef90_A0A7J8GK43 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  376     1e-129
+UniRef90_UPI000703E925 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  376     1e-129
+UniRef90_A0A8C3YCW9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  376     1e-129
+UniRef90_UPI0005ABA4D7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  374     1e-129
+UniRef90_P30919 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  374     4e-129
+UniRef90_A0A1S3AQH8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  373     7e-129
+UniRef90_A0A8C6RLN4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  373     7e-129
+UniRef90_UPI0018F59072 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  371     9e-129
+UniRef90_Q64191 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  373     9e-129
+UniRef90_A0A8C5XZF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  373     1e-128
+UniRef90_UPI00189D6BAF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  371     1e-128
+UniRef90_A0A6J2MQX7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  372     1e-128
+UniRef90_UPI000813CDB6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  372     1e-128
+UniRef90_A0A8J6GBX2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  376     3e-128
+UniRef90_A0A8B9X2I2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  372     3e-128
+UniRef90_I3MI50 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  371     8e-128
+UniRef90_A0A1U7R9P4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  367     8e-128
+UniRef90_UPI003B503E82 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  370     1e-127
+UniRef90_A0A8B9X240 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  371     1e-127
+UniRef90_A0A3Q3MRH2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  371     1e-127
+UniRef90_A0A6I9PSI6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  370     1e-127
+UniRef90_UPI00038C388D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  370     2e-127
+UniRef90_A0A2Y9E968 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  370     2e-127
+UniRef90_F1MGY9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  370     2e-127
+UniRef90_A0A4W6FBD4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     2e-127
+UniRef90_UPI001E1E022D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  369     2e-127
+UniRef90_A0A3Q1FNG6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     2e-127
+UniRef90_A0AAD4TKF0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  371     3e-127
+UniRef90_UPI001BB24AC0 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  370     3e-127
+UniRef90_UPI0028E753E6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  368     3e-127
+UniRef90_A0A2U4A7W5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     3e-127
+UniRef90_A0A1S3FZF6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     3e-127
+UniRef90_G1P2Y7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  369     3e-127
+UniRef90_A0A9B0T5L9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     3e-127
+UniRef90_UPI00210FB51F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  369     4e-127
+UniRef90_A0A6P3FBM5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  369     4e-127
+UniRef90_G1SGN6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  369     4e-127
+UniRef90_UPI0027DF4281 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  369     4e-127
+UniRef90_UPI00339CDE36 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  369     5e-127
+UniRef90_A0A8P0P4R3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  375     5e-127
+UniRef90_UPI001CE10870 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  366     5e-127
+UniRef90_UPI0024BDB437 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  368     7e-127
+UniRef90_UPI00293EA17F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  369     8e-127
+UniRef90_UPI002A3699D1 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  367     9e-127
+UniRef90_A0A5F5PLI4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  368     9e-127
+UniRef90_A0A6P8V9D5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  367     1e-126
+UniRef90_UPI001C05C4F7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  368     1e-126
+UniRef90_A0A3B4T7F9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  367     1e-126
+UniRef90_A0A6I9KTN1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  367     2e-126
+UniRef90_A0A1U8D4A9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  367     2e-126
+UniRef90_A0A8C0MW39 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  371     2e-126
+UniRef90_A0A8J5ZMJ7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  367     3e-126
+UniRef90_A0A2Y9S294 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  366     5e-126
+UniRef90_A0A667ZNX2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  366     5e-126
+UniRef90_UPI00396A9F22 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  366     6e-126
+UniRef90_A0A9D3RVF6 Aspartylglucosaminidase n=3 Tax=Anguilla TaxI...  365     8e-126
+UniRef90_A0A6G1RJH8 Aspartylglucosaminidase (Fragment) n=1 Tax=Hy...  362     9e-126
+UniRef90_A0A4U5UDC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  365     9e-126
+UniRef90_UPI001890823B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  366     9e-126
+UniRef90_A0A6I8SB37 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  366     9e-126
+UniRef90_UPI00350EC902 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     1e-125
+UniRef90_A0A5N4CFC6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  366     1e-125
+UniRef90_G3SWT7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  365     1e-125
+UniRef90_UPI0012ED9C1A N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  365     1e-125
+UniRef90_A0A3B4YQY6 Aspartylglucosaminidase n=1 Tax=Seriola lalan...  365     1e-125
+UniRef90_A0A7L3P6M4 ASPG asparaginase (Fragment) n=1 Tax=Xiphorhy...  360     1e-125
+UniRef90_A0AAV6SKH5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-125
+UniRef90_A0A8C2TC75 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  366     2e-125
+UniRef90_A0AAU9Z3Y1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  364     2e-125
+UniRef90_UPI00196B4AC9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     2e-125
+UniRef90_UPI00230582C0 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     2e-125
+UniRef90_UPI00237E9359 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     3e-125
+UniRef90_UPI003A83799C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  364     3e-125
+UniRef90_UPI001ED7D52B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     3e-125
+UniRef90_A0A6P7J7R0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  364     3e-125
+UniRef90_UPI0003F05EFE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     3e-125
+UniRef90_A0ABD1JQP9 Uncharacterized protein n=1 Tax=Coilia grayii...  364     3e-125
+UniRef90_A0A4Z2C451 Aspartylglucosaminidase n=1 Tax=Takifugu bima...  360     3e-125
+UniRef90_UPI0026604F18 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     4e-125
+UniRef90_H0XCR8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  364     4e-125
+UniRef90_A0A8B8S4B3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     4e-125
+UniRef90_UPI0035CC03C6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     4e-125
+UniRef90_A0A7K6V9A0 ASPG asparaginase (Fragment) n=3 Tax=Passerif...  357     5e-125
+UniRef90_A0A6P7NUH4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  363     5e-125
+UniRef90_A0A7L1X493 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  364     5e-125
+UniRef90_A0A1A8FIM2 Aspartylglucosaminidase (Fragment) n=2 Tax=No...  360     5e-125
+UniRef90_A0A672HZP4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  363     6e-125
+UniRef90_UPI001FB5F423 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  363     6e-125
+UniRef90_UPI003A90D599 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     6e-125
+UniRef90_UPI00234AEEEE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  364     7e-125
+UniRef90_UPI00243390A3 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  363     7e-125
+UniRef90_H2UUC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  362     8e-125
+UniRef90_UPI00237E93E4 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  362     1e-124
+UniRef90_A0A3Q3AB66 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  363     1e-124
+UniRef90_UPI001CC5D05F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  363     1e-124
+UniRef90_A0A218VF94 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     1e-124
+UniRef90_UPI0024950DCF N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  362     1e-124
+UniRef90_H3D671 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  363     1e-124
+UniRef90_A0A2U9C584 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     1e-124
+UniRef90_A0A7K4X629 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     2e-124
+UniRef90_A0A3Q3EIN9 Aspartylglucosaminidase n=2 Tax=Labrus bergyl...  363     2e-124
+UniRef90_UPI003B3A9D78 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  364     2e-124
+UniRef90_A0A672NVZ0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-124
+UniRef90_A0A8C6ZUU4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-124
+UniRef90_A0A672ZJI9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-124
+UniRef90_A0A8S4BJX6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     2e-124
+UniRef90_UPI00234BBE69 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  362     3e-124
+UniRef90_A0A087TQ27 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  361     3e-124
+UniRef90_A0A674MYB6 Aspartylglucosaminidase n=1 Tax=Takifugu rubr...  360     3e-124
+UniRef90_A0A1A8UMA1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     3e-124
+UniRef90_A0A1S3RR04 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     3e-124
+UniRef90_UPI001C04AAD2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  359     3e-124
+UniRef90_A0AAV7D3N0 Aspartylglucosaminidase n=1 Tax=Engystomops p...  358     3e-124
+UniRef90_A0A8C1I8C9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     4e-124
+UniRef90_UPI00074FF7D5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  362     4e-124
+UniRef90_A0A8C2TCB3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     4e-124
+UniRef90_A0AA88SSX6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     5e-124
+UniRef90_UPI003B595E57 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  361     5e-124
+UniRef90_A0A493SV40 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  363     5e-124
+UniRef90_A0A8V0XD67 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     6e-124
+UniRef90_A0A3Q3FKV5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     6e-124
+UniRef90_A0A663ESX9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     9e-124
+UniRef90_A0A3Q2P392 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     9e-124
+UniRef90_A0A8D2LQU8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  361     1e-123
+UniRef90_A0A3Q3FJF0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     1e-123
+UniRef90_A0A8C0QAE8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  373     1e-123
+UniRef90_A0A6P3W4Z1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     1e-123
+UniRef90_A0AAV2A765 Aspartylglucosaminidase n=2 Tax=Larinioides s...  356     1e-123
+UniRef90_A0A9N7Z578 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     1e-123
+UniRef90_UPI003704087E N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  360     1e-123
+UniRef90_Q5M7B8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  360     1e-123
+UniRef90_A0A670XVE7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     1e-123
+UniRef90_UPI002026A1DE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  360     2e-123
+UniRef90_UPI001F073CD2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  361     2e-123
+UniRef90_UPI001F080E50 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  360     2e-123
+UniRef90_A0AAD1SFF4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     2e-123
+UniRef90_A0A7K8U2U8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     2e-123
+UniRef90_A0A3Q2YUS7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     2e-123
+UniRef90_A0AAD1SFF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     2e-123
+UniRef90_A0A7L2GY21 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     2e-123
+UniRef90_A0A8X6QE07 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     2e-123
+UniRef90_A0A7M4FYH1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     2e-123
+UniRef90_A0A3Q3VS42 Uncharacterized protein n=1 Tax=Mola mola Tax...  358     3e-123
+UniRef90_A0A7L3RAM1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     4e-123
+UniRef90_A0ABD0X3D1 Uncharacterized protein n=1 Tax=Umbra pygmaea...  358     4e-123
+UniRef90_A0A6J2WCF2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     4e-123
+UniRef90_A0A9D3T5M3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     4e-123
+UniRef90_A0A665VMX7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     4e-123
+UniRef90_A0A8D2MX76 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     4e-123
+UniRef90_A0A913WSI0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  359     5e-123
+UniRef90_A0AAV7D4D6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     5e-123
+UniRef90_A0AAV1FCD9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     5e-123
+UniRef90_A0A8I3WDC5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  360     6e-123
+UniRef90_A0AAV2MIB8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  358     6e-123
+UniRef90_UPI00192F4214 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  361     6e-123
+UniRef90_UPI001963DFA7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     6e-123
+UniRef90_A0A3P8V0A1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  358     7e-123
+UniRef90_A0A6I8NXL0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  359     7e-123
+UniRef90_UPI0037E817F6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  359     8e-123
+UniRef90_A0A8T3CHP3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  358     8e-123
+UniRef90_A0AA97JZB8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  358     9e-123
+UniRef90_A0A3B3HJ42 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  358     9e-123
+UniRef90_A0AAV3B346 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  358     1e-122
+UniRef90_UPI001BE9ECFA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  358     1e-122
+UniRef90_A0A8C6TQH9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     1e-122
+UniRef90_A0A7K4JR51 ASPG asparaginase (Fragment) n=1 Tax=Geococcy...  353     1e-122
+UniRef90_UPI0014255E61 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  359     1e-122
+UniRef90_A0A8T2KE08 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     1e-122
+UniRef90_UPI0030816270 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  358     1e-122
+UniRef90_UPI002E13B749 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     1e-122
+UniRef90_UPI0031E454A0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  357     1e-122
+UniRef90_A0A6P9E1M7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  358     1e-122
+UniRef90_A0A8B9CEN6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  362     1e-122
+UniRef90_UPI0021E2017C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     1e-122
+UniRef90_A0A8C5HMS0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     1e-122
+UniRef90_A0A669QGW5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     1e-122
+UniRef90_A0A7L1N5I4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     2e-122
+UniRef90_A0A8C9N8M5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     2e-122
+UniRef90_G1KEX1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  357     2e-122
+UniRef90_A0A852KTM4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     2e-122
+UniRef90_UPI002B1D9121 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     2e-122
+UniRef90_G3PW56 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  357     2e-122
+UniRef90_UPI001899B4B9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     2e-122
+UniRef90_UPI002FCD2047 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     2e-122
+UniRef90_UPI001C8AADF5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     2e-122
+UniRef90_A0AAV1FCD5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     3e-122
+UniRef90_A0A8C4X482 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     3e-122
+UniRef90_A0A9Q1HYT6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     3e-122
+UniRef90_A0A6L2PAK5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  357     3e-122
+UniRef90_UPI002FE1F85C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  355     3e-122
+UniRef90_A0A3N0Z0U1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     3e-122
+UniRef90_UPI00235A8C93 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     3e-122
+UniRef90_A0A3B5PQC9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     4e-122
+UniRef90_V8NZZ1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase (...  360     4e-122
+UniRef90_A0A2I0MN95 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     4e-122
+UniRef90_UPI0027417989 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     4e-122
+UniRef90_A0A7L3WKR8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     4e-122
+UniRef90_A0A4X2KJ88 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     5e-122
+UniRef90_A0A7K4RNW8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     5e-122
+UniRef90_A0AAV6SJD6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  357     5e-122
+UniRef90_UPI001CA96786 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  355     5e-122
+UniRef90_UPI001B7E89E4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  356     6e-122
+UniRef90_A0AAV2A821 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  356     6e-122
+UniRef90_UPI003461CA48 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     6e-122
+UniRef90_A0AAV4VPG9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  355     7e-122
+UniRef90_A0A672UJE8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     7e-122
+UniRef90_UPI002FD74F25 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     7e-122
+UniRef90_A0A9Q1JHE5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  356     7e-122
+UniRef90_A0A1S3IY47 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  356     7e-122
+UniRef90_UPI001C723B6A N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  355     7e-122
+UniRef90_UPI001BB2B998 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  356     8e-122
+UniRef90_A0A669QZN4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  355     9e-122
+UniRef90_A0A7R9GW91 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  356     9e-122
+UniRef90_UPI0024072B7C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  357     9e-122
+UniRef90_UPI003A5B9FF5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  355     1e-121
+UniRef90_F6YVD7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  356     1e-121
+UniRef90_UPI002409A654 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  355     1e-121
+UniRef90_A0A3P9AHU3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  355     1e-121
+UniRef90_A0A8X7CUB9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  354     1e-121
+UniRef90_UPI0014721CF2 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     2e-121
+UniRef90_A0A670IU64 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  355     2e-121
+UniRef90_A0AAD8LSI3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     2e-121
+UniRef90_UPI00243000AF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     2e-121
+UniRef90_A0A8C2XI86 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     2e-121
+UniRef90_UPI00383162C5 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  356     2e-121
+UniRef90_A0A8B7PMS1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  355     2e-121
+UniRef90_UPI003464B1A7 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     2e-121
+UniRef90_A0A8C8MM12 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     3e-121
+UniRef90_A0A8D0GZ73 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     3e-121
+UniRef90_UPI002435F3CA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     3e-121
+UniRef90_UPI001C70B7A3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  354     4e-121
+UniRef90_UPI002303B905 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     5e-121
+UniRef90_UPI003A8A679B N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  354     6e-121
+UniRef90_UPI0035A30447 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  353     6e-121
+UniRef90_A0A8D0BS52 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  354     6e-121
+UniRef90_UPI0007041488 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  353     6e-121
+UniRef90_K7G245 Aspartylglucosaminidase n=1 Tax=Pelodiscus sinens...  349     7e-121
+UniRef90_UPI00202B9814 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     7e-121
+UniRef90_UPI002FCD2670 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     7e-121
+UniRef90_UPI002AC88A51 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  355     7e-121
+UniRef90_A0A7K7WJ31 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     7e-121
+UniRef90_A0A1S7IVQ5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  353     7e-121
+UniRef90_A0A3Q1HLK6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     8e-121
+UniRef90_A0AAV6V7M6 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  352     9e-121
+UniRef90_UPI001B887EAF N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  352     9e-121
+UniRef90_A0A423UA10 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  353     1e-120
+UniRef90_UPI00214E9EF8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  353     1e-120
+UniRef90_A0A2J7Q108 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  353     1e-120
+UniRef90_A0A3B4GZ76 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     1e-120
+UniRef90_A0AAY4CHY7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     1e-120
+UniRef90_A0A6A7G8U8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  353     1e-120
+UniRef90_UPI002B4F0A85 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  352     1e-120
+UniRef90_A0AAN9CL25 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  352     2e-120
+UniRef90_UPI002242468D N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  352     2e-120
+UniRef90_G3HGM6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  352     2e-120
+UniRef90_A0A5B9GCJ8 Putative N(4)-(Beta-N-acetylglucosaminyl)-L-a...  348     2e-120
+UniRef90_UPI00210F91EC N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  352     3e-120
+UniRef90_UPI0025A51147 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  351     3e-120
+UniRef90_A7RFF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  351     3e-120
+UniRef90_UPI001C4C2DCC N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  352     3e-120
+UniRef90_A0A9F5J0D1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  353     3e-120
+UniRef90_A0A8J5J5V7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  352     3e-120
+UniRef90_UPI0036045169 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  351     3e-120
+UniRef90_UPI001ABE3FF8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  354     3e-120
+UniRef90_UPI0034629FC9 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  352     4e-120
+UniRef90_G3VWM7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  351     5e-120
+UniRef90_UPI0039E97D1D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  351     5e-120
+UniRef90_UPI002ADE2731 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  351     5e-120
+UniRef90_UPI0030C8218D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  352     6e-120
+UniRef90_UPI0035B6A2AB N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  353     7e-120
+UniRef90_A0A3B3RW93 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     8e-120
+UniRef90_A0A8C9VED3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     9e-120
+UniRef90_A0A553QGI1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     9e-120
+UniRef90_UPI00350F3C70 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  350     1e-119
+UniRef90_A0A3Q2CE59 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     1e-119
+UniRef90_A0A2I4APK8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  350     1e-119
+UniRef90_A8KC00 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  349     1e-119
+UniRef90_A0AAN9ZJZ8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  351     2e-119
+UniRef90_A0AAE1JZX6 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  351     2e-119
+UniRef90_A0A1D1V9Z9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  350     2e-119
+UniRef90_A0A8B9RCB9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  349     3e-119
+UniRef90_A0A498N018 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     3e-119
+UniRef90_UPI0035B18AD8 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  347     3e-119
+UniRef90_A0A7M7NLW0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  349     3e-119
+UniRef90_UPI001128F045 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     3e-119
+UniRef90_A0A9W7TS83 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     4e-119
+UniRef90_A0A9P0H3S2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  348     4e-119
+UniRef90_A0A067RDR4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  349     4e-119
+UniRef90_UPI0037E84F54 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  348     6e-119
+UniRef90_A0A401PJZ5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  347     6e-119
+UniRef90_UPI001EE52DA3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  345     6e-119
+UniRef90_A0AAW0TFI1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  349     6e-119
+UniRef90_A0A6P8QP56 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  348     7e-119
+UniRef90_UPI0035311E6B N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  349     7e-119
+UniRef90_UPI0021197330 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  349     8e-119
+UniRef90_UPI00398EA756 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  348     9e-119
+UniRef90_A0AAW0TGK2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  348     9e-119
+UniRef90_A0A8B7ZZJ1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  348     1e-118
+UniRef90_UPI002FC3142B N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  347     2e-118
+UniRef90_UPI00355BCB30 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  347     2e-118
+UniRef90_UPI002AD1F8BE N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  347     2e-118
+UniRef90_A0AAN8X6C9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  347     3e-118
+UniRef90_UPI0023DA2A05 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  347     3e-118
+UniRef90_A0A8C8SDZ6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  347     4e-118
+UniRef90_UPI0035B017BD N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  346     4e-118
+UniRef90_UPI0009E3D4C7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  347     5e-118
+UniRef90_UPI003AF50412 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  351     5e-118
+UniRef90_A0A8C5WD42 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  346     5e-118
+UniRef90_A0A8K0A4W9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  346     6e-118
+UniRef90_A0A0C9SFJ7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  345     7e-118
+UniRef90_A0AAD7T9D6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  345     8e-118
+UniRef90_A0A6F9D6R4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  346     8e-118
+UniRef90_A0AAN9B1X9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  345     8e-118
+UniRef90_UPI002AA50178 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  349     9e-118
+UniRef90_A0A401S9K6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  345     9e-118
+UniRef90_UPI001ED86729 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  345     1e-117
+UniRef90_UPI00355BD4E1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  345     1e-117
+UniRef90_UPI003B832163 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  345     1e-117
+UniRef90_A0A164WCC5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  345     2e-117
+UniRef90_UPI002AD34248 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  345     2e-117
+UniRef90_A0A1W0X1S1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  345     2e-117
+UniRef90_A0AAV3Y5K9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  344     2e-117
+UniRef90_UPI002367DBFE N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  345     2e-117
+UniRef90_UPI002408F448 putative N(4)-(beta-N-acetylglucosaminyl)-...  345     2e-117
+UniRef90_A0AAE0XQK9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  344     2e-117
+UniRef90_UPI0021C893E8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  345     2e-117
+UniRef90_UPI00298BFB79 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  344     2e-117
+UniRef90_UPI0034DD6D42 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  344     2e-117
+UniRef90_UPI00331400DE N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  344     3e-117
+UniRef90_T1KBF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  344     4e-117
+UniRef90_A0A433SSP7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  345     4e-117
+UniRef90_A0AAN8J910 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  344     4e-117
+UniRef90_A0A674II95 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  344     5e-117
+UniRef90_UPI0018CE70B9 putative N(4)-(beta-N-acetylglucosaminyl)-...  344     5e-117
+UniRef90_A0A8S3YDP6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  337     5e-117
+UniRef90_UPI00032ADDE6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  343     5e-117
+UniRef90_A0A401S9P5 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  343     6e-117
+UniRef90_A0AAU9WH62 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  344     6e-117
+UniRef90_UPI0034E45DDC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  343     7e-117
+UniRef90_E3TDQ8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  342     9e-117
+UniRef90_UPI00295AADC7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  343     9e-117
+UniRef90_A0AAN7VIU4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_UPI00188493D4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  342     1e-116
+UniRef90_UPI001CF5FD6C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  343     1e-116
+UniRef90_A0A1Y1LZF9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_UPI002467DF39 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  343     1e-116
+UniRef90_UPI001B7F171F N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  342     1e-116
+UniRef90_A0A2W1BNY3 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_A0AAD5B011 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_A0A1Z5L6S5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     1e-116
+UniRef90_UPI00325AB9FD putative N(4)-(beta-N-acetylglucosaminyl)-...  342     2e-116
+UniRef90_A0A293MS46 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     2e-116
+UniRef90_UPI002E277140 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  341     2e-116
+UniRef90_A0A6A4VZ32 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     2e-116
+UniRef90_UPI003AB4EC97 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  342     2e-116
+UniRef90_A0AAD8DVS0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  342     2e-116
+UniRef90_A0A5N5NWK2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  341     2e-116
+UniRef90_A0A146LSA1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  341     3e-116
+UniRef90_UPI00234D535C N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  341     3e-116
+UniRef90_A0AAW2GJP1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  340     3e-116
+UniRef90_UPI002ADD560C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  341     4e-116
+UniRef90_A0A7R9KHS7 Aspartylglucosaminidase n=2 Tax=Medioppia sub...  343     4e-116
+UniRef90_A0A401NTT0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  341     4e-116
+UniRef90_UPI00118308EF N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  340     6e-116
+UniRef90_A0A6P8IA50 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  340     7e-116
+UniRef90_A0AAD7ZKF5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  341     8e-116
+UniRef90_A0A7J6BKD9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  339     8e-116
+UniRef90_UPI00214EF542 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  340     9e-116
+UniRef90_A0A6J2JJH9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  340     9e-116
+UniRef90_A0AAJ7DYP3 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  340     9e-116
+UniRef90_UPI00223E2DAC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  340     9e-116
+UniRef90_M3YL44 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  339     1e-115
+UniRef90_A0A6J0UCB7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  340     1e-115
+UniRef90_A0AAE0QZ44 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  344     1e-115
+UniRef90_UPI00067E0312 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  339     1e-115
+UniRef90_A0A836GEC1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  340     2e-115
+UniRef90_H0UZ36 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  339     2e-115
+UniRef90_UPI0035F0FDAE N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  342     2e-115
+UniRef90_UPI003B9F4A26 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  340     2e-115
+UniRef90_A0AA88MM33 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  339     2e-115
+UniRef90_E2BPC3 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  335     2e-115
+UniRef90_UPI0005EFEC8F N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  341     3e-115
+UniRef90_UPI002F3528D6 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  339     3e-115
+UniRef90_UPI0024438823 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  338     3e-115
+UniRef90_A0A6J3C8S4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  339     3e-115
+UniRef90_UPI00237E9E60 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  339     3e-115
+UniRef90_UPI002FDDF774 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  339     3e-115
+UniRef90_F4W8L1 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  339     3e-115
+UniRef90_A0A0B6ZRH8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  339     3e-115
+UniRef90_A0A6M2DTS8 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  339     4e-115
+UniRef90_A0A8C9JWC7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  339     4e-115
+UniRef90_A0A4W4EMT1 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  338     4e-115
+UniRef90_UPI00355AA5FA N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  339     4e-115
+UniRef90_A0A5E4QPW5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     4e-115
+UniRef90_A0A0A1WRN7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  339     4e-115
+UniRef90_UPI001EE08D7D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  339     6e-115
+UniRef90_E9H0E1 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  337     6e-115
+UniRef90_A0A0J7KUU9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     6e-115
+UniRef90_UPI0006D51134 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     6e-115
+UniRef90_A0A8K0CED9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     6e-115
+UniRef90_E0VAH9 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  337     7e-115
+UniRef90_UPI00273A9759 putative N(4)-(beta-N-acetylglucosaminyl)-...  339     7e-115
+UniRef90_A0A6M2CJ28 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     8e-115
+UniRef90_A0A9N9R9C3 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     8e-115
+UniRef90_UPI0026F39DD7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     9e-115
+UniRef90_UPI0024859D45 putative N(4)-(beta-N-acetylglucosaminyl)-...  337     9e-115
+UniRef90_A0AAW2GGI1 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     1e-114
+UniRef90_UPI003B21FA58 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     1e-114
+UniRef90_UPI000719B6FA N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  339     1e-114
+UniRef90_UPI000EFDD0DA N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     1e-114
+UniRef90_A0A8J4Y292 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     1e-114
+UniRef90_UPI0027DDEEE4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     1e-114
+UniRef90_UPI00313959A7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     1e-114
+UniRef90_A0A6B0R4S7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  337     1e-114
+UniRef90_UPI002415B5E0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     2e-114
+UniRef90_A0A7R9LSR0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     2e-114
+UniRef90_A0A8B8Q0L6 beta-aspartyl-peptidase n=1 Tax=Rhodamnia arg...  337     2e-114
+UniRef90_UPI00371E2C5A N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     2e-114
+UniRef90_A0A834KUT5 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     2e-114
+UniRef90_A0A6P7X7U9 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  337     2e-114
+UniRef90_UPI0013F192E6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  338     2e-114
+UniRef90_A0A6P3UTE4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     2e-114
+UniRef90_UPI00308261A4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     3e-114
+UniRef90_A0A8K0JTW4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     3e-114
+UniRef90_UPI0027D27783 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     3e-114
+UniRef90_A0A7J7KS05 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     3e-114
+UniRef90_A0A8J2RGI2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     3e-114
+UniRef90_A0A9Q0DFJ2 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  336     3e-114
+UniRef90_A0A9P0FYA7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     3e-114
+UniRef90_A0AAN7GE15 beta-aspartyl-peptidase n=1 Tax=Trapa incisa ...  342     3e-114
+UniRef90_A0A836CPQ7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  340     4e-114
+UniRef90_A0A034WLU4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  337     4e-114
+UniRef90_H2Z8A4 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  335     4e-114
+UniRef90_UPI0023E2C2EC N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  337     5e-114
+UniRef90_A0A8J2KGE0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     6e-114
+UniRef90_A0A4D5RMG7 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  339     6e-114
+UniRef90_A0A1D2MM47 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  338     6e-114
+UniRef90_UPI00158D290E N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     7e-114
+UniRef90_UPI0023B83298 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     7e-114
+UniRef90_UPI002ED1F39A N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     7e-114
+UniRef90_A0AAW2I9C8 Aspartylglucosaminidase n=1 Tax=Menopon galli...  334     7e-114
+UniRef90_UPI0009489A3D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     8e-114
+UniRef90_UPI0031F9758D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  335     8e-114
+UniRef90_A0A821UT55 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     8e-114
+UniRef90_UPI002307E8E6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     8e-114
+UniRef90_UPI00307C4E9D N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  335     8e-114
+UniRef90_UPI00193E366C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     8e-114
+UniRef90_UPI0020342704 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  335     9e-114
+UniRef90_UPI0024552B23 LOW QUALITY PROTEIN: N(4)-(beta-N-acetylgl...  335     9e-114
+UniRef90_UPI003A7F5994 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  335     9e-114
+UniRef90_UPI00355B8313 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  335     1e-113
+UniRef90_A0A8B8FK94 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     1e-113
+UniRef90_UPI00065BF18C N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  335     1e-113
+UniRef90_A0A8C2R1G0 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  334     1e-113
+UniRef90_UPI002445C0B3 N(4)-(beta-N-acetylglucosaminyl)-L-asparag...  335     1e-113
+UniRef90_UPI002032AE04 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  336     2e-113
+UniRef90_A0A0L0BNW9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     2e-113
+UniRef90_V3ZYI5 N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase n...  334     2e-113
+UniRef90_UPI0005F46DA6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  335     2e-113
+UniRef90_O02467 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase (...  333     2e-113
+UniRef90_A0A9D3SRG7 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  334     2e-113
+UniRef90_UPI0010FB3753 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  334     2e-113
+UniRef90_A0A210Q8Q6 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  332     3e-113
+UniRef90_A0AAV7XR44 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     3e-113
+UniRef90_A0A7J8GJE3 Aspartylglucosaminidase n=1 Tax=Molossus molo...  328     3e-113
+UniRef90_F6SSI8 N(4)-(Beta-N-acetylglucosaminyl)-L-asparaginase n...  333     3e-113
+UniRef90_A0AAV1K5D9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  334     3e-113
+UniRef90_A0A9D4KNX2 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  334     3e-113
+UniRef90_A0A6P7SGH4 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  334     3e-113
+UniRef90_A0A835U113 N(4)-(Beta-N-acetylglucosaminyl)-L-asparagina...  334     3e-113
+UniRef90_A0A5N5SM04 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  335     4e-113
+UniRef90_UPI002491FBB5 putative N(4)-(beta-N-acetylglucosaminyl)-...  334     4e-113
+UniRef90_A0AAE0T9R9 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  334     4e-113
+UniRef90_UPI002479B954 N(4)-(Beta-N-acetylglucosaminyl)-L-asparag...  334     4e-113
+UniRef90_A0ABD0T7L8 Uncharacterized protein n=2 Tax=Loxostege sti...  333     5e-113
+UniRef90_A0A7E5WZS0 N(4)-(beta-N-acetylglucosaminyl)-L-asparagina...  334     5e-113
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>UniRef90_UPI0003EAE59D N(4)-(beta-N-acetylglucosaminyl)-L-asparaginase isoform X1 n=2 
+Tax=Homo sapiens TaxID=9606 RepID=UPI0003EAE59D
+Length=227
+
+ Score = 380 bits (977),  Expect = 3e-133, Method: Composition-based stats.
+ Identities = 161/162 (99%), Positives = 162/162 (100%), Gaps = 0/162 (0%)
+
+Query  1    SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG  60
+            SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG
+Sbjct  24   SSPLPLVVNTWPFKNATEAAWRALASGGSALDAVESGCAMCEREQCDGSVGFGGSPDELG  83
+
+Query  61   ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN  120
+            ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN
+Sbjct  84   ETTLDAMIMDGTTMDVGAVGDLRRIKNAIGVARKVLEHTTHTLLVGESATTFAQSMGFIN  143
+
+Query  121  EDLSTSASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP  162
+            EDLST+ASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP
+Sbjct  144  EDLSTTASQALHSDWLARNCQPNYWRNVIPDPSKYCGPYKPP  185
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.212     1.02    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0649    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1795681440345
+
+
+  Database: uniref90.fasta
+    Posted date:  Jan 10, 2026  12:23 AM
+  Number of letters in database: 71,627,808,805
+  Number of sequences in database:  208,005,650
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

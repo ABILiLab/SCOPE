@@ -1,0 +1,1655 @@
+PSIBLAST 2.17.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           208,005,650 sequences; 71,627,808,805 total letters
+
+Results from round 1
+
+
+Query= 1chu-A
+
+Length=116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+UniRef90_A0AB36PFZ7 L-aspartate oxidase n=2 Tax=Enterobacteriacea...  247     1e-79
+UniRef90_B7LUZ0 L-aspartate oxidase n=299 Tax=root TaxID=1 RepID=...  253     1e-79
+UniRef90_A0A378BWI0 L-aspartate oxidase n=1 Tax=Klebsiella pneumo...  247     1e-79
+UniRef90_Q93CP8 L-aspartate oxidase n=8 Tax=Enterobacteriaceae Ta...  246     2e-79
+UniRef90_A0A2X2JBF5 L-aspartate oxidase n=36 Tax=Enterobacteriace...  245     2e-78
+UniRef90_A0A2X1QGG5 L-aspartate oxidase n=1 Tax=Klebsiella pneumo...  243     3e-78
+UniRef90_A0A1Y6GDA5 L-aspartate oxidase n=624 Tax=Gammaproteobact...  247     1e-77
+UniRef90_P10902 L-aspartate oxidase n=1379 Tax=Bacteria TaxID=2 R...  246     2e-77
+UniRef90_A0A090V644 L-aspartate oxidase n=25 Tax=Enterobacteriace...  244     1e-76
+UniRef90_A0A379W4G1 L-aspartate oxidase n=6 Tax=Salmonella enteri...  241     2e-76
+UniRef90_UPI0031F64E42 FAD-binding protein n=2 Tax=Gammaproteobac...  229     7e-76
+UniRef90_A0A5B0K217 L-aspartate oxidase n=16 Tax=Enterobacteriace...  242     1e-75
+UniRef90_A0A381C482 L-aspartate oxidase n=32 Tax=Enterobacteriace...  241     3e-75
+UniRef90_A0A085G5T0 L-aspartate oxidase n=7 Tax=Enterobacteriacea...  241     3e-75
+UniRef90_A0A379WNH5 L-aspartate oxidase n=1 Tax=Salmonella enteri...  229     2e-74
+UniRef90_A0A4P0YD28 L-aspartate oxidase n=3 Tax=Klebsiella pneumo...  233     4e-74
+UniRef90_A0A3N1JAF0 L-aspartate oxidase n=1 Tax=Enterobacter sp. ...  238     4e-74
+UniRef90_A0A485AV87 L-aspartate oxidase n=1 Tax=Kluyvera cryocres...  232     6e-74
+UniRef90_A0A447UYK2 L-aspartate oxidase n=42 Tax=cellular organis...  238     6e-74
+UniRef90_Q8ZMX9 L-aspartate oxidase n=1020 Tax=Bacteria TaxID=2 R...  238     7e-74
+UniRef90_A0A9J6Q4F3 L-aspartate oxidase n=12 Tax=Enterobacteriace...  237     1e-73
+UniRef90_UPI0012B6C514 FAD-binding protein n=1 Tax=Escherichia co...  224     1e-73
+UniRef90_A0A0F0W5B7 L-aspartate oxidase n=6 Tax=Pluralibacter Tax...  236     2e-73
+UniRef90_A0A655E4A7 L-aspartate oxidase n=7 Tax=Enterobacteriacea...  230     2e-73
+UniRef90_A0A2U4E4F8 L-aspartate oxidase n=205 Tax=Gammaproteobact...  236     3e-73
+UniRef90_UPI0028A84F6D L-aspartate oxidase n=1 Tax=Superficieibac...  236     3e-73
+UniRef90_UPI002B48E985 L-aspartate oxidase n=1 Tax=Buttiauxella s...  231     4e-73
+UniRef90_UPI0009AA489D L-aspartate oxidase n=1 Tax=Salmonella ent...  229     6e-73
+UniRef90_UPI00289E6580 L-aspartate oxidase n=1 Tax=Kosakonia sp. ...  235     7e-73
+UniRef90_A0A655Q3B8 L-aspartate oxidase n=1 Tax=Vibrio cholerae T...  229     1e-72
+UniRef90_A0A4R3YHU1 L-aspartate oxidase n=1 Tax=Biostraticola tof...  234     1e-72
+UniRef90_A0A7H0MGP6 L-aspartate oxidase n=26 Tax=Kosakonia TaxID=...  234     2e-72
+UniRef90_A0A6N3EAA4 L-aspartate oxidase n=1 Tax=Phytobacter massi...  234     2e-72
+UniRef90_H5V6R4 L-aspartate oxidase n=19 Tax=Atlantibacter TaxID=...  233     3e-72
+UniRef90_Q7N1W8 L-aspartate oxidase n=60 Tax=Photorhabdus TaxID=2...  233     4e-72
+UniRef90_A0A7W3DJ55 L-aspartate oxidase n=38 Tax=Enterobacteriace...  232     8e-72
+UniRef90_A0A2I5TI28 L-aspartate oxidase n=2 Tax=Enterobacterales ...  232     1e-71
+UniRef90_Q8ZD80 L-aspartate oxidase n=147 Tax=Enterobacterales Ta...  232     1e-71
+UniRef90_G8LNC6 L-aspartate oxidase n=208 Tax=Enterobacteriaceae ...  232     1e-71
+UniRef90_A0A377PFI6 L-aspartate oxidase n=33 Tax=Enterobacterales...  231     2e-71
+UniRef90_A0A0L0ARZ5 L-aspartate oxidase n=4 Tax=Enterobacteriacea...  231     2e-71
+UniRef90_B6XEF7 L-aspartate oxidase n=9 Tax=Providencia TaxID=586...  231     2e-71
+UniRef90_A0A5J5FSV6 L-aspartate oxidase n=1 Tax=Affinibrenneria s...  231     2e-71
+UniRef90_A0AB38FWI0 L-aspartate oxidase n=6 Tax=Yokenella regensb...  231     2e-71
+UniRef90_A0A845SRZ3 L-aspartate oxidase n=10 Tax=Pseudomonadota T...  231     4e-71
+UniRef90_K8WE89 L-aspartate oxidase n=1 Tax=Providencia sneebia D...  230     5e-71
+UniRef90_A0A156KXJ2 L-aspartate oxidase n=190 Tax=root TaxID=1 Re...  230     5e-71
+UniRef90_A0A975U9N8 L-aspartate oxidase n=5 Tax=Vibrio TaxID=662 ...  229     7e-71
+UniRef90_A0A377ZAS9 L-aspartate oxidase n=3 Tax=Klebsiella pneumo...  224     9e-71
+UniRef90_UPI0029645EC9 L-aspartate oxidase n=1 Tax=Vibrio sp. 115...  227     1e-70
+UniRef90_A0A4U9UP29 L-aspartate oxidase n=1 Tax=Serratia fonticol...  221     1e-70
+UniRef90_UPI0035E4FC4E L-aspartate oxidase n=4 Tax=Erwinia TaxID=...  229     1e-70
+UniRef90_A0A2T3MXI6 L-aspartate oxidase n=3 Tax=Photobacterium Ta...  228     2e-70
+UniRef90_A0A9J6PKS1 L-aspartate oxidase n=5 Tax=Erwiniaceae TaxID...  228     3e-70
+UniRef90_C6CB41 L-aspartate oxidase n=23 Tax=Pectobacteriaceae Ta...  227     6e-70
+UniRef90_UPI002964BE37 FAD-binding protein n=1 Tax=Vibrio sp. 811...  216     7e-70
+UniRef90_A0AA95K8Z8 L-aspartate oxidase n=14 Tax=Arsenophonus Tax...  227     7e-70
+UniRef90_A0A1B7L6L4 L-aspartate oxidase n=4 Tax=Mangrovibacter Ta...  226     2e-69
+UniRef90_A0AAT9V038 L-aspartate oxidase n=8 Tax=Enterobacter TaxI...  226     2e-69
+UniRef90_A0A375A7W9 L-aspartate oxidase n=2 Tax=Dickeya TaxID=204...  226     2e-69
+UniRef90_A0A3R9AHZ3 L-aspartate oxidase n=6 Tax=Erwinia TaxID=551...  224     6e-69
+UniRef90_UPI000933CD32 L-aspartate oxidase n=1 Tax=Candidatus Fuk...  224     7e-69
+UniRef90_A0A2U1UI97 L-aspartate oxidase n=5 Tax=Brenneria TaxID=7...  224     8e-69
+UniRef90_E0SBI1 L-aspartate oxidase n=40 Tax=Dickeya TaxID=204037...  224     9e-69
+UniRef90_A0AB35RRL9 L-aspartate oxidase n=44 Tax=Enterobacteriace...  224     1e-68
+UniRef90_A0A2I0FTP8 L-aspartate oxidase n=1 Tax=Enterobacterales ...  224     1e-68
+UniRef90_D4E2P6 L-aspartate oxidase n=265 Tax=Enterobacterales Ta...  224     1e-68
+UniRef90_UPI00083997E8 L-aspartate oxidase n=2 Tax=Vibrio TaxID=6...  224     1e-68
+UniRef90_UPI00215663D8 L-aspartate oxidase n=1 Tax=Serratia marce...  220     2e-68
+UniRef90_UPI002898176F L-aspartate oxidase n=1 Tax=Pantoea sp. Ta...  223     3e-68
+UniRef90_UPI002964B0BA L-aspartate oxidase n=1 Tax=Vibrio sp. 708...  217     3e-68
+UniRef90_U3A5G5 L-aspartate oxidase n=34 Tax=Vibrio TaxID=662 Rep...  223     3e-68
+UniRef90_UPI003A4D8F7F L-aspartate oxidase n=1 Tax=Aliidiomarina ...  223     4e-68
+UniRef90_A0AA41Y404 L-aspartate oxidase n=3 Tax=Brenneria TaxID=7...  223     4e-68
+UniRef90_I0QSX5 L-aspartate oxidase n=1 Tax=Serratia sp. M24T3 Ta...  223     4e-68
+UniRef90_A0A8I2B5T8 L-aspartate oxidase n=27 Tax=Plesiomonas TaxI...  223     4e-68
+UniRef90_A0A848MG84 L-aspartate oxidase n=53 Tax=root TaxID=1 Rep...  223     4e-68
+UniRef90_E3BFT3 L-aspartate oxidase n=3 Tax=Vibrio caribbeanicus ...  223     4e-68
+UniRef90_A0AAJ1JFU9 L-aspartate oxidase n=25 Tax=Providencia TaxI...  222     6e-68
+UniRef90_A0AAJ2VCX3 L-aspartate oxidase n=9 Tax=Brenneria TaxID=7...  222     7e-68
+UniRef90_A0A6G7CFL2 L-aspartate oxidase n=8 Tax=Vibrio TaxID=662 ...  222     8e-68
+UniRef90_A0A0Q2MYV2 L-aspartate oxidase n=17 Tax=Vibrionaceae Tax...  222     8e-68
+UniRef90_A0A2U3BCY5 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  221     1e-67
+UniRef90_E0WS09 L-aspartate oxidase n=3 Tax=Candidatus Regiella i...  221     2e-67
+UniRef90_A0A0C5W7L6 L-aspartate oxidase n=20 Tax=Vibrionaceae Tax...  221     2e-67
+UniRef90_A0A090R279 L-aspartate oxidase n=1 Tax=Photobacterium ap...  214     2e-67
+UniRef90_A0A443IFT9 L-aspartate oxidase n=1 Tax=[Pantoea] beijing...  221     3e-67
+UniRef90_A0A4Q0YNA7 L-aspartate oxidase n=1 Tax=Veronia nyctiphan...  221     3e-67
+UniRef90_L8J991 L-aspartate oxidase n=7 Tax=Photobacterium TaxID=...  221     3e-67
+UniRef90_C4K3Y7 L-aspartate oxidase n=8 Tax=Candidatus Hamiltonel...  220     3e-67
+UniRef90_F7RXE2 L-aspartate oxidase n=6 Tax=Idiomarinaceae TaxID=...  220     3e-67
+UniRef90_A0A0Q4MQL5 L-aspartate oxidase n=3 Tax=unclassified Erwi...  220     4e-67
+UniRef90_A0A9X3CDD0 L-aspartate oxidase n=21 Tax=Vibrio TaxID=662...  220     5e-67
+UniRef90_Q9KPA4 L-aspartate oxidase n=157 Tax=Gammaproteobacteria...  219     6e-67
+UniRef90_A0A1E7Z5D1 L-aspartate oxidase n=30 Tax=Erwiniaceae TaxI...  219     6e-67
+UniRef90_A0A553FBA3 L-aspartate oxidase n=2 Tax=Thalassomonas sp....  219     7e-67
+UniRef90_Q6D212 L-aspartate oxidase n=97 Tax=Enterobacterales Tax...  219     7e-67
+UniRef90_UPI001CDBC118 FAD-binding protein n=2 Tax=Vibrio TaxID=6...  211     8e-67
+UniRef90_UPI0023B0A95F L-aspartate oxidase n=1 Tax=Vibrio sp. JC0...  219     8e-67
+UniRef90_UPI001F159622 L-aspartate oxidase n=1 Tax=Vibrio sp. SS-...  219     8e-67
+UniRef90_A0A1S8YEN5 L-aspartate oxidase n=1 Tax=Izhakiella austra...  219     8e-67
+UniRef90_A0A7Y7TBY0 L-aspartate oxidase n=97 Tax=Vibrionales TaxI...  219     1e-66
+UniRef90_A0A6I5IT81 L-aspartate oxidase n=21 Tax=Bacteria TaxID=2...  219     1e-66
+UniRef90_UPI0011BEDCE8 L-aspartate oxidase n=3 Tax=Erwiniaceae Ta...  218     1e-66
+UniRef90_A0A1M5YI80 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  218     1e-66
+UniRef90_A0A427U618 L-aspartate oxidase n=28 Tax=Vibrio TaxID=662...  218     2e-66
+UniRef90_D1P3B4 L-aspartate oxidase n=79 Tax=Gammaproteobacteria ...  218     2e-66
+UniRef90_A0A7Z2YCX9 L-aspartate oxidase n=4 Tax=Vibrio TaxID=662 ...  218     3e-66
+UniRef90_Q6LMR4 L-aspartate oxidase n=6 Tax=Photobacterium TaxID=...  218     3e-66
+UniRef90_Q47WN7 L-aspartate oxidase n=16 Tax=Colwellia TaxID=2822...  217     5e-66
+UniRef90_A0A0F5V7U8 L-aspartate oxidase n=9 Tax=Photobacterium Ta...  217     6e-66
+UniRef90_A0A1C3EIZ2 L-aspartate oxidase n=1 Tax=Veronia pacifica ...  217     6e-66
+UniRef90_A0A3N9THK5 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  217     6e-66
+UniRef90_A0A1R4L9N8 L-aspartate oxidase n=9 Tax=Vibrio TaxID=662 ...  217     6e-66
+UniRef90_A0A0B8QRI1 L-aspartate oxidase n=4 Tax=Vibrio ishigakens...  214     8e-66
+UniRef90_UPI001C0879FB L-aspartate oxidase n=2 Tax=Colwellia TaxI...  217     8e-66
+UniRef90_W0HLC0 L-aspartate oxidase n=7 Tax=Sodalis TaxID=84565 R...  216     9e-66
+UniRef90_A0A5C6QUA3 L-aspartate oxidase n=7 Tax=Colwellia TaxID=2...  216     1e-65
+UniRef90_Q5E307 L-aspartate oxidase n=26 Tax=Aliivibrio TaxID=511...  217     1e-65
+UniRef90_A0A3E0UBX1 L-aspartate oxidase n=2 Tax=Colwelliaceae Tax...  216     1e-65
+UniRef90_A0A1Q9H328 L-aspartate oxidase n=21 Tax=Photobacterium d...  216     1e-65
+UniRef90_A0AA40TH68 L-aspartate oxidase (Fragment) n=1 Tax=Citrob...  205     1e-65
+UniRef90_A0A557PHH5 L-aspartate oxidase n=16 Tax=Vibrio TaxID=662...  216     1e-65
+UniRef90_UPI0008388D07 L-aspartate oxidase n=1 Tax=Thalassotalea ...  216     1e-65
+UniRef90_A0A1I4WBG7 L-aspartate oxidase n=1 Tax=Izhakiella capsod...  216     1e-65
+UniRef90_A0A3E0TMH2 L-aspartate oxidase n=3 Tax=Thalassotalea Tax...  216     1e-65
+UniRef90_UPI000970FFF5 L-aspartate oxidase n=3 Tax=Colwelliaceae ...  216     2e-65
+UniRef90_A0A2M9WGZ4 L-aspartate oxidase n=80 Tax=root TaxID=1 Rep...  216     2e-65
+UniRef90_V5ZAV9 L-aspartate oxidase n=2 Tax=Erwinia piriflorinigr...  217     2e-65
+UniRef90_A0A0U3B7Q8 L-aspartate oxidase n=3 Tax=Lacimicrobium Tax...  216     2e-65
+UniRef90_A0A7X3M9L2 L-aspartate oxidase n=85 Tax=cellular organis...  216     2e-65
+UniRef90_A0A9X3CKY6 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  216     2e-65
+UniRef90_UPI00082CC7DC L-aspartate oxidase n=1 Tax=Erwinia sp. Er...  216     2e-65
+UniRef90_UPI00131CAE47 L-aspartate oxidase n=2 Tax=Erwiniaceae Ta...  215     2e-65
+UniRef90_A0A6P1PZL7 L-aspartate oxidase n=15 Tax=Erwiniaceae TaxI...  215     3e-65
+UniRef90_A0A1R4B8J1 L-aspartate oxidase n=1 Tax=Vibrio palustris ...  215     3e-65
+UniRef90_A0AA37VYW2 L-aspartate oxidase n=1 Tax=Paraferrimonas se...  215     3e-65
+UniRef90_A0A9X1ZKD7 L-aspartate oxidase n=5 Tax=Shewanella TaxID=...  214     5e-65
+UniRef90_A0A9D5Z4H1 L-aspartate oxidase n=2 Tax=Shewanellaceae Ta...  214     5e-65
+UniRef90_UPI001C0A2B1E L-aspartate oxidase n=2 Tax=Colwellia TaxI...  214     5e-65
+UniRef90_UPI00114D1EE5 FAD-binding protein n=1 Tax=Vibrio genomos...  208     5e-65
+UniRef90_U3TUG8 L-aspartate oxidase n=3 Tax=Enterobacterales TaxI...  214     6e-65
+UniRef90_A0AAC9U170 L-aspartate oxidase n=8 Tax=Shewanella TaxID=...  214     6e-65
+UniRef90_A0A7X4RTX0 L-aspartate oxidase n=1 Tax=Vibrio eleionomae...  214     6e-65
+UniRef90_UPI000A1775AF L-aspartate oxidase n=1 Tax=Cognaticolwell...  214     7e-65
+UniRef90_A0A4R6UZJ0 L-aspartate oxidase n=1 Tax=Permianibacter ag...  214     8e-65
+UniRef90_UPI000B9B7B64 L-aspartate oxidase n=1 Tax=Psychromonas s...  214     8e-65
+UniRef90_UPI000E3CDDD4 L-aspartate oxidase n=1 Tax=Vibrio maerlii...  214     8e-65
+UniRef90_UPI001F001A35 L-aspartate oxidase n=1 Tax=Vibrio styloph...  214     8e-65
+UniRef90_A0A4U1BQV0 L-aspartate oxidase n=1 Tax=Ferrimonas aestua...  214     9e-65
+UniRef90_A0A7Y4FKB0 L-aspartate oxidase n=2 Tax=unclassified Vibr...  214     1e-64
+UniRef90_UPI0019D148DE L-aspartate oxidase n=1 Tax=Thalassotalea ...  214     1e-64
+UniRef90_A0A1X1MY37 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  214     1e-64
+UniRef90_A0A4P6P9W5 L-aspartate oxidase n=4 Tax=Colwelliaceae Tax...  213     1e-64
+UniRef90_UPI0028ACA5AC L-aspartate oxidase n=1 Tax=Pantoea septic...  211     1e-64
+UniRef90_A0A6M8UBT3 L-aspartate oxidase n=1 Tax=Erwiniaceae bacte...  214     1e-64
+UniRef90_A0A7X8YGN2 L-aspartate oxidase n=1 Tax=Vibrio agarilytic...  214     1e-64
+UniRef90_I2B6E5 L-aspartate oxidase n=1 Tax=Shimwellia blattae (s...  213     1e-64
+UniRef90_A0AA37TJ70 L-aspartate oxidase n=1 Tax=Paraferrimonas ha...  213     1e-64
+UniRef90_UPI0025740E81 L-aspartate oxidase n=1 Tax=Thalassotalea ...  213     2e-64
+UniRef90_A0A6L7HWK5 L-aspartate oxidase n=17 Tax=Shewanella TaxID...  213     2e-64
+UniRef90_A0A5C8LUB8 L-aspartate oxidase n=13 Tax=Gammaproteobacte...  213     2e-64
+UniRef90_A0A2C8CXD6 L-aspartate oxidase n=2 Tax=Sodalis endosymbi...  213     2e-64
+UniRef90_A0A2G8EGB8 L-aspartate oxidase n=1 Tax=Erwinia sp. OLSSP...  213     2e-64
+UniRef90_A0A088MZ85 L-aspartate oxidase n=1 Tax=Candidatus Bauman...  213     2e-64
+UniRef90_A0A552X4R5 L-aspartate oxidase n=2 Tax=Aliidiomarina Tax...  213     3e-64
+UniRef90_UPI00240BC55E L-aspartate oxidase n=1 Tax=Thalassotalea ...  213     3e-64
+UniRef90_W7R2X6 L-aspartate oxidase n=2 Tax=Catenovulum agarivora...  213     3e-64
+UniRef90_A0AAW4HGK3 L-aspartate oxidase n=352 Tax=Gammaproteobact...  213     3e-64
+UniRef90_UPI000F0B2919 L-aspartate oxidase n=1 Tax=Vibrio zhugei ...  213     3e-64
+UniRef90_UPI002886BEDD L-aspartate oxidase n=2 Tax=Colwelliaceae ...  213     3e-64
+UniRef90_UPI0021C2819A L-aspartate oxidase n=1 Tax=Shewanella sp....  213     3e-64
+UniRef90_Q1ZNC5 L-aspartate oxidase n=56 Tax=Photobacterium TaxID...  212     4e-64
+UniRef90_UPI0003608D5E L-aspartate oxidase n=3 Tax=Succinimonas T...  212     5e-64
+UniRef90_A0A919BE46 L-aspartate oxidase n=1 Tax=Thalassotalea mar...  212     5e-64
+UniRef90_N9VQD7 L-aspartate oxidase n=7 Tax=Aeromonas TaxID=642 R...  212     5e-64
+UniRef90_A0A1T4TZL6 L-aspartate oxidase n=46 Tax=Photobacterium T...  212     5e-64
+UniRef90_A0A2N5ENT6 L-aspartate oxidase n=4 Tax=Yersiniaceae TaxI...  212     5e-64
+UniRef90_A0A1G7VWK6 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  212     5e-64
+UniRef90_A0A839IJS9 L-aspartate oxidase n=1 Tax=Oceanospirillum s...  212     5e-64
+UniRef90_UPI001EF23BF0 L-aspartate oxidase n=1 Tax=Vibrio sp. Of7...  212     5e-64
+UniRef90_A0AA50DN24 L-aspartate oxidase n=12 Tax=Erwiniaceae TaxI...  212     6e-64
+UniRef90_Q1LSM4 L-aspartate oxidase n=1 Tax=Baumannia cicadellini...  212     6e-64
+UniRef90_A0A7X0NFV6 L-aspartate oxidase n=2 Tax=Thalassotalea Tax...  211     7e-64
+UniRef90_A0A2N1ZCP1 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  211     7e-64
+UniRef90_UPI0018EC3E5A L-aspartate oxidase n=1 Tax=Shimwellia pse...  211     7e-64
+UniRef90_UPI0021682BFB L-aspartate oxidase n=2 Tax=Enterobacteria...  211     7e-64
+UniRef90_A0A9X1XMS5 L-aspartate oxidase n=9 Tax=Vibrio TaxID=662 ...  211     8e-64
+UniRef90_A0A6I4V6R5 L-aspartate oxidase n=56 Tax=Pantoea TaxID=53...  211     9e-64
+UniRef90_C4LBZ1 L-aspartate oxidase n=6 Tax=Tolumonas TaxID=43947...  211     9e-64
+UniRef90_A0A1J5MNZ7 L-aspartate oxidase n=2 Tax=Gammaproteobacter...  211     1e-63
+UniRef90_A0A2N4XXJ3 L-aspartate oxidase n=1 Tax=Candidatus Bauman...  211     1e-63
+UniRef90_A0A094K0Y8 L-aspartate oxidase n=4 Tax=Shewanella TaxID=...  211     1e-63
+UniRef90_A0A9Q8PYY2 L-aspartate oxidase n=8 Tax=Moellerella wisco...  211     1e-63
+UniRef90_UPI0030019D44 L-aspartate oxidase n=1 Tax=Rheinheimera m...  211     1e-63
+UniRef90_A0A2P8VIQ4 L-aspartate oxidase n=8 Tax=Siccibacter TaxID...  211     1e-63
+UniRef90_A0A4Y7ZH60 L-aspartate oxidase n=2 Tax=Psychromonas TaxI...  211     1e-63
+UniRef90_A0A4R4F832 L-aspartate oxidase n=1 Tax=Lysobacter sp. N4...  211     2e-63
+UniRef90_A0A3L8PRB0 L-aspartate oxidase n=2 Tax=Parashewanella Ta...  211     2e-63
+UniRef90_A0A1H4E3U6 L-aspartate oxidase n=4 Tax=Alkalimonas TaxID...  211     2e-63
+UniRef90_UPI0036347A7B L-aspartate oxidase n=1 Tax=Thalassotalea ...  211     2e-63
+UniRef90_E1SRW5 L-aspartate oxidase n=6 Tax=Ferrimonas balearica ...  211     2e-63
+UniRef90_A0A0S2K296 L-aspartate oxidase n=6 Tax=Pseudoalteromonas...  210     2e-63
+UniRef90_UPI001E4F5F14 FAD-binding protein n=2 Tax=Escherichia co...  202     2e-63
+UniRef90_A0A1E7Q4Q2 L-aspartate oxidase n=2 Tax=Rheinheimera TaxI...  210     2e-63
+UniRef90_UPI0024103919 L-aspartate oxidase n=1 Tax=Vibrio hannami...  210     2e-63
+UniRef90_UPI0021D26CF0 L-aspartate oxidase n=2 Tax=unclassified C...  210     2e-63
+UniRef90_A0A6M4YVM6 L-aspartate oxidase n=10 Tax=Aeromonas TaxID=...  210     2e-63
+UniRef90_UPI000DE9901F L-aspartate oxidase n=1 Tax=Aliidiomarina ...  210     3e-63
+UniRef90_UPI0005711491 L-aspartate oxidase n=4 Tax=Vibrio TaxID=6...  210     3e-63
+UniRef90_UPI001E58DA3F L-aspartate oxidase n=3 Tax=Motilimonas Ta...  210     3e-63
+UniRef90_A0A0U5GPM5 L-aspartate oxidase n=6 Tax=Duffyella gerunde...  210     3e-63
+UniRef90_A0A1Y5D6R0 L-aspartate oxidase n=1 Tax=Colwellia sp. 39_...  210     3e-63
+UniRef90_A0A0J8GUC5 L-aspartate oxidase n=1 Tax=Catenovulum marit...  210     4e-63
+UniRef90_A0A2N0WP67 L-aspartate oxidase n=1 Tax=Alteromonadales b...  209     4e-63
+UniRef90_U3AF54 L-aspartate oxidase n=9 Tax=Vibrio TaxID=662 RepI...  209     5e-63
+UniRef90_UPI00195FA63F L-aspartate oxidase n=1 Tax=Parashewanella...  209     5e-63
+UniRef90_UPI0025731573 L-aspartate oxidase n=1 Tax=Thalassotalea ...  209     5e-63
+UniRef90_UPI000CF43A76 L-aspartate oxidase n=1 Tax=Photobacterium...  205     5e-63
+UniRef90_A0A081NA82 L-aspartate oxidase n=4 Tax=Endozoicomonas Ta...  209     5e-63
+UniRef90_A0A937HHW1 L-aspartate oxidase n=1 Tax=Shewanellaceae ba...  209     5e-63
+UniRef90_A0A2N8Z842 L-aspartate oxidase n=2 Tax=Vibrio tapetis Ta...  209     6e-63
+UniRef90_UPI001180D727 L-aspartate oxidase n=2 Tax=Catenovulum se...  209     6e-63
+UniRef90_A0A1I1HDJ1 L-aspartate oxidase n=1 Tax=Pseudoalteromonas...  209     6e-63
+UniRef90_A0A385MXI1 L-aspartate oxidase n=3 Tax=Alteromonadaceae ...  210     6e-63
+UniRef90_M4UI14 L-aspartate oxidase n=1 Tax=Psychromonas sp. CNPT...  209     6e-63
+UniRef90_UPI0011864AD7 L-aspartate oxidase n=1 Tax=Pleionea sedim...  209     7e-63
+UniRef90_UPI0023D9CF78 L-aspartate oxidase n=1 Tax=Aliiglaciecola...  209     7e-63
+UniRef90_UPI0023552813 L-aspartate oxidase n=1 Tax=Anaerobiospiri...  204     7e-63
+UniRef90_UPI0009491E0F L-aspartate oxidase n=1 Tax=Pantoea sp. 1....  209     7e-63
+UniRef90_UPI000FC9F986 L-aspartate oxidase n=1 Tax=Pseudidiomarin...  209     8e-63
+UniRef90_A0A240E9V6 L-aspartate oxidase n=17 Tax=root TaxID=1 Rep...  209     8e-63
+UniRef90_A0A166WQS7 L-aspartate oxidase n=17 Tax=Pseudoalteromona...  209     8e-63
+UniRef90_A0A432WRN4 L-aspartate oxidase n=1 Tax=Aliidiomarina san...  209     9e-63
+UniRef90_UPI00037F590C L-aspartate oxidase n=1 Tax=Gayadomonas jo...  209     9e-63
+UniRef90_UPI0021068489 L-aspartate oxidase n=1 Tax=Pseudomonas be...  209     1e-62
+UniRef90_A0A0M2VDA8 L-aspartate oxidase n=11 Tax=Chromatiaceae Ta...  209     1e-62
+UniRef90_A0A6B2FLE8 L-aspartate oxidase n=1 Tax=Enterobacteriacea...  209     1e-62
+UniRef90_A0A4Q9XRT4 L-aspartate oxidase n=1 Tax=Bowmanella sp. JS...  208     1e-62
+UniRef90_A0AA50KN01 L-aspartate oxidase n=17 Tax=Aeromonadaceae T...  208     1e-62
+UniRef90_UPI0005573637 L-aspartate oxidase n=2 Tax=Erwinia TaxID=...  208     1e-62
+UniRef90_A0AAW8NPZ6 L-aspartate oxidase n=19 Tax=Shewanella TaxID...  208     1e-62
+UniRef90_A0A518XES8 L-aspartate oxidase n=1 Tax=Pantoea dispersa ...  208     1e-62
+UniRef90_A0A432XA95 L-aspartate oxidase n=1 Tax=Aliidiomarina tai...  208     1e-62
+UniRef90_UPI00273BEE28 L-aspartate oxidase n=1 Tax=Alkalimonas co...  208     1e-62
+UniRef90_A0AAE9Z5D7 L-aspartate oxidase n=4 Tax=Thalassomonas Tax...  208     2e-62
+UniRef90_A0A7Z6ZTT5 L-aspartate oxidase n=2 Tax=Pseudidiomarina a...  208     2e-62
+UniRef90_A0A4P8YNK9 L-aspartate oxidase n=2 Tax=Enterobacteriacea...  208     2e-62
+UniRef90_UPI0026211B36 L-aspartate oxidase n=1 Tax=uncultured Fer...  208     2e-62
+UniRef90_A0A3M2DY81 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  208     2e-62
+UniRef90_UPI00227FB07D L-aspartate oxidase n=1 Tax=Alteromonas sp...  208     2e-62
+UniRef90_A0AA51RVU9 L-aspartate oxidase n=1 Tax=Pleionea sp. HL-J...  208     2e-62
+UniRef90_UPI001556FAC8 L-aspartate oxidase n=1 Tax=Permianibacter...  208     2e-62
+UniRef90_UPI001E39A8A1 L-aspartate oxidase n=3 Tax=Pantoea TaxID=...  208     2e-62
+UniRef90_UPI001031E6FC L-aspartate oxidase n=1 Tax=[Erwinia] medi...  207     2e-62
+UniRef90_A0A2V1GWB4 L-aspartate oxidase n=1 Tax=Pelagibaculum spo...  208     2e-62
+UniRef90_A0A235CJ67 L-aspartate oxidase n=5 Tax=Oceanimonas TaxID...  207     2e-62
+UniRef90_A0A291B9M3 L-aspartate oxidase n=1 Tax=Candidatus Entero...  207     3e-62
+UniRef90_A0A940ECU2 L-aspartate oxidase n=1 Tax=Endozoicomonas sp...  207     3e-62
+UniRef90_A0A4Y6IAL0 L-aspartate oxidase n=2 Tax=unclassified Shew...  207     3e-62
+UniRef90_A0A2A5T6P3 L-aspartate oxidase n=3 Tax=Candidatus Entero...  207     3e-62
+UniRef90_A0A9X2AUL3 L-aspartate oxidase n=1 Tax=Vibrio gelatinily...  207     3e-62
+UniRef90_UPI00261239B0 L-aspartate oxidase n=2 Tax=Thalassolituus...  207     3e-62
+UniRef90_UPI00077CB28C L-aspartate oxidase n=3 Tax=Shewanella Tax...  207     3e-62
+UniRef90_A0A844BZ05 L-aspartate oxidase n=5 Tax=root TaxID=1 RepI...  207     3e-62
+UniRef90_A0A973DKZ8 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  207     4e-62
+UniRef90_A0A0H3KYK1 L-aspartate oxidase n=68 Tax=Pantoea TaxID=53...  207     4e-62
+UniRef90_UPI0029229892 L-aspartate oxidase n=3 Tax=unclassified C...  207     4e-62
+UniRef90_A0A8T7IA23 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  207     4e-62
+UniRef90_A0A368NMP4 L-aspartate oxidase n=2 Tax=Corallincola TaxI...  207     4e-62
+UniRef90_UPI00132FC478 FAD-binding protein n=1 Tax=Klebsiella pne...  194     4e-62
+UniRef90_A0A0Q0G3B2 L-aspartate oxidase n=51 Tax=Shewanella TaxID...  207     4e-62
+UniRef90_UPI001572052C L-aspartate oxidase n=1 Tax=Marinifaba aqu...  207     5e-62
+UniRef90_A0A2I0CR48 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  207     5e-62
+UniRef90_UPI000E3E9E25 FAD-binding protein n=1 Tax=Klebsiella pne...  196     5e-62
+UniRef90_A0A1M5ZH58 L-aspartate oxidase n=1 Tax=Ferrimonas marina...  207     5e-62
+UniRef90_UPI002620DD3F L-aspartate oxidase n=4 Tax=Shewanella Tax...  207     5e-62
+UniRef90_A0AAJ5UAP8 L-aspartate oxidase n=24 Tax=Pantoea TaxID=53...  207     5e-62
+UniRef90_A0A269PTX1 L-aspartate oxidase n=3 Tax=unclassified Pseu...  207     5e-62
+UniRef90_A0AB39HEN7 L-aspartate oxidase n=1 Tax=Vibrio sp. HB2360...  207     6e-62
+UniRef90_A0A4U1B8B4 L-aspartate oxidase n=4 Tax=Thalassotalea Tax...  206     7e-62
+UniRef90_A0A2K9JYK3 L-aspartate oxidase n=30 Tax=Pseudoalteromona...  206     7e-62
+UniRef90_A0A3N6RVV2 L-aspartate oxidase n=2 Tax=Erwinia psidii Ta...  206     7e-62
+UniRef90_K2KDL0 L-aspartate oxidase n=1 Tax=Idiomarina xiamenensi...  207     7e-62
+UniRef90_A0A0P9FMC3 L-aspartate oxidase n=11 Tax=Pseudoalteromona...  206     8e-62
+UniRef90_A0A1Q4UT03 L-aspartate oxidase n=64 Tax=Thalassospira Ta...  206     9e-62
+UniRef90_A0AA97E3N9 L-aspartate oxidase n=4 Tax=Pseudomonadaceae ...  206     9e-62
+UniRef90_UPI0018F34EBA L-aspartate oxidase n=1 Tax=Flocculibacter...  206     9e-62
+UniRef90_A0AAW7YBC0 L-aspartate oxidase n=5 Tax=Photobacterium Ta...  206     1e-61
+UniRef90_UPI0031EC4F55 L-aspartate oxidase n=1 Tax=Ferrimonas pel...  206     1e-61
+UniRef90_A0A7L9S5J4 L-aspartate oxidase n=3 Tax=Thalassotalea Tax...  206     1e-61
+UniRef90_A0A1Y6ETQ7 L-aspartate oxidase n=2 Tax=Pseudidiomarina p...  206     1e-61
+UniRef90_A0A3P1SMC9 L-aspartate oxidase n=1 Tax=Amphritea balenae...  206     1e-61
+UniRef90_A0A432YA99 L-aspartate oxidase n=1 Tax=Pseudidiomarina i...  206     1e-61
+UniRef90_A0A1T4KMG7 L-aspartate oxidase n=1 Tax=Oceanospirillum m...  206     1e-61
+UniRef90_UPI00241E4890 L-aspartate oxidase n=1 Tax=Alteromonas me...  201     1e-61
+UniRef90_A0A099L6D9 L-aspartate oxidase n=2 Tax=unclassified Thal...  206     1e-61
+UniRef90_A0A948JFP5 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  206     1e-61
+UniRef90_A0A6G7LQ34 L-aspartate oxidase n=63 Tax=Bacteria TaxID=2...  206     1e-61
+UniRef90_A0A358Y1W8 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  206     1e-61
+UniRef90_UPI00200FCB20 L-aspartate oxidase n=2 Tax=Shewanella Tax...  206     1e-61
+UniRef90_Q1N1C4 L-aspartate oxidase n=2 Tax=Bermanella TaxID=5996...  205     1e-61
+UniRef90_A0A1I0FZS4 L-aspartate oxidase n=1 Tax=Thalassotalea aga...  205     2e-61
+UniRef90_A0A1N6G727 L-aspartate oxidase n=22 Tax=Salinivibrio Tax...  206     2e-61
+UniRef90_UPI001E2B168B L-aspartate oxidase n=1 Tax=Paraneptunicel...  206     2e-61
+UniRef90_A0A3M2RK45 L-aspartate oxidase n=4 Tax=Marinobacter TaxI...  206     2e-61
+UniRef90_UPI00129A4B6C L-aspartate oxidase n=1 Tax=Endozoicomonas...  206     2e-61
+UniRef90_A0A244CSQ5 L-aspartate oxidase n=1 Tax=Pseudoalteromonas...  205     2e-61
+UniRef90_UPI0003F7190C L-aspartate oxidase n=6 Tax=Anaerobiospiri...  205     2e-61
+UniRef90_A0A3L0W4C1 L-aspartate oxidase n=300 Tax=Bacteria TaxID=...  205     2e-61
+UniRef90_I1E1D6 L-aspartate oxidase n=23 Tax=Rheinheimera TaxID=6...  205     2e-61
+UniRef90_A0A2N1DJL0 L-aspartate oxidase n=4 Tax=Psychromonas TaxI...  205     2e-61
+UniRef90_UPI00360CCDF0 L-aspartate oxidase n=4 Tax=Bacteria TaxID...  205     2e-61
+UniRef90_Q5R0Z9 L-aspartate oxidase n=23 Tax=Idiomarina TaxID=135...  205     2e-61
+UniRef90_UPI002ED49F4A L-aspartate oxidase n=1 Tax=Endozoicomonad...  205     2e-61
+UniRef90_A0A084CMH3 L-aspartate oxidase n=1 Tax=Candidatus Photod...  205     2e-61
+UniRef90_A0A4P7JS65 L-aspartate oxidase n=2 Tax=unclassified Thal...  205     2e-61
+UniRef90_A0AAE9VM91 L-aspartate oxidase n=1 Tax=Denitrificimonas ...  205     2e-61
+UniRef90_A0A1H6CJF1 L-aspartate oxidase n=2 Tax=Marinobacterium T...  205     2e-61
+UniRef90_UPI001C0827B4 L-aspartate oxidase n=1 Tax=Alteromonas sp...  205     3e-61
+UniRef90_A0A1A9F1L6 L-aspartate oxidase n=5 Tax=Marinobacterium T...  205     3e-61
+UniRef90_A0A0Q0JQQ5 L-aspartate oxidase n=139 Tax=root TaxID=1 Re...  205     3e-61
+UniRef90_A0A3N5XXD0 L-aspartate oxidase n=1 Tax=Alteromonas sedim...  205     3e-61
+UniRef90_UPI0031F148D4 L-aspartate oxidase n=1 Tax=Ferrimonas gel...  204     3e-61
+UniRef90_A0A662ZEW8 L-aspartate oxidase n=7 Tax=Ruminobacter TaxI...  205     3e-61
+UniRef90_A0A5H2Y2E0 L-aspartate oxidase n=6 Tax=Pseudoalteromonas...  204     4e-61
+UniRef90_A0A418Y9M4 L-aspartate oxidase n=1 Tax=Motilimonas pumil...  204     4e-61
+UniRef90_UPI0003B69D2C L-aspartate oxidase n=1 Tax=Denitrificimon...  204     4e-61
+UniRef90_A0A7X8E101 L-aspartate oxidase n=1 Tax=Aeromonadales bac...  204     4e-61
+UniRef90_A0A5S3V1U2 L-aspartate oxidase n=13 Tax=Pseudoalteromona...  204     4e-61
+UniRef90_A0A3D5BH26 L-aspartate oxidase n=8 Tax=Pseudomonadota Ta...  204     4e-61
+UniRef90_A0AAD4FTK5 L-aspartate oxidase n=9 Tax=Pseudoalteromonas...  204     4e-61
+UniRef90_UPI001EFF9FB6 L-aspartate oxidase n=2 Tax=Vibrio TaxID=6...  204     4e-61
+UniRef90_F3GK41 L-aspartate oxidase (Fragment) n=2 Tax=Pseudomona...  195     4e-61
+UniRef90_A0A7Y7CSE5 L-aspartate oxidase n=1 Tax=Oceanospirillacea...  204     4e-61
+UniRef90_UPI001C0876EC L-aspartate oxidase n=1 Tax=Psychrosphaera...  204     5e-61
+UniRef90_UPI00037BDA26 L-aspartate oxidase n=2 Tax=Pantoea TaxID=...  204     5e-61
+UniRef90_A0A1H1V8W8 L-aspartate oxidase n=2 Tax=Halopseudomonas T...  204     5e-61
+UniRef90_A0AAW7XF96 L-aspartate oxidase n=4 Tax=Neptunomonas TaxI...  204     5e-61
+UniRef90_A0A2D5PBY5 L-aspartate oxidase n=3 Tax=Oceanospirillacea...  204     5e-61
+UniRef90_A0A971Z120 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  204     6e-61
+UniRef90_A0A7W3X5P8 L-aspartate oxidase n=2 Tax=Shewanella TaxID=...  204     6e-61
+UniRef90_A0A9X2CEG0 L-aspartate oxidase n=17 Tax=Shewanella TaxID...  204     6e-61
+UniRef90_A0A0T6UN15 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  204     6e-61
+UniRef90_A0AA42BMS6 L-aspartate oxidase n=1 Tax=Opacimonas viscos...  204     6e-61
+UniRef90_A0AA48KV74 L-aspartate oxidase n=2 Tax=Planctobacterium ...  204     6e-61
+UniRef90_UPI0010BFBABB L-aspartate oxidase n=1 Tax=Salinimonas lu...  204     6e-61
+UniRef90_K2ID66 L-aspartate oxidase n=2 Tax=Gallaecimonas TaxID=7...  204     6e-61
+UniRef90_A0A1Q6CHI7 L-aspartate oxidase n=3 Tax=Thalassotalea Tax...  204     7e-61
+UniRef90_A0A941QW32 L-aspartate oxidase n=10 Tax=Oceanospirillale...  204     7e-61
+UniRef90_A0A5C7TNA4 L-aspartate oxidase n=5 Tax=Rheinheimera TaxI...  204     7e-61
+UniRef90_A0A8T0C989 L-aspartate oxidase n=1 Tax=Pseudoalteromonas...  198     7e-61
+UniRef90_A0A973BXD6 L-aspartate oxidase n=10 Tax=Idiomarina TaxID...  204     7e-61
+UniRef90_A0A5C6QVA9 L-aspartate oxidase n=23 Tax=Colwelliaceae Ta...  204     7e-61
+UniRef90_UPI0031EADE89 L-aspartate oxidase n=1 Tax=Pseudaeromonas...  204     8e-61
+UniRef90_A0A7U8C3W2 L-aspartate oxidase n=3 Tax=Neptuniibacter Ta...  202     8e-61
+UniRef90_A0A2X0V2V2 L-aspartate oxidase n=2 Tax=Anaerobiospirillu...  204     8e-61
+UniRef90_UPI0039E24369 L-aspartate oxidase n=4 Tax=Halopseudomona...  204     9e-61
+UniRef90_A0A947U7Z5 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  204     9e-61
+UniRef90_A0A970RCC5 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  204     9e-61
+UniRef90_UPI00189F738E L-aspartate oxidase n=5 Tax=unclassified V...  203     9e-61
+UniRef90_A9DL55 L-aspartate oxidase n=6 Tax=Shewanella TaxID=22 R...  203     1e-60
+UniRef90_A0A5J6QC07 L-aspartate oxidase n=1 Tax=Pseudomonas sp. C...  203     1e-60
+UniRef90_A0A9Q9LEB8 L-aspartate oxidase n=1 Tax=Sodalis sp. Fse T...  203     1e-60
+UniRef90_A0AA90NR07 L-aspartate oxidase n=2 Tax=Endonucleobacter ...  204     1e-60
+UniRef90_A0A8T7J0A0 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  203     1e-60
+UniRef90_A0A2A5CLA2 L-aspartate oxidase n=1 Tax=Moraxellaceae bac...  203     1e-60
+UniRef90_UPI00208E38F4 L-aspartate oxidase n=1 Tax=Aliidiomarina ...  203     1e-60
+UniRef90_A0A1Z7Z6L8 L-aspartate oxidase n=2 Tax=unclassified Gamm...  203     1e-60
+UniRef90_UPI000E30423A L-aspartate oxidase n=2 Tax=Zobellella Tax...  203     1e-60
+UniRef90_UPI00207505C7 L-aspartate oxidase n=1 Tax=Vibrio sp. SCS...  203     1e-60
+UniRef90_UPI002AA9A725 L-aspartate oxidase n=1 Tax=Denitrificimon...  203     1e-60
+UniRef90_A0A1Z8R873 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  203     1e-60
+UniRef90_UPI00267553E2 L-aspartate oxidase n=3 Tax=unclassified M...  203     1e-60
+UniRef90_UPI00196B72CE L-aspartate oxidase n=3 Tax=Aliamphritea T...  203     1e-60
+UniRef90_UPI00078148E8 L-aspartate oxidase n=1 Tax=Endozoicomonas...  203     2e-60
+UniRef90_A0A657B6G5 L-aspartate oxidase n=3 Tax=unclassified Olei...  203     2e-60
+UniRef90_A0A078LXV5 L-aspartate oxidase n=3 Tax=Pseudomonadaceae ...  203     2e-60
+UniRef90_A0A031MHA6 L-aspartate oxidase n=8 Tax=Pseudomonadaceae ...  203     2e-60
+UniRef90_UPI0013CFDA8E L-aspartate oxidase n=1 Tax=Paraferrimonas...  202     2e-60
+UniRef90_A0A939H637 L-aspartate oxidase n=1 Tax=Alteromonas sp. 5...  203     2e-60
+UniRef90_UPI00329856CF L-aspartate oxidase n=1 Tax=Marinobacter a...  198     2e-60
+UniRef90_UPI000B35A203 L-aspartate oxidase n=2 Tax=Thaumasiovibri...  202     2e-60
+UniRef90_A0A9E1WKW3 L-aspartate oxidase n=1 Tax=Kordiimonadaceae ...  203     2e-60
+UniRef90_A0A974XLW0 L-aspartate oxidase n=10 Tax=Shewanella TaxID...  202     2e-60
+UniRef90_A0A6N8FC37 L-aspartate oxidase n=3 Tax=Psychrosphaera Ta...  202     2e-60
+UniRef90_UPI00299D645F L-aspartate oxidase n=1 Tax=Marinobacter s...  202     2e-60
+UniRef90_A0A941ZBR1 L-aspartate oxidase n=1 Tax=Citrobacter sp. J...  203     3e-60
+UniRef90_A0A9C9GP87 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  202     3e-60
+UniRef90_A0A432W6X9 L-aspartate oxidase n=1 Tax=Aliidiomarina min...  202     3e-60
+UniRef90_UPI00242A7F65 L-aspartate oxidase n=1 Tax=Candidatus Mar...  202     3e-60
+UniRef90_Q3IDK0 L-aspartate oxidase n=11 Tax=Pseudoalteromonas Ta...  202     3e-60
+UniRef90_A0A3M3KVE8 L-aspartate oxidase (Fragment) n=2 Tax=Pseudo...  198     3e-60
+UniRef90_A0A3B9X0T8 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  200     3e-60
+UniRef90_UPI0021D7FD3A L-aspartate oxidase n=1 Tax=Endozoicomonas...  202     3e-60
+UniRef90_A0A5D0VQ49 L-aspartate oxidase n=75 Tax=root TaxID=1 Rep...  202     3e-60
+UniRef90_A0A1H2EEJ0 L-aspartate oxidase n=3 Tax=Pseudomonadaceae ...  202     4e-60
+UniRef90_A0A2T5PEF6 L-aspartate oxidase n=1 Tax=Pseudomonas mangr...  202     4e-60
+UniRef90_UPI001EE9028C L-aspartate oxidase n=2 Tax=Psychromonas T...  202     4e-60
+UniRef90_A0A316G3H2 L-aspartate oxidase n=1 Tax=Pleionea mediterr...  202     4e-60
+UniRef90_UPI00059C2F11 L-aspartate oxidase n=3 Tax=Erwinia TaxID=...  202     4e-60
+UniRef90_A0AAW7QWX1 L-aspartate oxidase n=3 Tax=Pseudidiomarina T...  202     4e-60
+UniRef90_A0A136HBT3 L-aspartate oxidase n=9 Tax=Neptuniibacter Ta...  201     5e-60
+UniRef90_A0A975DED1 L-aspartate oxidase n=1 Tax=Psychrosphaera yt...  202     5e-60
+UniRef90_A0A8D3Y2W9 L-aspartate oxidase n=9 Tax=Gammaproteobacter...  202     5e-60
+UniRef90_A0A6C0TQD0 L-aspartate oxidase n=4 Tax=Pseudomonas TaxID...  202     5e-60
+UniRef90_A0A081KBR2 L-aspartate oxidase n=1 Tax=Endozoicomonas el...  202     5e-60
+UniRef90_A0A7X5LMK6 L-aspartate oxidase n=74 Tax=Alteromonadaceae...  202     5e-60
+UniRef90_A0A8J6M054 L-aspartate oxidase n=1 Tax=Neptunicella mari...  201     5e-60
+UniRef90_A0A7V1FRN7 L-aspartate oxidase n=2 Tax=Halopseudomonas x...  201     5e-60
+UniRef90_A0A128FAD3 L-aspartate oxidase n=18 Tax=Vibrionaceae Tax...  201     5e-60
+UniRef90_A0A4D6X4R3 L-aspartate oxidase n=87 Tax=root TaxID=1 Rep...  201     6e-60
+UniRef90_A0AA41W542 L-aspartate oxidase n=1 Tax=Echinimonas agari...  201     6e-60
+UniRef90_A0A1H2EP97 L-aspartate oxidase n=2 Tax=Pseudomonas TaxID...  201     6e-60
+UniRef90_A0A8T3KRT9 L-aspartate oxidase n=6 Tax=Bacteria TaxID=2 ...  201     6e-60
+UniRef90_A0AAV3V0X1 L-aspartate oxidase n=11 Tax=Paraglaciecola T...  201     6e-60
+UniRef90_A0A3M6GW95 L-aspartate oxidase n=1 Tax=Pseudomonas amygd...  196     6e-60
+UniRef90_A0A8K0V343 L-aspartate oxidase n=3 Tax=Tenebrionibacter/...  201     6e-60
+UniRef90_A4C6N7 L-aspartate oxidase n=1 Tax=Pseudoalteromonas tun...  201     6e-60
+UniRef90_A0A3N1PQ39 L-aspartate oxidase n=4 Tax=Gallaecimonas Tax...  201     6e-60
+UniRef90_UPI003964807E L-aspartate oxidase n=2 Tax=Cellvibrio Tax...  201     7e-60
+UniRef90_UPI001ADD5343 L-aspartate oxidase n=13 Tax=Gammaproteoba...  201     7e-60
+UniRef90_A0A2N6GF70 L-aspartate oxidase n=1 Tax=Sedimenticola sp....  201     7e-60
+UniRef90_A0A9D2AZZ9 L-aspartate oxidase n=3 Tax=Anaerobiospirillu...  201     7e-60
+UniRef90_A0A545U6G1 L-aspartate oxidase n=1 Tax=Aliikangiella cor...  201     8e-60
+UniRef90_A0A0P7XS92 L-aspartate oxidase n=1 Tax=Idiomarinaceae ba...  201     8e-60
+UniRef90_A0A432XQJ9 L-aspartate oxidase n=8 Tax=Pseudidiomarina T...  201     8e-60
+UniRef90_A0A2E2VT94 L-aspartate oxidase n=1 Tax=Kangiellaceae bac...  201     9e-60
+UniRef90_A0A657AUK9 L-aspartate oxidase n=4 Tax=unclassified Olei...  201     9e-60
+UniRef90_UPI001F1D64FB L-aspartate oxidase n=1 Tax=Paraglaciecola...  201     9e-60
+UniRef90_A0A1T1HF04 L-aspartate oxidase n=4 Tax=Oceanospirillum T...  201     9e-60
+UniRef90_A0A9X1W4L4 L-aspartate oxidase n=2 Tax=Pseudomonas maria...  201     1e-59
+UniRef90_A0A6N4DML4 L-aspartate oxidase n=1 Tax=Candidatus Sedime...  201     1e-59
+UniRef90_A0A432VZK3 L-aspartate oxidase n=2 Tax=Aliidiomarina Tax...  201     1e-59
+UniRef90_UPI001C81394B L-aspartate oxidase n=1 Tax=Pseudomonas sp...  201     1e-59
+UniRef90_A0A6H1UEI5 L-aspartate oxidase n=1 Tax=Ferrimonas lipoly...  201     1e-59
+UniRef90_A0A5J6WPR4 L-aspartate oxidase n=18 Tax=Moritella TaxID=...  201     1e-59
+UniRef90_A0A5P1RDD2 L-aspartate oxidase n=1 Tax=Neptunomonas conc...  201     1e-59
+UniRef90_A0A379AC89 L-aspartate oxidase n=2 Tax=Pantoea TaxID=533...  196     1e-59
+UniRef90_B2VI37 L-aspartate oxidase n=1 Tax=Erwinia tasmaniensis ...  201     1e-59
+UniRef90_A0A2N7DF82 L-aspartate oxidase n=1 Tax=Vibrio sp. 10N.28...  201     1e-59
+UniRef90_UPI00166444D3 L-aspartate oxidase n=1 Tax=Halopseudomona...  201     1e-59
+UniRef90_A0A839UNZ5 L-aspartate oxidase n=2 Tax=Simiduia TaxID=44...  201     1e-59
+UniRef90_A0A2E4USY4 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  201     1e-59
+UniRef90_UPI0019DC45D9 L-aspartate oxidase n=2 Tax=Pseudomonas Ta...  201     1e-59
+UniRef90_A0A839T8T6 L-aspartate oxidase n=1 Tax=Azomonas macrocyt...  201     1e-59
+UniRef90_UPI003519C8B2 FAD-binding protein n=1 Tax=Alloalcanivora...  194     1e-59
+UniRef90_A0A8J7FGA4 L-aspartate oxidase n=4 Tax=Pontibacterium Ta...  200     1e-59
+UniRef90_A0A1G6AD14 L-aspartate oxidase n=1 Tax=Pseudidiomarina i...  200     1e-59
+UniRef90_A0A1Y5DHU1 L-aspartate oxidase (Fragment) n=1 Tax=Berman...  199     1e-59
+UniRef90_A0A4Q8UE92 L-aspartate oxidase n=1 Tax=Alteromonas sp. K...  201     2e-59
+UniRef90_UPI00329691A6 L-aspartate oxidase n=1 Tax=Marinobacter s...  197     2e-59
+UniRef90_A0AAW7YFN9 L-aspartate oxidase n=2 Tax=unclassified Colw...  201     2e-59
+UniRef90_UPI002409ABCD L-aspartate oxidase n=2 Tax=unclassified P...  200     2e-59
+UniRef90_A0A545U3P5 L-aspartate oxidase n=1 Tax=Exilibacterium tr...  200     2e-59
+UniRef90_A0A1Y1R4T0 L-aspartate oxidase n=3 Tax=Oceanospirillales...  200     2e-59
+UniRef90_A0A2D5GAJ0 L-aspartate oxidase n=2 Tax=Oceanospirillum T...  200     2e-59
+UniRef90_UPI00352901AB L-aspartate oxidase n=1 Tax=Pantoea sp. KP...  200     2e-59
+UniRef90_A0A975DH30 L-aspartate oxidase n=3 Tax=Pseudoalteromonas...  200     2e-59
+UniRef90_A0A024HE37 L-aspartate oxidase n=11 Tax=Pseudomonas TaxI...  200     2e-59
+UniRef90_A0A2N0WWR7 L-aspartate oxidase n=6 Tax=Psychromonas TaxI...  200     2e-59
+UniRef90_UPI0020CA41ED L-aspartate oxidase n=1 Tax=Alteromonadace...  200     2e-59
+UniRef90_A0A3D8MEZ1 L-aspartate oxidase n=1 Tax=Alteromonas aestu...  200     2e-59
+UniRef90_A0A2A2IRC8 L-aspartate oxidase n=2 Tax=Pseudomonas TaxID...  200     2e-59
+UniRef90_A0A1D2X6Q7 L-aspartate oxidase n=1 Tax=Endozoicomonas sp...  200     2e-59
+UniRef90_A0A4Y7ZQ61 L-aspartate oxidase n=12 Tax=Psychromonas Tax...  200     2e-59
+UniRef90_A0A3B9DCG4 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  197     2e-59
+UniRef90_A0A4R2FJE3 L-aspartate oxidase n=6 Tax=Shewanella TaxID=...  200     2e-59
+UniRef90_A0A370DII7 L-aspartate oxidase n=1 Tax=endosymbiont of G...  200     2e-59
+UniRef90_A0A2S2E162 L-aspartate oxidase n=2 Tax=Saliniradius amyl...  200     2e-59
+UniRef90_A0A3B0Y7T4 L-aspartate oxidase (Fragment) n=1 Tax=hydrot...  199     2e-59
+UniRef90_A0A6M4MFY9 L-aspartate oxidase n=1 Tax=Alteromonas pelag...  200     2e-59
+UniRef90_Q51363 L-aspartate oxidase n=213 Tax=Bacteria TaxID=2 Re...  200     2e-59
+UniRef90_UPI001FF6D80B L-aspartate oxidase n=2 Tax=unclassified A...  200     2e-59
+UniRef90_A0A1Y0KPU1 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  200     2e-59
+UniRef90_A0A946HP26 L-aspartate oxidase n=6 Tax=Gammaproteobacter...  200     2e-59
+UniRef90_A0A1R3VPP4 L-aspartate oxidase n=1 Tax=Ectothiorhodosinu...  200     2e-59
+UniRef90_A0A8T7JII8 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  199     3e-59
+UniRef90_UPI001EEF8921 L-aspartate oxidase n=1 Tax=Marinobacteriu...  199     3e-59
+UniRef90_UPI0037351EDC L-aspartate oxidase n=1 Tax=Shewanella mar...  199     3e-59
+UniRef90_A0A411PK08 L-aspartate oxidase n=3 Tax=Shewanella TaxID=...  199     3e-59
+UniRef90_A0A1V0B072 L-aspartate oxidase n=2 Tax=Pseudomonadaceae ...  199     3e-59
+UniRef90_A0A4U1BDY4 L-aspartate oxidase n=6 Tax=Ferrimonas TaxID=...  199     3e-59
+UniRef90_A0A917JIW4 L-aspartate oxidase n=1 Tax=Shewanella gelidi...  199     3e-59
+UniRef90_UPI0022425C22 L-aspartate oxidase n=3 Tax=Alteromonas Ta...  200     3e-59
+UniRef90_A0A562I0U7 L-aspartate oxidase n=2 Tax=Azomonas agilis T...  199     3e-59
+UniRef90_A0A2G6L0N1 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  199     3e-59
+UniRef90_A0A0F4PWM5 L-aspartate oxidase n=13 Tax=Pseudoalteromona...  199     4e-59
+UniRef90_UPI00215DB814 L-aspartate oxidase n=1 Tax=Candidatus Pan...  199     4e-59
+UniRef90_A0A3D2CUM5 L-aspartate oxidase n=3 Tax=Colwellia TaxID=2...  199     4e-59
+UniRef90_A0A4Y8UWT9 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  199     4e-59
+UniRef90_UPI0021E76263 L-aspartate oxidase n=1 Tax=Aestuariibacte...  199     4e-59
+UniRef90_A0A5B7YBZ5 L-aspartate oxidase n=3 Tax=Salinimonas TaxID...  199     4e-59
+UniRef90_A0A1E4UUW5 L-aspartate oxidase n=42 Tax=Pseudomonas TaxI...  199     4e-59
+UniRef90_A0A2E8L2Q8 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  199     4e-59
+UniRef90_B3PJA2 L-aspartate oxidase n=2 Tax=Cellvibrio japonicus ...  199     4e-59
+UniRef90_A0A7R6SU50 L-aspartate oxidase n=2 Tax=Amphritea TaxID=5...  199     5e-59
+UniRef90_A0A2Z6UHP4 L-aspartate oxidase n=1 Tax=Glaciecola sp. (s...  199     5e-59
+UniRef90_UPI00131E5AA6 L-aspartate oxidase n=1 Tax=Paraglaciecola...  199     5e-59
+UniRef90_UPI003266B48D L-aspartate oxidase n=5 Tax=Paraglaciecola...  199     5e-59
+
+
+>UniRef90_A0AB36PFZ7 L-aspartate oxidase n=2 Tax=Enterobacteriaceae TaxID=543 RepID=A0AB36PFZ7_SHIFL
+Length=343
+
+ Score = 247 bits (630),  Expect = 1e-79, Method: Compositional matrix adjust.
+ Identities = 116/116 (100%), Positives = 116/116 (100%), Gaps = 0/116 (0%)
+
+Query  1    LEFNQFHPTALYHPQARNFLLTEALRGEGAYLKRPDGTRFMPDFDERGELAPRDIVARAI  60
+            LEFNQFHPTALYHPQARNFLLTEALRGEGAYLKRPDGTRFMPDFDERGELAPRDIVARAI
+Sbjct  228  LEFNQFHPTALYHPQARNFLLTEALRGEGAYLKRPDGTRFMPDFDERGELAPRDIVARAI  287
+
+Query  61   DHEMKRLGADCMFLDISHKPADFIRQHFPMIYEKLLGLGIDLTQEPVPIVPAAHYT  116
+            DHEMKRLGADCMFLDISHKPADFIRQHFPMIYEKLLGLGIDLTQEPVPIVPAAHYT
+Sbjct  288  DHEMKRLGADCMFLDISHKPADFIRQHFPMIYEKLLGLGIDLTQEPVPIVPAAHYT  343
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.144    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1793990215215
+Results from round 2
+
+
+Query= 1chu-A
+
+Length=116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_A0A655Q3B8 L-aspartate oxidase n=1 Tax=Vibrio cholerae T...  305     2e-102
+UniRef90_A0A839IJS9 L-aspartate oxidase n=1 Tax=Oceanospirillum s...  303     2e-99 
+UniRef90_UPI002964BE37 FAD-binding protein n=1 Tax=Vibrio sp. 811...  290     4e-99 
+UniRef90_Q1N1C4 L-aspartate oxidase n=2 Tax=Bermanella TaxID=5996...  301     9e-99 
+UniRef90_Q9KPA4 L-aspartate oxidase n=157 Tax=Gammaproteobacteria...  301     1e-98 
+UniRef90_A0A4R3YHU1 L-aspartate oxidase n=1 Tax=Biostraticola tof...  300     2e-98 
+UniRef90_A0A0T6UN15 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  300     2e-98 
+UniRef90_A0A2N1ZCP1 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  300     2e-98 
+UniRef90_C6CB41 L-aspartate oxidase n=23 Tax=Pectobacteriaceae Ta...  300     2e-98 
+UniRef90_A0A1T4KMG7 L-aspartate oxidase n=1 Tax=Oceanospirillum m...  300     3e-98 
+UniRef90_A0A2I0CR48 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  300     3e-98 
+UniRef90_A0A031MHA6 L-aspartate oxidase n=8 Tax=Pseudomonadaceae ...  300     3e-98 
+UniRef90_E1SRW5 L-aspartate oxidase n=6 Tax=Ferrimonas balearica ...  300     4e-98 
+UniRef90_A0A1A9F1L6 L-aspartate oxidase n=5 Tax=Marinobacterium T...  299     6e-98 
+UniRef90_U3A5G5 L-aspartate oxidase n=34 Tax=Vibrio TaxID=662 Rep...  299     6e-98 
+UniRef90_A0A6G7LQ34 L-aspartate oxidase n=63 Tax=Bacteria TaxID=2...  299     6e-98 
+UniRef90_A0AAC9U170 L-aspartate oxidase n=8 Tax=Shewanella TaxID=...  299     6e-98 
+UniRef90_A0AA97E3N9 L-aspartate oxidase n=4 Tax=Pseudomonadaceae ...  299     6e-98 
+UniRef90_A0A4U9UP29 L-aspartate oxidase n=1 Tax=Serratia fonticol...  290     7e-98 
+UniRef90_A0A1H1V8W8 L-aspartate oxidase n=2 Tax=Halopseudomonas T...  299     7e-98 
+UniRef90_A0A078LXV5 L-aspartate oxidase n=3 Tax=Pseudomonadaceae ...  299     9e-98 
+UniRef90_A0A1M5YI80 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  299     1e-97 
+UniRef90_A0A1Y5HWA6 L-aspartate oxidase (Fragment) n=1 Tax=Oleisp...  293     1e-97 
+UniRef90_UPI0029645EC9 L-aspartate oxidase n=1 Tax=Vibrio sp. 115...  295     1e-97 
+UniRef90_F3GK41 L-aspartate oxidase (Fragment) n=2 Tax=Pseudomona...  287     1e-97 
+UniRef90_A0A6I5IT81 L-aspartate oxidase n=21 Tax=Bacteria TaxID=2...  298     1e-97 
+UniRef90_A0A975U9N8 L-aspartate oxidase n=5 Tax=Vibrio TaxID=662 ...  298     2e-97 
+UniRef90_A0A7V1FRN7 L-aspartate oxidase n=2 Tax=Halopseudomonas x...  298     2e-97 
+UniRef90_A0A2U3BCY5 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  298     2e-97 
+UniRef90_A0A2D5GAJ0 L-aspartate oxidase n=2 Tax=Oceanospirillum T...  297     2e-97 
+UniRef90_A0A1H2EEJ0 L-aspartate oxidase n=3 Tax=Pseudomonadaceae ...  297     3e-97 
+UniRef90_A0A3E0UBX1 L-aspartate oxidase n=2 Tax=Colwelliaceae Tax...  297     3e-97 
+UniRef90_A0A845SRZ3 L-aspartate oxidase n=10 Tax=Pseudomonadota T...  298     3e-97 
+UniRef90_UPI001C2C801A L-aspartate oxidase n=1 Tax=Marinobacteriu...  298     3e-97 
+UniRef90_UPI0021C2819A L-aspartate oxidase n=1 Tax=Shewanella sp....  297     3e-97 
+UniRef90_UPI002964B0BA L-aspartate oxidase n=1 Tax=Vibrio sp. 708...  291     3e-97 
+UniRef90_A0A1Q9H328 L-aspartate oxidase n=21 Tax=Photobacterium d...  297     3e-97 
+UniRef90_A0A2N8SLQ7 L-aspartate oxidase n=6 Tax=Stutzerimonas Tax...  297     3e-97 
+UniRef90_W9T6Y5 L-aspartate oxidase n=69 Tax=Pseudomonadaceae Tax...  297     4e-97 
+UniRef90_A0A9X1ZKD7 L-aspartate oxidase n=5 Tax=Shewanella TaxID=...  297     4e-97 
+UniRef90_A0A9D5Z4H1 L-aspartate oxidase n=2 Tax=Shewanellaceae Ta...  297     4e-97 
+UniRef90_UPI0039E24369 L-aspartate oxidase n=4 Tax=Halopseudomona...  297     4e-97 
+UniRef90_A0A7W3X5P8 L-aspartate oxidase n=2 Tax=Shewanella TaxID=...  297     4e-97 
+UniRef90_A0A8I2B5T8 L-aspartate oxidase n=27 Tax=Plesiomonas TaxI...  297     4e-97 
+UniRef90_A0A1Y5DHU1 L-aspartate oxidase (Fragment) n=1 Tax=Berman...  295     4e-97 
+UniRef90_A0AB36PFZ7 L-aspartate oxidase n=2 Tax=Enterobacteriacea...  290     4e-97 
+UniRef90_A0A947U7Z5 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  297     4e-97 
+UniRef90_UPI002B48E985 L-aspartate oxidase n=1 Tax=Buttiauxella s...  291     5e-97 
+UniRef90_A0A1V0B072 L-aspartate oxidase n=2 Tax=Pseudomonadaceae ...  297     5e-97 
+UniRef90_L8J991 L-aspartate oxidase n=7 Tax=Photobacterium TaxID=...  297     5e-97 
+UniRef90_A0A2I5TI28 L-aspartate oxidase n=2 Tax=Enterobacterales ...  297     5e-97 
+UniRef90_A0A974XLW0 L-aspartate oxidase n=10 Tax=Shewanella TaxID...  297     5e-97 
+UniRef90_A0A0Q2MYV2 L-aspartate oxidase n=17 Tax=Vibrionaceae Tax...  297     5e-97 
+UniRef90_UPI00124D2DB2 L-aspartate oxidase n=1 Tax=Nitrincola alk...  297     6e-97 
+UniRef90_A0A2U1UI97 L-aspartate oxidase n=5 Tax=Brenneria TaxID=7...  297     6e-97 
+UniRef90_A0A4U1BQV0 L-aspartate oxidase n=1 Tax=Ferrimonas aestua...  297     6e-97 
+UniRef90_A0A971Z120 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  297     6e-97 
+UniRef90_UPI0031D7D7D4 L-aspartate oxidase n=1 Tax=Marinobacteriu...  297     6e-97 
+UniRef90_Q93CP8 L-aspartate oxidase n=8 Tax=Enterobacteriaceae Ta...  290     7e-97 
+UniRef90_A0AAW8NPZ6 L-aspartate oxidase n=19 Tax=Shewanella TaxID...  296     7e-97 
+UniRef90_UPI0021068489 L-aspartate oxidase n=1 Tax=Pseudomonas be...  296     7e-97 
+UniRef90_UPI00200FCB20 L-aspartate oxidase n=2 Tax=Shewanella Tax...  296     7e-97 
+UniRef90_A0A6C0TQD0 L-aspartate oxidase n=4 Tax=Pseudomonas TaxID...  296     8e-97 
+UniRef90_A0A379WNH5 L-aspartate oxidase n=1 Tax=Salmonella enteri...  286     9e-97 
+UniRef90_A0A6G7CFL2 L-aspartate oxidase n=8 Tax=Vibrio TaxID=662 ...  296     1e-96 
+UniRef90_A0A377PFI6 L-aspartate oxidase n=33 Tax=Enterobacterales...  296     1e-96 
+UniRef90_A0A9X1W4L4 L-aspartate oxidase n=2 Tax=Pseudomonas maria...  296     1e-96 
+UniRef90_A0A7Z2YCX9 L-aspartate oxidase n=4 Tax=Vibrio TaxID=662 ...  296     1e-96 
+UniRef90_A0A378BWI0 L-aspartate oxidase n=1 Tax=Klebsiella pneumo...  290     1e-96 
+UniRef90_A0A3M2DY81 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  296     1e-96 
+UniRef90_C4LBZ1 L-aspartate oxidase n=6 Tax=Tolumonas TaxID=43947...  295     1e-96 
+UniRef90_A0A1Y0KPU1 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  295     2e-96 
+UniRef90_A0A839T8T6 L-aspartate oxidase n=1 Tax=Azomonas macrocyt...  295     2e-96 
+UniRef90_UPI00083997E8 L-aspartate oxidase n=2 Tax=Vibrio TaxID=6...  295     2e-96 
+UniRef90_A0AAJ2VCX3 L-aspartate oxidase n=9 Tax=Brenneria TaxID=7...  295     2e-96 
+UniRef90_A0A4Q9XRT4 L-aspartate oxidase n=1 Tax=Bowmanella sp. JS...  295     2e-96 
+UniRef90_A0A7U7EQA2 L-aspartate oxidase n=6 Tax=Pseudomonas TaxID...  296     2e-96 
+UniRef90_A0A1Y6GDA5 L-aspartate oxidase n=624 Tax=Gammaproteobact...  295     2e-96 
+UniRef90_A0A1H2EP97 L-aspartate oxidase n=2 Tax=Pseudomonas TaxID...  295     2e-96 
+UniRef90_A0A0Q0G3B2 L-aspartate oxidase n=51 Tax=Shewanella TaxID...  295     2e-96 
+UniRef90_UPI002620DD3F L-aspartate oxidase n=4 Tax=Shewanella Tax...  295     2e-96 
+UniRef90_A0A3E0TMH2 L-aspartate oxidase n=3 Tax=Thalassotalea Tax...  295     2e-96 
+UniRef90_UPI00077CB28C L-aspartate oxidase n=3 Tax=Shewanella Tax...  295     2e-96 
+UniRef90_A0A2D9ZZ55 L-aspartate oxidase n=2 Tax=Oceanospirillales...  295     2e-96 
+UniRef90_UPI002409ABCD L-aspartate oxidase n=2 Tax=unclassified P...  295     2e-96 
+UniRef90_A0A947BRZ2 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  292     2e-96 
+UniRef90_A0A368NMP4 L-aspartate oxidase n=2 Tax=Corallincola TaxI...  295     2e-96 
+UniRef90_A0A1E4UUW5 L-aspartate oxidase n=42 Tax=Pseudomonas TaxI...  295     2e-96 
+UniRef90_A0A3M6GW95 L-aspartate oxidase n=1 Tax=Pseudomonas amygd...  289     2e-96 
+UniRef90_A0A7Y7CSE5 L-aspartate oxidase n=1 Tax=Oceanospirillacea...  295     2e-96 
+UniRef90_UPI0025731573 L-aspartate oxidase n=1 Tax=Thalassotalea ...  295     2e-96 
+UniRef90_A0AA48KV74 L-aspartate oxidase n=2 Tax=Planctobacterium ...  295     2e-96 
+UniRef90_UPI001A8F8C71 L-aspartate oxidase n=1 Tax=Motiliproteus ...  295     2e-96 
+UniRef90_UPI00166444D3 L-aspartate oxidase n=1 Tax=Halopseudomona...  295     3e-96 
+UniRef90_A0A2G2JFR1 L-aspartate oxidase n=1 Tax=Oceanobacter sp. ...  295     3e-96 
+UniRef90_A0A085G5T0 L-aspartate oxidase n=7 Tax=Enterobacteriacea...  295     3e-96 
+UniRef90_A0A3B1ATK9 L-aspartate oxidase n=1 Tax=hydrothermal vent...  295     3e-96 
+UniRef90_A0A7W1WW75 L-aspartate oxidase n=1 Tax=Marinobacterium s...  295     3e-96 
+UniRef90_UPI00068AA29E L-aspartate oxidase n=1 Tax=Nitrincola sp....  295     3e-96 
+UniRef90_UPI0026211B36 L-aspartate oxidase n=1 Tax=uncultured Fer...  295     3e-96 
+UniRef90_A0A094K0Y8 L-aspartate oxidase n=4 Tax=Shewanella TaxID=...  295     3e-96 
+UniRef90_Q51363 L-aspartate oxidase n=213 Tax=Bacteria TaxID=2 Re...  295     3e-96 
+UniRef90_A0A9J6PKS1 L-aspartate oxidase n=5 Tax=Erwiniaceae TaxID...  295     3e-96 
+UniRef90_UPI00240BC55E L-aspartate oxidase n=1 Tax=Thalassotalea ...  295     3e-96 
+UniRef90_A0A381C482 L-aspartate oxidase n=32 Tax=Enterobacteriace...  295     3e-96 
+UniRef90_UPI0023B0A95F L-aspartate oxidase n=1 Tax=Vibrio sp. JC0...  295     3e-96 
+UniRef90_A0A2X1QGG5 L-aspartate oxidase n=1 Tax=Klebsiella pneumo...  289     3e-96 
+UniRef90_A0A1H4CJA2 L-aspartate oxidase n=2 Tax=Marinobacterium i...  295     3e-96 
+UniRef90_UPI001C0A2B1E L-aspartate oxidase n=2 Tax=Colwellia TaxI...  295     3e-96 
+UniRef90_A0A1X1MY37 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  294     4e-96 
+UniRef90_A0A427U618 L-aspartate oxidase n=28 Tax=Vibrio TaxID=662...  295     4e-96 
+UniRef90_A0A1H6CJF1 L-aspartate oxidase n=2 Tax=Marinobacterium T...  294     4e-96 
+UniRef90_UPI00329856CF L-aspartate oxidase n=1 Tax=Marinobacter a...  289     4e-96 
+UniRef90_A0A369WN96 L-aspartate oxidase n=2 Tax=Motiliproteus Tax...  295     4e-96 
+UniRef90_A0A3N9THK5 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  294     4e-96 
+UniRef90_A0A5R9QKX6 L-aspartate oxidase n=4 Tax=Stutzerimonas Tax...  294     4e-96 
+UniRef90_A0A6L7HWK5 L-aspartate oxidase n=17 Tax=Shewanella TaxID...  294     4e-96 
+UniRef90_A0A5J6LAL0 L-aspartate oxidase n=2 Tax=Nitrincola TaxID=...  295     4e-96 
+UniRef90_A0A4P6P9W5 L-aspartate oxidase n=4 Tax=Colwelliaceae Tax...  294     4e-96 
+UniRef90_A0AAW4HGK3 L-aspartate oxidase n=352 Tax=Gammaproteobact...  294     5e-96 
+UniRef90_A0A6I6LUH1 L-aspartate oxidase n=12 Tax=Pseudomonadaceae...  294     5e-96 
+UniRef90_A0A446ARN7 L-aspartate oxidase n=30 Tax=Pseudomonas TaxI...  294     5e-96 
+UniRef90_E0SBI1 L-aspartate oxidase n=40 Tax=Dickeya TaxID=204037...  294     5e-96 
+UniRef90_A0A5P1RDD2 L-aspartate oxidase n=1 Tax=Neptunomonas conc...  294     5e-96 
+UniRef90_A0A2T3MXI6 L-aspartate oxidase n=3 Tax=Photobacterium Ta...  294     5e-96 
+UniRef90_A0A8J7FGA4 L-aspartate oxidase n=4 Tax=Pontibacterium Ta...  294     5e-96 
+UniRef90_A0A4Y6IAL0 L-aspartate oxidase n=2 Tax=unclassified Shew...  294     5e-96 
+UniRef90_UPI00258AADF0 L-aspartate oxidase n=1 Tax=uncultured Pse...  287     6e-96 
+UniRef90_A0A941QW32 L-aspartate oxidase n=10 Tax=Oceanospirillale...  294     6e-96 
+UniRef90_A0AA37TJ70 L-aspartate oxidase n=1 Tax=Paraferrimonas ha...  294     6e-96 
+UniRef90_A0A3M3KVE8 L-aspartate oxidase (Fragment) n=2 Tax=Pseudo...  289     6e-96 
+UniRef90_A0A2D5PBY5 L-aspartate oxidase n=3 Tax=Oceanospirillacea...  294     6e-96 
+UniRef90_A0A4P0YD28 L-aspartate oxidase n=3 Tax=Klebsiella pneumo...  289     6e-96 
+UniRef90_A0A3L8PRB0 L-aspartate oxidase n=2 Tax=Parashewanella Ta...  294     6e-96 
+UniRef90_A0A2X2JBF5 L-aspartate oxidase n=36 Tax=Enterobacteriace...  289     6e-96 
+UniRef90_Q88MZ2 L-aspartate oxidase n=266 Tax=root TaxID=1 RepID=...  294     6e-96 
+UniRef90_A0A558NK93 L-aspartate oxidase n=6 Tax=Oceanospirillacea...  294     6e-96 
+UniRef90_UPI0024103919 L-aspartate oxidase n=1 Tax=Vibrio hannami...  294     6e-96 
+UniRef90_A9DL55 L-aspartate oxidase n=6 Tax=Shewanella TaxID=22 R...  294     6e-96 
+UniRef90_A0A5D0VQ49 L-aspartate oxidase n=75 Tax=root TaxID=1 Rep...  294     6e-96 
+UniRef90_UPI0019DC45D9 L-aspartate oxidase n=2 Tax=Pseudomonas Ta...  294     6e-96 
+UniRef90_B6XEF7 L-aspartate oxidase n=9 Tax=Providencia TaxID=586...  294     6e-96 
+UniRef90_D4E2P6 L-aspartate oxidase n=265 Tax=Enterobacterales Ta...  294     7e-96 
+UniRef90_UPI003395DC09 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  294     7e-96 
+UniRef90_A0A919BE46 L-aspartate oxidase n=1 Tax=Thalassotalea mar...  294     8e-96 
+UniRef90_A0A0C5W7L6 L-aspartate oxidase n=20 Tax=Vibrionaceae Tax...  294     8e-96 
+UniRef90_A0A6M0K237 L-aspartate oxidase n=3 Tax=Chromatiaceae Tax...  294     8e-96 
+UniRef90_A0A2P8F1I4 L-aspartate oxidase n=1 Tax=Marinobacterium h...  294     8e-96 
+UniRef90_A0A2A5CLA2 L-aspartate oxidase n=1 Tax=Moraxellaceae bac...  294     8e-96 
+UniRef90_A0A8D3Y2W9 L-aspartate oxidase n=9 Tax=Gammaproteobacter...  294     8e-96 
+UniRef90_UPI0031F148D4 L-aspartate oxidase n=1 Tax=Ferrimonas gel...  294     8e-96 
+UniRef90_A0A2T5PEF6 L-aspartate oxidase n=1 Tax=Pseudomonas mangr...  294     9e-96 
+UniRef90_A0A4D6X4R3 L-aspartate oxidase n=87 Tax=root TaxID=1 Rep...  294     9e-96 
+UniRef90_UPI00272CCF55 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  294     9e-96 
+UniRef90_A0AA37VYW2 L-aspartate oxidase n=1 Tax=Paraferrimonas se...  294     9e-96 
+UniRef90_UPI00261239B0 L-aspartate oxidase n=2 Tax=Thalassolituus...  294     9e-96 
+UniRef90_UPI0015D2A7BF L-aspartate oxidase n=1 Tax=Marinobacter c...  294     9e-96 
+UniRef90_A0A8T7JII8 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  293     1e-95 
+UniRef90_UPI001A93DCA7 L-aspartate oxidase n=2 Tax=Marinobacter T...  294     1e-95 
+UniRef90_UPI000418234D L-aspartate oxidase n=1 Tax=Stutzerimonas ...  294     1e-95 
+UniRef90_A0A7X8YGN2 L-aspartate oxidase n=1 Tax=Vibrio agarilytic...  294     1e-95 
+UniRef90_A0A2A2IRC8 L-aspartate oxidase n=2 Tax=Pseudomonas TaxID...  294     1e-95 
+UniRef90_I0QSX5 L-aspartate oxidase n=1 Tax=Serratia sp. M24T3 Ta...  294     1e-95 
+UniRef90_A0AAQ1JNI2 L-aspartate oxidase n=18 Tax=Pseudomonadaceae...  294     1e-95 
+UniRef90_UPI000482B01E L-aspartate oxidase n=1 Tax=Marinobacteriu...  294     1e-95 
+UniRef90_Q47WN7 L-aspartate oxidase n=16 Tax=Colwellia TaxID=2822...  293     1e-95 
+UniRef90_A0A970RCC5 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  294     1e-95 
+UniRef90_A0A2V1GWB4 L-aspartate oxidase n=1 Tax=Pelagibaculum spo...  294     1e-95 
+UniRef90_UPI00196B72CE L-aspartate oxidase n=3 Tax=Aliamphritea T...  293     1e-95 
+UniRef90_A0A375A7W9 L-aspartate oxidase n=2 Tax=Dickeya TaxID=204...  293     1e-95 
+UniRef90_K8WE89 L-aspartate oxidase n=1 Tax=Providencia sneebia D...  293     1e-95 
+UniRef90_A0A2E1ZJF9 L-aspartate oxidase n=2 Tax=Gammaproteobacter...  294     1e-95 
+UniRef90_UPI0023D9CF78 L-aspartate oxidase n=1 Tax=Aliiglaciecola...  293     1e-95 
+UniRef90_A0A3P1SMC9 L-aspartate oxidase n=1 Tax=Amphritea balenae...  293     1e-95 
+UniRef90_A0A1G7VWK6 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  293     1e-95 
+UniRef90_UPI0021D26CF0 L-aspartate oxidase n=2 Tax=unclassified C...  293     1e-95 
+UniRef90_A0A485AV87 L-aspartate oxidase n=1 Tax=Kluyvera cryocres...  287     1e-95 
+UniRef90_UPI001F159622 L-aspartate oxidase n=1 Tax=Vibrio sp. SS-...  293     1e-95 
+UniRef90_R4YLI5 L-aspartate oxidase n=3 Tax=Oceanospirillales Tax...  293     1e-95 
+UniRef90_UPI000A1775AF L-aspartate oxidase n=1 Tax=Cognaticolwell...  293     1e-95 
+UniRef90_A0A0U3B7Q8 L-aspartate oxidase n=3 Tax=Lacimicrobium Tax...  293     1e-95 
+UniRef90_A0A358HT22 L-aspartate oxidase (Fragment) n=2 Tax=Thalas...  286     1e-95 
+UniRef90_A0A447UYK2 L-aspartate oxidase n=42 Tax=cellular organis...  293     2e-95 
+UniRef90_UPI003A4D8F7F L-aspartate oxidase n=1 Tax=Aliidiomarina ...  293     2e-95 
+UniRef90_A0A136HBT3 L-aspartate oxidase n=9 Tax=Neptuniibacter Ta...  293     2e-95 
+UniRef90_A0A2N6GF70 L-aspartate oxidase n=1 Tax=Sedimenticola sp....  293     2e-95 
+UniRef90_A0A077LLS7 L-aspartate oxidase n=7 Tax=Pseudomonas TaxID...  293     2e-95 
+UniRef90_A0A5C6QUA3 L-aspartate oxidase n=7 Tax=Colwellia TaxID=2...  293     2e-95 
+UniRef90_UPI002AA9A725 L-aspartate oxidase n=1 Tax=Denitrificimon...  293     2e-95 
+UniRef90_A0A1N7J3X9 L-aspartate oxidase n=7 Tax=Oceanospirillacea...  293     2e-95 
+UniRef90_A0A3N1JAF0 L-aspartate oxidase n=1 Tax=Enterobacter sp. ...  293     2e-95 
+UniRef90_UPI000B9B7B64 L-aspartate oxidase n=1 Tax=Psychromonas s...  293     2e-95 
+UniRef90_A0A1Q4UT03 L-aspartate oxidase n=64 Tax=Thalassospira Ta...  293     2e-95 
+UniRef90_A0A5J6WPR4 L-aspartate oxidase n=18 Tax=Moritella TaxID=...  293     2e-95 
+UniRef90_B7LUZ0 L-aspartate oxidase n=299 Tax=root TaxID=1 RepID=...  293     2e-95 
+UniRef90_A0A1C2D9H9 L-aspartate oxidase n=29 Tax=Pseudomonas TaxI...  293     2e-95 
+UniRef90_A0A1S8YEN5 L-aspartate oxidase n=1 Tax=Izhakiella austra...  293     2e-95 
+UniRef90_A0A0P9AM57 L-aspartate oxidase n=1082 Tax=root TaxID=1 R...  293     2e-95 
+UniRef90_A0A024HE37 L-aspartate oxidase n=11 Tax=Pseudomonas TaxI...  293     2e-95 
+UniRef90_A0A1T1HF04 L-aspartate oxidase n=4 Tax=Oceanospirillum T...  292     2e-95 
+UniRef90_UPI000480A483 L-aspartate oxidase n=1 Tax=Ferrimonas sen...  292     2e-95 
+UniRef90_A0A3R9AHZ3 L-aspartate oxidase n=6 Tax=Erwinia TaxID=551...  292     2e-95 
+UniRef90_A0A9X2CEG0 L-aspartate oxidase n=17 Tax=Shewanella TaxID...  292     2e-95 
+UniRef90_UPI003964807E L-aspartate oxidase n=2 Tax=Cellvibrio Tax...  292     3e-95 
+UniRef90_A0AAJ1JFU9 L-aspartate oxidase n=25 Tax=Providencia TaxI...  292     3e-95 
+UniRef90_A0A9J7AIP3 L-aspartate oxidase n=4 Tax=Bacterioplanoides...  292     3e-95 
+UniRef90_A0A0B3C0I2 L-aspartate oxidase n=2 Tax=Pseudomonas TaxID...  292     3e-95 
+UniRef90_A0A0M1J7J7 L-aspartate oxidase n=1 Tax=Achromatium sp. W...  293     3e-95 
+UniRef90_UPI001180D727 L-aspartate oxidase n=2 Tax=Catenovulum se...  292     3e-95 
+UniRef90_UPI001EEF8921 L-aspartate oxidase n=1 Tax=Marinobacteriu...  292     3e-95 
+UniRef90_A0A090R279 L-aspartate oxidase n=1 Tax=Photobacterium ap...  285     3e-95 
+UniRef90_UPI0019D148DE L-aspartate oxidase n=1 Tax=Thalassotalea ...  292     3e-95 
+UniRef90_UPI00227FB07D L-aspartate oxidase n=1 Tax=Alteromonas sp...  292     3e-95 
+UniRef90_W7R2X6 L-aspartate oxidase n=2 Tax=Catenovulum agarivora...  292     3e-95 
+UniRef90_UPI001C81394B L-aspartate oxidase n=1 Tax=Pseudomonas sp...  292     3e-95 
+UniRef90_A0A558DPZ7 L-aspartate oxidase n=3 Tax=Sedimenticola Tax...  292     3e-95 
+UniRef90_UPI001A95177A L-aspartate oxidase n=2 Tax=Marinobacter T...  292     3e-95 
+UniRef90_UPI00215663D8 L-aspartate oxidase n=1 Tax=Serratia marce...  289     3e-95 
+UniRef90_UPI00124E7706 L-aspartate oxidase n=1 Tax=Nitrincola sch...  292     3e-95 
+UniRef90_A0AAW7XF96 L-aspartate oxidase n=4 Tax=Neptunomonas TaxI...  292     3e-95 
+UniRef90_A0A918KNM2 L-aspartate oxidase n=1 Tax=Saccharospirillum...  292     3e-95 
+UniRef90_A0A8E2QFZ9 L-aspartate oxidase n=8 Tax=Pseudomonadaceae ...  292     3e-95 
+UniRef90_A0A8J6M054 L-aspartate oxidase n=1 Tax=Neptunicella mari...  292     3e-95 
+UniRef90_A0A4V2UJH1 L-aspartate oxidase n=1 Tax=Reinekea marinise...  292     4e-95 
+UniRef90_UPI000970FFF5 L-aspartate oxidase n=3 Tax=Colwelliaceae ...  292     4e-95 
+UniRef90_UPI0035E4FC4E L-aspartate oxidase n=4 Tax=Erwinia TaxID=...  292     4e-95 
+UniRef90_A0A379W4G1 L-aspartate oxidase n=6 Tax=Salmonella enteri...  289     4e-95 
+UniRef90_A0A0A1YIF3 L-aspartate oxidase n=12 Tax=Pseudomonas TaxI...  292     4e-95 
+UniRef90_A0A3M2RK45 L-aspartate oxidase n=4 Tax=Marinobacter TaxI...  292     4e-95 
+UniRef90_W0HLC0 L-aspartate oxidase n=7 Tax=Sodalis TaxID=84565 R...  292     4e-95 
+UniRef90_A0A156KXJ2 L-aspartate oxidase n=190 Tax=root TaxID=1 Re...  292     4e-95 
+UniRef90_E3BFT3 L-aspartate oxidase n=3 Tax=Vibrio caribbeanicus ...  292     4e-95 
+UniRef90_M5E0X2 L-aspartate oxidase n=5 Tax=Thalassolituus TaxID=...  292     4e-95 
+UniRef90_UPI001CFAB3D5 L-aspartate oxidase n=1 Tax=Pseudomonas Ta...  292     4e-95 
+UniRef90_A0A7X0NFV6 L-aspartate oxidase n=2 Tax=Thalassotalea Tax...  292     4e-95 
+UniRef90_A0A5A9W121 L-aspartate oxidase n=1 Tax=Nitrincola tapani...  292     4e-95 
+UniRef90_F7RXE2 L-aspartate oxidase n=6 Tax=Idiomarinaceae TaxID=...  292     4e-95 
+UniRef90_A0A090V644 L-aspartate oxidase n=25 Tax=Enterobacteriace...  292     4e-95 
+UniRef90_A0A5J6QC07 L-aspartate oxidase n=1 Tax=Pseudomonas sp. C...  292     4e-95 
+UniRef90_A0AA41WM94 L-aspartate oxidase n=32 Tax=Pseudomonadales ...  292     4e-95 
+UniRef90_C1DQR4 L-aspartate oxidase n=17 Tax=Azotobacter group Ta...  292     5e-95 
+UniRef90_A0A1I4N8W7 L-aspartate oxidase n=6 Tax=Marinobacter TaxI...  292     5e-95 
+UniRef90_A0A1X7AQ75 L-aspartate oxidase n=1 Tax=Parendozoicomonas...  292     5e-95 
+UniRef90_A0AAE9VM91 L-aspartate oxidase n=1 Tax=Denitrificimonas ...  292     5e-95 
+UniRef90_A0A081NA82 L-aspartate oxidase n=4 Tax=Endozoicomonas Ta...  292     5e-95 
+UniRef90_A0A411PK08 L-aspartate oxidase n=3 Tax=Shewanella TaxID=...  292     5e-95 
+UniRef90_UPI0030019D44 L-aspartate oxidase n=1 Tax=Rheinheimera m...  292     5e-95 
+UniRef90_UPI00267553E2 L-aspartate oxidase n=3 Tax=unclassified M...  292     5e-95 
+UniRef90_UPI001C0879FB L-aspartate oxidase n=2 Tax=Colwellia TaxI...  292     5e-95 
+UniRef90_A0A657B6G5 L-aspartate oxidase n=3 Tax=unclassified Olei...  292     5e-95 
+UniRef90_A0A0B8QRI1 L-aspartate oxidase n=4 Tax=Vibrio ishigakens...  289     5e-95 
+UniRef90_A0A657AUK9 L-aspartate oxidase n=4 Tax=unclassified Olei...  292     5e-95 
+UniRef90_A0A937HHW1 L-aspartate oxidase n=1 Tax=Shewanellaceae ba...  292     5e-95 
+UniRef90_A0A240E9V6 L-aspartate oxidase n=17 Tax=root TaxID=1 Rep...  292     6e-95 
+UniRef90_UPI001F3EA612 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  287     6e-95 
+UniRef90_A0A1H7K3X7 L-aspartate oxidase n=2 Tax=Atopomonas hussai...  292     6e-95 
+UniRef90_A0A5J5FSV6 L-aspartate oxidase n=1 Tax=Affinibrenneria s...  291     6e-95 
+UniRef90_A0A9X3CDD0 L-aspartate oxidase n=21 Tax=Vibrio TaxID=662...  292     6e-95 
+UniRef90_A0A2N8Z842 L-aspartate oxidase n=2 Tax=Vibrio tapetis Ta...  292     6e-95 
+UniRef90_A0A557PHH5 L-aspartate oxidase n=16 Tax=Vibrio TaxID=662...  292     6e-95 
+UniRef90_A0A839UNZ5 L-aspartate oxidase n=2 Tax=Simiduia TaxID=44...  292     6e-95 
+UniRef90_Q8ZD80 L-aspartate oxidase n=147 Tax=Enterobacterales Ta...  291     6e-95 
+UniRef90_A0A5B0K217 L-aspartate oxidase n=16 Tax=Enterobacteriace...  292     6e-95 
+UniRef90_Q7N1W8 L-aspartate oxidase n=60 Tax=Photorhabdus TaxID=2...  291     7e-95 
+UniRef90_UPI00131CAE47 L-aspartate oxidase n=2 Tax=Erwiniaceae Ta...  291     7e-95 
+UniRef90_A0A6M8WBR7 L-aspartate oxidase n=1 Tax=Pseudomonadota ba...  291     7e-95 
+UniRef90_A0A1E7Q4Q2 L-aspartate oxidase n=2 Tax=Rheinheimera TaxI...  291     7e-95 
+UniRef90_A0A9X1XMS5 L-aspartate oxidase n=9 Tax=Vibrio TaxID=662 ...  291     7e-95 
+UniRef90_UPI00195FA63F L-aspartate oxidase n=1 Tax=Parashewanella...  291     7e-95 
+UniRef90_A0A7U8C3W2 L-aspartate oxidase n=3 Tax=Neptuniibacter Ta...  290     7e-95 
+UniRef90_A0A4Q5VB99 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  291     7e-95 
+UniRef90_UPI00114D1EE5 FAD-binding protein n=1 Tax=Vibrio genomos...  284     7e-95 
+UniRef90_A0A2E6BH22 L-aspartate oxidase n=6 Tax=Gammaproteobacter...  292     7e-95 
+UniRef90_A0A437Q8I7 L-aspartate oxidase n=1 Tax=Neptunomonas mari...  291     8e-95 
+UniRef90_A0AA41Y404 L-aspartate oxidase n=3 Tax=Brenneria TaxID=7...  291     8e-95 
+UniRef90_A0A948JFP5 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  291     8e-95 
+UniRef90_UPI00241E4890 L-aspartate oxidase n=1 Tax=Alteromonas me...  285     8e-95 
+UniRef90_D1P3B4 L-aspartate oxidase n=79 Tax=Gammaproteobacteria ...  291     8e-95 
+UniRef90_UPI0031EC4F55 L-aspartate oxidase n=1 Tax=Ferrimonas pel...  291     8e-95 
+UniRef90_UPI0025ED89A4 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  291     8e-95 
+UniRef90_UPI0015E45F79 L-aspartate oxidase n=2 Tax=Pseudomonas en...  291     8e-95 
+UniRef90_A0A9X3CKY6 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  291     8e-95 
+UniRef90_A0A4R6UZJ0 L-aspartate oxidase n=1 Tax=Permianibacter ag...  291     9e-95 
+UniRef90_A0A562I0U7 L-aspartate oxidase n=2 Tax=Azomonas agilis T...  290     9e-95 
+UniRef90_P10902 L-aspartate oxidase n=1379 Tax=Bacteria TaxID=2 R...  291     9e-95 
+UniRef90_A0A1R4L9N8 L-aspartate oxidase n=9 Tax=Vibrio TaxID=662 ...  291     9e-95 
+UniRef90_I1E1D6 L-aspartate oxidase n=23 Tax=Rheinheimera TaxID=6...  291     1e-94 
+UniRef90_A0A1Y5D6R0 L-aspartate oxidase n=1 Tax=Colwellia sp. 39_...  291     1e-94 
+UniRef90_A0A1C3EIZ2 L-aspartate oxidase n=1 Tax=Veronia pacifica ...  291     1e-94 
+UniRef90_A0A0P7Z4I5 L-aspartate oxidase n=92 Tax=Marinobacter Tax...  291     1e-94 
+UniRef90_B3PJA2 L-aspartate oxidase n=2 Tax=Cellvibrio japonicus ...  291     1e-94 
+UniRef90_UPI001C93BB48 L-aspartate oxidase n=1 Tax=Marinobacteriu...  291     1e-94 
+UniRef90_A0A1N6SMB6 L-aspartate oxidase n=2 Tax=Marinobacterium s...  291     1e-94 
+UniRef90_A0A4Y7ZH60 L-aspartate oxidase n=2 Tax=Psychromonas TaxI...  291     1e-94 
+UniRef90_Q6D212 L-aspartate oxidase n=97 Tax=Enterobacterales Tax...  291     1e-94 
+UniRef90_A0A3B0WNK6 L-aspartate oxidase n=1 Tax=hydrothermal vent...  290     1e-94 
+UniRef90_H5V6R4 L-aspartate oxidase n=19 Tax=Atlantibacter TaxID=...  291     1e-94 
+UniRef90_A0A063Y346 L-aspartate oxidase n=3 Tax=Nitrincola lacisa...  292     1e-94 
+UniRef90_A0A7W3DJ55 L-aspartate oxidase n=38 Tax=Enterobacteriace...  291     1e-94 
+UniRef90_A0AA41W542 L-aspartate oxidase n=1 Tax=Echinimonas agari...  291     1e-94 
+UniRef90_UPI002886BEDD L-aspartate oxidase n=2 Tax=Colwelliaceae ...  291     1e-94 
+UniRef90_A0A4Y8UWT9 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  291     1e-94 
+UniRef90_A0AAW7YFN9 L-aspartate oxidase n=2 Tax=unclassified Colw...  291     1e-94 
+UniRef90_UPI00329691A6 L-aspartate oxidase n=1 Tax=Marinobacter s...  287     1e-94 
+UniRef90_A0A552X4R5 L-aspartate oxidase n=2 Tax=Aliidiomarina Tax...  291     1e-94 
+UniRef90_A0A0S2KDQ1 L-aspartate oxidase n=2 Tax=Pseudohongiella s...  291     1e-94 
+UniRef90_UPI00299D645F L-aspartate oxidase n=1 Tax=Marinobacter s...  290     1e-94 
+UniRef90_A0A6N4DML4 L-aspartate oxidase n=1 Tax=Candidatus Sedime...  291     1e-94 
+UniRef90_W9V615 L-aspartate oxidase n=2 Tax=Nitrincola TaxID=2678...  291     1e-94 
+UniRef90_A0A432WRN4 L-aspartate oxidase n=1 Tax=Aliidiomarina san...  291     1e-94 
+UniRef90_A0A3E0X2K3 L-aspartate oxidase n=1 Tax=Alkalilimnicola e...  290     1e-94 
+UniRef90_UPI00362194D2 L-aspartate oxidase n=1 Tax=Azotobacter br...  290     1e-94 
+UniRef90_UPI0037351EDC L-aspartate oxidase n=1 Tax=Shewanella mar...  290     1e-94 
+UniRef90_A0A120G7E8 L-aspartate oxidase n=4 Tax=Pseudomonas TaxID...  285     1e-94 
+UniRef90_F6AA66 L-aspartate oxidase n=31 Tax=Pseudomonas TaxID=28...  290     1e-94 
+UniRef90_A0A1R1MEC3 L-aspartate oxidase n=1 Tax=Motiliproteus sp....  290     1e-94 
+UniRef90_UPI002ED49F4A L-aspartate oxidase n=1 Tax=Endozoicomonad...  290     1e-94 
+UniRef90_A0A8T3KRT9 L-aspartate oxidase n=6 Tax=Bacteria TaxID=2 ...  290     1e-94 
+UniRef90_UPI0025740E81 L-aspartate oxidase n=1 Tax=Thalassotalea ...  290     1e-94 
+UniRef90_A0A9J6Q4F3 L-aspartate oxidase n=12 Tax=Enterobacteriace...  290     1e-94 
+UniRef90_UPI00037F590C L-aspartate oxidase n=1 Tax=Gayadomonas jo...  290     1e-94 
+UniRef90_UPI000EB31E64 L-aspartate oxidase n=2 Tax=Stutzerimonas ...  290     1e-94 
+UniRef90_UPI000E3CDDD4 L-aspartate oxidase n=1 Tax=Vibrio maerlii...  290     1e-94 
+UniRef90_A0A0Q4MQL5 L-aspartate oxidase n=3 Tax=unclassified Erwi...  290     2e-94 
+UniRef90_A0A1Z7Z6L8 L-aspartate oxidase n=2 Tax=unclassified Gamm...  290     2e-94 
+UniRef90_UPI001E58DA3F L-aspartate oxidase n=3 Tax=Motilimonas Ta...  290     2e-94 
+UniRef90_UPI0011BEDCE8 L-aspartate oxidase n=3 Tax=Erwiniaceae Ta...  290     2e-94 
+UniRef90_A0A1Y0FS92 L-aspartate oxidase n=1 Tax=Cellvibrio sp. PS...  290     2e-94 
+UniRef90_A0A9X2AUL3 L-aspartate oxidase n=1 Tax=Vibrio gelatinily...  290     2e-94 
+UniRef90_A0A831RJ60 L-aspartate oxidase n=1 Tax=Sedimenticola thi...  290     2e-94 
+UniRef90_A0A1Q9RBS7 L-aspartate oxidase n=516 Tax=root TaxID=1 Re...  290     2e-94 
+UniRef90_A0A8T7DHX3 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  290     2e-94 
+UniRef90_A0A2E8VU44 L-aspartate oxidase n=2 Tax=Gammaproteobacter...  290     2e-94 
+UniRef90_A0A917JIW4 L-aspartate oxidase n=1 Tax=Shewanella gelidi...  290     2e-94 
+UniRef90_UPI001CDBC118 FAD-binding protein n=2 Tax=Vibrio TaxID=6...  280     2e-94 
+UniRef90_UPI0021D8932F L-aspartate oxidase n=1 Tax=Pseudomonas sp...  290     2e-94 
+UniRef90_A0A1G3EEL9 L-aspartate oxidase (Fragment) n=1 Tax=Pseudo...  285     2e-94 
+UniRef90_S6BL48 L-aspartate oxidase n=37 Tax=Pseudomonadaceae Tax...  290     2e-94 
+UniRef90_A0A848MG84 L-aspartate oxidase n=53 Tax=root TaxID=1 Rep...  290     2e-94 
+UniRef90_UPI00201FF028 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  290     2e-94 
+UniRef90_A0A0F5V7U8 L-aspartate oxidase n=9 Tax=Photobacterium Ta...  290     2e-94 
+UniRef90_UPI0003B69D2C L-aspartate oxidase n=1 Tax=Denitrificimon...  290     2e-94 
+UniRef90_UPI0015E277AC L-aspartate oxidase n=6 Tax=Pseudomonas Ta...  290     2e-94 
+UniRef90_UPI00189F738E L-aspartate oxidase n=5 Tax=unclassified V...  290     2e-94 
+UniRef90_UPI0028A5FB88 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  290     3e-94 
+UniRef90_A0A7R6SU50 L-aspartate oxidase n=2 Tax=Amphritea TaxID=5...  290     3e-94 
+UniRef90_A0AA90NR07 L-aspartate oxidase n=2 Tax=Endonucleobacter ...  290     3e-94 
+UniRef90_UPI0036347A7B L-aspartate oxidase n=1 Tax=Thalassotalea ...  290     3e-94 
+UniRef90_K2KDL0 L-aspartate oxidase n=1 Tax=Idiomarina xiamenensi...  290     3e-94 
+UniRef90_UPI000B35A203 L-aspartate oxidase n=2 Tax=Thaumasiovibri...  290     3e-94 
+UniRef90_A0A418Y9M4 L-aspartate oxidase n=1 Tax=Motilimonas pumil...  290     3e-94 
+UniRef90_A0A545U3P5 L-aspartate oxidase n=1 Tax=Exilibacterium tr...  290     3e-94 
+UniRef90_A0A0M2VDA8 L-aspartate oxidase n=11 Tax=Chromatiaceae Ta...  290     3e-94 
+UniRef90_A0A936CYM2 L-aspartate oxidase n=1 Tax=Cellvibrio sp. Ta...  290     3e-94 
+UniRef90_A0A1H3BYY0 L-aspartate oxidase n=5 Tax=Pseudomonas TaxID...  290     3e-94 
+UniRef90_A0A5C8LUB8 L-aspartate oxidase n=13 Tax=Gammaproteobacte...  289     3e-94 
+UniRef90_A0A653E0K8 L-aspartate oxidase n=10 Tax=Pseudomonas TaxI...  290     3e-94 
+UniRef90_N9VQD7 L-aspartate oxidase n=7 Tax=Aeromonas TaxID=642 R...  289     3e-94 
+UniRef90_A0A9X4YC83 L-aspartate oxidase n=3 Tax=Halomonadaceae Ta...  289     3e-94 
+UniRef90_A0A2E9JKT1 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  290     3e-94 
+UniRef90_A0A2M9WGZ4 L-aspartate oxidase n=80 Tax=root TaxID=1 Rep...  290     4e-94 
+UniRef90_A0A370DII7 L-aspartate oxidase n=1 Tax=endosymbiont of G...  289     4e-94 
+UniRef90_UPI001EF23BF0 L-aspartate oxidase n=1 Tax=Vibrio sp. Of7...  290     4e-94 
+UniRef90_A0A222FLU2 L-aspartate oxidase n=2 Tax=Bacterioplanes sa...  289     4e-94 
+UniRef90_A0A7R6PKU7 L-aspartate oxidase n=5 Tax=Neptunomonas TaxI...  289     4e-94 
+UniRef90_A0A962P3X0 L-aspartate oxidase n=2 Tax=Pseudomonadales b...  290     4e-94 
+UniRef90_A0AAE9Z5D7 L-aspartate oxidase n=4 Tax=Thalassomonas Tax...  290     4e-94 
+UniRef90_UPI000DB9C027 L-aspartate oxidase n=1 Tax=Marinimicrobiu...  289     4e-94 
+UniRef90_A0A3N1NZ72 L-aspartate oxidase n=8 Tax=Marinimicrobium T...  289     4e-94 
+UniRef90_A0A443IFT9 L-aspartate oxidase n=1 Tax=[Pantoea] beijing...  289     4e-94 
+UniRef90_G8LNC6 L-aspartate oxidase n=208 Tax=Enterobacteriaceae ...  289     4e-94 
+UniRef90_A0A4Q0YNA7 L-aspartate oxidase n=1 Tax=Veronia nyctiphan...  289     4e-94 
+UniRef90_Q5E307 L-aspartate oxidase n=26 Tax=Aliivibrio TaxID=511...  290     5e-94 
+UniRef90_A0A5C6QVA9 L-aspartate oxidase n=23 Tax=Colwelliaceae Ta...  289     5e-94 
+UniRef90_A0A2A5AZK7 L-aspartate oxidase n=1 Tax=SAR86 cluster bac...  290     5e-94 
+UniRef90_UPI00360CCDF0 L-aspartate oxidase n=4 Tax=Bacteria TaxID...  289     5e-94 
+UniRef90_A0AB38FWI0 L-aspartate oxidase n=6 Tax=Yokenella regensb...  289     5e-94 
+UniRef90_UPI001F4D7FF2 L-aspartate oxidase n=1 Tax=Atopomonas sed...  289     5e-94 
+UniRef90_A0A385MXI1 L-aspartate oxidase n=3 Tax=Alteromonadaceae ...  290     5e-94 
+UniRef90_A0AA37W6S8 L-aspartate oxidase n=2 Tax=Litoribrevibacter...  290     5e-94 
+UniRef90_A0A081KBR2 L-aspartate oxidase n=1 Tax=Endozoicomonas el...  290     5e-94 
+UniRef90_A0A7V8QED5 L-aspartate oxidase n=1 Tax=Ectothiorhodospir...  289     5e-94 
+UniRef90_UPI002898176F L-aspartate oxidase n=1 Tax=Pantoea sp. Ta...  289     5e-94 
+UniRef90_A0A7L5RQF9 L-aspartate oxidase n=2 Tax=Pseudomonadaceae ...  289     5e-94 
+UniRef90_UPI0005711491 L-aspartate oxidase n=4 Tax=Vibrio TaxID=6...  289     6e-94 
+UniRef90_A0A7Y4FKB0 L-aspartate oxidase n=2 Tax=unclassified Vibr...  289     6e-94 
+UniRef90_A0A9E4K0N2 L-aspartate oxidase n=4 Tax=Gammaproteobacter...  289     6e-94 
+UniRef90_A0A0J8GUC5 L-aspartate oxidase n=1 Tax=Catenovulum marit...  289     6e-94 
+UniRef90_UPI001E2B168B L-aspartate oxidase n=1 Tax=Paraneptunicel...  289     6e-94 
+UniRef90_A0A3D8MEZ1 L-aspartate oxidase n=1 Tax=Alteromonas aestu...  289     6e-94 
+UniRef90_A0A3B9X0T8 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  286     6e-94 
+UniRef90_A0A9D6VWD3 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  283     7e-94 
+UniRef90_A0A8H8XIP5 L-aspartate oxidase n=6 Tax=Pseudomonas TaxID...  289     7e-94 
+UniRef90_M4UI14 L-aspartate oxidase n=1 Tax=Psychromonas sp. CNPT...  289     7e-94 
+UniRef90_A0A235CJ67 L-aspartate oxidase n=5 Tax=Oceanimonas TaxID...  289     7e-94 
+UniRef90_UPI00208E38F4 L-aspartate oxidase n=1 Tax=Aliidiomarina ...  289     7e-94 
+UniRef90_A0A4U1BDY4 L-aspartate oxidase n=6 Tax=Ferrimonas TaxID=...  289     8e-94 
+UniRef90_UPI0008388D07 L-aspartate oxidase n=1 Tax=Thalassotalea ...  289     8e-94 
+UniRef90_A0A7X3M9L2 L-aspartate oxidase n=85 Tax=cellular organis...  289     8e-94 
+UniRef90_A0A0S2K296 L-aspartate oxidase n=6 Tax=Pseudoalteromonas...  289     8e-94 
+UniRef90_A0AA50DN24 L-aspartate oxidase n=12 Tax=Erwiniaceae TaxI...  289     8e-94 
+UniRef90_UPI0021D7FD3A L-aspartate oxidase n=1 Tax=Endozoicomonas...  289     8e-94 
+UniRef90_A0A9J7AAL9 L-aspartate oxidase n=4 Tax=Gilvimarinus TaxI...  289     8e-94 
+UniRef90_A0A7Y7TBY0 L-aspartate oxidase n=97 Tax=Vibrionales TaxI...  289     8e-94 
+UniRef90_A0A655E4A7 L-aspartate oxidase n=7 Tax=Enterobacteriacea...  282     9e-94 
+UniRef90_UPI001F131331 L-aspartate oxidase n=1 Tax=Candidatus Von...  289     9e-94 
+UniRef90_A0AAW7QWX1 L-aspartate oxidase n=3 Tax=Pseudidiomarina T...  289     9e-94 
+UniRef90_A0A6M4YVM6 L-aspartate oxidase n=10 Tax=Aeromonas TaxID=...  289     9e-94 
+UniRef90_A0A2N5ENT6 L-aspartate oxidase n=4 Tax=Yersiniaceae TaxI...  289     9e-94 
+UniRef90_A0A844BZ05 L-aspartate oxidase n=5 Tax=root TaxID=1 RepI...  289     9e-94 
+UniRef90_A0A9W6K3G8 L-aspartate oxidase n=10 Tax=Pseudomonas TaxI...  289     1e-93 
+UniRef90_A0A2S2E162 L-aspartate oxidase n=2 Tax=Saliniradius amyl...  289     1e-93 
+UniRef90_A0A2E4USY4 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  288     1e-93 
+UniRef90_UPI0009AA489D L-aspartate oxidase n=1 Tax=Salmonella ent...  281     1e-93 
+UniRef90_A0A4R2FJE3 L-aspartate oxidase n=6 Tax=Shewanella TaxID=...  288     1e-93 
+UniRef90_A0AA95K8Z8 L-aspartate oxidase n=14 Tax=Arsenophonus Tax...  288     1e-93 
+UniRef90_A0A1Y6ETQ7 L-aspartate oxidase n=2 Tax=Pseudidiomarina p...  289     1e-93 
+UniRef90_A0A949P3U9 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  289     1e-93 
+UniRef90_Q1ZNC5 L-aspartate oxidase n=56 Tax=Photobacterium TaxID...  288     1e-93 
+UniRef90_UPI0013CFDA8E L-aspartate oxidase n=1 Tax=Paraferrimonas...  288     1e-93 
+UniRef90_UPI001D524498 L-aspartate oxidase n=1 Tax=Alcanivorax sp...  288     1e-93 
+UniRef90_A0A2E7EBV1 L-aspartate oxidase n=1 Tax=Oceanospirillacea...  288     1e-93 
+UniRef90_A0A5B0VC76 L-aspartate oxidase n=23 Tax=Marinobacter Tax...  289     1e-93 
+UniRef90_A0A432XA95 L-aspartate oxidase n=1 Tax=Aliidiomarina tai...  288     1e-93 
+UniRef90_UPI000F0B2919 L-aspartate oxidase n=1 Tax=Vibrio zhugei ...  288     1e-93 
+UniRef90_UPI0021E76263 L-aspartate oxidase n=1 Tax=Aestuariibacte...  288     1e-93 
+UniRef90_A0A1H6S5Z7 L-aspartate oxidase n=1 Tax=Allopseudospirill...  288     1e-93 
+UniRef90_A0A6H1UEI5 L-aspartate oxidase n=1 Tax=Ferrimonas lipoly...  288     1e-93 
+UniRef90_A0A4R7JKH6 L-aspartate oxidase n=1 Tax=Halospina denitri...  288     1e-93 
+UniRef90_A0A9D5TLX7 L-aspartate oxidase n=4 Tax=Thalassospira Tax...  289     1e-93 
+UniRef90_W9VCK3 L-aspartate oxidase n=2 Tax=Chromatiaceae TaxID=1...  288     1e-93 
+UniRef90_A0A358Y1W8 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  289     1e-93 
+UniRef90_UPI003858A27C L-aspartate oxidase n=2 Tax=unclassified C...  288     1e-93 
+UniRef90_UPI002639DAEA L-aspartate oxidase n=1 Tax=uncultured Nep...  288     1e-93 
+UniRef90_A0A2N0WWR7 L-aspartate oxidase n=6 Tax=Psychromonas TaxI...  288     1e-93 
+UniRef90_A0A7Z0VK88 L-aspartate oxidase n=9 Tax=Gammaproteobacter...  288     1e-93 
+UniRef90_A0A0S2TCY6 L-aspartate oxidase n=1 Tax=Candidatus Tender...  288     1e-93 
+UniRef90_A0A945R8C8 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  289     1e-93 
+UniRef90_A0A1I6J7P4 L-aspartate oxidase n=11 Tax=Marinobacter Tax...  288     1e-93 
+UniRef90_UPI0026737667 L-aspartate oxidase n=2 Tax=unclassified G...  288     2e-93 
+UniRef90_A0A951RPB3 L-aspartate oxidase n=2 Tax=Pseudomonadota Ta...  288     2e-93 
+UniRef90_A0A3B0X6U9 L-aspartate oxidase (Fragment) n=1 Tax=hydrot...  288     2e-93 
+UniRef90_A0A5C8Z7E6 L-aspartate oxidase n=1 Tax=Reinekea thalatta...  288     2e-93 
+UniRef90_UPI0027324850 L-aspartate oxidase n=2 Tax=Pseudomonas sp...  288     2e-93 
+UniRef90_UPI0028A84F6D L-aspartate oxidase n=1 Tax=Superficieibac...  288     2e-93 
+UniRef90_A0A379IYY6 L-aspartate oxidase n=119 Tax=Pseudomonadacea...  289     2e-93 
+UniRef90_A0A9X0WGB7 L-aspartate oxidase n=1 Tax=Thiocapsa imhoffi...  288     2e-93 
+UniRef90_M1F949 L-aspartate oxidase n=12 Tax=Marinobacter TaxID=2...  288     2e-93 
+UniRef90_A0A1H2E2D5 L-aspartate oxidase n=1 Tax=Pseudomonas guang...  288     2e-93 
+UniRef90_A0A1H4E3U6 L-aspartate oxidase n=4 Tax=Alkalimonas TaxID...  288     2e-93 
+UniRef90_A0A6I6E9P0 L-aspartate oxidase n=7 Tax=Chromatiaceae Tax...  288     2e-93 
+UniRef90_A0A1M5ZH58 L-aspartate oxidase n=1 Tax=Ferrimonas marina...  288     2e-93 
+UniRef90_A0A3B9DCG4 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  284     2e-93 
+UniRef90_F3KH53 L-aspartate oxidase n=1 Tax=gamma proteobacterium...  282     2e-93 
+UniRef90_UPI0025A127F9 L-aspartate oxidase n=1 Tax=Thiopseudomona...  287     2e-93 
+UniRef90_A0A1Q6CHI7 L-aspartate oxidase n=3 Tax=Thalassotalea Tax...  287     2e-93 
+UniRef90_A0A520YMY4 L-aspartate oxidase n=4 Tax=Gammaproteobacter...  288     2e-93 
+UniRef90_A0A3D5BH26 L-aspartate oxidase n=8 Tax=Pseudomonadota Ta...  288     2e-93 
+UniRef90_A0A7X1G4H0 L-aspartate oxidase n=20 Tax=Pseudomonas TaxI...  288     2e-93 
+UniRef90_UPI00289E6580 L-aspartate oxidase n=1 Tax=Kosakonia sp. ...  288     2e-93 
+UniRef90_A0A8T7IRT3 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  288     2e-93 
+UniRef90_A0A1I0FZS4 L-aspartate oxidase n=1 Tax=Thalassotalea aga...  287     2e-93 
+UniRef90_A0A2U4E4F8 L-aspartate oxidase n=205 Tax=Gammaproteobact...  288     2e-93 
+UniRef90_A0AAU9CAI3 L-aspartate oxidase n=2 Tax=Methylomarinovum ...  287     2e-93 
+UniRef90_A0A946HP26 L-aspartate oxidase n=6 Tax=Gammaproteobacter...  288     2e-93 
+UniRef90_A0A553FBA3 L-aspartate oxidase n=2 Tax=Thalassomonas sp....  287     2e-93 
+UniRef90_A0A432XQJ9 L-aspartate oxidase n=8 Tax=Pseudidiomarina T...  287     2e-93 
+UniRef90_A0A9D0I6R8 L-aspartate oxidase n=1 Tax=Sedimenticola sp....  287     2e-93 
+UniRef90_A0A285P9Q1 L-aspartate oxidase n=2 Tax=unclassified Pseu...  287     3e-93 
+UniRef90_A0A2I0FTP8 L-aspartate oxidase n=1 Tax=Enterobacterales ...  287     3e-93 
+UniRef90_A0AA50KN01 L-aspartate oxidase n=17 Tax=Aeromonadaceae T...  287     3e-93 
+UniRef90_A0A518XES8 L-aspartate oxidase n=1 Tax=Pantoea dispersa ...  287     3e-93 
+UniRef90_UPI001BD1CF47 L-aspartate oxidase n=2 Tax=unclassified P...  287     3e-93 
+UniRef90_UPI0036161D6C L-aspartate oxidase n=1 Tax=Stutzerimonas ...  287     3e-93 
+UniRef90_UPI000DE9901F L-aspartate oxidase n=1 Tax=Aliidiomarina ...  287     3e-93 
+UniRef90_UPI001C0AE91F L-aspartate oxidase n=1 Tax=Aestuariicella...  287     3e-93 
+UniRef90_UPI001C0827B4 L-aspartate oxidase n=1 Tax=Alteromonas sp...  288     3e-93 
+UniRef90_UPI001686143D L-aspartate oxidase n=3 Tax=Pseudomonas ty...  287     3e-93 
+UniRef90_A0A7Z6ZTT5 L-aspartate oxidase n=2 Tax=Pseudidiomarina a...  287     3e-93 
+UniRef90_A0A1H8QCU8 L-aspartate oxidase n=2 Tax=Aquisalimonas Tax...  287     3e-93 
+UniRef90_UPI000FC9F986 L-aspartate oxidase n=1 Tax=Pseudidiomarin...  287     3e-93 
+UniRef90_A0A0F0W5B7 L-aspartate oxidase n=6 Tax=Pluralibacter Tax...  287     3e-93 
+UniRef90_UPI00349FF782 L-aspartate oxidase n=5 Tax=Saccharospiril...  287     3e-93 
+UniRef90_UPI001EFF9FB6 L-aspartate oxidase n=2 Tax=Vibrio TaxID=6...  287     3e-93 
+UniRef90_UPI0030EB5586 L-aspartate oxidase n=4 Tax=Gilvimarinus T...  287     3e-93 
+UniRef90_A0A1E7Z5D1 L-aspartate oxidase n=30 Tax=Erwiniaceae TaxI...  287     3e-93 
+UniRef90_A0A6I4V6R5 L-aspartate oxidase n=56 Tax=Pantoea TaxID=53...  287     3e-93 
+UniRef90_A0A350J2C6 L-aspartate oxidase n=1 Tax=Cellvibrionales b...  287     3e-93 
+UniRef90_A0A553H2A9 L-aspartate oxidase n=1 Tax=Pseudomonas mangi...  287     3e-93 
+UniRef90_Q2SL41 L-aspartate oxidase n=4 Tax=Hahella TaxID=158481 ...  287     3e-93 
+UniRef90_A0A937M5J9 L-aspartate oxidase n=2 Tax=Gammaproteobacter...  287     3e-93 
+UniRef90_A0A9C9GP87 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  287     3e-93 
+UniRef90_A0A962JQS5 L-aspartate oxidase n=1 Tax=Pseudomonadales b...  287     4e-93 
+UniRef90_A0A2E0HIF6 L-aspartate oxidase n=1 Tax=Pseudomonadales b...  287     4e-93 
+UniRef90_UPI00207505C7 L-aspartate oxidase n=1 Tax=Vibrio sp. SCS...  287     4e-93 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_K2E6W9 L-aspartate oxidase n=1 Tax=uncultured bacterium ...  290     8e-95
+UniRef90_A0A9J6RNL5 L-aspartate oxidase n=3 Tax=Dasania TaxID=503...  288     1e-93
+UniRef90_UPI00201B4064 L-aspartate oxidase n=1 Tax=Aestuariirhabd...  288     1e-93
+UniRef90_S6HRE4 L-aspartate oxidase n=2 Tax=Bacteria TaxID=2 RepI...  287     2e-93
+UniRef90_A0A916B4S8 L-aspartate oxidase n=1 Tax=Olavius algarvens...  287     3e-93
+
+
+>UniRef90_A0A655Q3B8 L-aspartate oxidase n=1 Tax=Vibrio cholerae TaxID=666 RepID=A0A655Q3B8_VIBCL
+Length=377
+
+ Score = 305 bits (783),  Expect = 2e-102, Method: Composition-based stats.
+ Identities = 99/116 (85%), Positives = 109/116 (94%), Gaps = 0/116 (0%)
+
+Query  1    LEFNQFHPTALYHPQARNFLLTEALRGEGAYLKRPDGTRFMPDFDERGELAPRDIVARAI  60
+            LEFNQFHPT LYHP+ARNFLLTEALRGEGAYL+RPDG+RFMPDFDER ELAPRDIVARAI
+Sbjct  39   LEFNQFHPTCLYHPEARNFLLTEALRGEGAYLRRPDGSRFMPDFDERAELAPRDIVARAI  98
+
+Query  61   DHEMKRLGADCMFLDISHKPADFIRQHFPMIYEKLLGLGIDLTQEPVPIVPAAHYT  116
+            D EMKRLGADCM+LDISHKPADFI +HFP IY +L+ LGID+T+EP+PIVPAAHYT
+Sbjct  99   DFEMKRLGADCMYLDISHKPADFIEKHFPTIYSRLMDLGIDMTKEPIPIVPAAHYT  154
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.211    0.994    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0644    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1793990215215
+Results from round 3
+
+
+Query= 1chu-A
+
+Length=116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_A0A839IJS9 L-aspartate oxidase n=1 Tax=Oceanospirillum s...  298     1e-97
+UniRef90_A0A655Q3B8 L-aspartate oxidase n=1 Tax=Vibrio cholerae T...  293     2e-97
+UniRef90_Q1N1C4 L-aspartate oxidase n=2 Tax=Bermanella TaxID=5996...  296     7e-97
+UniRef90_A0A2N1ZCP1 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  295     2e-96
+UniRef90_A0A1A9F1L6 L-aspartate oxidase n=5 Tax=Marinobacterium T...  295     2e-96
+UniRef90_A0A2I0CR48 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  295     2e-96
+UniRef90_A0A0T6UN15 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  295     2e-96
+UniRef90_A0A031MHA6 L-aspartate oxidase n=8 Tax=Pseudomonadaceae ...  295     3e-96
+UniRef90_A0A1Y5HWA6 L-aspartate oxidase (Fragment) n=1 Tax=Oleisp...  289     5e-96
+UniRef90_A0A1H1V8W8 L-aspartate oxidase n=2 Tax=Halopseudomonas T...  294     5e-96
+UniRef90_A0A1T4KMG7 L-aspartate oxidase n=1 Tax=Oceanospirillum m...  294     5e-96
+UniRef90_A0AA97E3N9 L-aspartate oxidase n=4 Tax=Pseudomonadaceae ...  294     7e-96
+UniRef90_A0A078LXV5 L-aspartate oxidase n=3 Tax=Pseudomonadaceae ...  294     8e-96
+UniRef90_UPI00124D2DB2 L-aspartate oxidase n=1 Tax=Nitrincola alk...  294     8e-96
+UniRef90_UPI001C2C801A L-aspartate oxidase n=1 Tax=Marinobacteriu...  294     9e-96
+UniRef90_A0A1Y5DHU1 L-aspartate oxidase (Fragment) n=1 Tax=Berman...  291     1e-95
+UniRef90_F3GK41 L-aspartate oxidase (Fragment) n=2 Tax=Pseudomona...  282     2e-95
+UniRef90_W9T6Y5 L-aspartate oxidase n=69 Tax=Pseudomonadaceae Tax...  293     2e-95
+UniRef90_A0A1H2EEJ0 L-aspartate oxidase n=3 Tax=Pseudomonadaceae ...  293     2e-95
+UniRef90_A0A7V1FRN7 L-aspartate oxidase n=2 Tax=Halopseudomonas x...  293     2e-95
+UniRef90_UPI0031D7D7D4 L-aspartate oxidase n=1 Tax=Marinobacteriu...  293     2e-95
+UniRef90_A0A2N8SLQ7 L-aspartate oxidase n=6 Tax=Stutzerimonas Tax...  292     3e-95
+UniRef90_A0A1V0B072 L-aspartate oxidase n=2 Tax=Pseudomonadaceae ...  292     3e-95
+UniRef90_A0A2D5GAJ0 L-aspartate oxidase n=2 Tax=Oceanospirillum T...  292     3e-95
+UniRef90_UPI0039E24369 L-aspartate oxidase n=4 Tax=Halopseudomona...  292     4e-95
+UniRef90_A0A2G2JFR1 L-aspartate oxidase n=1 Tax=Oceanobacter sp. ...  292     5e-95
+UniRef90_A0A971Z120 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  292     5e-95
+UniRef90_E1SRW5 L-aspartate oxidase n=6 Tax=Ferrimonas balearica ...  291     6e-95
+UniRef90_A0A947U7Z5 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  291     7e-95
+UniRef90_UPI001A8F8C71 L-aspartate oxidase n=1 Tax=Motiliproteus ...  291     7e-95
+UniRef90_A0A1H4CJA2 L-aspartate oxidase n=2 Tax=Marinobacterium i...  291     8e-95
+UniRef90_A0A2D9ZZ55 L-aspartate oxidase n=2 Tax=Oceanospirillales...  291     8e-95
+UniRef90_A0A947BRZ2 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  288     8e-95
+UniRef90_A0A6C0TQD0 L-aspartate oxidase n=4 Tax=Pseudomonas TaxID...  291     9e-95
+UniRef90_A0A9X1W4L4 L-aspartate oxidase n=2 Tax=Pseudomonas maria...  291     9e-95
+UniRef90_A0AAC9U170 L-aspartate oxidase n=8 Tax=Shewanella TaxID=...  291     9e-95
+UniRef90_A0A558NK93 L-aspartate oxidase n=6 Tax=Oceanospirillacea...  291     9e-95
+UniRef90_A0A7W1WW75 L-aspartate oxidase n=1 Tax=Marinobacterium s...  291     1e-94
+UniRef90_UPI0021068489 L-aspartate oxidase n=1 Tax=Pseudomonas be...  291     1e-94
+UniRef90_A0A3B1ATK9 L-aspartate oxidase n=1 Tax=hydrothermal vent...  291     1e-94
+UniRef90_A0A5J6LAL0 L-aspartate oxidase n=2 Tax=Nitrincola TaxID=...  291     1e-94
+UniRef90_UPI002964BE37 FAD-binding protein n=1 Tax=Vibrio sp. 811...  279     1e-94
+UniRef90_A0A839T8T6 L-aspartate oxidase n=1 Tax=Azomonas macrocyt...  290     2e-94
+UniRef90_UPI00068AA29E L-aspartate oxidase n=1 Tax=Nitrincola sp....  291     2e-94
+UniRef90_A0A7U7EQA2 L-aspartate oxidase n=6 Tax=Pseudomonas TaxID...  290     2e-94
+UniRef90_UPI00329856CF L-aspartate oxidase n=1 Tax=Marinobacter a...  285     2e-94
+UniRef90_A0A2D5PBY5 L-aspartate oxidase n=3 Tax=Oceanospirillacea...  290     2e-94
+UniRef90_A0A3M6GW95 L-aspartate oxidase n=1 Tax=Pseudomonas amygd...  284     2e-94
+UniRef90_A0A941QW32 L-aspartate oxidase n=10 Tax=Oceanospirillale...  290     2e-94
+UniRef90_A0A6G7LQ34 L-aspartate oxidase n=63 Tax=Bacteria TaxID=2...  290     2e-94
+UniRef90_A0A5D0VQ49 L-aspartate oxidase n=75 Tax=root TaxID=1 Rep...  290     2e-94
+UniRef90_A0A8J7FGA4 L-aspartate oxidase n=4 Tax=Pontibacterium Ta...  290     2e-94
+UniRef90_A0A5P1RDD2 L-aspartate oxidase n=1 Tax=Neptunomonas conc...  290     3e-94
+UniRef90_A0A1E4UUW5 L-aspartate oxidase n=42 Tax=Pseudomonas TaxI...  290     3e-94
+UniRef90_A0A5R9QKX6 L-aspartate oxidase n=4 Tax=Stutzerimonas Tax...  290     3e-94
+UniRef90_A0A369WN96 L-aspartate oxidase n=2 Tax=Motiliproteus Tax...  290     3e-94
+UniRef90_Q51363 L-aspartate oxidase n=213 Tax=Bacteria TaxID=2 Re...  290     3e-94
+UniRef90_A0A1H2EP97 L-aspartate oxidase n=2 Tax=Pseudomonas TaxID...  290     3e-94
+UniRef90_UPI00166444D3 L-aspartate oxidase n=1 Tax=Halopseudomona...  290     3e-94
+UniRef90_A0A446ARN7 L-aspartate oxidase n=30 Tax=Pseudomonas TaxI...  290     3e-94
+UniRef90_A0A6I6LUH1 L-aspartate oxidase n=12 Tax=Pseudomonadaceae...  290     3e-94
+UniRef90_A0A1Y0KPU1 L-aspartate oxidase n=3 Tax=Pseudomonas TaxID...  290     3e-94
+UniRef90_UPI00196B72CE L-aspartate oxidase n=3 Tax=Aliamphritea T...  289     3e-94
+UniRef90_C6CB41 L-aspartate oxidase n=23 Tax=Pectobacteriaceae Ta...  290     3e-94
+UniRef90_A0A136HBT3 L-aspartate oxidase n=9 Tax=Neptuniibacter Ta...  289     4e-94
+UniRef90_A0A1Q4UT03 L-aspartate oxidase n=64 Tax=Thalassospira Ta...  290     4e-94
+UniRef90_UPI002409ABCD L-aspartate oxidase n=2 Tax=unclassified P...  289     4e-94
+UniRef90_UPI00261239B0 L-aspartate oxidase n=2 Tax=Thalassolituus...  289     4e-94
+UniRef90_A0A7Y7CSE5 L-aspartate oxidase n=1 Tax=Oceanospirillacea...  289     4e-94
+UniRef90_A0A9J7AIP3 L-aspartate oxidase n=4 Tax=Bacterioplanoides...  289     4e-94
+UniRef90_A0A4R3YHU1 L-aspartate oxidase n=1 Tax=Biostraticola tof...  289     4e-94
+UniRef90_A0A2P8F1I4 L-aspartate oxidase n=1 Tax=Marinobacterium h...  289     4e-94
+UniRef90_A0A9X1ZKD7 L-aspartate oxidase n=5 Tax=Shewanella TaxID=...  289     4e-94
+UniRef90_A0A6M0K237 L-aspartate oxidase n=3 Tax=Chromatiaceae Tax...  289     5e-94
+UniRef90_R4YLI5 L-aspartate oxidase n=3 Tax=Oceanospirillales Tax...  289     5e-94
+UniRef90_UPI00258AADF0 L-aspartate oxidase n=1 Tax=uncultured Pse...  282     5e-94
+UniRef90_A0A0M1J7J7 L-aspartate oxidase n=1 Tax=Achromatium sp. W...  289     5e-94
+UniRef90_UPI0015D2A7BF L-aspartate oxidase n=1 Tax=Marinobacter c...  289     5e-94
+UniRef90_A0A2A2IRC8 L-aspartate oxidase n=2 Tax=Pseudomonas TaxID...  289     6e-94
+UniRef90_Q88MZ2 L-aspartate oxidase n=266 Tax=root TaxID=1 RepID=...  289     6e-94
+UniRef90_A0A8T7JII8 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  289     6e-94
+UniRef90_UPI0019DC45D9 L-aspartate oxidase n=2 Tax=Pseudomonas Ta...  289     6e-94
+UniRef90_A0A2E1ZJF9 L-aspartate oxidase n=2 Tax=Gammaproteobacter...  289     7e-94
+UniRef90_A0A3M3KVE8 L-aspartate oxidase (Fragment) n=2 Tax=Pseudo...  284     7e-94
+UniRef90_A0AAQ1JNI2 L-aspartate oxidase n=18 Tax=Pseudomonadaceae...  289     7e-94
+UniRef90_A0A5A9W121 L-aspartate oxidase n=1 Tax=Nitrincola tapani...  289     7e-94
+UniRef90_A0A1H6CJF1 L-aspartate oxidase n=2 Tax=Marinobacterium T...  289     7e-94
+UniRef90_UPI003395DC09 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  289     7e-94
+UniRef90_A0A358HT22 L-aspartate oxidase (Fragment) n=2 Tax=Thalas...  281     8e-94
+UniRef90_A0A1N7J3X9 L-aspartate oxidase n=7 Tax=Oceanospirillacea...  289     8e-94
+UniRef90_K2E6W9 L-aspartate oxidase n=1 Tax=uncultured bacterium ...  288     8e-94
+UniRef90_A0A3P1SMC9 L-aspartate oxidase n=1 Tax=Amphritea balenae...  289     8e-94
+UniRef90_UPI0021C2819A L-aspartate oxidase n=1 Tax=Shewanella sp....  289     8e-94
+UniRef90_Q9KPA4 L-aspartate oxidase n=157 Tax=Gammaproteobacteria...  289     8e-94
+UniRef90_A0A1H7K3X7 L-aspartate oxidase n=2 Tax=Atopomonas hussai...  289     8e-94
+UniRef90_A0A558DPZ7 L-aspartate oxidase n=3 Tax=Sedimenticola Tax...  289     8e-94
+UniRef90_A0A7W3X5P8 L-aspartate oxidase n=2 Tax=Shewanella TaxID=...  289     8e-94
+UniRef90_UPI001A93DCA7 L-aspartate oxidase n=2 Tax=Marinobacter T...  289     8e-94
+UniRef90_A0A3E0UBX1 L-aspartate oxidase n=2 Tax=Colwelliaceae Tax...  289     9e-94
+UniRef90_A0A3M2DY81 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  289     9e-94
+UniRef90_A0A918KNM2 L-aspartate oxidase n=1 Tax=Saccharospirillum...  288     9e-94
+UniRef90_A0A8D3Y2W9 L-aspartate oxidase n=9 Tax=Gammaproteobacter...  289     9e-94
+UniRef90_UPI000482B01E L-aspartate oxidase n=1 Tax=Marinobacteriu...  289     9e-94
+UniRef90_A0A9D5Z4H1 L-aspartate oxidase n=2 Tax=Shewanellaceae Ta...  289     1e-93
+UniRef90_A0A1T1HF04 L-aspartate oxidase n=4 Tax=Oceanospirillum T...  288     1e-93
+UniRef90_A0A2N6GF70 L-aspartate oxidase n=1 Tax=Sedimenticola sp....  288     1e-93
+UniRef90_A0A6M8WBR7 L-aspartate oxidase n=1 Tax=Pseudomonadota ba...  288     1e-93
+UniRef90_UPI003964807E L-aspartate oxidase n=2 Tax=Cellvibrio Tax...  289     1e-93
+UniRef90_A0A974XLW0 L-aspartate oxidase n=10 Tax=Shewanella TaxID...  288     1e-93
+UniRef90_UPI00272CCF55 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  288     1e-93
+UniRef90_A0AAW8NPZ6 L-aspartate oxidase n=19 Tax=Shewanella TaxID...  288     1e-93
+UniRef90_A0A4D6X4R3 L-aspartate oxidase n=87 Tax=root TaxID=1 Rep...  288     1e-93
+UniRef90_UPI001EEF8921 L-aspartate oxidase n=1 Tax=Marinobacteriu...  288     1e-93
+UniRef90_A0A4U9UP29 L-aspartate oxidase n=1 Tax=Serratia fonticol...  279     1e-93
+UniRef90_UPI00124E7706 L-aspartate oxidase n=1 Tax=Nitrincola sch...  288     1e-93
+UniRef90_UPI000418234D L-aspartate oxidase n=1 Tax=Stutzerimonas ...  288     1e-93
+UniRef90_A0A4V2UJH1 L-aspartate oxidase n=1 Tax=Reinekea marinise...  288     1e-93
+UniRef90_UPI002AA9A725 L-aspartate oxidase n=1 Tax=Denitrificimon...  288     1e-93
+UniRef90_U3A5G5 L-aspartate oxidase n=34 Tax=Vibrio TaxID=662 Rep...  288     2e-93
+UniRef90_A0A1I4N8W7 L-aspartate oxidase n=6 Tax=Marinobacter TaxI...  288     2e-93
+UniRef90_A0A970RCC5 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  288     2e-93
+UniRef90_A0A2T5PEF6 L-aspartate oxidase n=1 Tax=Pseudomonas mangr...  288     2e-93
+UniRef90_A0A1M5YI80 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  288     2e-93
+UniRef90_A0A657B6G5 L-aspartate oxidase n=3 Tax=unclassified Olei...  288     2e-93
+UniRef90_A0A4U1BQV0 L-aspartate oxidase n=1 Tax=Ferrimonas aestua...  288     2e-93
+UniRef90_UPI001A95177A L-aspartate oxidase n=2 Tax=Marinobacter T...  287     2e-93
+UniRef90_A0A831RJ60 L-aspartate oxidase n=1 Tax=Sedimenticola thi...  288     2e-93
+UniRef90_A0A7U8C3W2 L-aspartate oxidase n=3 Tax=Neptuniibacter Ta...  287     2e-93
+UniRef90_A0A0Q0G3B2 L-aspartate oxidase n=51 Tax=Shewanella TaxID...  288     2e-93
+UniRef90_A0A368NMP4 L-aspartate oxidase n=2 Tax=Corallincola TaxI...  287     2e-93
+UniRef90_A0A0P9AM57 L-aspartate oxidase n=1082 Tax=root TaxID=1 R...  287     2e-93
+UniRef90_A0A2A5CLA2 L-aspartate oxidase n=1 Tax=Moraxellaceae bac...  288     2e-93
+UniRef90_A0AA41WM94 L-aspartate oxidase n=32 Tax=Pseudomonadales ...  287     2e-93
+UniRef90_A0A839UNZ5 L-aspartate oxidase n=2 Tax=Simiduia TaxID=44...  288     2e-93
+UniRef90_A0A657AUK9 L-aspartate oxidase n=4 Tax=unclassified Olei...  287     2e-93
+UniRef90_A0A077LLS7 L-aspartate oxidase n=7 Tax=Pseudomonas TaxID...  287     2e-93
+UniRef90_M5E0X2 L-aspartate oxidase n=5 Tax=Thalassolituus TaxID=...  287     2e-93
+UniRef90_UPI001C93BB48 L-aspartate oxidase n=1 Tax=Marinobacteriu...  287     3e-93
+UniRef90_UPI00200FCB20 L-aspartate oxidase n=2 Tax=Shewanella Tax...  287     3e-93
+UniRef90_A0A3M2RK45 L-aspartate oxidase n=4 Tax=Marinobacter TaxI...  287     3e-93
+UniRef90_A0A1R1MEC3 L-aspartate oxidase n=1 Tax=Motiliproteus sp....  287     3e-93
+UniRef90_A0A4Q5VB99 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  287     3e-93
+UniRef90_A0A1X7AQ75 L-aspartate oxidase n=1 Tax=Parendozoicomonas...  287     3e-93
+UniRef90_W9V615 L-aspartate oxidase n=2 Tax=Nitrincola TaxID=2678...  287     3e-93
+UniRef90_A0A3E0X2K3 L-aspartate oxidase n=1 Tax=Alkalilimnicola e...  287     3e-93
+UniRef90_A0AAW7XF96 L-aspartate oxidase n=4 Tax=Neptunomonas TaxI...  287     3e-93
+UniRef90_UPI00267553E2 L-aspartate oxidase n=3 Tax=unclassified M...  287     3e-93
+UniRef90_A0A0P7Z4I5 L-aspartate oxidase n=92 Tax=Marinobacter Tax...  287     3e-93
+UniRef90_A0A024HE37 L-aspartate oxidase n=11 Tax=Pseudomonas TaxI...  287     3e-93
+UniRef90_A0A8E2QFZ9 L-aspartate oxidase n=8 Tax=Pseudomonadaceae ...  287     4e-93
+UniRef90_A0A081NA82 L-aspartate oxidase n=4 Tax=Endozoicomonas Ta...  287     4e-93
+UniRef90_UPI002620DD3F L-aspartate oxidase n=4 Tax=Shewanella Tax...  287     4e-93
+UniRef90_A0A0A1YIF3 L-aspartate oxidase n=12 Tax=Pseudomonas TaxI...  287     4e-93
+UniRef90_A0A3B0WNK6 L-aspartate oxidase n=1 Tax=hydrothermal vent...  287     4e-93
+UniRef90_A0A437Q8I7 L-aspartate oxidase n=1 Tax=Neptunomonas mari...  287     4e-93
+UniRef90_A0A1C2D9H9 L-aspartate oxidase n=29 Tax=Pseudomonas TaxI...  287     4e-93
+UniRef90_C1DQR4 L-aspartate oxidase n=17 Tax=Azotobacter group Ta...  287     4e-93
+UniRef90_A0A0B3C0I2 L-aspartate oxidase n=2 Tax=Pseudomonas TaxID...  287     4e-93
+UniRef90_A0A1N6SMB6 L-aspartate oxidase n=2 Tax=Marinobacterium s...  287     4e-93
+UniRef90_A0AA37TJ70 L-aspartate oxidase n=1 Tax=Paraferrimonas ha...  287     4e-93
+UniRef90_A0A063Y346 L-aspartate oxidase n=3 Tax=Nitrincola lacisa...  287     4e-93
+UniRef90_A0AA48KV74 L-aspartate oxidase n=2 Tax=Planctobacterium ...  287     4e-93
+UniRef90_UPI00299D645F L-aspartate oxidase n=1 Tax=Marinobacter s...  287     4e-93
+UniRef90_A0A4Q9XRT4 L-aspartate oxidase n=1 Tax=Bowmanella sp. JS...  287     5e-93
+UniRef90_A0A5J6QC07 L-aspartate oxidase n=1 Tax=Pseudomonas sp. C...  287     5e-93
+UniRef90_UPI001C81394B L-aspartate oxidase n=1 Tax=Pseudomonas sp...  287     5e-93
+UniRef90_A0A4P6P9W5 L-aspartate oxidase n=4 Tax=Colwelliaceae Tax...  286     5e-93
+UniRef90_UPI00077CB28C L-aspartate oxidase n=3 Tax=Shewanella Tax...  287     5e-93
+UniRef90_A0A8I2B5T8 L-aspartate oxidase n=27 Tax=Plesiomonas TaxI...  287     5e-93
+UniRef90_A0A094K0Y8 L-aspartate oxidase n=4 Tax=Shewanella TaxID=...  286     5e-93
+UniRef90_UPI001CFAB3D5 L-aspartate oxidase n=1 Tax=Pseudomonas Ta...  286     6e-93
+UniRef90_UPI00329691A6 L-aspartate oxidase n=1 Tax=Marinobacter s...  283     6e-93
+UniRef90_UPI0025ED89A4 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  286     6e-93
+UniRef90_UPI00201FF028 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  286     6e-93
+UniRef90_A0A8T7DHX3 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  286     6e-93
+UniRef90_A0A1Q9H328 L-aspartate oxidase n=21 Tax=Photobacterium d...  286     6e-93
+UniRef90_UPI0029645EC9 L-aspartate oxidase n=1 Tax=Vibrio sp. 115...  283     6e-93
+UniRef90_UPI0026211B36 L-aspartate oxidase n=1 Tax=uncultured Fer...  286     7e-93
+UniRef90_C4LBZ1 L-aspartate oxidase n=6 Tax=Tolumonas TaxID=43947...  286     7e-93
+UniRef90_A0A2U1UI97 L-aspartate oxidase n=5 Tax=Brenneria TaxID=7...  286     7e-93
+UniRef90_A0A6L7HWK5 L-aspartate oxidase n=17 Tax=Shewanella TaxID...  286     7e-93
+UniRef90_A0A7R6SU50 L-aspartate oxidase n=2 Tax=Amphritea TaxID=5...  286     7e-93
+UniRef90_A0A8T3KRT9 L-aspartate oxidase n=6 Tax=Bacteria TaxID=2 ...  286     7e-93
+UniRef90_A0A6I5IT81 L-aspartate oxidase n=21 Tax=Bacteria TaxID=2...  286     7e-93
+UniRef90_S6BL48 L-aspartate oxidase n=37 Tax=Pseudomonadaceae Tax...  286     8e-93
+UniRef90_UPI0031F148D4 L-aspartate oxidase n=1 Tax=Ferrimonas gel...  286     8e-93
+UniRef90_UPI002B48E985 L-aspartate oxidase n=1 Tax=Buttiauxella s...  280     8e-93
+UniRef90_A0A222FLU2 L-aspartate oxidase n=2 Tax=Bacterioplanes sa...  286     8e-93
+UniRef90_UPI0025731573 L-aspartate oxidase n=1 Tax=Thalassotalea ...  286     9e-93
+UniRef90_A0A3E0TMH2 L-aspartate oxidase n=3 Tax=Thalassotalea Tax...  286     9e-93
+UniRef90_A9DL55 L-aspartate oxidase n=6 Tax=Shewanella TaxID=22 R...  286     9e-93
+UniRef90_A0A975U9N8 L-aspartate oxidase n=5 Tax=Vibrio TaxID=662 ...  286     9e-93
+UniRef90_F6AA66 L-aspartate oxidase n=31 Tax=Pseudomonas TaxID=28...  286     9e-93
+UniRef90_A0A2I5TI28 L-aspartate oxidase n=2 Tax=Enterobacterales ...  286     9e-93
+UniRef90_A0A9J6RNL5 L-aspartate oxidase n=3 Tax=Dasania TaxID=503...  285     1e-92
+UniRef90_UPI002ED49F4A L-aspartate oxidase n=1 Tax=Endozoicomonad...  286     1e-92
+UniRef90_B3PJA2 L-aspartate oxidase n=2 Tax=Cellvibrio japonicus ...  286     1e-92
+UniRef90_UPI001C0A2B1E L-aspartate oxidase n=2 Tax=Colwellia TaxI...  285     1e-92
+UniRef90_UPI0015E45F79 L-aspartate oxidase n=2 Tax=Pseudomonas en...  286     1e-92
+UniRef90_A0A2U3BCY5 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  286     1e-92
+UniRef90_A0AAE9VM91 L-aspartate oxidase n=1 Tax=Denitrificimonas ...  286     1e-92
+UniRef90_A0A4Y6IAL0 L-aspartate oxidase n=2 Tax=unclassified Shew...  285     1e-92
+UniRef90_A0AB36PFZ7 L-aspartate oxidase n=2 Tax=Enterobacteriacea...  279     1e-92
+UniRef90_UPI001F3EA612 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  281     1e-92
+UniRef90_UPI0021D8932F L-aspartate oxidase n=1 Tax=Pseudomonas sp...  285     1e-92
+UniRef90_A0A1Y0FS92 L-aspartate oxidase n=1 Tax=Cellvibrio sp. PS...  285     1e-92
+UniRef90_A0A5J6WPR4 L-aspartate oxidase n=18 Tax=Moritella TaxID=...  285     1e-92
+UniRef90_UPI0021D7FD3A L-aspartate oxidase n=1 Tax=Endozoicomonas...  285     1e-92
+UniRef90_UPI002964B0BA L-aspartate oxidase n=1 Tax=Vibrio sp. 708...  279     1e-92
+UniRef90_UPI000DB9C027 L-aspartate oxidase n=1 Tax=Marinimicrobiu...  285     1e-92
+UniRef90_A0A370DII7 L-aspartate oxidase n=1 Tax=endosymbiont of G...  285     1e-92
+UniRef90_A0AAJ2VCX3 L-aspartate oxidase n=9 Tax=Brenneria TaxID=7...  285     1e-92
+UniRef90_A0A9X4YC83 L-aspartate oxidase n=3 Tax=Halomonadaceae Ta...  285     1e-92
+UniRef90_A0AA90NR07 L-aspartate oxidase n=2 Tax=Endonucleobacter ...  285     1e-92
+UniRef90_A0A3N1NZ72 L-aspartate oxidase n=8 Tax=Marinimicrobium T...  285     2e-92
+UniRef90_A0A845SRZ3 L-aspartate oxidase n=10 Tax=Pseudomonadota T...  285     2e-92
+UniRef90_A0A7R6PKU7 L-aspartate oxidase n=5 Tax=Neptunomonas TaxI...  285     2e-92
+UniRef90_A0A562I0U7 L-aspartate oxidase n=2 Tax=Azomonas agilis T...  285     2e-92
+UniRef90_UPI00362194D2 L-aspartate oxidase n=1 Tax=Azotobacter br...  285     2e-92
+UniRef90_A0A0S2KDQ1 L-aspartate oxidase n=2 Tax=Pseudohongiella s...  285     2e-92
+UniRef90_A0A6N4DML4 L-aspartate oxidase n=1 Tax=Candidatus Sedime...  285     2e-92
+UniRef90_A0A9D6VWD3 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  279     2e-92
+UniRef90_A0A1Q9RBS7 L-aspartate oxidase n=516 Tax=root TaxID=1 Re...  285     2e-92
+UniRef90_A0A1X1MY37 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  285     2e-92
+UniRef90_A0A4Y8UWT9 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  285     2e-92
+UniRef90_A0A9E4K0N2 L-aspartate oxidase n=4 Tax=Gammaproteobacter...  285     2e-92
+UniRef90_UPI001F4D7FF2 L-aspartate oxidase n=1 Tax=Atopomonas sed...  285     2e-92
+UniRef90_A0A1H3BYY0 L-aspartate oxidase n=5 Tax=Pseudomonas TaxID...  285     2e-92
+UniRef90_UPI00240BC55E L-aspartate oxidase n=1 Tax=Thalassotalea ...  285     2e-92
+UniRef90_L8J991 L-aspartate oxidase n=7 Tax=Photobacterium TaxID=...  285     2e-92
+UniRef90_A0A7V8QED5 L-aspartate oxidase n=1 Tax=Ectothiorhodospir...  285     2e-92
+UniRef90_UPI000EB31E64 L-aspartate oxidase n=2 Tax=Stutzerimonas ...  285     2e-92
+UniRef90_A0A379WNH5 L-aspartate oxidase n=1 Tax=Salmonella enteri...  275     2e-92
+UniRef90_A0A7Z0VK88 L-aspartate oxidase n=9 Tax=Gammaproteobacter...  285     2e-92
+UniRef90_A0A7Z2YCX9 L-aspartate oxidase n=4 Tax=Vibrio TaxID=662 ...  285     2e-92
+UniRef90_Q93CP8 L-aspartate oxidase n=8 Tax=Enterobacteriaceae Ta...  279     2e-92
+UniRef90_UPI00201B4064 L-aspartate oxidase n=1 Tax=Aestuariirhabd...  285     2e-92
+UniRef90_A0A2E6BH22 L-aspartate oxidase n=6 Tax=Gammaproteobacter...  285     2e-92
+UniRef90_A0A1Z7Z6L8 L-aspartate oxidase n=2 Tax=unclassified Gamm...  285     2e-92
+UniRef90_A0A3L8PRB0 L-aspartate oxidase n=2 Tax=Parashewanella Ta...  285     2e-92
+UniRef90_A0A120G7E8 L-aspartate oxidase n=4 Tax=Pseudomonas TaxID...  280     2e-92
+UniRef90_A0A2V1GWB4 L-aspartate oxidase n=1 Tax=Pelagibaculum spo...  285     2e-92
+UniRef90_A0A1I6J7P4 L-aspartate oxidase n=11 Tax=Marinobacter Tax...  285     2e-92
+UniRef90_A0A2E8VU44 L-aspartate oxidase n=2 Tax=Gammaproteobacter...  285     2e-92
+UniRef90_A0AA37VYW2 L-aspartate oxidase n=1 Tax=Paraferrimonas se...  285     2e-92
+UniRef90_UPI0003B69D2C L-aspartate oxidase n=1 Tax=Denitrificimon...  285     2e-92
+UniRef90_A0A2E9JKT1 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  285     2e-92
+UniRef90_Q47WN7 L-aspartate oxidase n=16 Tax=Colwellia TaxID=2822...  285     2e-92
+UniRef90_UPI0028A5FB88 L-aspartate oxidase n=1 Tax=Pseudomonas sp...  285     2e-92
+UniRef90_A0A545U3P5 L-aspartate oxidase n=1 Tax=Exilibacterium tr...  285     3e-92
+UniRef90_A0A936CYM2 L-aspartate oxidase n=1 Tax=Cellvibrio sp. Ta...  285     3e-92
+UniRef90_UPI0023B0A95F L-aspartate oxidase n=1 Tax=Vibrio sp. JC0...  285     3e-92
+UniRef90_A0A9X2CEG0 L-aspartate oxidase n=17 Tax=Shewanella TaxID...  285     3e-92
+UniRef90_A0A378BWI0 L-aspartate oxidase n=1 Tax=Klebsiella pneumo...  279     3e-92
+UniRef90_A0A1G3EEL9 L-aspartate oxidase (Fragment) n=1 Tax=Pseudo...  279     3e-92
+UniRef90_A0A377PFI6 L-aspartate oxidase n=33 Tax=Enterobacterales...  285     3e-92
+UniRef90_A0A2E7EBV1 L-aspartate oxidase n=1 Tax=Oceanospirillacea...  285     3e-92
+UniRef90_UPI001D524498 L-aspartate oxidase n=1 Tax=Alcanivorax sp...  285     3e-92
+UniRef90_A0A9D5TLX7 L-aspartate oxidase n=4 Tax=Thalassospira Tax...  285     3e-92
+UniRef90_A0A4R7JKH6 L-aspartate oxidase n=1 Tax=Halospina denitri...  284     3e-92
+UniRef90_UPI003A4D8F7F L-aspartate oxidase n=1 Tax=Aliidiomarina ...  284     3e-92
+UniRef90_A0A0Q2MYV2 L-aspartate oxidase n=17 Tax=Vibrionaceae Tax...  284     3e-92
+UniRef90_UPI001F131331 L-aspartate oxidase n=1 Tax=Candidatus Von...  285     3e-92
+UniRef90_UPI0015E277AC L-aspartate oxidase n=6 Tax=Pseudomonas Ta...  284     3e-92
+UniRef90_A0A919BE46 L-aspartate oxidase n=1 Tax=Thalassotalea mar...  284     3e-92
+UniRef90_UPI001180D727 L-aspartate oxidase n=2 Tax=Catenovulum se...  284     3e-92
+UniRef90_A0A653E0K8 L-aspartate oxidase n=10 Tax=Pseudomonas TaxI...  284     4e-92
+UniRef90_A0AA37W6S8 L-aspartate oxidase n=2 Tax=Litoribrevibacter...  285     4e-92
+UniRef90_Q608L8 L-aspartate oxidase n=8 Tax=Methylococcus TaxID=4...  284     4e-92
+UniRef90_UPI0023D9CF78 L-aspartate oxidase n=1 Tax=Aliiglaciecola...  284     4e-92
+UniRef90_UPI00083997E8 L-aspartate oxidase n=2 Tax=Vibrio TaxID=6...  284     4e-92
+UniRef90_A0AAU9CAI3 L-aspartate oxidase n=2 Tax=Methylomarinovum ...  284     4e-92
+UniRef90_L0WDT1 L-aspartate oxidase n=1 Tax=Alcanivorax hongdenge...  284     4e-92
+UniRef90_A0A5B0VC76 L-aspartate oxidase n=23 Tax=Marinobacter Tax...  284     4e-92
+UniRef90_A0A6G7CFL2 L-aspartate oxidase n=8 Tax=Vibrio TaxID=662 ...  284     4e-92
+UniRef90_A0A2A5AZK7 L-aspartate oxidase n=1 Tax=SAR86 cluster bac...  285     4e-92
+UniRef90_UPI000B9B7B64 L-aspartate oxidase n=1 Tax=Psychromonas s...  284     4e-92
+UniRef90_A0A949P3U9 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  285     5e-92
+UniRef90_UPI00349FF782 L-aspartate oxidase n=5 Tax=Saccharospiril...  284     5e-92
+UniRef90_E0SBI1 L-aspartate oxidase n=40 Tax=Dickeya TaxID=204037...  284     5e-92
+UniRef90_UPI000A1775AF L-aspartate oxidase n=1 Tax=Cognaticolwell...  284     5e-92
+UniRef90_UPI000480A483 L-aspartate oxidase n=1 Tax=Ferrimonas sen...  284     5e-92
+UniRef90_UPI00227FB07D L-aspartate oxidase n=1 Tax=Alteromonas sp...  284     5e-92
+UniRef90_A0A2X1QGG5 L-aspartate oxidase n=1 Tax=Klebsiella pneumo...  278     5e-92
+UniRef90_W7R2X6 L-aspartate oxidase n=2 Tax=Catenovulum agarivora...  284     5e-92
+UniRef90_A0A085G5T0 L-aspartate oxidase n=7 Tax=Enterobacteriacea...  284     5e-92
+UniRef90_UPI000970FFF5 L-aspartate oxidase n=3 Tax=Colwelliaceae ...  284     5e-92
+UniRef90_A0AA41W542 L-aspartate oxidase n=1 Tax=Echinimonas agari...  284     5e-92
+UniRef90_A0A9J6PKS1 L-aspartate oxidase n=5 Tax=Erwiniaceae TaxID...  284     6e-92
+UniRef90_A0A1Y6GDA5 L-aspartate oxidase n=624 Tax=Gammaproteobact...  284     6e-92
+UniRef90_UPI0021D26CF0 L-aspartate oxidase n=2 Tax=unclassified C...  284     6e-92
+UniRef90_A0A9D0I6R8 L-aspartate oxidase n=1 Tax=Sedimenticola sp....  284     6e-92
+UniRef90_A0A9X0WGB7 L-aspartate oxidase n=1 Tax=Thiocapsa imhoffi...  284     6e-92
+UniRef90_A0A5C8Z7E6 L-aspartate oxidase n=1 Tax=Reinekea thalatta...  284     6e-92
+UniRef90_A0A962X2R4 L-aspartate oxidase n=2 Tax=Gammaproteobacter...  284     6e-92
+UniRef90_A0A8H8XIP5 L-aspartate oxidase n=6 Tax=Pseudomonas TaxID...  284     6e-92
+UniRef90_A0A381C482 L-aspartate oxidase n=32 Tax=Enterobacteriace...  284     6e-92
+UniRef90_UPI002639DAEA L-aspartate oxidase n=1 Tax=uncultured Nep...  284     7e-92
+UniRef90_A0A9W6K3G8 L-aspartate oxidase n=10 Tax=Pseudomonas TaxI...  284     7e-92
+UniRef90_W9VCK3 L-aspartate oxidase n=2 Tax=Chromatiaceae TaxID=1...  284     7e-92
+UniRef90_UPI0030019D44 L-aspartate oxidase n=1 Tax=Rheinheimera m...  284     7e-92
+UniRef90_A0A520YMY4 L-aspartate oxidase n=4 Tax=Gammaproteobacter...  284     7e-92
+UniRef90_A0A9E8HF61 L-aspartate oxidase n=3 Tax=Alkalimarinus Tax...  284     7e-92
+UniRef90_Q2SL41 L-aspartate oxidase n=4 Tax=Hahella TaxID=158481 ...  284     7e-92
+UniRef90_A0A0S2TCY6 L-aspartate oxidase n=1 Tax=Candidatus Tender...  284     7e-92
+UniRef90_A0A5C6QUA3 L-aspartate oxidase n=7 Tax=Colwellia TaxID=2...  284     7e-92
+UniRef90_UPI001C0879FB L-aspartate oxidase n=2 Tax=Colwellia TaxI...  284     7e-92
+UniRef90_A0A411PK08 L-aspartate oxidase n=3 Tax=Shewanella TaxID=...  284     7e-92
+UniRef90_A0A1H6S5Z7 L-aspartate oxidase n=1 Tax=Allopseudospirill...  284     7e-92
+UniRef90_A0A6I6E9P0 L-aspartate oxidase n=7 Tax=Chromatiaceae Tax...  284     7e-92
+UniRef90_A0A3B0X6U9 L-aspartate oxidase (Fragment) n=1 Tax=hydrot...  284     8e-92
+UniRef90_A0A350J2C6 L-aspartate oxidase n=1 Tax=Cellvibrionales b...  284     8e-92
+UniRef90_A0A2E1NVY5 L-aspartate oxidase n=2 Tax=Cellvibrionales b...  284     8e-92
+UniRef90_A0A1E7Q4Q2 L-aspartate oxidase n=2 Tax=Rheinheimera TaxI...  283     8e-92
+UniRef90_A0A4Y7ZH60 L-aspartate oxidase n=2 Tax=Psychromonas TaxI...  284     8e-92
+UniRef90_A0AAW4HGK3 L-aspartate oxidase n=352 Tax=Gammaproteobact...  283     9e-92
+UniRef90_F3KH53 L-aspartate oxidase n=1 Tax=gamma proteobacterium...  278     9e-92
+UniRef90_A0A7X8YGN2 L-aspartate oxidase n=1 Tax=Vibrio agarilytic...  284     9e-92
+UniRef90_A0A7L5RQF9 L-aspartate oxidase n=2 Tax=Pseudomonadaceae ...  283     9e-92
+UniRef90_UPI0026737667 L-aspartate oxidase n=2 Tax=unclassified G...  284     9e-92
+UniRef90_A0A8T7IRT3 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  283     9e-92
+UniRef90_UPI0024103919 L-aspartate oxidase n=1 Tax=Vibrio hannami...  283     9e-92
+UniRef90_A0A9J7AAL9 L-aspartate oxidase n=4 Tax=Gilvimarinus TaxI...  283     1e-91
+UniRef90_A0A9Q3YLM7 L-aspartate oxidase n=12 Tax=Alloalcanivorax ...  283     1e-91
+UniRef90_A0A8J6M054 L-aspartate oxidase n=1 Tax=Neptunicella mari...  283     1e-91
+UniRef90_A0A0U3B7Q8 L-aspartate oxidase n=3 Tax=Lacimicrobium Tax...  283     1e-91
+UniRef90_I0QSX5 L-aspartate oxidase n=1 Tax=Serratia sp. M24T3 Ta...  284     1e-91
+UniRef90_A0A1S8YEN5 L-aspartate oxidase n=1 Tax=Izhakiella austra...  283     1e-91
+UniRef90_A0A379IYY6 L-aspartate oxidase n=119 Tax=Pseudomonadacea...  284     1e-91
+UniRef90_A0A962P3X0 L-aspartate oxidase n=2 Tax=Pseudomonadales b...  284     1e-91
+UniRef90_A0A081KBR2 L-aspartate oxidase n=1 Tax=Endozoicomonas el...  284     1e-91
+UniRef90_UPI0037351EDC L-aspartate oxidase n=1 Tax=Shewanella mar...  283     1e-91
+UniRef90_Q2Y881 L-aspartate oxidase n=6 Tax=Nitrosospira multifor...  283     1e-91
+UniRef90_A0A4P0YD28 L-aspartate oxidase n=3 Tax=Klebsiella pneumo...  278     1e-91
+UniRef90_S6HRE4 L-aspartate oxidase n=2 Tax=Bacteria TaxID=2 RepI...  283     1e-91
+UniRef90_UPI00036F2307 L-aspartate oxidase n=3 Tax=Lamprocystis T...  283     1e-91
+UniRef90_UPI00241E4890 L-aspartate oxidase n=1 Tax=Alteromonas me...  277     1e-91
+UniRef90_A0A9D6JI72 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  283     1e-91
+UniRef90_A0A2T3MXI6 L-aspartate oxidase n=3 Tax=Photobacterium Ta...  283     1e-91
+UniRef90_D4E2P6 L-aspartate oxidase n=265 Tax=Enterobacterales Ta...  283     1e-91
+UniRef90_A0A916B4S8 L-aspartate oxidase n=1 Tax=Olavius algarvens...  283     1e-91
+UniRef90_A0A947BJI2 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  283     1e-91
+UniRef90_A0A427U618 L-aspartate oxidase n=28 Tax=Vibrio TaxID=662...  283     1e-91
+UniRef90_A0A2X2JBF5 L-aspartate oxidase n=36 Tax=Enterobacteriace...  278     1e-91
+UniRef90_A0A2T6EC23 L-aspartate oxidase n=3 Tax=Saccharospirillum...  283     1e-91
+UniRef90_A0A7C1TIH3 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  283     1e-91
+UniRef90_A0A2E4USY4 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  283     1e-91
+UniRef90_A0A929IXS3 L-aspartate oxidase n=2 Tax=Pseudomonadota ba...  283     1e-91
+UniRef90_UPI001C0AE91F L-aspartate oxidase n=1 Tax=Aestuariicella...  283     1e-91
+UniRef90_A0A948JFP5 L-aspartate oxidase n=3 Tax=Gammaproteobacter...  283     1e-91
+UniRef90_A0A929J9Y2 L-aspartate oxidase n=1 Tax=Pseudomonadota ba...  283     1e-91
+UniRef90_A0A3N9THK5 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  283     1e-91
+UniRef90_F7RXE2 L-aspartate oxidase n=6 Tax=Idiomarinaceae TaxID=...  283     1e-91
+UniRef90_A0A375A7W9 L-aspartate oxidase n=2 Tax=Dickeya TaxID=204...  283     1e-91
+UniRef90_A0A1I4N5R4 L-aspartate oxidase n=1 Tax=Halopseudomonas y...  283     1e-91
+UniRef90_A0AAW7YFN9 L-aspartate oxidase n=2 Tax=unclassified Colw...  283     1e-91
+UniRef90_UPI0019D148DE L-aspartate oxidase n=1 Tax=Thalassotalea ...  283     1e-91
+UniRef90_A0A2E1Z6H3 L-aspartate oxidase n=5 Tax=Gammaproteobacter...  283     2e-91
+UniRef90_A0A0B0H725 L-aspartate oxidase n=4 Tax=sulfur-oxidizing ...  283     2e-91
+UniRef90_A0A3B9DCG4 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  279     2e-91
+UniRef90_A0A3B9X0T8 L-aspartate oxidase (Fragment) n=1 Tax=Gammap...  280     2e-91
+UniRef90_UPI0030EB5586 L-aspartate oxidase n=4 Tax=Gilvimarinus T...  283     2e-91
+UniRef90_A0A945R8C8 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  283     2e-91
+UniRef90_B6XEF7 L-aspartate oxidase n=9 Tax=Providencia TaxID=586...  282     2e-91
+UniRef90_UPI001ADD971A L-aspartate oxidase n=1 Tax=Marinobacteriu...  283     2e-91
+UniRef90_UPI002B47A8CA L-aspartate oxidase n=1 Tax=Marinobacter s...  282     2e-91
+UniRef90_UPI0024320290 L-aspartate oxidase n=1 Tax=Candidatus Lit...  282     2e-91
+UniRef90_UPI001BD1CF47 L-aspartate oxidase n=2 Tax=unclassified P...  282     2e-91
+UniRef90_UPI0031EC4F55 L-aspartate oxidase n=1 Tax=Ferrimonas pel...  282     2e-91
+UniRef90_M1F949 L-aspartate oxidase n=12 Tax=Marinobacter TaxID=2...  282     2e-91
+UniRef90_A0A1H2E2D5 L-aspartate oxidase n=1 Tax=Pseudomonas guang...  282     2e-91
+UniRef90_A0A7X0NFV6 L-aspartate oxidase n=2 Tax=Thalassotalea Tax...  282     2e-91
+UniRef90_A0A9C9GP87 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  283     2e-91
+UniRef90_UPI00195FA63F L-aspartate oxidase n=1 Tax=Parashewanella...  282     2e-91
+UniRef90_A0A1Y5D6R0 L-aspartate oxidase n=1 Tax=Colwellia sp. 39_...  282     2e-91
+UniRef90_UPI0036161D6C L-aspartate oxidase n=1 Tax=Stutzerimonas ...  282     2e-91
+UniRef90_A0A0C5W7L6 L-aspartate oxidase n=20 Tax=Vibrionaceae Tax...  282     2e-91
+UniRef90_I1E1D6 L-aspartate oxidase n=23 Tax=Rheinheimera TaxID=6...  282     2e-91
+UniRef90_A0A553H2A9 L-aspartate oxidase n=1 Tax=Pseudomonas mangi...  282     2e-91
+UniRef90_A0A2K8KRX0 L-aspartate oxidase n=4 Tax=Reinekea TaxID=23...  282     2e-91
+UniRef90_UPI00356511AD L-aspartate oxidase n=1 Tax=Litorivivens s...  282     2e-91
+UniRef90_A0YCK9 L-aspartate oxidase n=1 Tax=marine gamma proteoba...  282     2e-91
+UniRef90_A0A9E5MM63 L-aspartate oxidase n=1 Tax=Aestuariicella hy...  282     2e-91
+UniRef90_UPI0027324850 L-aspartate oxidase n=2 Tax=Pseudomonas sp...  282     2e-91
+UniRef90_A0A7W4Z401 L-aspartate oxidase n=6 Tax=Litorivivens TaxI...  282     2e-91
+UniRef90_A0A937HHW1 L-aspartate oxidase n=1 Tax=Shewanellaceae ba...  282     2e-91
+UniRef90_K8WE89 L-aspartate oxidase n=1 Tax=Providencia sneebia D...  282     2e-91
+UniRef90_A0A2E0HIF6 L-aspartate oxidase n=1 Tax=Pseudomonadales b...  282     3e-91
+UniRef90_A0A951RPB3 L-aspartate oxidase n=2 Tax=Pseudomonadota Ta...  282     3e-91
+UniRef90_A0A1G7VWK6 L-aspartate oxidase n=2 Tax=Vibrio TaxID=662 ...  282     3e-91
+UniRef90_UPI0018EA19AA L-aspartate oxidase n=1 Tax=Mangrovitalea ...  282     3e-91
+UniRef90_UPI003989A66B L-aspartate oxidase n=2 Tax=Reinekea TaxID...  282     3e-91
+UniRef90_A0A7C5GK77 L-aspartate oxidase n=1 Tax=Thiotrichales bac...  282     3e-91
+UniRef90_A0A285P9Q1 L-aspartate oxidase n=2 Tax=unclassified Pseu...  282     3e-91
+UniRef90_K2KDL0 L-aspartate oxidase n=1 Tax=Idiomarina xiamenensi...  282     3e-91
+UniRef90_A0A3B0Z0Z8 L-aspartate oxidase n=1 Tax=hydrothermal vent...  282     3e-91
+UniRef90_A0A1H8QCU8 L-aspartate oxidase n=2 Tax=Aquisalimonas Tax...  282     3e-91
+UniRef90_A0A937M5J9 L-aspartate oxidase n=2 Tax=Gammaproteobacter...  282     3e-91
+UniRef90_UPI0025A127F9 L-aspartate oxidase n=1 Tax=Thiopseudomona...  282     3e-91
+UniRef90_A0A962JQS5 L-aspartate oxidase n=1 Tax=Pseudomonadales b...  282     3e-91
+UniRef90_A0A432WRN4 L-aspartate oxidase n=1 Tax=Aliidiomarina san...  282     3e-91
+UniRef90_A0A4R6UZJ0 L-aspartate oxidase n=1 Tax=Permianibacter ag...  282     3e-91
+UniRef90_C5BRM7 L-aspartate oxidase n=7 Tax=Teredinibacter turner...  282     3e-91
+UniRef90_UPI000FDB7530 L-aspartate oxidase n=1 Tax=Sulfurivermis ...  282     3e-91
+UniRef90_UPI002886BEDD L-aspartate oxidase n=2 Tax=Colwelliaceae ...  282     3e-91
+UniRef90_A0A917JIW4 L-aspartate oxidase n=1 Tax=Shewanella gelidi...  282     3e-91
+UniRef90_UPI001AEF9103 L-aspartate oxidase n=1 Tax=Motiliproteus ...  282     3e-91
+UniRef90_A0A485AV87 L-aspartate oxidase n=1 Tax=Kluyvera cryocres...  276     3e-91
+UniRef90_UPI000DF3747A L-aspartate oxidase n=1 Tax=Marinospirillu...  282     4e-91
+UniRef90_A0A358Y1W8 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  282     4e-91
+UniRef90_A0A432FQU5 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  282     4e-91
+UniRef90_A0A1N7N0E3 L-aspartate oxidase n=1 Tax=Neptunomonas anta...  282     4e-91
+UniRef90_UPI00037F590C L-aspartate oxidase n=1 Tax=Gayadomonas jo...  282     4e-91
+UniRef90_A0A552X4R5 L-aspartate oxidase n=2 Tax=Aliidiomarina Tax...  282     4e-91
+UniRef90_A0A2A4MF36 L-aspartate oxidase n=1 Tax=SAR86 cluster bac...  281     4e-91
+UniRef90_A0A917GKG9 L-aspartate oxidase n=2 Tax=Pseudohongiella n...  282     4e-91
+UniRef90_A0A2A5FU91 L-aspartate oxidase n=2 Tax=Thiotrichaceae ba...  282     4e-91
+UniRef90_UPI001F159622 L-aspartate oxidase n=1 Tax=Vibrio sp. SS-...  282     4e-91
+UniRef90_UPI0025740E81 L-aspartate oxidase n=1 Tax=Thalassotalea ...  282     4e-91
+UniRef90_A0A7X1G4H0 L-aspartate oxidase n=20 Tax=Pseudomonas TaxI...  282     4e-91
+UniRef90_A0A962PP13 L-aspartate oxidase (Fragment) n=1 Tax=Pseudo...  280     4e-91
+UniRef90_A0A3S5JKJ6 L-aspartate oxidase n=1 Tax=Gammaproteobacter...  282     4e-91
+UniRef90_UPI001686143D L-aspartate oxidase n=3 Tax=Pseudomonas ty...  282     4e-91
+UniRef90_A0A2S5KM37 L-aspartate oxidase n=3 Tax=Pseudomonadota Ta...  282     4e-91
+UniRef90_A0A0M2VDA8 L-aspartate oxidase n=11 Tax=Chromatiaceae Ta...  282     5e-91
+UniRef90_A0AA95SKK0 L-aspartate oxidase n=1 Tax=Porticoccaceae ba...  282     5e-91
+UniRef90_A0A3R9AHZ3 L-aspartate oxidase n=6 Tax=Erwinia TaxID=551...  281     5e-91
+UniRef90_UPI00215663D8 L-aspartate oxidase n=1 Tax=Serratia marce...  278     5e-91
+UniRef90_UPI0026074FC9 L-aspartate oxidase n=1 Tax=Thiohalobacter...  282     5e-91
+UniRef90_A0A447UYK2 L-aspartate oxidase n=42 Tax=cellular organis...  282     5e-91
+UniRef90_A0A946HP26 L-aspartate oxidase n=6 Tax=Gammaproteobacter...  282     5e-91
+UniRef90_A0A081G476 L-aspartate oxidase n=3 Tax=Marinobacterium T...  281     5e-91
+UniRef90_A0A2S6G4N0 L-aspartate oxidase n=3 Tax=Marinobacter TaxI...  282     5e-91
+UniRef90_B7LUZ0 L-aspartate oxidase n=299 Tax=root TaxID=1 RepID=...  282     5e-91
+UniRef90_A0A156KXJ2 L-aspartate oxidase n=190 Tax=root TaxID=1 Re...  281     5e-91
+UniRef90_A0A962YQM2 L-aspartate oxidase n=2 Tax=Candidatus Compet...  282     5e-91
+UniRef90_A0A5C6QVA9 L-aspartate oxidase n=23 Tax=Colwelliaceae Ta...  281     5e-91
+UniRef90_A0A3B0Y7T4 L-aspartate oxidase (Fragment) n=1 Tax=hydrot...  280     6e-91
+UniRef90_Q0VP09 L-aspartate oxidase n=36 Tax=Alcanivorax TaxID=59...  281     6e-91
+UniRef90_A0A0U5IJY2 L-aspartate oxidase n=11 Tax=Thiocapsa TaxID=...  281     6e-91
+UniRef90_A0A654CA60 L-aspartate oxidase n=20 Tax=Pseudomonadaceae...  281     6e-91
+UniRef90_A0A351NU16 L-aspartate oxidase n=1 Tax=Porticoccaceae ba...  281     6e-91
+UniRef90_A0A090R279 L-aspartate oxidase n=1 Tax=Photobacterium ap...  274     6e-91
+UniRef90_A0A562QPU3 L-aspartate oxidase n=1 Tax=Pseudomonas durif...  281     7e-91
+UniRef90_A0A1W6SRD8 L-aspartate oxidase n=5 Tax=Nitrosospira TaxI...  281     7e-91
+UniRef90_A0A2A2I6H4 L-aspartate oxidase n=1 Tax=Tamilnaduibacter ...  281     7e-91
+UniRef90_A0A2S2E162 L-aspartate oxidase n=2 Tax=Saliniradius amyl...  282     7e-91
+UniRef90_UPI0036347A7B L-aspartate oxidase n=1 Tax=Thalassotalea ...  281     7e-91
+UniRef90_A0A928V3F6 L-aspartate oxidase n=2 Tax=Cellvibrio polysa...  281     7e-91
+UniRef90_A0AB39V090 L-aspartate oxidase n=1 Tax=Hahella sp. SMD15...  281     7e-91
+UniRef90_UPI0035E4FC4E L-aspartate oxidase n=4 Tax=Erwinia TaxID=...  281     7e-91
+UniRef90_UPI003519C8B2 FAD-binding protein n=1 Tax=Alloalcanivora...  273     8e-91
+UniRef90_M4UI14 L-aspartate oxidase n=1 Tax=Psychromonas sp. CNPT...  281     8e-91
+UniRef90_UPI003858A27C L-aspartate oxidase n=2 Tax=unclassified C...  281     8e-91
+UniRef90_A0A3B9AFK0 L-aspartate oxidase n=2 Tax=Porticoccaceae ba...  281     8e-91
+UniRef90_E3BFT3 L-aspartate oxidase n=3 Tax=Vibrio caribbeanicus ...  281     8e-91
+UniRef90_A0A5C8LUB8 L-aspartate oxidase n=13 Tax=Gammaproteobacte...  281     8e-91
+UniRef90_UPI002B41471B L-aspartate oxidase n=3 Tax=unclassified C...  281     8e-91
+UniRef90_A0A951VNI2 L-aspartate oxidase n=1 Tax=Rhodospirillales ...  281     8e-91
+UniRef90_A0A7Y6Z233 L-aspartate oxidase n=2 Tax=Oceanospirillacea...  281     8e-91
+UniRef90_A0A1Y1R4T0 L-aspartate oxidase n=3 Tax=Oceanospirillales...  281     8e-91
+UniRef90_A0A3D8MEZ1 L-aspartate oxidase n=1 Tax=Alteromonas aestu...  281     8e-91
+UniRef90_A0A858QVM7 L-aspartate oxidase n=1 Tax=Marinobacterium s...  281     8e-91
+UniRef90_UPI00165F7830 L-aspartate oxidase n=1 Tax=Teredinibacter...  281     8e-91
+UniRef90_A0A418Y9M4 L-aspartate oxidase n=1 Tax=Motilimonas pumil...  281     8e-91
+UniRef90_A0AAJ1JFU9 L-aspartate oxidase n=25 Tax=Providencia TaxI...  281     8e-91
+UniRef90_A0AAX3KW90 L-aspartate oxidase n=58 Tax=Pseudomonadaceae...  281     8e-91
+UniRef90_A0A3N1JAF0 L-aspartate oxidase n=1 Tax=Enterobacter sp. ...  281     9e-91
+UniRef90_A0A6C1N0C7 L-aspartate oxidase n=1 Tax=Halomonadaceae ba...  281     9e-91
+UniRef90_UPI00383BECEB L-aspartate oxidase n=1 Tax=Endozoicomonas...  281     9e-91
+UniRef90_K1YR78 L-aspartate oxidase n=4 Tax=Bacteria TaxID=2 RepI...  280     9e-91
+UniRef90_A0A240E9V6 L-aspartate oxidase n=17 Tax=root TaxID=1 Rep...  281     9e-91
+UniRef90_A0A5B0K217 L-aspartate oxidase n=16 Tax=Enterobacteriace...  281     9e-91
+UniRef90_UPI00208E38F4 L-aspartate oxidase n=1 Tax=Aliidiomarina ...  281     9e-91
+UniRef90_UPI001E2B168B L-aspartate oxidase n=1 Tax=Paraneptunicel...  281     9e-91
+UniRef90_B8KFU7 L-aspartate oxidase n=4 Tax=Gammaproteobacteria T...  281     1e-90
+UniRef90_UPI001E58DA3F L-aspartate oxidase n=3 Tax=Motilimonas Ta...  281     1e-90
+UniRef90_A0A385MXI1 L-aspartate oxidase n=3 Tax=Alteromonadaceae ...  281     1e-90
+UniRef90_A0A4P7XEH0 L-aspartate oxidase n=1 Tax=Hydrocarboniclast...  280     1e-90
+UniRef90_A0A1I1FTH5 L-aspartate oxidase n=1 Tax=Marinospirillum c...  280     1e-90
+UniRef90_A0A962ITM7 L-aspartate oxidase n=1 Tax=Pseudomonadales b...  280     1e-90
+UniRef90_A0A510IMF2 L-aspartate oxidase n=12 Tax=Microbulbifer Ta...  280     1e-90
+UniRef90_A0A379W4G1 L-aspartate oxidase n=6 Tax=Salmonella enteri...  277     1e-90
+UniRef90_A0AAW7QWX1 L-aspartate oxidase n=3 Tax=Pseudidiomarina T...  280     1e-90
+UniRef90_A0A3B0X3Z2 L-aspartate oxidase (Fragment) n=1 Tax=hydrot...  277     1e-90
+UniRef90_Q8ZD80 L-aspartate oxidase n=147 Tax=Enterobacterales Ta...  280     1e-90
+UniRef90_A0A5J5FSV6 L-aspartate oxidase n=1 Tax=Affinibrenneria s...  280     1e-90
+UniRef90_I3IBM3 L-aspartate oxidase n=12 Tax=Cellvibrio TaxID=10 ...  281     1e-90
+UniRef90_A0A4R8IZU0 L-aspartate oxidase n=5 Tax=Thiohalophilus Ta...  281     1e-90
+UniRef90_A0A0S2K296 L-aspartate oxidase n=6 Tax=Pseudoalteromonas...  280     1e-90
+UniRef90_UPI00360CCDF0 L-aspartate oxidase n=4 Tax=Bacteria TaxID...  280     1e-90
+UniRef90_A0A2N0WWR7 L-aspartate oxidase n=6 Tax=Psychromonas TaxI...  280     1e-90
+UniRef90_A0A7G2S1R2 L-aspartate oxidase n=6 Tax=Alcanivorax TaxID...  280     1e-90
+UniRef90_A0A1Y6ETQ7 L-aspartate oxidase n=2 Tax=Pseudidiomarina p...  280     1e-90
+UniRef90_A0A557PHH5 L-aspartate oxidase n=16 Tax=Vibrio TaxID=662...  280     1e-90
+UniRef90_A0A235CJ67 L-aspartate oxidase n=5 Tax=Oceanimonas TaxID...  280     1e-90
+UniRef90_UPI001ADD5343 L-aspartate oxidase n=13 Tax=Gammaproteoba...  280     1e-90
+UniRef90_A0A090V644 L-aspartate oxidase n=25 Tax=Enterobacteriace...  280     1e-90
+UniRef90_A0A844BZ05 L-aspartate oxidase n=5 Tax=root TaxID=1 RepI...  280     1e-90
+UniRef90_A0A0J8GUC5 L-aspartate oxidase n=1 Tax=Catenovulum marit...  280     1e-90
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>UniRef90_A0A839IJS9 L-aspartate oxidase n=1 Tax=Oceanospirillum sediminis TaxID=2760088 
+RepID=A0A839IJS9_9GAMM
+Length=534
+
+ Score = 298 bits (765),  Expect = 1e-97, Method: Composition-based stats.
+ Identities = 90/116 (78%), Positives = 106/116 (91%), Gaps = 0/116 (0%)
+
+Query  1    LEFNQFHPTALYHPQARNFLLTEALRGEGAYLKRPDGTRFMPDFDERGELAPRDIVARAI  60
+            +EFNQFHPT LYHPQA++FL+TEALRGEGA+L  PDG RFMP FDER ELAPRD+VARAI
+Sbjct  236  MEFNQFHPTCLYHPQAKSFLITEALRGEGAHLLLPDGNRFMPRFDERAELAPRDVVARAI  295
+
+Query  61   DHEMKRLGADCMFLDISHKPADFIRQHFPMIYEKLLGLGIDLTQEPVPIVPAAHYT  116
+            DHEMKRLG+DC++LDISHKPADFIRQHFP +YE+ L  GID+T++P+P+VPAAHYT
+Sbjct  296  DHEMKRLGSDCVYLDISHKPADFIRQHFPTVYERCLEFGIDITRDPIPVVPAAHYT  351
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.207    0.961    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0633    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1793990215215
+
+
+  Database: uniref90.fasta
+    Posted date:  Jan 10, 2026  12:23 AM
+  Number of letters in database: 71,627,808,805
+  Number of sequences in database:  208,005,650
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

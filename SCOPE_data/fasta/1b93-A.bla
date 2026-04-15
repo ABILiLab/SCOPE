@@ -1,0 +1,1669 @@
+PSIBLAST 2.17.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90.fasta
+           208,005,650 sequences; 71,627,808,805 total letters
+
+Results from round 1
+
+
+Query= 1b93-A
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+UniRef90_P0A731 Methylglyoxal synthase n=732 Tax=Gammaproteobacte...  315     8e-109
+UniRef90_A0A0L0AMH7 Methylglyoxal synthase n=9 Tax=Enterobacteria...  291     4e-99 
+UniRef90_H5UWY9 Methylglyoxal synthase n=10 Tax=Enterobacteriacea...  287     9e-98 
+UniRef90_A0A1I6CUP6 Methylglyoxal synthase n=5 Tax=Enterobacteria...  285     5e-97 
+UniRef90_UPI0023E20CCD methylglyoxal synthase n=2 Tax=unclassifie...  285     1e-96 
+UniRef90_B5XY41 Methylglyoxal synthase n=89 Tax=Bacteria TaxID=2 ...  284     2e-96 
+UniRef90_A0A0H3GV61 Methylglyoxal synthase n=61 Tax=Gammaproteoba...  283     4e-96 
+UniRef90_L0M4H8 Methylglyoxal synthase n=69 Tax=Enterobacteriacea...  282     1e-95 
+UniRef90_A0A6A9E6B7 Methylglyoxal synthase n=3 Tax=Gammaproteobac...  281     2e-95 
+UniRef90_A0A807LFF6 Methylglyoxal synthase n=25 Tax=Enterobacteri...  281     3e-95 
+UniRef90_A0AAE4DR98 Methylglyoxal synthase n=2 Tax=Pseudenterobac...  280     4e-95 
+UniRef90_A0A3N1IY00 Methylglyoxal synthase n=3 Tax=Enterobacter T...  280     4e-95 
+UniRef90_A0A0L0GHZ0 Methylglyoxal synthase n=6 Tax=Enterobacteria...  280     6e-95 
+UniRef90_A0A090V4M0 Methylglyoxal synthase n=7 Tax=Enterobacteria...  279     1e-94 
+UniRef90_A0A6B2FR67 Methylglyoxal synthase n=1 Tax=Enterobacteria...  279     2e-94 
+UniRef90_A0A4R6EXR7 Methylglyoxal synthase n=10 Tax=Enterobactera...  278     4e-94 
+UniRef90_A7ME47 Methylglyoxal synthase n=23 Tax=Cronobacter TaxID...  277     1e-93 
+UniRef90_A0A8K0Y053 Methylglyoxal synthase n=2 Tax=Tenebrionibact...  276     2e-93 
+UniRef90_A4W8X5 Methylglyoxal synthase n=212 Tax=root TaxID=1 Rep...  275     8e-93 
+UniRef90_UPI0019296518 methylglyoxal synthase n=2 Tax=Enterobacte...  272     6e-92 
+UniRef90_A0A0J8Y8B2 Methylglyoxal synthase n=3 Tax=Franconibacter...  271     1e-91 
+UniRef90_A0A3A5K1Y8 Methylglyoxal synthase n=2 Tax=Enterobacteria...  271     2e-91 
+UniRef90_A0A485CW24 Methylglyoxal synthase n=2 Tax=Kluyvera cryoc...  273     4e-91 
+UniRef90_A0A2X1PVP1 Methylglyoxal synthase n=19 Tax=Bacteria TaxI...  268     2e-90 
+UniRef90_A0A1B7L0H4 Methylglyoxal synthase n=4 Tax=Mangrovibacter...  268     2e-90 
+UniRef90_A0A089PUS7 Methylglyoxal synthase n=2 Tax=Pluralibacter ...  268     3e-90 
+UniRef90_A0A9J6QJF3 Methylglyoxal synthase n=1 Tax=Silvania confi...  268     4e-90 
+UniRef90_A0A085GGX3 Methylglyoxal synthase n=9 Tax=Enterobacteria...  267     6e-90 
+UniRef90_UPI002ADEFC40 methylglyoxal synthase n=1 Tax=Erwinia sp....  266     1e-89 
+UniRef90_A0A381C9M7 Methylglyoxal synthase n=28 Tax=Enterobacteri...  266     2e-89 
+UniRef90_UPI00073D6356 methylglyoxal synthase n=1 Tax=Entomohabit...  266     3e-89 
+UniRef90_E0LYP0 Methylglyoxal synthase n=53 Tax=Pantoea TaxID=533...  261     3e-87 
+UniRef90_UPI0018231845 methylglyoxal synthase n=1 Tax=Klebsiella ...  260     4e-87 
+UniRef90_I2BAK1 Methylglyoxal synthase n=2 Tax=Shimwellia TaxID=1...  258     3e-86 
+UniRef90_A0A941U9G0 Methylglyoxal synthase n=3 Tax=Enterobacteria...  258     3e-86 
+UniRef90_UPI0010313D34 methylglyoxal synthase n=1 Tax=[Erwinia] m...  257     5e-86 
+UniRef90_A0A2P8VQ84 Methylglyoxal synthase n=3 Tax=Siccibacter Ta...  257     5e-86 
+UniRef90_A0A0U3U9D5 Methylglyoxal synthase n=17 Tax=Pantoea TaxID...  256     1e-85 
+UniRef90_J3DEY7 Methylglyoxal synthase n=19 Tax=root TaxID=1 RepI...  256     2e-85 
+UniRef90_A0A4R3YY95 Methylglyoxal synthase n=1 Tax=Biostraticola ...  256     2e-85 
+UniRef90_A0A2I0FX37 Methylglyoxal synthase n=1 Tax=Enterobacteral...  255     4e-85 
+UniRef90_A0A2J9E7C1 Methylglyoxal synthase n=15 Tax=Pantoea TaxID...  254     1e-84 
+UniRef90_A0A240BS42 Methylglyoxal synthase n=3 Tax=Serratia ficar...  253     2e-84 
+UniRef90_A0A0A3Z8W3 Methylglyoxal synthase n=6 Tax=Erwinia TaxID=...  253     2e-84 
+UniRef90_A0A0L7T039 Methylglyoxal synthase n=5 Tax=Erwiniaceae Ta...  252     6e-84 
+UniRef90_A0A097R152 Methylglyoxal synthase n=11 Tax=Enterobactera...  252     7e-84 
+UniRef90_A0A3R8ZWP4 Methylglyoxal synthase n=4 Tax=Erwinia TaxID=...  252     7e-84 
+UniRef90_D8MQH1 Methylglyoxal synthase n=6 Tax=Erwiniaceae TaxID=...  252     8e-84 
+UniRef90_A0A6I6F2U4 Methylglyoxal synthase n=18 Tax=Erwiniaceae T...  251     1e-83 
+UniRef90_A0A0U5GL44 Methylglyoxal synthase n=2 Tax=Duffyella geru...  251     2e-83 
+UniRef90_UPI0005501F83 methylglyoxal synthase n=1 Tax=Erwinia Tax...  251     2e-83 
+UniRef90_UPI001FA9C03C methylglyoxal synthase n=2 Tax=Erwiniaceae...  251     2e-83 
+UniRef90_UPI0003771A3D methylglyoxal synthase n=2 Tax=Pantoea Tax...  251     2e-83 
+UniRef90_D4E832 Methylglyoxal synthase n=3 Tax=Serratia TaxID=613...  251     2e-83 
+UniRef90_A0A1X1BYK9 Methylglyoxal synthase n=6 Tax=Pantoea TaxID=...  251     2e-83 
+UniRef90_A0A014N2T2 Methylglyoxal synthase n=3 Tax=Erwinia TaxID=...  251     3e-83 
+UniRef90_UPI0009491B14 methylglyoxal synthase n=1 Tax=Pantoea sp....  251     3e-83 
+UniRef90_H3RBF6 Methylglyoxal synthase n=20 Tax=Pantoea TaxID=533...  250     3e-83 
+UniRef90_A8GCM4 Methylglyoxal synthase n=103 Tax=cellular organis...  250     3e-83 
+UniRef90_A0A1X1CXY8 Methylglyoxal synthase n=2 Tax=Pantoea TaxID=...  250     4e-83 
+UniRef90_A0A1I4UPP7 Methylglyoxal synthase n=3 Tax=Erwiniaceae Ta...  250     5e-83 
+UniRef90_A0A6M8UG05 Methylglyoxal synthase n=1 Tax=Erwiniaceae ba...  250     6e-83 
+UniRef90_L0MDH9 Methylglyoxal synthase n=6 Tax=Serratia TaxID=613...  249     6e-83 
+UniRef90_E6WCD7 Methylglyoxal synthase n=5 Tax=Pantoea TaxID=5333...  249     8e-83 
+UniRef90_UPI001FEFDCD7 methylglyoxal synthase n=2 Tax=Erwinia Tax...  249     8e-83 
+UniRef90_UPI0031DFC467 methylglyoxal synthase n=3 Tax=Pantoea Tax...  249     1e-82 
+UniRef90_A0A542D4J1 Methylglyoxal synthase n=1 Tax=Serratia fonti...  248     2e-82 
+UniRef90_I0QTY7 Methylglyoxal synthase n=8 Tax=root TaxID=1 RepID...  248     2e-82 
+UniRef90_A0A085U9Z9 Methylglyoxal synthase n=3 Tax=Yersinia TaxID...  248     2e-82 
+UniRef90_A0A0H3F8G5 Methylglyoxal synthase n=17 Tax=Enterobactera...  248     3e-82 
+UniRef90_UPI000DEF8471 methylglyoxal synthase n=1 Tax=Edaphovirga...  248     3e-82 
+UniRef90_V5Z756 Methylglyoxal synthase n=1 Tax=Erwinia piriflorin...  248     4e-82 
+UniRef90_UPI002B23E05E methylglyoxal synthase n=1 Tax=Acerihabita...  248     4e-82 
+UniRef90_A0A6P1PX45 Methylglyoxal synthase n=2 Tax=Mixta TaxID=21...  248     4e-82 
+UniRef90_UPI000468E1B8 methylglyoxal synthase n=1 Tax=Pantoea sp....  247     8e-82 
+UniRef90_H2ISB1 Methylglyoxal synthase n=5 Tax=Enterobacterales T...  246     1e-81 
+UniRef90_A0A354DUR3 Methylglyoxal synthase n=2 Tax=Erwinia persic...  246     1e-81 
+UniRef90_A0A0Q4MJI0 Methylglyoxal synthase n=2 Tax=unclassified E...  246     1e-81 
+UniRef90_A0A443IDD6 Methylglyoxal synthase n=1 Tax=[Pantoea] beij...  246     2e-81 
+UniRef90_A0A1W6BAP3 Methylglyoxal synthase n=7 Tax=Erwiniaceae Ta...  245     3e-81 
+UniRef90_Q6D6C8 Methylglyoxal synthase n=52 Tax=Pectobacteriaceae...  245     3e-81 
+UniRef90_C7BPP7 Methylglyoxal synthase n=5 Tax=Photorhabdus TaxID...  245     4e-81 
+UniRef90_A0A4R1NAJ8 Methylglyoxal synthase n=9 Tax=root TaxID=1 R...  245     5e-81 
+UniRef90_A0A1N6MW32 Methylglyoxal synthase n=5 Tax=Xenorhabdus Ta...  244     8e-81 
+UniRef90_A0A084A181 Methylglyoxal synthase n=1 Tax=Serratia sp. D...  244     1e-80 
+UniRef90_E9CPY2 Methylglyoxal synthase n=3 Tax=Serratia symbiotic...  244     1e-80 
+UniRef90_A0A370QML1 Methylglyoxal synthase n=1 Tax=Enterobacillus...  244     1e-80 
+UniRef90_A0A8J7KQ99 Methylglyoxal synthase n=4 Tax=cellular organ...  244     1e-80 
+UniRef90_A0A4P8SDF9 Methylglyoxal synthase n=5 Tax=Yersiniaceae T...  244     1e-80 
+UniRef90_A0A250B5S9 Methylglyoxal synthase n=4 Tax=Gibbsiella Tax...  244     1e-80 
+UniRef90_A0A518XBG8 Methylglyoxal synthase n=1 Tax=Pantoea disper...  244     1e-80 
+UniRef90_A0A085GJK3 Methylglyoxal synthase n=3 Tax=Ewingella amer...  243     2e-80 
+UniRef90_A0A5J5G356 Methylglyoxal synthase n=1 Tax=Affinibrenneri...  243     2e-80 
+UniRef90_A0A0G4JZT1 Methylglyoxal synthase n=9 Tax=Brenneria TaxI...  243     3e-80 
+UniRef90_UPI0029E817F5 methylglyoxal synthase n=2 Tax=Xenorhabdus...  242     6e-80 
+UniRef90_A0A1S8CIX9 Methylglyoxal synthase n=3 Tax=Serratia TaxID...  242     7e-80 
+UniRef90_UPI000FDE0912 methylglyoxal synthase n=1 Tax=Serratia mi...  242     7e-80 
+UniRef90_UPI003A4DE263 methylglyoxal synthase n=2 Tax=Erwinia Tax...  242     8e-80 
+UniRef90_A0A1Y2SRH2 Methylglyoxal synthase n=1 Tax=Xenorhabdus be...  241     1e-79 
+UniRef90_B2VDH0 Methylglyoxal synthase n=1 Tax=Erwinia tasmaniens...  240     4e-79 
+UniRef90_UPI0018E5FE46 methylglyoxal synthase n=1 Tax=Xenorhabdus...  239     1e-78 
+UniRef90_A0A2C6DR52 Methylglyoxal synthase n=3 Tax=Budvicia TaxID...  238     1e-78 
+UniRef90_C5BDP0 Methylglyoxal synthase n=7 Tax=Edwardsiella TaxID...  238     2e-78 
+UniRef90_A0A2X4UMT4 Methylglyoxal synthase n=2 Tax=Leminorella Ta...  238     3e-78 
+UniRef90_Q8ZG71 Methylglyoxal synthase n=68 Tax=Yersinia TaxID=62...  237     5e-78 
+UniRef90_A0A0T9NMD3 Methylglyoxal synthase n=1 Tax=Yersinia pekka...  237     6e-78 
+UniRef90_A0A1I3HY56 Methylglyoxal synthase n=2 Tax=Xenorhabdus Ta...  237     8e-78 
+UniRef90_Q2NU68 Methylglyoxal synthase n=10 Tax=Sodalis TaxID=845...  236     1e-77 
+UniRef90_A0A2D0JJU1 Methylglyoxal synthase n=2 Tax=Xenorhabdus Ta...  236     2e-77 
+UniRef90_UPI000D6412B0 methylglyoxal synthase n=1 Tax=Aggregatiba...  234     5e-77 
+UniRef90_R8AV34 Methylglyoxal synthase n=8 Tax=Plesiomonas shigel...  234     5e-77 
+UniRef90_A0AAU0KWQ7 Methylglyoxal synthase n=3 Tax=Serratia TaxID...  234     6e-77 
+UniRef90_C6CAH0 Methylglyoxal synthase n=2 Tax=Musicola TaxID=288...  234     1e-76 
+UniRef90_E6KWR6 Methylglyoxal synthase n=19 Tax=Aggregatibacter T...  233     4e-76 
+UniRef90_M1RJX7 Methylglyoxal synthase n=21 Tax=Bacteria TaxID=2 ...  233     4e-76 
+UniRef90_UPI001BB0B4FF methylglyoxal synthase n=1 Tax=Tatumella T...  232     6e-76 
+UniRef90_A0A376DIT3 Methylglyoxal synthase n=7 Tax=Edwardsiella T...  232     6e-76 
+UniRef90_A0A2M8RV43 Methylglyoxal synthase n=1 Tax=Caviibacterium...  232     7e-76 
+UniRef90_D1NZX1 Methylglyoxal synthase n=3 Tax=Providencia rustig...  232     7e-76 
+UniRef90_A0A4P8QMQ6 Methylglyoxal synthase n=3 Tax=Brenneria TaxI...  231     1e-75 
+UniRef90_A0A2Y9TUH2 Methylglyoxal synthase n=7 Tax=Budviciaceae T...  231     1e-75 
+UniRef90_A0A2I5T631 Methylglyoxal synthase n=2 Tax=Enterobacteral...  231     1e-75 
+UniRef90_U1S7T5 Methylglyoxal synthase n=16 Tax=Aggregatibacter T...  231     2e-75 
+UniRef90_A0A095UGP6 Methylglyoxal synthase n=2 Tax=Tatumella TaxI...  231     3e-75 
+UniRef90_A0A1J0E4Y8 Methylglyoxal synthase n=3 Tax=Providencia Ta...  230     4e-75 
+UniRef90_E0SN21 Methylglyoxal synthase n=23 Tax=Dickeya TaxID=204...  229     7e-75 
+UniRef90_UPI0028988F8F methylglyoxal synthase n=1 Tax=Pantoea sp....  229     7e-75 
+UniRef90_A0A0M0T711 Methylglyoxal synthase n=11 Tax=Xenorhabdus T...  229     7e-75 
+UniRef90_A0A0N1KHC3 Methylglyoxal synthase n=2 Tax=Moellerella wi...  229     1e-74 
+UniRef90_C9QDV6 Methylglyoxal synthase n=14 Tax=Vibrio TaxID=662 ...  229     1e-74 
+UniRef90_A0A1Q9GK86 Methylglyoxal synthase n=7 Tax=Photobacterium...  229     1e-74 
+UniRef90_UPI0004A3157B methylglyoxal synthase n=1 Tax=Tatumella s...  229     1e-74 
+UniRef90_U3ANE5 Methylglyoxal synthase n=2 Tax=Vibrio harveyi gro...  228     1e-74 
+UniRef90_A0A4R2MSX6 Methylglyoxal synthase n=1 Tax=Bisgaardia hud...  228     2e-74 
+UniRef90_A0A6G9IDG2 Methylglyoxal synthase n=1 Tax=Zophobihabitan...  228     2e-74 
+UniRef90_A0A264VZB7 Methylglyoxal synthase n=20 Tax=Providencia T...  228     2e-74 
+UniRef90_K8WEX6 Methylglyoxal synthase n=1 Tax=Providencia sneebi...  228     3e-74 
+UniRef90_A0A7X4LJ77 Methylglyoxal synthase n=1 Tax=Vibrio eleiono...  228     3e-74 
+UniRef90_A0A4R2T229 Methylglyoxal synthase n=1 Tax=Cricetibacter ...  227     5e-74 
+UniRef90_Q7N5Z7 Methylglyoxal synthase n=30 Tax=Photorhabdus TaxI...  227     6e-74 
+UniRef90_A0A1H4A0W1 Methylglyoxal synthase n=8 Tax=Lonsdalea TaxI...  227     6e-74 
+UniRef90_A0A0A7S4A4 Methylglyoxal synthase n=7 Tax=Frischella per...  227     7e-74 
+UniRef90_K8WNA4 Methylglyoxal synthase n=1 Tax=Providencia burhod...  226     8e-74 
+UniRef90_A0A1W1UBZ9 Methylglyoxal synthase n=1 Tax=Pasteurella te...  226     8e-74 
+UniRef90_A0A1V4AYA4 Methylglyoxal synthase n=2 Tax=Canicola haemo...  226     1e-73 
+UniRef90_A0A263HAY8 Methylglyoxal synthase n=3 Tax=Pasteurellacea...  226     2e-73 
+UniRef90_A0A356E6V6 Methylglyoxal synthase n=1 Tax=Pasteurellacea...  226     2e-73 
+UniRef90_A0A6L6FFS2 Methylglyoxal synthase n=8 Tax=Providencia Ta...  226     2e-73 
+UniRef90_A0A085JCG0 Methylglyoxal synthase n=3 Tax=Tatumella TaxI...  226     2e-73 
+UniRef90_A0A5C4QGU3 Methylglyoxal synthase n=4 Tax=Pasteurellacea...  225     4e-73 
+UniRef90_UPI000838B18A methylglyoxal synthase n=2 Tax=Vibrio TaxI...  225     4e-73 
+UniRef90_L8JBJ5 Methylglyoxal synthase n=1 Tax=Photobacterium mar...  225     4e-73 
+UniRef90_A0AA44G9X7 Methylglyoxal synthase n=1 Tax=Vibrio sp. UCD...  224     5e-73 
+UniRef90_UPI003567B877 methylglyoxal synthase n=1 Tax=Pasteurella...  224     5e-73 
+UniRef90_C9PQL5 Methylglyoxal synthase n=1 Tax=Pasteurella dagmat...  224     6e-73 
+UniRef90_A0A1S1HZV8 Methylglyoxal synthase n=7 Tax=Providencia Ta...  224     7e-73 
+UniRef90_A0A1B7K0L0 Methylglyoxal synthase n=3 Tax=Providencia Ta...  224     8e-73 
+UniRef90_A0A379EUU6 Methylglyoxal synthase n=5 Tax=Pasteurella Ta...  223     1e-72 
+UniRef90_A0A0A3BB35 Methylglyoxal synthase n=1 Tax=Chelonobacter ...  223     2e-72 
+UniRef90_UPI00246CDC59 methylglyoxal synthase n=1 Tax=Orbus sasak...  223     3e-72 
+UniRef90_UPI001C6A8AD9 methylglyoxal synthase n=2 Tax=unclassifie...  223     3e-72 
+UniRef90_A0A6G7CQ13 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  223     3e-72 
+UniRef90_UPI00241044B8 methylglyoxal synthase n=1 Tax=Vibrio hann...  222     4e-72 
+UniRef90_UPI000B34F00D methylglyoxal synthase n=1 Tax=Thaumasiovi...  223     4e-72 
+UniRef90_E3BKI3 Methylglyoxal synthase n=3 Tax=Vibrio caribbeanic...  222     4e-72 
+UniRef90_A0A4Y3HXS3 Methylglyoxal synthase n=7 Tax=Vibrio TaxID=6...  221     8e-72 
+UniRef90_A0A495RBS9 Methylglyoxal synthase n=1 Tax=Orbus hercyniu...  221     8e-72 
+UniRef90_A0A447SRR0 Methylglyoxal synthase n=16 Tax=Avibacterium ...  221     9e-72 
+UniRef90_B0UW70 Methylglyoxal synthase n=7 Tax=Histophilus somni ...  221     9e-72 
+UniRef90_UPI0023B1FA07 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  221     9e-72 
+UniRef90_UPI001C7D3499 methylglyoxal synthase n=2 Tax=Frischella ...  221     1e-71 
+UniRef90_A0A0A5JRE9 Methylglyoxal synthase n=5 Tax=Vibrio TaxID=6...  221     1e-71 
+UniRef90_UPI001AACB7D5 methylglyoxal synthase n=2 Tax=Spirabiliib...  221     1e-71 
+UniRef90_Q6LST5 Methylglyoxal synthase n=5 Tax=Photobacterium Tax...  221     1e-71 
+UniRef90_Q9CNN3 Methylglyoxal synthase n=11 Tax=Pasteurella TaxID...  221     1e-71 
+UniRef90_UPI001F032326 methylglyoxal synthase n=1 Tax=Vibrio styl...  221     1e-71 
+UniRef90_A0A0C5WVW6 Methylglyoxal synthase n=2 Tax=Photobacterium...  221     1e-71 
+UniRef90_A0A1B9JWW0 Methylglyoxal synthase n=2 Tax=root TaxID=1 R...  221     2e-71 
+UniRef90_A0A4P7CIN5 Methylglyoxal synthase n=3 Tax=Pasteurellacea...  221     2e-71 
+UniRef90_A0A1T0AUW0 Methylglyoxal synthase n=1 Tax=[Haemophilus] ...  221     2e-71 
+UniRef90_A0A0F5ERG0 Methylglyoxal synthase n=2 Tax=Avibacterium p...  220     2e-71 
+UniRef90_A0A090QRY7 Methylglyoxal synthase n=8 Tax=Photobacterium...  220     2e-71 
+UniRef90_A0A2N8ZIJ3 Methylglyoxal synthase n=2 Tax=Vibrio tapetis...  220     3e-71 
+UniRef90_A0A1V3TLN6 Methylglyoxal synthase n=1 Tax=Pasteurellacea...  220     3e-71 
+UniRef90_A0A8J4PKJ6 MGS-like domain-containing protein n=1 Tax=Po...  220     4e-71 
+UniRef90_B4EVE1 Methylglyoxal synthase n=22 Tax=Gammaproteobacter...  219     5e-71 
+UniRef90_Q9KLN2 Methylglyoxal synthase n=145 Tax=Vibrio TaxID=662...  219     5e-71 
+UniRef90_A0A2T3N0N7 Methylglyoxal synthase n=2 Tax=Photobacterium...  219     5e-71 
+UniRef90_UPI0013D8ADA2 methylglyoxal synthase n=1 Tax=Paraferrimo...  219     6e-71 
+UniRef90_A0A6G6TJG2 Methylglyoxal synthase n=13 Tax=Enterobactera...  219     6e-71 
+UniRef90_C5S187 Methylglyoxal synthase n=5 Tax=Actinobacillus Tax...  219     7e-71 
+UniRef90_A0A3A1YLG9 Methylglyoxal synthase n=1 Tax=Psittacicella ...  219     1e-70 
+UniRef90_A0A380U3I6 Methylglyoxal synthase n=1 Tax=[Actinobacillu...  219     1e-70 
+UniRef90_A0A1E5D8P4 Methylglyoxal synthase n=7 Tax=Vibrionales Ta...  219     1e-70 
+UniRef90_UPI001AAD77A2 methylglyoxal synthase n=1 Tax=Spirabiliib...  219     1e-70 
+UniRef90_A0A0A2XWY6 Methylglyoxal synthase n=9 Tax=Gallibacterium...  218     1e-70 
+UniRef90_A0A0F5ATS5 Methylglyoxal synthase n=20 Tax=Salinivibrio ...  218     1e-70 
+UniRef90_A0A0J1HB93 Methylglyoxal synthase n=1 Tax=Photobacterium...  218     2e-70 
+UniRef90_A0AAE7C1Z1 Methylglyoxal synthase n=2 Tax=Pasteurellacea...  218     2e-70 
+UniRef90_UPI002074E941 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  218     2e-70 
+UniRef90_A0A0F5VFU6 Methylglyoxal synthase n=12 Tax=Photobacteriu...  218     2e-70 
+UniRef90_A0A4R6V758 Methylglyoxal synthase n=1 Tax=Mesocricetibac...  218     2e-70 
+UniRef90_A0A1I5M512 Methylglyoxal synthase n=4 Tax=Enterovibrio T...  218     2e-70 
+UniRef90_A0A0M0HQY4 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=6...  218     3e-70 
+UniRef90_A0A7Z2YG70 Methylglyoxal synthase n=4 Tax=Vibrio TaxID=6...  217     4e-70 
+UniRef90_A0A2N7D7B8 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  217     4e-70 
+UniRef90_UPI00157623DD methylglyoxal synthase n=2 Tax=Vibrio TaxI...  217     5e-70 
+UniRef90_B7VS36 Methylglyoxal synthase n=95 Tax=Vibrionales TaxID...  217     5e-70 
+UniRef90_A0A2U0T8F0 Methylglyoxal synthase n=1 Tax=Pasteurella la...  217     5e-70 
+UniRef90_A0A0J1HJ60 Methylglyoxal synthase n=1 Tax=Photobacterium...  217     6e-70 
+UniRef90_A0A3N9U981 Methylglyoxal synthase n=1 Tax=Vibrio viridae...  217     6e-70 
+UniRef90_UPI00215D862D methylglyoxal synthase n=1 Tax=Candidatus ...  216     7e-70 
+UniRef90_UPI0035A08DC2 methylglyoxal synthase n=1 Tax=Glaesserell...  216     7e-70 
+UniRef90_A0A2M8S564 Methylglyoxal synthase n=1 Tax=Conservatibact...  216     8e-70 
+UniRef90_A0A6G8D6Z5 Methylglyoxal synthase n=1 Tax=Vibrio sp. HDW...  216     1e-69 
+UniRef90_U4KDG1 Methylglyoxal synthase n=26 Tax=root TaxID=1 RepI...  216     1e-69 
+UniRef90_A0A2U3B652 Methylglyoxal synthase n=1 Tax=Vibrio albus T...  216     1e-69 
+UniRef90_I3DAT3 Methylglyoxal synthase n=2 Tax=Pasteurellaceae Ta...  216     1e-69 
+UniRef90_A0A2T3PN65 Methylglyoxal synthase n=19 Tax=Photobacteriu...  216     1e-69 
+UniRef90_A0A0Q2MHU3 Methylglyoxal synthase n=11 Tax=Vibrio TaxID=...  216     2e-69 
+UniRef90_UPI000D3ED026 methylglyoxal synthase n=1 Tax=Dongshaea m...  216     2e-69 
+UniRef90_A0A4V2PB63 Methylglyoxal synthase n=2 Tax=Volucribacter ...  216     2e-69 
+UniRef90_UPI000B35B518 methylglyoxal synthase n=1 Tax=Thaumasiovi...  216     2e-69 
+UniRef90_A0A1A7NQW0 Methylglyoxal synthase n=11 Tax=Gallibacteriu...  216     2e-69 
+UniRef90_A0A2M8H175 Methylglyoxal synthase n=1 Tax=Vibrio sp. HA2...  215     2e-69 
+UniRef90_A0AB39HJI0 Methylglyoxal synthase n=1 Tax=Vibrio sp. HB2...  215     2e-69 
+UniRef90_A0AA34TTH8 Methylglyoxal synthase n=5 Tax=Vibrio TaxID=6...  215     3e-69 
+UniRef90_A0A1R4B702 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  215     3e-69 
+UniRef90_UPI001EE79C52 methylglyoxal synthase n=1 Tax=Psychromona...  215     4e-69 
+UniRef90_I2NPX7 Methylglyoxal synthase n=9 Tax=Haemophilus TaxID=...  214     5e-69 
+UniRef90_UPI0021C3908D methylglyoxal synthase n=1 Tax=Vibrio raru...  214     5e-69 
+UniRef90_D2TZI7 Methylglyoxal synthase n=8 Tax=Arsenophonus TaxID...  214     6e-69 
+UniRef90_Q65UB4 Methylglyoxal synthase n=1 Tax=Mannheimia succini...  214     6e-69 
+UniRef90_A0A1B9LJ62 Methylglyoxal synthase n=1 Tax=Gilliamella sp...  214     6e-69 
+UniRef90_D0I6G0 Methylglyoxal synthase n=3 Tax=Grimontia hollisae...  214     6e-69 
+UniRef90_UPI00226990BD methylglyoxal synthase n=2 Tax=unclassifie...  214     7e-69 
+UniRef90_Q1ZSC5 Methylglyoxal synthase n=26 Tax=Photobacterium Ta...  214     7e-69 
+UniRef90_B6EI79 Methylglyoxal synthase n=3 Tax=Aliivibrio TaxID=5...  214     7e-69 
+UniRef90_U3CND5 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=662 R...  214     7e-69 
+UniRef90_A0A5P9CP85 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  214     8e-69 
+UniRef90_A0A0B8PC64 Methylglyoxal synthase n=2 Tax=Vibrio ishigak...  214     8e-69 
+UniRef90_UPI001EF23522 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  214     8e-69 
+UniRef90_A0A090IR26 Methylglyoxal synthase n=7 Tax=Aliivibrio Tax...  214     8e-69 
+UniRef90_A0A1M7YS47 Methylglyoxal synthase n=1 Tax=Vibrio quintil...  214     1e-68 
+UniRef90_A0A1E5E475 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  214     1e-68 
+UniRef90_A0A8E3S6S1 Methylglyoxal synthase n=2 Tax=Mergibacter se...  213     1e-68 
+UniRef90_A0A369YFQ0 Methylglyoxal synthase n=3 Tax=Haemophilus sp...  213     2e-68 
+UniRef90_A0A2V4DWT8 Methylglyoxal synthase n=61 Tax=root TaxID=1 ...  213     2e-68 
+UniRef90_UPI00206AB23E methylglyoxal synthase n=3 Tax=Vibrio TaxI...  213     2e-68 
+UniRef90_Q5E4D0 Methylglyoxal synthase n=8 Tax=Aliivibrio fischer...  213     2e-68 
+UniRef90_UPI003567D690 methylglyoxal synthase n=1 Tax=Psychromona...  212     4e-68 
+UniRef90_A0A135I6P9 Methylglyoxal synthase n=3 Tax=Enterovibrio T...  212     4e-68 
+UniRef90_A0A1X1MZD7 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  212     5e-68 
+UniRef90_A0A4R2N4J8 Methylglyoxal synthase n=1 Tax=Nicoletella se...  212     5e-68 
+UniRef90_A0A420XGJ2 Methylglyoxal synthase n=1 Tax=Otariodibacter...  212     5e-68 
+UniRef90_A0A3R9EAG0 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=6...  212     6e-68 
+UniRef90_UPI00040FA334 methylglyoxal synthase n=2 Tax=Psychromona...  212     6e-68 
+UniRef90_A0A128EVM7 Methylglyoxal synthase n=6 Tax=Grimontia TaxI...  212     6e-68 
+UniRef90_A0A2P7QTS7 Methylglyoxal synthase n=2 Tax=Zobellella Tax...  212     7e-68 
+UniRef90_UPI001EFF77E3 methylglyoxal synthase n=1 Tax=Vibrio mari...  211     7e-68 
+UniRef90_A0A2T3QL33 Methylglyoxal synthase n=6 Tax=Photobacterium...  211     7e-68 
+UniRef90_A0AA42B9A4 Methylglyoxal synthase n=1 Tax=Echinimonas ag...  211     7e-68 
+UniRef90_UPI0009712C5F methylglyoxal synthase n=2 Tax=Vibrio ostr...  211     8e-68 
+UniRef90_A0A2N0XSH2 Methylglyoxal synthase n=2 Tax=unclassified V...  211     9e-68 
+UniRef90_A0AAN0Y2V7 Methylglyoxal synthase n=10 Tax=Vibrio TaxID=...  211     1e-67 
+UniRef90_A0A1Y0CY04 Methylglyoxal synthase n=8 Tax=Oceanisphaera ...  211     1e-67 
+UniRef90_UPI00066BA0FE methylglyoxal synthase n=2 Tax=Haemophilus...  211     1e-67 
+UniRef90_A0AAV3U552 Methylglyoxal synthase n=1 Tax=Halioxenophilu...  211     1e-67 
+UniRef90_UPI001E5317B6 methylglyoxal synthase n=1 Tax=Vibrio sali...  211     1e-67 
+UniRef90_A0A2N7DFL5 Methylglyoxal synthase n=1 Tax=Vibrio sp. 10N...  211     2e-67 
+UniRef90_UPI0021C3AC75 methylglyoxal synthase n=1 Tax=Vibrio gall...  211     2e-67 
+UniRef90_UPI001F1A0A39 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  210     2e-67 
+UniRef90_A0A2N1A7P4 Methylglyoxal synthase n=3 Tax=Psychromonas T...  210     2e-67 
+UniRef90_A0A379UQB2 Methylglyoxal synthase n=2 Tax=Salmonella ent...  209     3e-67 
+UniRef90_A0A1V3J8N8 Methylglyoxal synthase n=3 Tax=Pasteurellacea...  210     3e-67 
+UniRef90_UPI00202A7484 methylglyoxal synthase n=1 Tax=Vibrio sinu...  210     3e-67 
+UniRef90_A0A233RJZ3 Methylglyoxal synthase n=1 Tax=Oceanimonas do...  210     3e-67 
+UniRef90_A0A1V3IQH0 Methylglyoxal synthase n=3 Tax=Rodentibacter ...  209     4e-67 
+UniRef90_UPI00362AEE84 methylglyoxal synthase n=1 Tax=Seminibacte...  209     5e-67 
+UniRef90_A0A1M5ZVQ8 Methylglyoxal synthase n=1 Tax=Vibrio aerogen...  209     8e-67 
+UniRef90_UPI0035A02BEE methylglyoxal synthase n=2 Tax=Glaesserell...  209     8e-67 
+UniRef90_A0A0J8V5J3 Methylglyoxal synthase n=4 Tax=Photobacterium...  209     9e-67 
+UniRef90_UPI001F57D34A methylglyoxal synthase n=1 Tax=Colwellia m...  209     1e-66 
+UniRef90_A0A4Y7ZP95 Methylglyoxal synthase n=1 Tax=Psychromonas s...  209     1e-66 
+UniRef90_UPI001C47ED9F methylglyoxal synthase n=1 Tax=Enterovibri...  208     2e-66 
+UniRef90_A0A128FK85 Methylglyoxal synthase n=2 Tax=Grimontia mari...  209     2e-66 
+UniRef90_A0A249A2X0 Methylglyoxal synthase n=10 Tax=Mannheimia Ta...  207     2e-66 
+UniRef90_A0A1Y6IT72 Methylglyoxal synthase n=1 Tax=Vibrio mangrov...  207     3e-66 
+UniRef90_A0A1V3K1G9 Methylglyoxal synthase n=13 Tax=Pasteurellace...  207     3e-66 
+UniRef90_UPI00098591A3 methylglyoxal synthase n=1 Tax=Pasteurella...  207     3e-66 
+UniRef90_A0A8J6QMP0 Methylglyoxal synthase n=3 Tax=Neiella TaxID=...  207     3e-66 
+UniRef90_UPI001EF588B2 methylglyoxal synthase n=1 Tax=Photobacter...  207     4e-66 
+UniRef90_A0A1C3EB51 Methylglyoxal synthase n=1 Tax=Veronia pacifi...  207     4e-66 
+UniRef90_A0A368NHA1 Methylglyoxal synthase n=2 Tax=Corallincola T...  207     4e-66 
+UniRef90_A0A3N9TGE3 Methylglyoxal synthase n=1 Tax=Vibrio viridae...  207     4e-66 
+UniRef90_W0Q8C4 Methylglyoxal synthase n=4 Tax=Mannheimia varigen...  207     6e-66 
+UniRef90_A0A178K9S6 Methylglyoxal synthase n=1 Tax=Photobacterium...  206     7e-66 
+UniRef90_A3N2E6 Methylglyoxal synthase n=14 Tax=Actinobacillus Ta...  206     7e-66 
+UniRef90_A0A1N6SIM5 Methylglyoxal synthase n=5 Tax=Aeromonas TaxI...  206     8e-66 
+UniRef90_UPI00339C73AD methylglyoxal synthase n=1 Tax=unclassifie...  206     9e-66 
+UniRef90_UPI0031EF3C02 methylglyoxal synthase n=2 Tax=Zobellella ...  205     2e-65 
+UniRef90_A0A1T4S1V8 Methylglyoxal synthase n=15 Tax=Bacteria TaxI...  205     2e-65 
+UniRef90_UPI0023623D81 methylglyoxal synthase n=1 Tax=Mannheimia ...  205     3e-65 
+UniRef90_P45120 Methylglyoxal synthase n=73 Tax=Haemophilus TaxID...  204     4e-65 
+UniRef90_UPI000A28F83A methylglyoxal synthase n=1 Tax=Vibrio algi...  204     4e-65 
+UniRef90_UPI00135C83A5 methylglyoxal synthase n=4 Tax=Psychromona...  204     5e-65 
+UniRef90_A0A1E5CEJ2 Methylglyoxal synthase n=4 Tax=Enterovibrio T...  204     6e-65 
+UniRef90_UPI000D31740A methylglyoxal synthase n=1 Tax=Oceanimonas...  204     7e-65 
+UniRef90_UPI0039E6749B methylglyoxal synthase n=1 Tax=Psychromona...  204     7e-65 
+UniRef90_UPI00188E886E methylglyoxal synthase n=2 Tax=Rodentibact...  203     1e-64 
+UniRef90_UPI0031ED04D7 methylglyoxal synthase n=1 Tax=Pseudaeromo...  204     1e-64 
+UniRef90_A0A291HKM6 Methylglyoxal synthase n=3 Tax=Zobellella Tax...  203     2e-64 
+UniRef90_A0A1H7MSY7 Methylglyoxal synthase n=2 Tax=Atopomonas hus...  203     2e-64 
+UniRef90_A0A3N1NKD0 Methylglyoxal synthase n=2 Tax=Marinimicrobiu...  203     2e-64 
+UniRef90_A0AAW7YLS7 Methylglyoxal synthase n=3 Tax=unclassified C...  203     2e-64 
+UniRef90_UPI0006EBF797 methylglyoxal synthase n=1 Tax=Agarivorans...  203     2e-64 
+UniRef90_A0A1V3JPE1 Methylglyoxal synthase n=1 Tax=Rodentibacter ...  202     2e-64 
+UniRef90_A0A928V5L9 Methylglyoxal synthase n=1 Tax=Cellvibrio pol...  202     2e-64 
+UniRef90_A0A4Y7ZS35 Methylglyoxal synthase n=1 Tax=Psychromonas s...  202     2e-64 
+UniRef90_A0A011NAE5 Methylglyoxal synthase n=4 Tax=Mannheimia gra...  202     4e-64 
+UniRef90_W0Q0G1 Methylglyoxal synthase n=8 Tax=Mannheimia TaxID=7...  202     6e-64 
+UniRef90_A0A0W8JCY3 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  201     8e-64 
+UniRef90_R9PIA2 Methylglyoxal synthase n=8 Tax=Agarivorans TaxID=...  201     9e-64 
+UniRef90_A0A2G6EW49 Methylglyoxal synthase n=1 Tax=Gammaproteobac...  201     1e-63 
+UniRef90_A0A420EJW6 Methylglyoxal synthase n=1 Tax=Alginatibacter...  201     1e-63 
+UniRef90_A0A919BR48 Methylglyoxal synthase n=1 Tax=Thalassotalea ...  201     1e-63 
+UniRef90_UPI0009528F0A methylglyoxal synthase n=1 Tax=Vibrio pont...  201     1e-63 
+UniRef90_UPI00167BDF77 methylglyoxal synthase n=1 Tax=Thalassotal...  201     1e-63 
+UniRef90_UPI0035E8C062 methylglyoxal synthase n=1 Tax=Thorsellia ...  201     1e-63 
+UniRef90_A0A099KEE1 Methylglyoxal synthase n=1 Tax=Colwellia psyc...  200     2e-63 
+UniRef90_UPI000673BA40 methylglyoxal synthase n=1 Tax=Gilvimarinu...  200     3e-63 
+UniRef90_A0A6I5ITA5 Methylglyoxal synthase n=7 Tax=unclassified V...  200     3e-63 
+UniRef90_UPI0038C52B91 methylglyoxal synthase n=1 Tax=Celerinatan...  199     6e-63 
+UniRef90_A0A1B8R0B0 Methylglyoxal synthase n=56 Tax=Haemophilus T...  199     8e-63 
+UniRef90_A0A7W3X915 Methylglyoxal synthase n=2 Tax=unclassified P...  199     8e-63 
+UniRef90_A0A2N0WYS3 Methylglyoxal synthase n=1 Tax=Psychromonas s...  199     8e-63 
+UniRef90_A0A1U9N8N3 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  199     1e-62 
+UniRef90_C4LBU2 Methylglyoxal synthase n=6 Tax=Tolumonas TaxID=43...  198     1e-62 
+UniRef90_UPI00361A9890 methylglyoxal synthase n=1 Tax=Pseudaeromo...  198     1e-62 
+UniRef90_A0A379FGE4 Methylglyoxal synthase n=1 Tax=Proteus mirabi...  198     1e-62 
+UniRef90_A0A936D2X5 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  198     1e-62 
+UniRef90_UPI0020358827 methylglyoxal synthase n=3 Tax=Motilimonas...  198     1e-62 
+UniRef90_A0A2T6FNI6 Methylglyoxal synthase n=2 Tax=Cellvibrio Tax...  198     1e-62 
+UniRef90_UPI0026F0FF1E methylglyoxal synthase n=1 Tax=Pseudocolwe...  197     2e-62 
+UniRef90_A0A366W7K9 Methylglyoxal synthase n=1 Tax=Psychromonas s...  197     2e-62 
+UniRef90_A0A4R1K281 Methylglyoxal synthase n=1 Tax=Celerinatantim...  197     3e-62 
+UniRef90_UPI0027B5807F methylglyoxal synthase n=1 Tax=Marinimicro...  197     3e-62 
+UniRef90_UPI00047B08D1 methylglyoxal synthase n=1 Tax=Aliagarivor...  197     3e-62 
+UniRef90_A4SIB9 Methylglyoxal synthase n=139 Tax=Bacteria TaxID=2...  197     4e-62 
+UniRef90_UPI0035306516 methylglyoxal synthase n=1 Tax=Microbulbif...  197     4e-62 
+UniRef90_A0A396U0I1 Methylglyoxal synthase n=1 Tax=Colwellia sp. ...  196     7e-62 
+UniRef90_A1SR75 Methylglyoxal synthase n=3 Tax=Psychromonas TaxID...  196     9e-62 
+UniRef90_UPI003606F44D methylglyoxal synthase n=2 Tax=Cellvibrio ...  196     1e-61 
+UniRef90_UPI0031E54C4A methylglyoxal synthase n=1 Tax=Corallincol...  195     2e-61 
+UniRef90_UPI00257222B0 methylglyoxal synthase n=1 Tax=Thalassotal...  195     2e-61 
+UniRef90_UPI0016549E33 methylglyoxal synthase n=1 Tax=Salmonella ...  193     3e-61 
+UniRef90_UPI0036110E92 methylglyoxal synthase n=1 Tax=Pseudoalter...  195     3e-61 
+UniRef90_A0A5J6P4U8 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  195     3e-61 
+UniRef90_UPI0025B0F838 methylglyoxal synthase n=2 Tax=Psychromona...  195     3e-61 
+UniRef90_UPI0024E11105 methylglyoxal synthase n=1 Tax=Thalassotal...  194     4e-61 
+UniRef90_A0A4V0ZGL2 Methylglyoxal synthase n=1 Tax=Litorilituus s...  194     4e-61 
+UniRef90_UPI00140D5130 methylglyoxal synthase n=1 Tax=Pseudomaric...  194     5e-61 
+UniRef90_UPI0032218F03 methylglyoxal synthase n=2 Tax=Marinimicro...  194     5e-61 
+UniRef90_A0A3Q9GC15 Methylglyoxal synthase n=1 Tax=Colwellia sp. ...  194     5e-61 
+UniRef90_UPI00267190B1 methylglyoxal synthase n=1 Tax=Gilvimarinu...  194     5e-61 
+UniRef90_A0A5R9R4U1 Methylglyoxal synthase n=3 Tax=Stutzerimonas ...  194     5e-61 
+UniRef90_A0A7L9S309 Methylglyoxal synthase n=1 Tax=Thalassotalea ...  194     6e-61 
+UniRef90_UPI001C09CB2D methylglyoxal synthase n=1 Tax=unclassifie...  194     7e-61 
+UniRef90_A0A369WV64 Methylglyoxal synthase n=1 Tax=Motiliproteus ...  194     7e-61 
+UniRef90_A0A1I0CMD7 Methylglyoxal synthase n=1 Tax=Thorsellia ano...  194     8e-61 
+UniRef90_UPI0020C16BCB methylglyoxal synthase n=1 Tax=Sansalvador...  193     1e-60 
+UniRef90_I3IBA7 Methylglyoxal synthase n=2 Tax=Cellvibrio TaxID=1...  193     1e-60 
+UniRef90_B3PFP8 Methylglyoxal synthase n=1 Tax=Cellvibrio japonic...  193     2e-60 
+UniRef90_UPI00311E0A96 methylglyoxal synthase n=1 Tax=Psychromona...  193     2e-60 
+UniRef90_A0A418YCS3 Methylglyoxal synthase n=1 Tax=Motilimonas pu...  193     2e-60 
+UniRef90_A0A9X2EKF9 Methylglyoxal synthase n=1 Tax=Microbulbifer ...  193     2e-60 
+UniRef90_Q21L65 Methylglyoxal synthase n=3 Tax=Saccharophagus deg...  193     2e-60 
+UniRef90_A0A3D4Q244 Methylglyoxal synthase n=5 Tax=Cellvibrio Tax...  192     2e-60 
+UniRef90_A0A5P9ESA2 Methylglyoxal synthase n=2 Tax=Microbulbifer ...  192     2e-60 
+UniRef90_A0A3B0J6W1 Methylglyoxal synthase n=1 Tax=Arsenophonus e...  194     2e-60 
+UniRef90_UPI0005A6F355 methylglyoxal synthase n=2 Tax=unclassifie...  192     4e-60 
+UniRef90_A0A2S1JNE6 Methylglyoxal synthase n=3 Tax=unclassified M...  192     4e-60 
+UniRef90_A0A0N8Q5M7 Methylglyoxal synthase n=2 Tax=Pseudoalteromo...  191     6e-60 
+UniRef90_A0A7D6DJ65 Methylglyoxal synthase n=1 Tax=Arsenophonus e...  191     6e-60 
+UniRef90_UPI000DB94AA8 methylglyoxal synthase n=1 Tax=Marinimicro...  191     6e-60 
+UniRef90_A0A0A7EEV3 Methylglyoxal synthase n=3 Tax=Pseudoalteromo...  191     6e-60 
+UniRef90_A0A9J7ADE9 Methylglyoxal synthase n=3 Tax=Gilvimarinus T...  191     7e-60 
+UniRef90_A0A3E0UHN4 Methylglyoxal synthase n=2 Tax=Thalassotalea ...  191     8e-60 
+UniRef90_A0A1Y1R2K7 Methylglyoxal synthase n=2 Tax=Oceanospirilla...  191     8e-60 
+UniRef90_UPI0025524D94 methylglyoxal synthase n=1 Tax=Microbulbif...  191     8e-60 
+UniRef90_UPI000376EAFF methylglyoxal synthase n=1 Tax=Colwellia p...  191     1e-59 
+UniRef90_UPI0030DB7195 methylglyoxal synthase n=3 Tax=Gilvimarinu...  191     1e-59 
+UniRef90_UPI001F4E2224 methylglyoxal synthase n=1 Tax=Atopomonas ...  191     1e-59 
+UniRef90_A0A0D9AKB6 Methylglyoxal synthase n=5 Tax=Stutzerimonas ...  191     1e-59 
+UniRef90_A0A0Q0T6B2 Methylglyoxal synthase n=11 Tax=Pseudomonas T...  191     1e-59 
+UniRef90_A0A1Y0FUN3 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  191     2e-59 
+UniRef90_A0A2U2MZI3 Methylglyoxal synthase n=1 Tax=Spiribacter ha...  191     2e-59 
+UniRef90_UPI000418ADE2 methylglyoxal synthase n=1 Tax=Stutzerimon...  190     2e-59 
+UniRef90_A0A220VEH5 Methylglyoxal synthase n=1 Tax=Paraphotobacte...  190     2e-59 
+UniRef90_UPI002572DFA3 methylglyoxal synthase n=1 Tax=Thalassotal...  190     2e-59 
+UniRef90_UPI002F35A7D3 methylglyoxal synthase n=2 Tax=unclassifie...  190     3e-59 
+UniRef90_A0A0S2JZT5 Methylglyoxal synthase n=5 Tax=Pseudoalteromo...  190     3e-59 
+UniRef90_UPI001B85FE19 methylglyoxal synthase n=1 Tax=Colwellia e...  190     3e-59 
+UniRef90_A0A5F0KFK1 Methylglyoxal synthase n=13 Tax=Bacteria TaxI...  191     3e-59 
+UniRef90_A0A512RHK0 Methylglyoxal synthase n=3 Tax=Chitinophaga T...  189     3e-59 
+UniRef90_A0A0Q0GHC8 Methylglyoxal synthase n=21 Tax=Pseudoalterom...  190     3e-59 
+UniRef90_UPI002243705E methylglyoxal synthase n=3 Tax=Microbulbif...  189     3e-59 
+UniRef90_UPI001BAA3108 methylglyoxal synthase n=1 Tax=Kistimonas ...  189     4e-59 
+UniRef90_A0A0S2JEN1 Methylglyoxal synthase n=7 Tax=Colwellia TaxI...  189     4e-59 
+UniRef90_A0A1A8T734 Methylglyoxal synthase n=10 Tax=Gammaproteoba...  189     4e-59 
+UniRef90_A0A1X7ALJ3 Methylglyoxal synthase n=1 Tax=Parendozoicomo...  189     4e-59 
+UniRef90_A0AAE9YWX0 Methylglyoxal synthase n=3 Tax=Thalassomonas ...  189     5e-59 
+UniRef90_A0A0N8H9L4 Methylglyoxal synthase n=2 Tax=Jiulongibacter...  189     5e-59 
+UniRef90_C5BMN7 Methylglyoxal synthase n=2 Tax=Gammaproteobacteri...  189     5e-59 
+UniRef90_A0A0W1L9J2 Methylglyoxal synthase n=7 Tax=Bacteria TaxID...  189     5e-59 
+UniRef90_UPI0012BBC3DC methylglyoxal synthase n=1 Tax=Sansalvador...  189     5e-59 
+UniRef90_UPI00273F3FD1 methylglyoxal synthase n=3 Tax=Microbulbif...  189     5e-59 
+UniRef90_A0AAN1WKK8 Methylglyoxal synthase n=1 Tax=Marinagarivora...  189     5e-59 
+UniRef90_A0A7K1TYD7 Methylglyoxal synthase n=1 Tax=Chitinophaga t...  189     6e-59 
+UniRef90_F2K4Z2 Methylglyoxal synthase n=2 Tax=Marinomonas medite...  189     6e-59 
+UniRef90_UPI0028A9D51E methylglyoxal synthase n=1 Tax=Pseudomonas...  189     6e-59 
+UniRef90_UPI00166870F1 methylglyoxal synthase n=2 Tax=Marinobacte...  189     6e-59 
+UniRef90_UPI00388D5449 methylglyoxal synthase n=1 Tax=Stutzerimon...  189     7e-59 
+UniRef90_A0A5R9IPD8 Methylglyoxal synthase n=2 Tax=Thalassotalea ...  189     7e-59 
+UniRef90_UPI002605BEF5 methylglyoxal synthase n=1 Tax=Microbulbif...  189     7e-59 
+UniRef90_A0A4R6M985 Methylglyoxal synthase n=1 Tax=Marinomonas ba...  189     8e-59 
+UniRef90_A0A1Q6CH85 Methylglyoxal synthase n=3 Tax=Thalassotalea ...  189     8e-59 
+UniRef90_A0A7W4WDN4 Methylglyoxal synthase n=2 Tax=Microbulbifer ...  189     8e-59 
+UniRef90_UPI00162707D7 methylglyoxal synthase n=1 Tax=Teredinibac...  189     8e-59 
+UniRef90_V4JJ62 Methylglyoxal synthase n=3 Tax=Pseudoalteromonas ...  189     8e-59 
+UniRef90_A0A1H3D1X9 Methylglyoxal synthase n=1 Tax=Aidingimonas h...  189     9e-59 
+UniRef90_A0A1M7EJ23 Methylglyoxal synthase n=6 Tax=Chitinophaga T...  188     9e-59 
+UniRef90_A0A1T4RID7 Methylglyoxal synthase n=27 Tax=root TaxID=1 ...  188     9e-59 
+UniRef90_A0A423H2L2 Methylglyoxal synthase n=1 Tax=Pseudomonas br...  189     1e-58 
+UniRef90_A0A1S1N0S7 Methylglyoxal synthase n=4 Tax=Pseudoalteromo...  188     1e-58 
+UniRef90_UPI0032B224A4 methylglyoxal synthase n=1 Tax=Parendozoic...  188     1e-58 
+UniRef90_UPI003617277C methylglyoxal synthase n=1 Tax=Lacihabitan...  188     1e-58 
+UniRef90_A0A2T5HQE6 Methylglyoxal synthase n=2 Tax=unclassified P...  188     1e-58 
+UniRef90_UPI0028852ED0 methylglyoxal synthase n=2 Tax=Colwelliace...  188     1e-58 
+UniRef90_A0A162BE79 Methylglyoxal synthase n=4 Tax=Marinomonas Ta...  187     1e-58 
+UniRef90_A0AA41WNX0 Methylglyoxal synthase n=11 Tax=Stutzerimonas...  188     1e-58 
+UniRef90_UPI002673BE8A methylglyoxal synthase n=1 Tax=Gilvimarinu...  188     2e-58 
+UniRef90_UPI001E3351B0 methylglyoxal synthase n=2 Tax=Microbulbif...  187     2e-58 
+UniRef90_A0A0F4P6G5 Methylglyoxal synthase n=22 Tax=Pseudoalterom...  187     2e-58 
+UniRef90_A0A934N5D7 Methylglyoxal synthase n=1 Tax=Marinomonas sp...  187     2e-58 
+UniRef90_UPI00240C57C8 methylglyoxal synthase n=1 Tax=Thalassotal...  187     2e-58 
+UniRef90_UPI001E455F19 methylglyoxal synthase n=2 Tax=Microbulbif...  187     2e-58 
+UniRef90_A0A244CUP9 Methylglyoxal synthase n=1 Tax=Pseudoalteromo...  187     2e-58 
+UniRef90_UPI00240B91B8 methylglyoxal synthase n=1 Tax=Thalassotal...  187     3e-58 
+UniRef90_UPI0039647BBD methylglyoxal synthase n=2 Tax=Cellvibrio ...  187     3e-58 
+UniRef90_A0A1T1I353 Methylglyoxal synthase n=31 Tax=root TaxID=1 ...  187     3e-58 
+UniRef90_A0A4R6EZW6 Methylglyoxal synthase n=6 Tax=Enterobacteral...  187     3e-58 
+UniRef90_A0A167LGW4 Methylglyoxal synthase n=2 Tax=Pseudoalteromo...  187     4e-58 
+UniRef90_A0A0Q0JPV0 Methylglyoxal synthase n=26 Tax=Alteromonadal...  187     4e-58 
+UniRef90_A0A1V2DUP3 Methylglyoxal synthase n=1 Tax=Marinobacter l...  187     4e-58 
+UniRef90_A0A2N0WTE7 Methylglyoxal synthase n=1 Tax=Alteromonadale...  187     5e-58 
+UniRef90_A0A0F4QM36 Methylglyoxal synthase n=13 Tax=Pseudoalterom...  187     5e-58 
+UniRef90_A0A0N1ER27 Methylglyoxal synthase n=10 Tax=Pseudoalterom...  187     5e-58 
+UniRef90_UPI00097097E2 methylglyoxal synthase n=2 Tax=Colwelliace...  186     6e-58 
+UniRef90_A0A1Y6BM13 Methylglyoxal synthase n=1 Tax=Alteromonadace...  186     7e-58 
+UniRef90_UPI00109F5ABF methylglyoxal synthase n=1 Tax=Ningiella r...  186     7e-58 
+UniRef90_UPI00048A7232 methylglyoxal synthase n=2 Tax=Terrimonas ...  186     8e-58 
+UniRef90_A0A510IP12 Methylglyoxal synthase n=2 Tax=Microbulbifer ...  186     8e-58 
+UniRef90_A0A1Y0KRD0 Methylglyoxal synthase n=4 Tax=Pseudomonas Ta...  186     1e-57 
+UniRef90_W9URW6 Methylglyoxal synthase n=2 Tax=Nitrincola TaxID=2...  186     1e-57 
+UniRef90_UPI000EAF87FD methylglyoxal synthase n=2 Tax=Stutzerimon...  186     1e-57 
+UniRef90_A0A411MHY8 Methylglyoxal synthase n=1 Tax=Pseudomonas tr...  186     1e-57 
+UniRef90_A0A081G4Q6 Methylglyoxal synthase n=1 Tax=Marinobacteriu...  186     1e-57 
+UniRef90_UPI0036436108 methylglyoxal synthase n=1 Tax=Thalassotal...  186     1e-57 
+UniRef90_F6CZI2 Methylglyoxal synthase n=2 Tax=Marinomonas posido...  186     1e-57 
+UniRef90_UPI00174D2B6F methylglyoxal synthase n=2 Tax=Marinomonas...  186     1e-57 
+UniRef90_A0A7C4QGS2 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  186     1e-57 
+UniRef90_UPI001421D6CD methylglyoxal synthase n=1 Tax=Pseudomaric...  185     1e-57 
+UniRef90_A0A7Y0LGS1 Methylglyoxal synthase n=1 Tax=Thalassotalea ...  185     2e-57 
+UniRef90_A0A502KXJ9 Methylglyoxal synthase n=1 Tax=Litorilituus l...  185     2e-57 
+UniRef90_A0A7V5ZFS9 Methylglyoxal synthase n=1 Tax=Armatimonadota...  185     2e-57 
+UniRef90_A0A7Y8DIL9 Methylglyoxal synthase n=3 Tax=unclassified P...  185     2e-57 
+UniRef90_A0A2E2XGU1 Methylglyoxal synthase n=1 Tax=Cellvibrionace...  185     2e-57 
+UniRef90_A0A364NIZ8 Methylglyoxal synthase n=1 Tax=Nitrincola tib...  185     2e-57 
+UniRef90_A4C675 Methylglyoxal synthase n=2 Tax=Pseudoalteromonas ...  185     2e-57 
+UniRef90_UPI0031D7EE64 methylglyoxal synthase n=2 Tax=Colwellia T...  185     2e-57 
+UniRef90_A0A143HJJ7 Methylglyoxal synthase n=4 Tax=Microbulbifer ...  185     2e-57 
+UniRef90_A0A853HX05 Methylglyoxal synthase n=3 Tax=Spartinivicinu...  185     2e-57 
+UniRef90_UPI003394B6A9 methylglyoxal synthase n=1 Tax=Pseudomonas...  185     2e-57 
+UniRef90_A0A1A8TGL3 Methylglyoxal synthase n=1 Tax=Marinomonas sp...  185     2e-57 
+UniRef90_UPI002B2EDB88 methylglyoxal synthase n=1 Tax=Colwelliace...  185     2e-57 
+UniRef90_A0A3E0DJN1 Methylglyoxal synthase n=3 Tax=Marinomonas Ta...  185     2e-57 
+UniRef90_A0A5H2XUH3 Methylglyoxal synthase n=3 Tax=Pseudoalteromo...  185     3e-57 
+UniRef90_UPI0020BE0663 methylglyoxal synthase n=1 Tax=Pseudomonas...  185     3e-57 
+UniRef90_A0AAE9YXF3 Methylglyoxal synthase n=1 Tax=Thalassomonas ...  185     3e-57 
+UniRef90_A0A4Q5VDH8 Methylglyoxal synthase n=1 Tax=Gammaproteobac...  185     3e-57 
+UniRef90_A0A5P9C6T5 Methylglyoxal synthase n=6 Tax=Pseudomonadace...  185     3e-57 
+UniRef90_A0A839UQ92 Methylglyoxal synthase n=2 Tax=Simiduia TaxID...  185     3e-57 
+UniRef90_UPI00236438CA methylglyoxal synthase n=1 Tax=Pseudomonas...  185     3e-57 
+UniRef90_UPI0025B5218C methylglyoxal synthase n=2 Tax=Simiduia Ta...  184     3e-57 
+UniRef90_A0A3D0C4L9 Methylglyoxal synthase n=1 Tax=Colwellia sp. ...  184     3e-57 
+UniRef90_A0A1G8YMK7 Methylglyoxal synthase n=2 Tax=Pseudomonas Ta...  185     3e-57 
+UniRef90_A0A1Q8ELV6 Methylglyoxal synthase n=40 Tax=Pseudomonas T...  184     4e-57 
+UniRef90_A0A975DFU3 Methylglyoxal synthase n=3 Tax=Pseudoalteromo...  184     4e-57 
+UniRef90_A0A4U1B5I2 Methylglyoxal synthase n=1 Tax=Thalassotalea ...  184     4e-57 
+
+
+>UniRef90_P0A731 Methylglyoxal synthase n=732 Tax=Gammaproteobacteria TaxID=1236 
+RepID=MGSA_ECOLI
+Length=152
+
+ Score = 315 bits (807),  Expect = 8e-109, Method: Compositional matrix adjust.
+ Identities = 152/152 (100%), Positives = 152/152 (100%), Gaps = 0/152 (0%)
+
+Query  1    MELTTRTLPARKHIALVAHDHCKQMLMSWVERHQPLLEQHVLYATGTTGNLISRATGMNV  60
+            MELTTRTLPARKHIALVAHDHCKQMLMSWVERHQPLLEQHVLYATGTTGNLISRATGMNV
+Sbjct  1    MELTTRTLPARKHIALVAHDHCKQMLMSWVERHQPLLEQHVLYATGTTGNLISRATGMNV  60
+
+Query  61   NAMLSGPMGGDQQVGALISEGKIDVLIFFWDPLNAVPHDPDVKALLRLATVWNIPVATNV  120
+            NAMLSGPMGGDQQVGALISEGKIDVLIFFWDPLNAVPHDPDVKALLRLATVWNIPVATNV
+Sbjct  61   NAMLSGPMGGDQQVGALISEGKIDVLIFFWDPLNAVPHDPDVKALLRLATVWNIPVATNV  120
+
+Query  121  ATADFIIQSPHFNDAVDILIPDYQRYLADRLK  152
+            ATADFIIQSPHFNDAVDILIPDYQRYLADRLK
+Sbjct  121  ATADFIIQSPHFNDAVDILIPDYQRYLADRLK  152
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1765164885035
+Results from round 2
+
+
+Query= 1b93-A
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_A8GCM4 Methylglyoxal synthase n=103 Tax=cellular organis...  317     6e-110
+UniRef90_A0A085U9Z9 Methylglyoxal synthase n=3 Tax=Yersinia TaxID...  317     6e-110
+UniRef90_A0A097R152 Methylglyoxal synthase n=11 Tax=Enterobactera...  317     1e-109
+UniRef90_I0QTY7 Methylglyoxal synthase n=8 Tax=root TaxID=1 RepID...  317     1e-109
+UniRef90_A0A6M8UG05 Methylglyoxal synthase n=1 Tax=Erwiniaceae ba...  317     2e-109
+UniRef90_A0A240BS42 Methylglyoxal synthase n=3 Tax=Serratia ficar...  316     2e-109
+UniRef90_A0A5J5G356 Methylglyoxal synthase n=1 Tax=Affinibrenneri...  316     3e-109
+UniRef90_A0A7V1M6C8 Methylglyoxal synthase n=1 Tax=Armatimonadota...  316     4e-109
+UniRef90_A0A7V5ZFS9 Methylglyoxal synthase n=1 Tax=Armatimonadota...  316     4e-109
+UniRef90_Q6D6C8 Methylglyoxal synthase n=52 Tax=Pectobacteriaceae...  316     5e-109
+UniRef90_C5BDP0 Methylglyoxal synthase n=7 Tax=Edwardsiella TaxID...  315     7e-109
+UniRef90_A0A0U3U9D5 Methylglyoxal synthase n=17 Tax=Pantoea TaxID...  315     8e-109
+UniRef90_A0A2J9E7C1 Methylglyoxal synthase n=15 Tax=Pantoea TaxID...  315     9e-109
+UniRef90_UPI001FA9C03C methylglyoxal synthase n=2 Tax=Erwiniaceae...  315     1e-108
+UniRef90_A0A0G4JZT1 Methylglyoxal synthase n=9 Tax=Brenneria TaxI...  314     1e-108
+UniRef90_A0A1I6CUP6 Methylglyoxal synthase n=5 Tax=Enterobacteria...  314     1e-108
+UniRef90_A0A3N1IY00 Methylglyoxal synthase n=3 Tax=Enterobacter T...  314     1e-108
+UniRef90_D4E832 Methylglyoxal synthase n=3 Tax=Serratia TaxID=613...  314     2e-108
+UniRef90_A0A4R3YY95 Methylglyoxal synthase n=1 Tax=Biostraticola ...  314     2e-108
+UniRef90_A0A0L7T039 Methylglyoxal synthase n=5 Tax=Erwiniaceae Ta...  314     2e-108
+UniRef90_E6WCD7 Methylglyoxal synthase n=5 Tax=Pantoea TaxID=5333...  314     2e-108
+UniRef90_P0A731 Methylglyoxal synthase n=732 Tax=Gammaproteobacte...  313     3e-108
+UniRef90_L0MDH9 Methylglyoxal synthase n=6 Tax=Serratia TaxID=613...  313     4e-108
+UniRef90_A0A8J7KQ99 Methylglyoxal synthase n=4 Tax=cellular organ...  313     5e-108
+UniRef90_A0A807LFF6 Methylglyoxal synthase n=25 Tax=Enterobacteri...  312     6e-108
+UniRef90_A0A250B5S9 Methylglyoxal synthase n=4 Tax=Gibbsiella Tax...  312     6e-108
+UniRef90_Q1ZSC5 Methylglyoxal synthase n=26 Tax=Photobacterium Ta...  312     7e-108
+UniRef90_A0A542D4J1 Methylglyoxal synthase n=1 Tax=Serratia fonti...  312     7e-108
+UniRef90_A0A6I6F2U4 Methylglyoxal synthase n=18 Tax=Erwiniaceae T...  312     7e-108
+UniRef90_A0A376DIT3 Methylglyoxal synthase n=7 Tax=Edwardsiella T...  312     7e-108
+UniRef90_A0A354DUR3 Methylglyoxal synthase n=2 Tax=Erwinia persic...  312     1e-107
+UniRef90_UPI0031DFC467 methylglyoxal synthase n=3 Tax=Pantoea Tax...  312     1e-107
+UniRef90_UPI0019296518 methylglyoxal synthase n=2 Tax=Enterobacte...  312     1e-107
+UniRef90_UPI000DEF8471 methylglyoxal synthase n=1 Tax=Edaphovirga...  312     2e-107
+UniRef90_E0SN21 Methylglyoxal synthase n=23 Tax=Dickeya TaxID=204...  312     2e-107
+UniRef90_A0A6P1PX45 Methylglyoxal synthase n=2 Tax=Mixta TaxID=21...  311     2e-107
+UniRef90_A0A090V4M0 Methylglyoxal synthase n=7 Tax=Enterobacteria...  311     2e-107
+UniRef90_A0AAU0KWQ7 Methylglyoxal synthase n=3 Tax=Serratia TaxID...  311     3e-107
+UniRef90_C7BPP7 Methylglyoxal synthase n=5 Tax=Photorhabdus TaxID...  311     3e-107
+UniRef90_A0A014N2T2 Methylglyoxal synthase n=3 Tax=Erwinia TaxID=...  311     3e-107
+UniRef90_A0A4R6EXR7 Methylglyoxal synthase n=10 Tax=Enterobactera...  311     3e-107
+UniRef90_UPI0029E817F5 methylglyoxal synthase n=2 Tax=Xenorhabdus...  311     3e-107
+UniRef90_A0A4P8SDF9 Methylglyoxal synthase n=5 Tax=Yersiniaceae T...  311     3e-107
+UniRef90_A0A1B7L0H4 Methylglyoxal synthase n=4 Tax=Mangrovibacter...  311     3e-107
+UniRef90_A0A370QML1 Methylglyoxal synthase n=1 Tax=Enterobacillus...  311     4e-107
+UniRef90_A0A4R1NAJ8 Methylglyoxal synthase n=9 Tax=root TaxID=1 R...  311     5e-107
+UniRef90_A0A2I0FX37 Methylglyoxal synthase n=1 Tax=Enterobacteral...  311     5e-107
+UniRef90_B4EVE1 Methylglyoxal synthase n=22 Tax=Gammaproteobacter...  310     5e-107
+UniRef90_A0A3A5K1Y8 Methylglyoxal synthase n=2 Tax=Enterobacteria...  310     5e-107
+UniRef90_L8JBJ5 Methylglyoxal synthase n=1 Tax=Photobacterium mar...  310     5e-107
+UniRef90_UPI002B23E05E methylglyoxal synthase n=1 Tax=Acerihabita...  310     5e-107
+UniRef90_A0AAE4DR98 Methylglyoxal synthase n=2 Tax=Pseudenterobac...  310     6e-107
+UniRef90_J3DEY7 Methylglyoxal synthase n=19 Tax=root TaxID=1 RepI...  310     6e-107
+UniRef90_A0A3R8ZWP4 Methylglyoxal synthase n=4 Tax=Erwinia TaxID=...  310     6e-107
+UniRef90_A0A1X1CXY8 Methylglyoxal synthase n=2 Tax=Pantoea TaxID=...  310     6e-107
+UniRef90_Q9KLN2 Methylglyoxal synthase n=145 Tax=Vibrio TaxID=662...  310     9e-107
+UniRef90_A0A1Q9GK86 Methylglyoxal synthase n=7 Tax=Photobacterium...  309     1e-106
+UniRef90_B5XY41 Methylglyoxal synthase n=89 Tax=Bacteria TaxID=2 ...  309     1e-106
+UniRef90_D8MQH1 Methylglyoxal synthase n=6 Tax=Erwiniaceae TaxID=...  309     1e-106
+UniRef90_A0A1I4UPP7 Methylglyoxal synthase n=3 Tax=Erwiniaceae Ta...  309     1e-106
+UniRef90_A0A0A3Z8W3 Methylglyoxal synthase n=6 Tax=Erwinia TaxID=...  309     1e-106
+UniRef90_A4W8X5 Methylglyoxal synthase n=212 Tax=root TaxID=1 Rep...  309     1e-106
+UniRef90_A0A485CW24 Methylglyoxal synthase n=2 Tax=Kluyvera cryoc...  312     1e-106
+UniRef90_A0A0H3GV61 Methylglyoxal synthase n=61 Tax=Gammaproteoba...  309     1e-106
+UniRef90_A0A443IDD6 Methylglyoxal synthase n=1 Tax=[Pantoea] beij...  309     1e-106
+UniRef90_UPI001FEFDCD7 methylglyoxal synthase n=2 Tax=Erwinia Tax...  309     2e-106
+UniRef90_A0A9J6QJF3 Methylglyoxal synthase n=1 Tax=Silvania confi...  309     2e-106
+UniRef90_A7ME47 Methylglyoxal synthase n=23 Tax=Cronobacter TaxID...  309     2e-106
+UniRef90_UPI002074E941 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  309     2e-106
+UniRef90_A0A6G6TJG2 Methylglyoxal synthase n=13 Tax=Enterobactera...  309     2e-106
+UniRef90_A0A3M1GLY9 Methylglyoxal synthase n=2 Tax=Chloroflexota ...  309     3e-106
+UniRef90_A0A6G7CQ13 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  308     3e-106
+UniRef90_A0A928V5L9 Methylglyoxal synthase n=1 Tax=Cellvibrio pol...  309     3e-106
+UniRef90_A0A381C9M7 Methylglyoxal synthase n=28 Tax=Enterobacteri...  309     3e-106
+UniRef90_A0A1Y2SRH2 Methylglyoxal synthase n=1 Tax=Xenorhabdus be...  308     3e-106
+UniRef90_H3RBF6 Methylglyoxal synthase n=20 Tax=Pantoea TaxID=533...  308     3e-106
+UniRef90_A0A356E6V6 Methylglyoxal synthase n=1 Tax=Pasteurellacea...  308     3e-106
+UniRef90_A0A2I5T631 Methylglyoxal synthase n=2 Tax=Enterobacteral...  308     3e-106
+UniRef90_D1NZX1 Methylglyoxal synthase n=3 Tax=Providencia rustig...  308     3e-106
+UniRef90_A0A0A5JRE9 Methylglyoxal synthase n=5 Tax=Vibrio TaxID=6...  308     4e-106
+UniRef90_E6KWR6 Methylglyoxal synthase n=19 Tax=Aggregatibacter T...  308     4e-106
+UniRef90_UPI0010313D34 methylglyoxal synthase n=1 Tax=[Erwinia] m...  308     4e-106
+UniRef90_A0A0U5GL44 Methylglyoxal synthase n=2 Tax=Duffyella geru...  308     4e-106
+UniRef90_E9CPY2 Methylglyoxal synthase n=3 Tax=Serratia symbiotic...  308     5e-106
+UniRef90_E0LYP0 Methylglyoxal synthase n=53 Tax=Pantoea TaxID=533...  308     5e-106
+UniRef90_H5UWY9 Methylglyoxal synthase n=10 Tax=Enterobacteriacea...  307     6e-106
+UniRef90_A0A0J8Y8B2 Methylglyoxal synthase n=3 Tax=Franconibacter...  307     6e-106
+UniRef90_C6CAH0 Methylglyoxal synthase n=2 Tax=Musicola TaxID=288...  307     7e-106
+UniRef90_A0A085GGX3 Methylglyoxal synthase n=9 Tax=Enterobacteria...  307     8e-106
+UniRef90_A0A6L6FFS2 Methylglyoxal synthase n=8 Tax=Providencia Ta...  307     9e-106
+UniRef90_A0A1U9N8N3 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  307     1e-105
+UniRef90_UPI001EF23522 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  307     1e-105
+UniRef90_A0A0L0AMH7 Methylglyoxal synthase n=9 Tax=Enterobacteria...  307     1e-105
+UniRef90_UPI0005501F83 methylglyoxal synthase n=1 Tax=Erwinia Tax...  307     1e-105
+UniRef90_V5Z756 Methylglyoxal synthase n=1 Tax=Erwinia piriflorin...  307     1e-105
+UniRef90_UPI0023E20CCD methylglyoxal synthase n=2 Tax=unclassifie...  307     1e-105
+UniRef90_A0A941U9G0 Methylglyoxal synthase n=3 Tax=Enterobacteria...  307     1e-105
+UniRef90_C9QDV6 Methylglyoxal synthase n=14 Tax=Vibrio TaxID=662 ...  307     1e-105
+UniRef90_A0A090QRY7 Methylglyoxal synthase n=8 Tax=Photobacterium...  307     1e-105
+UniRef90_A0A6G8D6Z5 Methylglyoxal synthase n=1 Tax=Vibrio sp. HDW...  307     1e-105
+UniRef90_UPI000838B18A methylglyoxal synthase n=2 Tax=Vibrio TaxI...  307     2e-105
+UniRef90_UPI0025524D94 methylglyoxal synthase n=1 Tax=Microbulbif...  307     2e-105
+UniRef90_B7VS36 Methylglyoxal synthase n=95 Tax=Vibrionales TaxID...  306     2e-105
+UniRef90_A0A6B2FR67 Methylglyoxal synthase n=1 Tax=Enterobacteria...  307     2e-105
+UniRef90_UPI000D6412B0 methylglyoxal synthase n=1 Tax=Aggregatiba...  307     2e-105
+UniRef90_UPI000468E1B8 methylglyoxal synthase n=1 Tax=Pantoea sp....  306     2e-105
+UniRef90_U4KDG1 Methylglyoxal synthase n=26 Tax=root TaxID=1 RepI...  306     2e-105
+UniRef90_A0A6A9E6B7 Methylglyoxal synthase n=3 Tax=Gammaproteobac...  306     2e-105
+UniRef90_UPI001BB0B4FF methylglyoxal synthase n=1 Tax=Tatumella T...  306     2e-105
+UniRef90_A0A1S8CIX9 Methylglyoxal synthase n=3 Tax=Serratia TaxID...  306     2e-105
+UniRef90_UPI003A4DE263 methylglyoxal synthase n=2 Tax=Erwinia Tax...  306     2e-105
+UniRef90_A0A0L0GHZ0 Methylglyoxal synthase n=6 Tax=Enterobacteria...  306     3e-105
+UniRef90_A0A2J6XTL5 Methylglyoxal synthase n=1 Tax=Dictyoglomus s...  306     3e-105
+UniRef90_A0A0H3F8G5 Methylglyoxal synthase n=17 Tax=Enterobactera...  306     3e-105
+UniRef90_UPI000FDE0912 methylglyoxal synthase n=1 Tax=Serratia mi...  306     3e-105
+UniRef90_A0A1X1BYK9 Methylglyoxal synthase n=6 Tax=Pantoea TaxID=...  306     3e-105
+UniRef90_A0A1I3HY56 Methylglyoxal synthase n=2 Tax=Xenorhabdus Ta...  306     3e-105
+UniRef90_UPI0004A3157B methylglyoxal synthase n=1 Tax=Tatumella s...  306     3e-105
+UniRef90_A0A0Q4MJI0 Methylglyoxal synthase n=2 Tax=unclassified E...  306     4e-105
+UniRef90_UPI00241044B8 methylglyoxal synthase n=1 Tax=Vibrio hann...  306     4e-105
+UniRef90_UPI000B34F00D methylglyoxal synthase n=1 Tax=Thaumasiovi...  306     4e-105
+UniRef90_A0A1W6BAP3 Methylglyoxal synthase n=7 Tax=Erwiniaceae Ta...  306     4e-105
+UniRef90_H2ISB1 Methylglyoxal synthase n=5 Tax=Enterobacterales T...  306     4e-105
+UniRef90_A0A6G9IDG2 Methylglyoxal synthase n=1 Tax=Zophobihabitan...  306     4e-105
+UniRef90_UPI001C6A8AD9 methylglyoxal synthase n=2 Tax=unclassifie...  306     4e-105
+UniRef90_A0A1N6MW32 Methylglyoxal synthase n=5 Tax=Xenorhabdus Ta...  306     4e-105
+UniRef90_A0A447SRR0 Methylglyoxal synthase n=16 Tax=Avibacterium ...  305     5e-105
+UniRef90_B2VDH0 Methylglyoxal synthase n=1 Tax=Erwinia tasmaniens...  305     5e-105
+UniRef90_A0A2U2SJR3 Methylglyoxal synthase n=2 Tax=Anaerolineae b...  306     5e-105
+UniRef90_U1S7T5 Methylglyoxal synthase n=16 Tax=Aggregatibacter T...  305     6e-105
+UniRef90_A0A1J0E4Y8 Methylglyoxal synthase n=3 Tax=Providencia Ta...  305     6e-105
+UniRef90_UPI0009491B14 methylglyoxal synthase n=1 Tax=Pantoea sp....  305     6e-105
+UniRef90_A0A085JCG0 Methylglyoxal synthase n=3 Tax=Tatumella TaxI...  305     6e-105
+UniRef90_A0A2D0JJU1 Methylglyoxal synthase n=2 Tax=Xenorhabdus Ta...  305     7e-105
+UniRef90_A0A095UGP6 Methylglyoxal synthase n=2 Tax=Tatumella TaxI...  305     7e-105
+UniRef90_A0A2X4UMT4 Methylglyoxal synthase n=2 Tax=Leminorella Ta...  305     7e-105
+UniRef90_A0A3A1YLG9 Methylglyoxal synthase n=1 Tax=Psittacicella ...  305     7e-105
+UniRef90_A0A7X4LJ77 Methylglyoxal synthase n=1 Tax=Vibrio eleiono...  305     8e-105
+UniRef90_A0A0T9NMD3 Methylglyoxal synthase n=1 Tax=Yersinia pekka...  305     8e-105
+UniRef90_UPI00157623DD methylglyoxal synthase n=2 Tax=Vibrio TaxI...  305     8e-105
+UniRef90_A0A4R2T229 Methylglyoxal synthase n=1 Tax=Cricetibacter ...  305     8e-105
+UniRef90_UPI0027B5807F methylglyoxal synthase n=1 Tax=Marinimicro...  305     9e-105
+UniRef90_A0A2Y9TUH2 Methylglyoxal synthase n=7 Tax=Budviciaceae T...  305     9e-105
+UniRef90_A0A4V2PB63 Methylglyoxal synthase n=2 Tax=Volucribacter ...  304     9e-105
+UniRef90_A0A0A3BB35 Methylglyoxal synthase n=1 Tax=Chelonobacter ...  304     1e-104
+UniRef90_UPI001C47ED9F methylglyoxal synthase n=1 Tax=Enterovibri...  304     1e-104
+UniRef90_UPI002A36E6CC methylglyoxal synthase n=1 Tax=Trichloroba...  304     1e-104
+UniRef90_A0A4P8QMQ6 Methylglyoxal synthase n=3 Tax=Brenneria TaxI...  304     1e-104
+UniRef90_UPI00073D6356 methylglyoxal synthase n=1 Tax=Entomohabit...  304     1e-104
+UniRef90_A0A2M8RV43 Methylglyoxal synthase n=1 Tax=Caviibacterium...  304     1e-104
+UniRef90_A0A8K0Y053 Methylglyoxal synthase n=2 Tax=Tenebrionibact...  304     1e-104
+UniRef90_A0A1V4AYA4 Methylglyoxal synthase n=2 Tax=Canicola haemo...  304     2e-104
+UniRef90_A0A518XBG8 Methylglyoxal synthase n=1 Tax=Pantoea disper...  304     2e-104
+UniRef90_A0A135I6P9 Methylglyoxal synthase n=3 Tax=Enterovibrio T...  304     2e-104
+UniRef90_B8E059 Methylglyoxal synthase n=3 Tax=Dictyoglomus TaxID...  304     2e-104
+UniRef90_A0A7C2QV75 Methylglyoxal synthase n=2 Tax=Armatimonadota...  304     2e-104
+UniRef90_A0A0Q2MHU3 Methylglyoxal synthase n=11 Tax=Vibrio TaxID=...  304     2e-104
+UniRef90_A0A0C5WVW6 Methylglyoxal synthase n=2 Tax=Photobacterium...  304     2e-104
+UniRef90_A0A2C6DR52 Methylglyoxal synthase n=3 Tax=Budvicia TaxID...  304     2e-104
+UniRef90_A0A085GJK3 Methylglyoxal synthase n=3 Tax=Ewingella amer...  304     2e-104
+UniRef90_UPI0018E5FE46 methylglyoxal synthase n=1 Tax=Xenorhabdus...  304     2e-104
+UniRef90_B0UW70 Methylglyoxal synthase n=7 Tax=Histophilus somni ...  304     2e-104
+UniRef90_A0AA34TTH8 Methylglyoxal synthase n=5 Tax=Vibrio TaxID=6...  304     2e-104
+UniRef90_Q9CNN3 Methylglyoxal synthase n=11 Tax=Pasteurella TaxID...  304     2e-104
+UniRef90_A0A0J1HJ60 Methylglyoxal synthase n=1 Tax=Photobacterium...  303     3e-104
+UniRef90_A0A5J6P4U8 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  304     3e-104
+UniRef90_Q6LST5 Methylglyoxal synthase n=5 Tax=Photobacterium Tax...  303     3e-104
+UniRef90_A0A3N1NKD0 Methylglyoxal synthase n=2 Tax=Marinimicrobiu...  303     3e-104
+UniRef90_A0A7Z2YG70 Methylglyoxal synthase n=4 Tax=Vibrio TaxID=6...  303     3e-104
+UniRef90_UPI002ADEFC40 methylglyoxal synthase n=1 Tax=Erwinia sp....  303     3e-104
+UniRef90_A0A2T3PN65 Methylglyoxal synthase n=19 Tax=Photobacteriu...  303     3e-104
+UniRef90_B6EI79 Methylglyoxal synthase n=3 Tax=Aliivibrio TaxID=5...  303     3e-104
+UniRef90_A0A084A181 Methylglyoxal synthase n=1 Tax=Serratia sp. D...  303     4e-104
+UniRef90_A0A264VZB7 Methylglyoxal synthase n=20 Tax=Providencia T...  303     4e-104
+UniRef90_A0A0B8PC64 Methylglyoxal synthase n=2 Tax=Vibrio ishigak...  303     4e-104
+UniRef90_UPI0023B1FA07 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  303     4e-104
+UniRef90_A0A0M0T711 Methylglyoxal synthase n=11 Tax=Xenorhabdus T...  303     4e-104
+UniRef90_Q2NU68 Methylglyoxal synthase n=10 Tax=Sodalis TaxID=845...  303     5e-104
+UniRef90_UPI001F032326 methylglyoxal synthase n=1 Tax=Vibrio styl...  303     5e-104
+UniRef90_A0A2N8ZIJ3 Methylglyoxal synthase n=2 Tax=Vibrio tapetis...  302     5e-104
+UniRef90_A0AA42B9A4 Methylglyoxal synthase n=1 Tax=Echinimonas ag...  302     6e-104
+UniRef90_UPI002042FBC3 methylglyoxal synthase n=1 Tax=Parasegetib...  302     6e-104
+UniRef90_L0M4H8 Methylglyoxal synthase n=69 Tax=Enterobacteriacea...  302     6e-104
+UniRef90_A0A263HAY8 Methylglyoxal synthase n=3 Tax=Pasteurellacea...  302     6e-104
+UniRef90_Q0YU92 Methylglyoxal synthase n=1 Tax=Chlorobium ferroox...  302     6e-104
+UniRef90_UPI00206AB23E methylglyoxal synthase n=3 Tax=Vibrio TaxI...  302     7e-104
+UniRef90_UPI0003771A3D methylglyoxal synthase n=2 Tax=Pantoea Tax...  302     7e-104
+UniRef90_K8WEX6 Methylglyoxal synthase n=1 Tax=Providencia sneebi...  302     7e-104
+UniRef90_A0A0M0HQY4 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=6...  302     8e-104
+UniRef90_A0A1E5E475 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  302     8e-104
+UniRef90_A0A1W1UBZ9 Methylglyoxal synthase n=1 Tax=Pasteurella te...  302     8e-104
+UniRef90_A0A1T0AUW0 Methylglyoxal synthase n=1 Tax=[Haemophilus] ...  302     9e-104
+UniRef90_Q8ZG71 Methylglyoxal synthase n=68 Tax=Yersinia TaxID=62...  302     9e-104
+UniRef90_A0A7K1TYD7 Methylglyoxal synthase n=1 Tax=Chitinophaga t...  302     9e-104
+UniRef90_R8AV34 Methylglyoxal synthase n=8 Tax=Plesiomonas shigel...  302     1e-103
+UniRef90_Q5E4D0 Methylglyoxal synthase n=8 Tax=Aliivibrio fischer...  302     1e-103
+UniRef90_UPI00202A7484 methylglyoxal synthase n=1 Tax=Vibrio sinu...  302     1e-103
+UniRef90_UPI002737BB5F methylglyoxal synthase n=1 Tax=Trichloroba...  302     1e-103
+UniRef90_A0A0N1KHC3 Methylglyoxal synthase n=2 Tax=Moellerella wi...  302     1e-103
+UniRef90_A0A936D2X5 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  302     1e-103
+UniRef90_UPI001EFF77E3 methylglyoxal synthase n=1 Tax=Vibrio mari...  301     1e-103
+UniRef90_A0A5C4QGU3 Methylglyoxal synthase n=4 Tax=Pasteurellacea...  301     2e-103
+UniRef90_A0A2M8H175 Methylglyoxal synthase n=1 Tax=Vibrio sp. HA2...  301     2e-103
+UniRef90_UPI001C09CB2D methylglyoxal synthase n=1 Tax=unclassifie...  301     2e-103
+UniRef90_UPI000B35B518 methylglyoxal synthase n=1 Tax=Thaumasiovi...  301     2e-103
+UniRef90_A0A8J6QMP0 Methylglyoxal synthase n=3 Tax=Neiella TaxID=...  301     2e-103
+UniRef90_A0A2U3B652 Methylglyoxal synthase n=1 Tax=Vibrio albus T...  301     2e-103
+UniRef90_A0A1M7YS47 Methylglyoxal synthase n=1 Tax=Vibrio quintil...  301     2e-103
+UniRef90_A0A7C3RLA5 Methylglyoxal synthase n=3 Tax=Dictyoglomus T...  301     2e-103
+UniRef90_A0A178K9S6 Methylglyoxal synthase n=1 Tax=Photobacterium...  301     3e-103
+UniRef90_A0A0F5VFU6 Methylglyoxal synthase n=12 Tax=Photobacteriu...  301     3e-103
+UniRef90_D0I6G0 Methylglyoxal synthase n=3 Tax=Grimontia hollisae...  301     3e-103
+UniRef90_A0A2T3QL33 Methylglyoxal synthase n=6 Tax=Photobacterium...  301     3e-103
+UniRef90_A0A3D4Q244 Methylglyoxal synthase n=5 Tax=Cellvibrio Tax...  301     3e-103
+UniRef90_A0A1E5D8P4 Methylglyoxal synthase n=7 Tax=Vibrionales Ta...  301     3e-103
+UniRef90_A0A1I5M512 Methylglyoxal synthase n=4 Tax=Enterovibrio T...  301     3e-103
+UniRef90_A0A0J1HB93 Methylglyoxal synthase n=1 Tax=Photobacterium...  301     3e-103
+UniRef90_UPI0021C3AC75 methylglyoxal synthase n=1 Tax=Vibrio gall...  300     3e-103
+UniRef90_A0A4Y3HXS3 Methylglyoxal synthase n=7 Tax=Vibrio TaxID=6...  300     3e-103
+UniRef90_UPI003606F44D methylglyoxal synthase n=2 Tax=Cellvibrio ...  300     3e-103
+UniRef90_UPI00267190B1 methylglyoxal synthase n=1 Tax=Gilvimarinu...  300     3e-103
+UniRef90_A0A0J8V5J3 Methylglyoxal synthase n=4 Tax=Photobacterium...  300     4e-103
+UniRef90_U3ANE5 Methylglyoxal synthase n=2 Tax=Vibrio harveyi gro...  300     4e-103
+UniRef90_UPI000D3ED026 methylglyoxal synthase n=1 Tax=Dongshaea m...  300     4e-103
+UniRef90_A0A933HI54 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  301     4e-103
+UniRef90_UPI00246CDC59 methylglyoxal synthase n=1 Tax=Orbus sasak...  300     4e-103
+UniRef90_A0A089PUS7 Methylglyoxal synthase n=2 Tax=Pluralibacter ...  300     4e-103
+UniRef90_A0A2N0XSH2 Methylglyoxal synthase n=2 Tax=unclassified V...  300     4e-103
+UniRef90_A0A7C2CM08 Methylglyoxal synthase n=2 Tax=Candidatus Ami...  300     5e-103
+UniRef90_A0A1M5ZVQ8 Methylglyoxal synthase n=1 Tax=Vibrio aerogen...  300     5e-103
+UniRef90_A0A081N5W6 Methylglyoxal synthase n=4 Tax=Endozoicomonas...  300     5e-103
+UniRef90_UPI00240B91B8 methylglyoxal synthase n=1 Tax=Thalassotal...  300     5e-103
+UniRef90_A0A0A7S4A4 Methylglyoxal synthase n=7 Tax=Frischella per...  300     5e-103
+UniRef90_A0A0F5ATS5 Methylglyoxal synthase n=20 Tax=Salinivibrio ...  300     5e-103
+UniRef90_A0A090IR26 Methylglyoxal synthase n=7 Tax=Aliivibrio Tax...  300     5e-103
+UniRef90_UPI003567B877 methylglyoxal synthase n=1 Tax=Pasteurella...  300     5e-103
+UniRef90_A0A2T3N0N7 Methylglyoxal synthase n=2 Tax=Photobacterium...  300     6e-103
+UniRef90_C9PQL5 Methylglyoxal synthase n=1 Tax=Pasteurella dagmat...  300     6e-103
+UniRef90_UPI0030DB7195 methylglyoxal synthase n=3 Tax=Gilvimarinu...  300     6e-103
+UniRef90_A0A2P8VQ84 Methylglyoxal synthase n=3 Tax=Siccibacter Ta...  300     7e-103
+UniRef90_UPI001F1A0A39 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  300     7e-103
+UniRef90_A0AAE7C1Z1 Methylglyoxal synthase n=2 Tax=Pasteurellacea...  300     8e-103
+UniRef90_A0A4R2MSX6 Methylglyoxal synthase n=1 Tax=Bisgaardia hud...  300     9e-103
+UniRef90_K8WNA4 Methylglyoxal synthase n=1 Tax=Providencia burhod...  300     9e-103
+UniRef90_A0A1R4B702 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  299     9e-103
+UniRef90_A0A379EUU6 Methylglyoxal synthase n=5 Tax=Pasteurella Ta...  299     9e-103
+UniRef90_UPI0032218F03 methylglyoxal synthase n=2 Tax=Marinimicro...  299     1e-102
+UniRef90_A0A919BR48 Methylglyoxal synthase n=1 Tax=Thalassotalea ...  299     1e-102
+UniRef90_UPI000673BA40 methylglyoxal synthase n=1 Tax=Gilvimarinu...  299     1e-102
+UniRef90_UPI0009712C5F methylglyoxal synthase n=2 Tax=Vibrio ostr...  299     1e-102
+UniRef90_A0AA44G9X7 Methylglyoxal synthase n=1 Tax=Vibrio sp. UCD...  299     1e-102
+UniRef90_UPI0013D8ADA2 methylglyoxal synthase n=1 Tax=Paraferrimo...  299     1e-102
+UniRef90_UPI001EF588B2 methylglyoxal synthase n=1 Tax=Photobacter...  299     1e-102
+UniRef90_A0A1A7NQW0 Methylglyoxal synthase n=11 Tax=Gallibacteriu...  299     1e-102
+UniRef90_A0A941UNE8 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  300     1e-102
+UniRef90_UPI0018231845 methylglyoxal synthase n=1 Tax=Klebsiella ...  299     1e-102
+UniRef90_A0AB39HJI0 Methylglyoxal synthase n=1 Tax=Vibrio sp. HB2...  299     1e-102
+UniRef90_A0A1B7K0L0 Methylglyoxal synthase n=3 Tax=Providencia Ta...  299     1e-102
+UniRef90_UPI001BAA3108 methylglyoxal synthase n=1 Tax=Kistimonas ...  299     2e-102
+UniRef90_A0A964HB23 Methylglyoxal synthase n=1 Tax=bacterium TaxI...  299     2e-102
+UniRef90_A0A081G4Q6 Methylglyoxal synthase n=1 Tax=Marinobacteriu...  299     2e-102
+UniRef90_I3IBA7 Methylglyoxal synthase n=2 Tax=Cellvibrio TaxID=1...  299     2e-102
+UniRef90_A0A0A2XWY6 Methylglyoxal synthase n=9 Tax=Gallibacterium...  299     2e-102
+UniRef90_UPI00167BDF77 methylglyoxal synthase n=1 Tax=Thalassotal...  299     2e-102
+UniRef90_A0A2N7D7B8 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  299     2e-102
+UniRef90_A0A1V5WEM4 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  300     2e-102
+UniRef90_I2BAK1 Methylglyoxal synthase n=2 Tax=Shimwellia TaxID=1...  299     2e-102
+UniRef90_M1RJX7 Methylglyoxal synthase n=21 Tax=Bacteria TaxID=2 ...  299     2e-102
+UniRef90_A0A7V4WLG4 Methylglyoxal synthase n=2 Tax=Candidatus Cal...  299     3e-102
+UniRef90_A0A4P9VIF4 Methylglyoxal synthase n=2 Tax=Zooshikella Ta...  298     3e-102
+UniRef90_A0A369WV64 Methylglyoxal synthase n=1 Tax=Motiliproteus ...  298     3e-102
+UniRef90_A0A5P9CP85 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  298     3e-102
+UniRef90_A0A1S1HZV8 Methylglyoxal synthase n=7 Tax=Providencia Ta...  298     3e-102
+UniRef90_A0A7L9S309 Methylglyoxal synthase n=1 Tax=Thalassotalea ...  298     3e-102
+UniRef90_UPI001E5317B6 methylglyoxal synthase n=1 Tax=Vibrio sali...  298     4e-102
+UniRef90_A0A1X1MZD7 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  298     4e-102
+UniRef90_A0A2V4DWT8 Methylglyoxal synthase n=61 Tax=root TaxID=1 ...  298     4e-102
+UniRef90_A0A2N7DFL5 Methylglyoxal synthase n=1 Tax=Vibrio sp. 10N...  298     5e-102
+UniRef90_A0A916YNG0 Methylglyoxal synthase n=4 Tax=Emticicia TaxI...  298     5e-102
+UniRef90_UPI001EE79C52 methylglyoxal synthase n=1 Tax=Psychromona...  298     5e-102
+UniRef90_A0A8J4PKJ6 MGS-like domain-containing protein n=1 Tax=Po...  297     5e-102
+UniRef90_A0A2T6FNI6 Methylglyoxal synthase n=2 Tax=Cellvibrio Tax...  298     5e-102
+UniRef90_A0A4P7CIN5 Methylglyoxal synthase n=3 Tax=Pasteurellacea...  297     6e-102
+UniRef90_A0A1T4S1V8 Methylglyoxal synthase n=15 Tax=Bacteria TaxI...  297     6e-102
+UniRef90_A0A839UQ92 Methylglyoxal synthase n=2 Tax=Simiduia TaxID...  297     6e-102
+UniRef90_UPI001412E902 methylglyoxal synthase n=1 Tax=Emticicia s...  297     6e-102
+UniRef90_A0A931ZDB3 Methylglyoxal synthase n=1 Tax=Opitutae bacte...  298     7e-102
+UniRef90_A0A423H2L2 Methylglyoxal synthase n=1 Tax=Pseudomonas br...  297     8e-102
+UniRef90_UPI0026E362A3 methylglyoxal synthase n=1 Tax=Flavitalea ...  297     8e-102
+UniRef90_A0A7Y5K7S1 Methylglyoxal synthase n=1 Tax=candidate divi...  297     8e-102
+UniRef90_A0A1B9LJ62 Methylglyoxal synthase n=1 Tax=Gilliamella sp...  297     8e-102
+UniRef90_A0A0P6WYV4 Methylglyoxal synthase n=2 Tax=Leptolinea Tax...  297     9e-102
+UniRef90_A0A1T4RID7 Methylglyoxal synthase n=27 Tax=root TaxID=1 ...  297     9e-102
+UniRef90_A0A9J7ADE9 Methylglyoxal synthase n=3 Tax=Gilvimarinus T...  297     9e-102
+UniRef90_A0A1B9JWW0 Methylglyoxal synthase n=2 Tax=root TaxID=1 R...  297     9e-102
+UniRef90_A0A1Y1R2K7 Methylglyoxal synthase n=2 Tax=Oceanospirilla...  297     1e-101
+UniRef90_A0A3N5JWW1 Methylglyoxal synthase n=1 Tax=Ignavibacterio...  297     1e-101
+UniRef90_A0A2M8S564 Methylglyoxal synthase n=1 Tax=Conservatibact...  297     1e-101
+UniRef90_A0A4R6V758 Methylglyoxal synthase n=1 Tax=Mesocricetibac...  297     1e-101
+UniRef90_UPI001AAD77A2 methylglyoxal synthase n=1 Tax=Spirabiliib...  297     1e-101
+UniRef90_U3CND5 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=662 R...  297     1e-101
+UniRef90_A0A380U3I6 Methylglyoxal synthase n=1 Tax=[Actinobacillu...  297     1e-101
+UniRef90_A0A1E5CEJ2 Methylglyoxal synthase n=4 Tax=Enterovibrio T...  296     1e-101
+UniRef90_UPI0024E11105 methylglyoxal synthase n=1 Tax=Thalassotal...  296     2e-101
+UniRef90_A0A128EVM7 Methylglyoxal synthase n=6 Tax=Grimontia TaxI...  297     2e-101
+UniRef90_A0A1V2B989 Methylglyoxal synthase n=6 Tax=Chitinophaga T...  296     2e-101
+UniRef90_A0A1H4A0W1 Methylglyoxal synthase n=8 Tax=Lonsdalea TaxI...  296     2e-101
+UniRef90_A0A969E4S4 Methylglyoxal synthase n=1 Tax=Saprospiraceae...  296     2e-101
+UniRef90_A0A7J2TGK4 Methylglyoxal synthase n=1 Tax=Candidatus Bat...  296     2e-101
+UniRef90_UPI00351AC1DF methylglyoxal synthase n=1 Tax=Endozoicomo...  296     2e-101
+UniRef90_UPI00362AEE84 methylglyoxal synthase n=1 Tax=Seminibacte...  296     2e-101
+UniRef90_UPI0026F0FF1E methylglyoxal synthase n=1 Tax=Pseudocolwe...  296     2e-101
+UniRef90_A0A938PDT7 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  296     3e-101
+UniRef90_Q21L65 Methylglyoxal synthase n=3 Tax=Saccharophagus deg...  296     3e-101
+UniRef90_A0A957FHS2 Methylglyoxal synthase n=1 Tax=Anaerolineales...  296     3e-101
+UniRef90_UPI00166870F1 methylglyoxal synthase n=2 Tax=Marinobacte...  296     3e-101
+UniRef90_A0A3N9U981 Methylglyoxal synthase n=1 Tax=Vibrio viridae...  295     3e-101
+UniRef90_A0A1Y0KRD0 Methylglyoxal synthase n=4 Tax=Pseudomonas Ta...  295     3e-101
+UniRef90_B3PFP8 Methylglyoxal synthase n=1 Tax=Cellvibrio japonic...  295     4e-101
+UniRef90_C5S187 Methylglyoxal synthase n=5 Tax=Actinobacillus Tax...  295     4e-101
+UniRef90_UPI001AACB7D5 methylglyoxal synthase n=2 Tax=Spirabiliib...  295     4e-101
+UniRef90_A0A7J3R1G6 Methylglyoxal synthase (Fragment) n=1 Tax=Can...  295     4e-101
+UniRef90_A0A1F8NBW3 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  296     4e-101
+UniRef90_A0A1H1PCD3 Methylglyoxal synthase n=1 Tax=Opitutus sp. G...  295     4e-101
+UniRef90_UPI000782E923 methylglyoxal synthase n=1 Tax=Endozoicomo...  295     4e-101
+UniRef90_A0A128FK85 Methylglyoxal synthase n=2 Tax=Grimontia mari...  297     5e-101
+UniRef90_A0AA96HSY4 Methylglyoxal synthase n=1 Tax=Teredinibacter...  295     5e-101
+UniRef90_UPI0028988F8F methylglyoxal synthase n=1 Tax=Pantoea sp....  295     5e-101
+UniRef90_A0A957CM09 Methylglyoxal synthase n=1 Tax=Anaerolineales...  295     5e-101
+UniRef90_UPI002673BE8A methylglyoxal synthase n=1 Tax=Gilvimarinu...  295     6e-101
+UniRef90_UPI003567D690 methylglyoxal synthase n=1 Tax=Psychromona...  295     6e-101
+UniRef90_UPI002B2EDB88 methylglyoxal synthase n=1 Tax=Colwelliace...  295     6e-101
+UniRef90_A0A3R9EAG0 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=6...  295     7e-101
+UniRef90_A0A4R1GGB7 Methylglyoxal synthase n=1 Tax=Marinobacteriu...  295     7e-101
+UniRef90_UPI00098591A3 methylglyoxal synthase n=1 Tax=Pasteurella...  295     7e-101
+UniRef90_A0A7V3X937 Methylglyoxal synthase n=1 Tax=Bacteroidia ba...  295     7e-101
+UniRef90_A0A1Y0FUN3 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  295     8e-101
+UniRef90_A0A7J2NQB6 Methylglyoxal synthase n=1 Tax=Candidatus Bat...  295     9e-101
+UniRef90_UPI00040FA334 methylglyoxal synthase n=2 Tax=Psychromona...  294     9e-101
+UniRef90_A0A7Y4RL52 Methylglyoxal synthase n=2 Tax=Anaerolineales...  295     9e-101
+UniRef90_A0A925KW44 Methylglyoxal synthase n=1 Tax=Chitinophagace...  294     1e-100
+UniRef90_A0A966H1D5 Methylglyoxal synthase n=1 Tax=Chitinophagace...  294     1e-100
+UniRef90_UPI0020358827 methylglyoxal synthase n=3 Tax=Motilimonas...  294     1e-100
+UniRef90_A0A081NJM1 Methylglyoxal synthase n=4 Tax=Endozoicomonas...  294     1e-100
+UniRef90_A0A165LNT3 Methylglyoxal synthase n=1 Tax=Pelodictyon lu...  294     1e-100
+UniRef90_UPI00226990BD methylglyoxal synthase n=2 Tax=unclassifie...  294     1e-100
+UniRef90_F2K4Z2 Methylglyoxal synthase n=2 Tax=Marinomonas medite...  294     1e-100
+UniRef90_A0A2U0T8F0 Methylglyoxal synthase n=1 Tax=Pasteurella la...  294     1e-100
+UniRef90_A0A0C2EU29 Methylglyoxal synthase n=15 Tax=Pseudomonas T...  294     1e-100
+UniRef90_A0A1Y6IT72 Methylglyoxal synthase n=1 Tax=Vibrio mangrov...  294     1e-100
+UniRef90_A0A3N5S790 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  294     1e-100
+UniRef90_A0A6I5ITA5 Methylglyoxal synthase n=7 Tax=unclassified V...  294     1e-100
+UniRef90_A0A959SVD7 Methylglyoxal synthase n=1 Tax=Chitinophagace...  294     1e-100
+UniRef90_UPI002243705E methylglyoxal synthase n=3 Tax=Microbulbif...  294     2e-100
+UniRef90_UPI001E3351B0 methylglyoxal synthase n=2 Tax=Microbulbif...  294     2e-100
+UniRef90_UPI0036436108 methylglyoxal synthase n=1 Tax=Thalassotal...  294     2e-100
+UniRef90_A0A316EUI2 Methylglyoxal synthase n=2 Tax=Arcicella TaxI...  294     2e-100
+UniRef90_A0A4R6J2E8 Methylglyoxal synthase n=6 Tax=Chitinophagace...  294     2e-100
+UniRef90_A0A1J5SAJ2 Methylglyoxal synthase n=1 Tax=mine drainage ...  294     2e-100
+UniRef90_A0A495RBS9 Methylglyoxal synthase n=1 Tax=Orbus hercyniu...  294     2e-100
+UniRef90_UPI0039E6749B methylglyoxal synthase n=1 Tax=Psychromona...  294     2e-100
+UniRef90_A0A953IIX6 Methylglyoxal synthase n=1 Tax=Thermoanaeroba...  294     2e-100
+UniRef90_A0A162BE79 Methylglyoxal synthase n=4 Tax=Marinomonas Ta...  293     2e-100
+UniRef90_A0A2P7QTS7 Methylglyoxal synthase n=2 Tax=Zobellella Tax...  293     3e-100
+UniRef90_A0A952ZV24 Methylglyoxal synthase n=1 Tax=Candidatus Did...  294     3e-100
+UniRef90_A0A1F7TN22 Methylglyoxal synthase n=1 Tax=Candidatus Tec...  293     3e-100
+UniRef90_A0A1A8T734 Methylglyoxal synthase n=10 Tax=Gammaproteoba...  293     3e-100
+UniRef90_C5BMN7 Methylglyoxal synthase n=2 Tax=Gammaproteobacteri...  293     3e-100
+UniRef90_A0A2Z4GDD2 Methylglyoxal synthase n=1 Tax=Arcticibacteri...  293     3e-100
+UniRef90_A0A233RJZ3 Methylglyoxal synthase n=1 Tax=Oceanimonas do...  293     3e-100
+UniRef90_A0A5R9R4U1 Methylglyoxal synthase n=3 Tax=Stutzerimonas ...  293     3e-100
+UniRef90_A0A1M3HFV7 Methylglyoxal synthase n=1 Tax=Sphingobacteri...  293     3e-100
+UniRef90_A0A521N170 Methylglyoxal synthase n=1 Tax=Chitinophagace...  293     4e-100
+UniRef90_A0A5P9C6T5 Methylglyoxal synthase n=6 Tax=Pseudomonadace...  293     4e-100
+UniRef90_A0A1G6VHH6 Methylglyoxal synthase n=2 Tax=Pseudomonas Ta...  293     4e-100
+UniRef90_A0A8J2XSQ2 Methylglyoxal synthase n=1 Tax=Puia dinghuens...  293     4e-100
+UniRef90_UPI00188E886E methylglyoxal synthase n=2 Tax=Rodentibact...  293     4e-100
+UniRef90_UPI001C7D3499 methylglyoxal synthase n=2 Tax=Frischella ...  293     4e-100
+UniRef90_A0A3C1T7X7 Methylglyoxal synthase n=2 Tax=Chitinophagace...  293     4e-100
+UniRef90_A0A0N8H9L4 Methylglyoxal synthase n=2 Tax=Jiulongibacter...  293     4e-100
+UniRef90_A0A522DUJ0 Methylglyoxal synthase n=1 Tax=Chitinophagace...  293     4e-100
+UniRef90_UPI002DBE0C82 methylglyoxal synthase n=1 Tax=Chitinophag...  293     4e-100
+UniRef90_A0A2N1A7P4 Methylglyoxal synthase n=3 Tax=Psychromonas T...  293     4e-100
+UniRef90_A0A3N9TGE3 Methylglyoxal synthase n=1 Tax=Vibrio viridae...  293     4e-100
+UniRef90_A0A143HJJ7 Methylglyoxal synthase n=4 Tax=Microbulbifer ...  293     4e-100
+UniRef90_K4KRV1 Methylglyoxal synthase n=1 Tax=Simiduia agarivora...  293     4e-100
+UniRef90_A0A317I870 Methylglyoxal synthase n=1 Tax=Bacteroidota b...  293     5e-100
+UniRef90_F6CZI2 Methylglyoxal synthase n=2 Tax=Marinomonas posido...  293     5e-100
+UniRef90_A0A952C844 Methylglyoxal synthase n=1 Tax=Chitinophagace...  292     5e-100
+UniRef90_A0A8T4D167 Methylglyoxal synthase n=2 Tax=TACK group Tax...  292     5e-100
+UniRef90_A0A957D5Y0 Methylglyoxal synthase n=1 Tax=Anaerolineales...  293     5e-100
+UniRef90_A0A537KLC0 Methylglyoxal synthase n=2 Tax=Bacteria TaxID...  292     5e-100
+UniRef90_UPI002572DFA3 methylglyoxal synthase n=1 Tax=Thalassotal...  292     6e-100
+UniRef90_A0A1V3IQH0 Methylglyoxal synthase n=3 Tax=Rodentibacter ...  292     6e-100
+UniRef90_A0A1R1LEM1 Methylglyoxal synthase n=1 Tax=Motiliproteus ...  292     6e-100
+UniRef90_A0A1V3TLN6 Methylglyoxal synthase n=1 Tax=Pasteurellacea...  292     6e-100
+UniRef90_UPI0009528F0A methylglyoxal synthase n=1 Tax=Vibrio pont...  292     6e-100
+UniRef90_A0A973FE25 Methylglyoxal synthase n=1 Tax=Chlorobiaceae ...  293     6e-100
+UniRef90_A0A7C4QGS2 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  292     6e-100
+UniRef90_A0A1V3K1G9 Methylglyoxal synthase n=13 Tax=Pasteurellace...  292     7e-100
+UniRef90_I2NPX7 Methylglyoxal synthase n=9 Tax=Haemophilus TaxID=...  292     7e-100
+UniRef90_UPI001421D6CD methylglyoxal synthase n=1 Tax=Pseudomaric...  292     7e-100
+UniRef90_A0A431ML18 Methylglyoxal synthase n=2 Tax=Sphingobacteri...  292     7e-100
+UniRef90_UPI0035A02BEE methylglyoxal synthase n=2 Tax=Glaesserell...  292     8e-100
+UniRef90_A0A1F9ABN9 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  292     8e-100
+UniRef90_A0A368NHA1 Methylglyoxal synthase n=2 Tax=Corallincola T...  292     8e-100
+UniRef90_A0A7W4WDN4 Methylglyoxal synthase n=2 Tax=Microbulbifer ...  292     8e-100
+UniRef90_UPI00263699C5 methylglyoxal synthase n=2 Tax=Runella sp....  292     8e-100
+UniRef90_UPI0039E3334B methylglyoxal synthase n=1 Tax=Propionivib...  293     9e-100
+UniRef90_A0A2N0WTE7 Methylglyoxal synthase n=1 Tax=Alteromonadale...  292     9e-100
+UniRef90_A0A3Q9GC15 Methylglyoxal synthase n=1 Tax=Colwellia sp. ...  292     9e-100
+UniRef90_A0A553FIJ2 Methylglyoxal synthase n=1 Tax=Thalassomonas ...  292     9e-100
+UniRef90_A0A257WDK7 Methylglyoxal synthase n=1 Tax=Sphingobacteri...  292     1e-99 
+UniRef90_A0A9C9TD28 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  292     1e-99 
+UniRef90_A0A2E2XGU1 Methylglyoxal synthase n=1 Tax=Cellvibrionace...  292     1e-99 
+UniRef90_A0A1A8TGL3 Methylglyoxal synthase n=1 Tax=Marinomonas sp...  292     1e-99 
+UniRef90_UPI0021C3908D methylglyoxal synthase n=1 Tax=Vibrio raru...  292     1e-99 
+UniRef90_A0A1G8YMK7 Methylglyoxal synthase n=2 Tax=Pseudomonas Ta...  292     1e-99 
+UniRef90_UPI00126495BC methylglyoxal synthase n=4 Tax=Agriterriba...  292     1e-99 
+UniRef90_A0A842XLJ3 Methylglyoxal synthase n=1 Tax=Methanophagale...  292     1e-99 
+UniRef90_A0A973GGK6 Methylglyoxal synthase n=1 Tax=Chlorobiaceae ...  292     1e-99 
+UniRef90_A0A1H6ANV2 Methylglyoxal synthase n=1 Tax=Marinobacteriu...  292     1e-99 
+UniRef90_UPI00339C73AD methylglyoxal synthase n=1 Tax=unclassifie...  292     1e-99 
+UniRef90_A0A291R0H0 Methylglyoxal synthase n=2 Tax=Chitinophaga T...  292     1e-99 
+UniRef90_A0A1Q6CH85 Methylglyoxal synthase n=3 Tax=Thalassotalea ...  292     1e-99 
+UniRef90_H2CCN7 Methylglyoxal synthase n=2 Tax=Leptonema illini T...  292     1e-99 
+UniRef90_A0A1A9F054 Methylglyoxal synthase n=4 Tax=Marinobacteriu...  292     1e-99 
+UniRef90_A0A2N1KR11 Methylglyoxal synthase n=1 Tax=Siphonobacter ...  292     1e-99 
+UniRef90_A0AAE3TE10 Methylglyoxal synthase n=1 Tax=Stygiobacter e...  292     1e-99 
+UniRef90_A0A1B8R0B0 Methylglyoxal synthase n=56 Tax=Haemophilus T...  292     1e-99 
+UniRef90_A0A418YCS3 Methylglyoxal synthase n=1 Tax=Motilimonas pu...  292     1e-99 
+UniRef90_A0AAV3U552 Methylglyoxal synthase n=1 Tax=Halioxenophilu...  292     1e-99 
+UniRef90_B3E3C5 Methylglyoxal synthase n=6 Tax=Trichlorobacter Ta...  292     1e-99 
+UniRef90_UPI00165FE142 methylglyoxal synthase n=1 Tax=Teredinibac...  292     1e-99 
+UniRef90_A0A5B2VYQ3 Methylglyoxal synthase n=1 Tax=Chitinophaga a...  291     1e-99 
+UniRef90_UPI002FDD5DEE methylglyoxal synthase n=1 Tax=Phnomibacte...  292     1e-99 
+UniRef90_UPI00097097E2 methylglyoxal synthase n=2 Tax=Colwelliace...  291     1e-99 
+UniRef90_A0AA48GUU8 Methylglyoxal synthase n=1 Tax=Mesoterricola ...  291     1e-99 
+UniRef90_UPI002F35A7D3 methylglyoxal synthase n=2 Tax=unclassifie...  291     2e-99 
+UniRef90_A0A3E0DJN1 Methylglyoxal synthase n=3 Tax=Marinomonas Ta...  292     2e-99 
+UniRef90_A0A940W1U0 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  292     2e-99 
+UniRef90_A0A4Y7ZP95 Methylglyoxal synthase n=1 Tax=Psychromonas s...  291     2e-99 
+UniRef90_UPI0036155F02 methylglyoxal synthase n=1 Tax=Marinobacte...  291     2e-99 
+UniRef90_A0A8E3S6S1 Methylglyoxal synthase n=2 Tax=Mergibacter se...  291     2e-99 
+UniRef90_UPI00066BA0FE methylglyoxal synthase n=2 Tax=Haemophilus...  291     2e-99 
+UniRef90_A0A010RZX4 Methylglyoxal synthase n=16 Tax=Gammaproteoba...  291     2e-99 
+UniRef90_A0A0Q0T6B2 Methylglyoxal synthase n=11 Tax=Pseudomonas T...  292     2e-99 
+UniRef90_A0A249SRT2 Methylglyoxal synthase n=1 Tax=Chitinophaga s...  291     2e-99 
+UniRef90_A0A1Y6BM13 Methylglyoxal synthase n=1 Tax=Alteromonadace...  291     2e-99 
+UniRef90_A0A257ISK9 Methylglyoxal synthase n=3 Tax=Cytophagales T...  291     2e-99 
+UniRef90_A0A956X6S2 Methylglyoxal synthase n=1 Tax=Anaerolineales...  291     2e-99 
+UniRef90_A0A3A4NNK0 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  291     2e-99 
+UniRef90_UPI00240C57C8 methylglyoxal synthase n=1 Tax=Thalassotal...  291     2e-99 
+UniRef90_I3DAT3 Methylglyoxal synthase n=2 Tax=Pasteurellaceae Ta...  291     2e-99 
+UniRef90_A0A0N1ER27 Methylglyoxal synthase n=10 Tax=Pseudoalterom...  291     2e-99 
+UniRef90_E3BKI3 Methylglyoxal synthase n=3 Tax=Vibrio caribbeanic...  291     2e-99 
+UniRef90_A0A4Q1CEU5 Methylglyoxal synthase n=4 Tax=Lacibacter Tax...  291     2e-99 
+UniRef90_Q65UB4 Methylglyoxal synthase n=1 Tax=Mannheimia succini...  291     2e-99 
+UniRef90_A0A7C3QEM0 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  291     3e-99 
+UniRef90_A0A3E0UHN4 Methylglyoxal synthase n=2 Tax=Thalassotalea ...  291     3e-99 
+UniRef90_A0A1N6SIM5 Methylglyoxal synthase n=5 Tax=Aeromonas TaxI...  291     3e-99 
+UniRef90_A0A2G6EW49 Methylglyoxal synthase n=1 Tax=Gammaproteobac...  291     3e-99 
+UniRef90_A0A957TEK2 Methylglyoxal synthase n=1 Tax=Anaerolineales...  291     3e-99 
+UniRef90_A0A369YFQ0 Methylglyoxal synthase n=3 Tax=Haemophilus sp...  290     3e-99 
+UniRef90_P45120 Methylglyoxal synthase n=73 Tax=Haemophilus TaxID...  290     3e-99 
+UniRef90_UPI001C93F1D4 methylglyoxal synthase n=1 Tax=Marinobacte...  290     3e-99 
+UniRef90_A0A420XGJ2 Methylglyoxal synthase n=1 Tax=Otariodibacter...  290     3e-99 
+UniRef90_A0A286INY1 Methylglyoxal synthase n=1 Tax=Spirosomatacea...  290     3e-99 
+UniRef90_A0A370U940 Methylglyoxal synthase n=1 Tax=Marinomonas pi...  290     3e-99 
+UniRef90_UPI00162707D7 methylglyoxal synthase n=1 Tax=Teredinibac...  290     3e-99 
+UniRef90_UPI001E455F19 methylglyoxal synthase n=2 Tax=Microbulbif...  291     3e-99 
+UniRef90_A0A1M7EJ23 Methylglyoxal synthase n=6 Tax=Chitinophaga T...  290     3e-99 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A7Y8L404 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  300     6e-103
+UniRef90_A0A1G1G274 Methylglyoxal synthase n=1 Tax=Nitrospirae ba...  297     8e-102
+UniRef90_B3ECD8 Methylglyoxal synthase n=5 Tax=Chlorobium TaxID=1...  297     9e-102
+UniRef90_A0A1F8RQ88 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  297     3e-101
+UniRef90_A0A7V4CTC2 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  296     3e-101
+UniRef90_A0A1G1I176 Methylglyoxal synthase n=1 Tax=Nitrospirae ba...  296     3e-101
+UniRef90_A0A931QQS3 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  295     3e-101
+UniRef90_A0A933SV45 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  296     4e-101
+UniRef90_A0A1G1H6R8 Methylglyoxal synthase n=1 Tax=Nitrospirae ba...  295     6e-101
+UniRef90_A0A2T6DY94 Methylglyoxal synthase n=1 Tax=Opitutaceae ba...  295     1e-100
+UniRef90_A0A1G3R9N5 Methylglyoxal synthase n=2 Tax=unclassified S...  294     2e-100
+UniRef90_A0A9D6LKT0 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  294     2e-100
+UniRef90_A0A7X9HPN4 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  293     5e-100
+UniRef90_A0A0B5B8T4 Methylglyoxal synthase n=1 Tax=Geobacter pick...  292     6e-100
+UniRef90_A0A933CY32 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  292     6e-100
+UniRef90_A0A533TX18 Methylglyoxal synthase n=2 Tax=Chlorobiaceae ...  292     7e-100
+UniRef90_A0A923CYY2 Methylglyoxal synthase n=2 Tax=Bacteria TaxID...  292     7e-100
+UniRef90_A0A968GZE3 Methylglyoxal synthase n=1 Tax=Melioribacter ...  292     7e-100
+UniRef90_A0A1Q7SUB2 Methylglyoxal synthase n=2 Tax=unclassified I...  292     1e-99 
+UniRef90_A0A1J4SFB1 Methylglyoxal synthase n=4 Tax=Anaerolineae T...  292     2e-99 
+UniRef90_A0A522M4F2 Methylglyoxal synthase n=1 Tax=Acidobacteriot...  291     2e-99 
+UniRef90_A0A951XFG4 Methylglyoxal synthase n=1 Tax=Opitutaceae ba...  291     2e-99 
+UniRef90_A0A916HV51 Methylglyoxal synthase n=1 Tax=Anaerolineales...  291     3e-99 
+UniRef90_A0A2U2SH08 Methylglyoxal synthase n=1 Tax=Anaerolineae b...  291     3e-99 
+UniRef90_A0A533Y924 Methylglyoxal synthase n=2 Tax=Nitrospirota b...  291     3e-99 
+UniRef90_A0A1F8PDL9 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  290     3e-99 
+UniRef90_A0A942GHQ8 Methylglyoxal synthase n=1 Tax=Melioribacter ...  291     3e-99 
+UniRef90_A0A317HSA3 Methylglyoxal synthase n=1 Tax=Blastocatellia...  290     3e-99 
+
+
+>UniRef90_A8GCM4 Methylglyoxal synthase n=103 Tax=cellular organisms TaxID=131567 
+RepID=MGSA_SERP5
+Length=152
+
+ Score = 317 bits (815),  Expect = 6e-110, Method: Composition-based stats.
+ Identities = 119/152 (78%), Positives = 134/152 (88%), Gaps = 0/152 (0%)
+
+Query  1    MELTTRTLPARKHIALVAHDHCKQMLMSWVERHQPLLEQHVLYATGTTGNLISRATGMNV  60
+            ME TTRT+ ARKHIALVAHDH KQ L++WVE ++ +LEQH LYATGTTGNLI +A+G+ V
+Sbjct  1    MEFTTRTIAARKHIALVAHDHRKQALLAWVEDNKSVLEQHQLYATGTTGNLIQQASGIPV  60
+
+Query  61   NAMLSGPMGGDQQVGALISEGKIDVLIFFWDPLNAVPHDPDVKALLRLATVWNIPVATNV  120
+            N+MLSGPMGGDQQVGALI+EGKID+LIFFWDPLNAVPHDPDVKALLRLATVWNIPVATN 
+Sbjct  61   NSMLSGPMGGDQQVGALIAEGKIDMLIFFWDPLNAVPHDPDVKALLRLATVWNIPVATNR  120
+
+Query  121  ATADFIIQSPHFNDAVDILIPDYQRYLADRLK  152
+            +TADF+I S  F   V+I IPDYQRYL DRLK
+Sbjct  121  STADFLIDSSLFKSEVEIAIPDYQRYLQDRLK  152
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.203    0.886    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0622    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1765164885035
+Results from round 3
+
+
+Query= 1b93-A
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_A0A7V5ZFS9 Methylglyoxal synthase n=1 Tax=Armatimonadota...  328     4e-114
+UniRef90_A0A7V1M6C8 Methylglyoxal synthase n=1 Tax=Armatimonadota...  327     2e-113
+UniRef90_A0A2U2SJR3 Methylglyoxal synthase n=2 Tax=Anaerolineae b...  323     9e-112
+UniRef90_A0A3M1GLY9 Methylglyoxal synthase n=2 Tax=Chloroflexota ...  321     3e-111
+UniRef90_A0A085U9Z9 Methylglyoxal synthase n=3 Tax=Yersinia TaxID...  319     2e-110
+UniRef90_A0A2J6XTL5 Methylglyoxal synthase n=1 Tax=Dictyoglomus s...  319     2e-110
+UniRef90_I0QTY7 Methylglyoxal synthase n=8 Tax=root TaxID=1 RepID...  319     3e-110
+UniRef90_A0A6M8UG05 Methylglyoxal synthase n=1 Tax=Erwiniaceae ba...  318     4e-110
+UniRef90_A0A5J5G356 Methylglyoxal synthase n=1 Tax=Affinibrenneri...  318     6e-110
+UniRef90_A0A097R152 Methylglyoxal synthase n=11 Tax=Enterobactera...  318     6e-110
+UniRef90_A0A240BS42 Methylglyoxal synthase n=3 Tax=Serratia ficar...  318     6e-110
+UniRef90_A8GCM4 Methylglyoxal synthase n=103 Tax=cellular organis...  317     8e-110
+UniRef90_Q1ZSC5 Methylglyoxal synthase n=26 Tax=Photobacterium Ta...  317     8e-110
+UniRef90_A0A0L7T039 Methylglyoxal synthase n=5 Tax=Erwiniaceae Ta...  317     1e-109
+UniRef90_Q6D6C8 Methylglyoxal synthase n=52 Tax=Pectobacteriaceae...  316     3e-109
+UniRef90_A0A4R3YY95 Methylglyoxal synthase n=1 Tax=Biostraticola ...  316     4e-109
+UniRef90_L0MDH9 Methylglyoxal synthase n=6 Tax=Serratia TaxID=613...  316     4e-109
+UniRef90_A0A7C2QV75 Methylglyoxal synthase n=2 Tax=Armatimonadota...  315     5e-109
+UniRef90_A0A0G4JZT1 Methylglyoxal synthase n=9 Tax=Brenneria TaxI...  315     5e-109
+UniRef90_A0A6I6F2U4 Methylglyoxal synthase n=18 Tax=Erwiniaceae T...  315     5e-109
+UniRef90_A0A354DUR3 Methylglyoxal synthase n=2 Tax=Erwinia persic...  315     6e-109
+UniRef90_Q9KLN2 Methylglyoxal synthase n=145 Tax=Vibrio TaxID=662...  315     6e-109
+UniRef90_A0A0P6WYV4 Methylglyoxal synthase n=2 Tax=Leptolinea Tax...  315     6e-109
+UniRef90_A0A941UNE8 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  316     7e-109
+UniRef90_D4E832 Methylglyoxal synthase n=3 Tax=Serratia TaxID=613...  315     7e-109
+UniRef90_A0A2J9E7C1 Methylglyoxal synthase n=15 Tax=Pantoea TaxID...  315     7e-109
+UniRef90_C5BDP0 Methylglyoxal synthase n=7 Tax=Edwardsiella TaxID...  315     8e-109
+UniRef90_UPI001FA9C03C methylglyoxal synthase n=2 Tax=Erwiniaceae...  315     9e-109
+UniRef90_A0A7Y8L404 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  315     1e-108
+UniRef90_A0A1F8RQ88 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  315     1e-108
+UniRef90_UPI002A36E6CC methylglyoxal synthase n=1 Tax=Trichloroba...  314     1e-108
+UniRef90_E0SN21 Methylglyoxal synthase n=23 Tax=Dickeya TaxID=204...  314     2e-108
+UniRef90_A0A0U3U9D5 Methylglyoxal synthase n=17 Tax=Pantoea TaxID...  314     2e-108
+UniRef90_A0A8J7KQ99 Methylglyoxal synthase n=4 Tax=cellular organ...  314     2e-108
+UniRef90_E6WCD7 Methylglyoxal synthase n=5 Tax=Pantoea TaxID=5333...  314     2e-108
+UniRef90_A0A250B5S9 Methylglyoxal synthase n=4 Tax=Gibbsiella Tax...  314     2e-108
+UniRef90_A0A933HI54 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  314     2e-108
+UniRef90_A0A1F8NBW3 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  314     2e-108
+UniRef90_A0A3N1IY00 Methylglyoxal synthase n=3 Tax=Enterobacter T...  314     2e-108
+UniRef90_A0A928V5L9 Methylglyoxal synthase n=1 Tax=Cellvibrio pol...  314     2e-108
+UniRef90_A0A1G1I176 Methylglyoxal synthase n=1 Tax=Nitrospirae ba...  314     2e-108
+UniRef90_B8E059 Methylglyoxal synthase n=3 Tax=Dictyoglomus TaxID...  314     3e-108
+UniRef90_A0A014N2T2 Methylglyoxal synthase n=3 Tax=Erwinia TaxID=...  313     3e-108
+UniRef90_L8JBJ5 Methylglyoxal synthase n=1 Tax=Photobacterium mar...  313     4e-108
+UniRef90_Q0YU92 Methylglyoxal synthase n=1 Tax=Chlorobium ferroox...  313     4e-108
+UniRef90_A0A376DIT3 Methylglyoxal synthase n=7 Tax=Edwardsiella T...  313     4e-108
+UniRef90_A0A542D4J1 Methylglyoxal synthase n=1 Tax=Serratia fonti...  313     4e-108
+UniRef90_A0A1I6CUP6 Methylglyoxal synthase n=5 Tax=Enterobacteria...  313     5e-108
+UniRef90_B4EVE1 Methylglyoxal synthase n=22 Tax=Gammaproteobacter...  313     5e-108
+UniRef90_A0A1U9N8N3 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  313     5e-108
+UniRef90_UPI0029E817F5 methylglyoxal synthase n=2 Tax=Xenorhabdus...  313     5e-108
+UniRef90_A0A4R1NAJ8 Methylglyoxal synthase n=9 Tax=root TaxID=1 R...  313     5e-108
+UniRef90_A0A6P1PX45 Methylglyoxal synthase n=2 Tax=Mixta TaxID=21...  313     5e-108
+UniRef90_A0AAU0KWQ7 Methylglyoxal synthase n=3 Tax=Serratia TaxID...  313     6e-108
+UniRef90_A0A0A3Z8W3 Methylglyoxal synthase n=6 Tax=Erwinia TaxID=...  312     6e-108
+UniRef90_A0A1I4UPP7 Methylglyoxal synthase n=3 Tax=Erwiniaceae Ta...  312     6e-108
+UniRef90_UPI002737BB5F methylglyoxal synthase n=1 Tax=Trichloroba...  313     6e-108
+UniRef90_A0A0A5JRE9 Methylglyoxal synthase n=5 Tax=Vibrio TaxID=6...  312     7e-108
+UniRef90_A0A4P8SDF9 Methylglyoxal synthase n=5 Tax=Yersiniaceae T...  312     7e-108
+UniRef90_A0A1Q9GK86 Methylglyoxal synthase n=7 Tax=Photobacterium...  312     7e-108
+UniRef90_A0A3R8ZWP4 Methylglyoxal synthase n=4 Tax=Erwinia TaxID=...  312     8e-108
+UniRef90_A0A1G1G274 Methylglyoxal synthase n=1 Tax=Nitrospirae ba...  312     8e-108
+UniRef90_UPI0025524D94 methylglyoxal synthase n=1 Tax=Microbulbif...  312     9e-108
+UniRef90_A0A7Y5K7S1 Methylglyoxal synthase n=1 Tax=candidate divi...  312     1e-107
+UniRef90_UPI000DEF8471 methylglyoxal synthase n=1 Tax=Edaphovirga...  312     1e-107
+UniRef90_A0A3N5JWW1 Methylglyoxal synthase n=1 Tax=Ignavibacterio...  312     1e-107
+UniRef90_C7BPP7 Methylglyoxal synthase n=5 Tax=Photorhabdus TaxID...  312     1e-107
+UniRef90_A0A7C3RLA5 Methylglyoxal synthase n=3 Tax=Dictyoglomus T...  312     1e-107
+UniRef90_A0A9D6LKT0 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  312     1e-107
+UniRef90_D8MQH1 Methylglyoxal synthase n=6 Tax=Erwiniaceae TaxID=...  312     2e-107
+UniRef90_A0A964HB23 Methylglyoxal synthase n=1 Tax=bacterium TaxI...  312     2e-107
+UniRef90_A0A2I0FX37 Methylglyoxal synthase n=1 Tax=Enterobacteral...  312     2e-107
+UniRef90_A0A1G3R9N5 Methylglyoxal synthase n=2 Tax=unclassified S...  312     2e-107
+UniRef90_UPI002042FBC3 methylglyoxal synthase n=1 Tax=Parasegetib...  311     2e-107
+UniRef90_UPI002B23E05E methylglyoxal synthase n=1 Tax=Acerihabita...  311     2e-107
+UniRef90_A0A807LFF6 Methylglyoxal synthase n=25 Tax=Enterobacteri...  311     2e-107
+UniRef90_UPI000B34F00D methylglyoxal synthase n=1 Tax=Thaumasiovi...  311     3e-107
+UniRef90_A0A6G6TJG2 Methylglyoxal synthase n=13 Tax=Enterobactera...  311     3e-107
+UniRef90_UPI0019296518 methylglyoxal synthase n=2 Tax=Enterobacte...  311     3e-107
+UniRef90_A0A6G8D6Z5 Methylglyoxal synthase n=1 Tax=Vibrio sp. HDW...  311     3e-107
+UniRef90_A0A7Y4RL52 Methylglyoxal synthase n=2 Tax=Anaerolineales...  311     3e-107
+UniRef90_A0A7C2CM08 Methylglyoxal synthase n=2 Tax=Candidatus Ami...  311     3e-107
+UniRef90_UPI001FEFDCD7 methylglyoxal synthase n=2 Tax=Erwinia Tax...  311     3e-107
+UniRef90_UPI0031DFC467 methylglyoxal synthase n=3 Tax=Pantoea Tax...  311     3e-107
+UniRef90_A0A443IDD6 Methylglyoxal synthase n=1 Tax=[Pantoea] beij...  311     4e-107
+UniRef90_A0A6G7CQ13 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  310     4e-107
+UniRef90_A0A2I5T631 Methylglyoxal synthase n=2 Tax=Enterobacteral...  310     4e-107
+UniRef90_A0A933SV45 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  311     4e-107
+UniRef90_UPI002074E941 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  310     4e-107
+UniRef90_A0A090QRY7 Methylglyoxal synthase n=8 Tax=Photobacterium...  310     4e-107
+UniRef90_A0A923CYY2 Methylglyoxal synthase n=2 Tax=Bacteria TaxID...  310     5e-107
+UniRef90_U4KDG1 Methylglyoxal synthase n=26 Tax=root TaxID=1 RepI...  310     5e-107
+UniRef90_B7VS36 Methylglyoxal synthase n=95 Tax=Vibrionales TaxID...  310     5e-107
+UniRef90_UPI001EF23522 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  310     5e-107
+UniRef90_UPI0027B5807F methylglyoxal synthase n=1 Tax=Marinimicro...  310     6e-107
+UniRef90_A0A940W1U0 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  310     6e-107
+UniRef90_A0A1G1H6R8 Methylglyoxal synthase n=1 Tax=Nitrospirae ba...  310     6e-107
+UniRef90_P0A731 Methylglyoxal synthase n=732 Tax=Gammaproteobacte...  310     6e-107
+UniRef90_A0A1V5WEM4 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  311     8e-107
+UniRef90_A0A1F9ABN9 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  310     9e-107
+UniRef90_A0A1Y2SRH2 Methylglyoxal synthase n=1 Tax=Xenorhabdus be...  310     9e-107
+UniRef90_A0A1J4SFB1 Methylglyoxal synthase n=4 Tax=Anaerolineae T...  310     9e-107
+UniRef90_D1NZX1 Methylglyoxal synthase n=3 Tax=Providencia rustig...  310     1e-106
+UniRef90_A0A6L6FFS2 Methylglyoxal synthase n=8 Tax=Providencia Ta...  310     1e-106
+UniRef90_A0A4R6EXR7 Methylglyoxal synthase n=10 Tax=Enterobactera...  310     1e-106
+UniRef90_A0A1Q7SUB2 Methylglyoxal synthase n=2 Tax=unclassified I...  310     1e-106
+UniRef90_A0A090V4M0 Methylglyoxal synthase n=7 Tax=Enterobacteria...  309     1e-106
+UniRef90_UPI000838B18A methylglyoxal synthase n=2 Tax=Vibrio TaxI...  309     1e-106
+UniRef90_A0A2T6DY94 Methylglyoxal synthase n=1 Tax=Opitutaceae ba...  311     1e-106
+UniRef90_A0A9C9TD28 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  310     1e-106
+UniRef90_A0A3N5S790 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  309     1e-106
+UniRef90_A0A533TX18 Methylglyoxal synthase n=2 Tax=Chlorobiaceae ...  309     1e-106
+UniRef90_A0A0U5GL44 Methylglyoxal synthase n=2 Tax=Duffyella geru...  309     1e-106
+UniRef90_A0A7V4WLG4 Methylglyoxal synthase n=2 Tax=Candidatus Cal...  309     1e-106
+UniRef90_UPI0010313D34 methylglyoxal synthase n=1 Tax=[Erwinia] m...  309     1e-106
+UniRef90_A0A370QML1 Methylglyoxal synthase n=1 Tax=Enterobacillus...  309     1e-106
+UniRef90_C9QDV6 Methylglyoxal synthase n=14 Tax=Vibrio TaxID=662 ...  309     1e-106
+UniRef90_A0A356E6V6 Methylglyoxal synthase n=1 Tax=Pasteurellacea...  309     1e-106
+UniRef90_A0A916HV51 Methylglyoxal synthase n=1 Tax=Anaerolineales...  309     1e-106
+UniRef90_A0A0Q4MJI0 Methylglyoxal synthase n=2 Tax=unclassified E...  309     2e-106
+UniRef90_A0A7C3QEM0 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  309     2e-106
+UniRef90_A0A3A4NNK0 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  309     2e-106
+UniRef90_A0A1B7L0H4 Methylglyoxal synthase n=4 Tax=Mangrovibacter...  309     2e-106
+UniRef90_A0A5J6P4U8 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  309     2e-106
+UniRef90_E6KWR6 Methylglyoxal synthase n=19 Tax=Aggregatibacter T...  309     2e-106
+UniRef90_UPI001C09CB2D methylglyoxal synthase n=1 Tax=unclassifie...  309     2e-106
+UniRef90_A4W8X5 Methylglyoxal synthase n=212 Tax=root TaxID=1 Rep...  308     2e-106
+UniRef90_C6CAH0 Methylglyoxal synthase n=2 Tax=Musicola TaxID=288...  308     2e-106
+UniRef90_E9CPY2 Methylglyoxal synthase n=3 Tax=Serratia symbiotic...  308     2e-106
+UniRef90_A0A1X1CXY8 Methylglyoxal synthase n=2 Tax=Pantoea TaxID=...  308     2e-106
+UniRef90_A0AAE4DR98 Methylglyoxal synthase n=2 Tax=Pseudenterobac...  308     3e-106
+UniRef90_A0A1W6BAP3 Methylglyoxal synthase n=7 Tax=Erwiniaceae Ta...  308     3e-106
+UniRef90_B5XY41 Methylglyoxal synthase n=89 Tax=Bacteria TaxID=2 ...  308     3e-106
+UniRef90_A0A3N1NKD0 Methylglyoxal synthase n=2 Tax=Marinimicrobiu...  308     3e-106
+UniRef90_A0A0Q2MHU3 Methylglyoxal synthase n=11 Tax=Vibrio TaxID=...  308     3e-106
+UniRef90_A0A0T9NMD3 Methylglyoxal synthase n=1 Tax=Yersinia pekka...  308     3e-106
+UniRef90_A0A3A5K1Y8 Methylglyoxal synthase n=2 Tax=Enterobacteria...  308     3e-106
+UniRef90_UPI000D6412B0 methylglyoxal synthase n=1 Tax=Aggregatiba...  308     3e-106
+UniRef90_A0A485CW24 Methylglyoxal synthase n=2 Tax=Kluyvera cryoc...  310     3e-106
+UniRef90_E0LYP0 Methylglyoxal synthase n=53 Tax=Pantoea TaxID=533...  308     4e-106
+UniRef90_A0A0T6AES5 Methylglyoxal synthase n=6 Tax=Bacteria TaxID...  308     4e-106
+UniRef90_A0A3A1YLG9 Methylglyoxal synthase n=1 Tax=Psittacicella ...  308     4e-106
+UniRef90_A0A1I3HY56 Methylglyoxal synthase n=2 Tax=Xenorhabdus Ta...  308     4e-106
+UniRef90_H3RBF6 Methylglyoxal synthase n=20 Tax=Pantoea TaxID=533...  308     4e-106
+UniRef90_V5Z756 Methylglyoxal synthase n=1 Tax=Erwinia piriflorin...  308     4e-106
+UniRef90_A0A931QQS3 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  308     4e-106
+UniRef90_A0A1N6MW32 Methylglyoxal synthase n=5 Tax=Xenorhabdus Ta...  308     4e-106
+UniRef90_UPI001C47ED9F methylglyoxal synthase n=1 Tax=Enterovibri...  308     4e-106
+UniRef90_A0A0H3GV61 Methylglyoxal synthase n=61 Tax=Gammaproteoba...  308     5e-106
+UniRef90_A0A1F8RJR0 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  308     5e-106
+UniRef90_UPI00241044B8 methylglyoxal synthase n=1 Tax=Vibrio hann...  308     5e-106
+UniRef90_A0A2T3PN65 Methylglyoxal synthase n=19 Tax=Photobacteriu...  308     5e-106
+UniRef90_A0A2D0JJU1 Methylglyoxal synthase n=2 Tax=Xenorhabdus Ta...  308     5e-106
+UniRef90_UPI0004A3157B methylglyoxal synthase n=1 Tax=Tatumella s...  308     5e-106
+UniRef90_A0A3D4Q244 Methylglyoxal synthase n=5 Tax=Cellvibrio Tax...  308     5e-106
+UniRef90_UPI000468E1B8 methylglyoxal synthase n=1 Tax=Pantoea sp....  308     5e-106
+UniRef90_B3ECD8 Methylglyoxal synthase n=5 Tax=Chlorobium TaxID=1...  308     5e-106
+UniRef90_UPI00157623DD methylglyoxal synthase n=2 Tax=Vibrio TaxI...  308     5e-106
+UniRef90_J3DEY7 Methylglyoxal synthase n=19 Tax=root TaxID=1 RepI...  308     6e-106
+UniRef90_UPI000D3ED026 methylglyoxal synthase n=1 Tax=Dongshaea m...  307     6e-106
+UniRef90_UPI00202A7484 methylglyoxal synthase n=1 Tax=Vibrio sinu...  307     6e-106
+UniRef90_A0AA34TTH8 Methylglyoxal synthase n=5 Tax=Vibrio TaxID=6...  307     6e-106
+UniRef90_A0A973GGK6 Methylglyoxal synthase n=1 Tax=Chlorobiaceae ...  308     6e-106
+UniRef90_UPI00240B91B8 methylglyoxal synthase n=1 Tax=Thalassotal...  307     7e-106
+UniRef90_A0A0J1HJ60 Methylglyoxal synthase n=1 Tax=Photobacterium...  307     7e-106
+UniRef90_UPI003A4DE263 methylglyoxal synthase n=2 Tax=Erwinia Tax...  307     7e-106
+UniRef90_A7ME47 Methylglyoxal synthase n=23 Tax=Cronobacter TaxID...  307     7e-106
+UniRef90_UPI000B35B518 methylglyoxal synthase n=1 Tax=Thaumasiovi...  307     8e-106
+UniRef90_A0A1S8CIX9 Methylglyoxal synthase n=3 Tax=Serratia TaxID...  307     8e-106
+UniRef90_A0A1F8TCI5 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  307     8e-106
+UniRef90_B2VDH0 Methylglyoxal synthase n=1 Tax=Erwinia tasmaniens...  307     8e-106
+UniRef90_A0A951XFG4 Methylglyoxal synthase n=1 Tax=Opitutaceae ba...  307     8e-106
+UniRef90_H5UWY9 Methylglyoxal synthase n=10 Tax=Enterobacteriacea...  307     9e-106
+UniRef90_UPI0018E5FE46 methylglyoxal synthase n=1 Tax=Xenorhabdus...  307     9e-106
+UniRef90_A0A7X4LJ77 Methylglyoxal synthase n=1 Tax=Vibrio eleiono...  307     9e-106
+UniRef90_B6EI79 Methylglyoxal synthase n=3 Tax=Aliivibrio TaxID=5...  307     9e-106
+UniRef90_A0A936D2X5 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  307     1e-105
+UniRef90_A0A447SRR0 Methylglyoxal synthase n=16 Tax=Avibacterium ...  307     1e-105
+UniRef90_A0A9J6QJF3 Methylglyoxal synthase n=1 Tax=Silvania confi...  307     1e-105
+UniRef90_A0A381C9M7 Methylglyoxal synthase n=28 Tax=Enterobacteri...  307     1e-105
+UniRef90_A0A9D6WTC1 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  307     1e-105
+UniRef90_A0A522M4F2 Methylglyoxal synthase n=1 Tax=Acidobacteriot...  307     1e-105
+UniRef90_A0A135I6P9 Methylglyoxal synthase n=3 Tax=Enterovibrio T...  307     1e-105
+UniRef90_A0A7V4CTC2 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  307     1e-105
+UniRef90_UPI0005501F83 methylglyoxal synthase n=1 Tax=Erwinia Tax...  307     1e-105
+UniRef90_A0A931ZDB3 Methylglyoxal synthase n=1 Tax=Opitutae bacte...  307     1e-105
+UniRef90_UPI0009491B14 methylglyoxal synthase n=1 Tax=Pantoea sp....  307     1e-105
+UniRef90_UPI001EFF77E3 methylglyoxal synthase n=1 Tax=Vibrio mari...  307     1e-105
+UniRef90_A0A7J2TGK4 Methylglyoxal synthase n=1 Tax=Candidatus Bat...  307     1e-105
+UniRef90_A0A0J8Y8B2 Methylglyoxal synthase n=3 Tax=Franconibacter...  307     1e-105
+UniRef90_A0A2Y9TUH2 Methylglyoxal synthase n=7 Tax=Budviciaceae T...  307     1e-105
+UniRef90_A0A1J0E4Y8 Methylglyoxal synthase n=3 Tax=Providencia Ta...  307     1e-105
+UniRef90_U1S7T5 Methylglyoxal synthase n=16 Tax=Aggregatibacter T...  307     1e-105
+UniRef90_A0A0H3F8G5 Methylglyoxal synthase n=17 Tax=Enterobactera...  307     1e-105
+UniRef90_B0UW70 Methylglyoxal synthase n=7 Tax=Histophilus somni ...  307     1e-105
+UniRef90_A0A847G4C0 Methylglyoxal synthase n=1 Tax=Leptolinea sp....  307     1e-105
+UniRef90_A0A2M7WK93 Methylglyoxal synthase n=1 Tax=candidate divi...  307     1e-105
+UniRef90_A0A085JCG0 Methylglyoxal synthase n=3 Tax=Tatumella TaxI...  307     2e-105
+UniRef90_A0A4R2T229 Methylglyoxal synthase n=1 Tax=Cricetibacter ...  307     2e-105
+UniRef90_UPI001BB0B4FF methylglyoxal synthase n=1 Tax=Tatumella T...  307     2e-105
+UniRef90_A0A6G9IDG2 Methylglyoxal synthase n=1 Tax=Zophobihabitan...  307     2e-105
+UniRef90_UPI000FDE0912 methylglyoxal synthase n=1 Tax=Serratia mi...  307     2e-105
+UniRef90_A0A0C5WVW6 Methylglyoxal synthase n=2 Tax=Photobacterium...  307     2e-105
+UniRef90_A0A7Z2YG70 Methylglyoxal synthase n=4 Tax=Vibrio TaxID=6...  306     2e-105
+UniRef90_A0A7K1TYD7 Methylglyoxal synthase n=1 Tax=Chitinophaga t...  306     2e-105
+UniRef90_A0AA42B9A4 Methylglyoxal synthase n=1 Tax=Echinimonas ag...  306     2e-105
+UniRef90_UPI00267190B1 methylglyoxal synthase n=1 Tax=Gilvimarinu...  306     2e-105
+UniRef90_A0A957FHS2 Methylglyoxal synthase n=1 Tax=Anaerolineales...  307     2e-105
+UniRef90_UPI003606F44D methylglyoxal synthase n=2 Tax=Cellvibrio ...  306     2e-105
+UniRef90_A0A7J2NQB6 Methylglyoxal synthase n=1 Tax=Candidatus Bat...  306     2e-105
+UniRef90_H2ISB1 Methylglyoxal synthase n=5 Tax=Enterobacterales T...  306     2e-105
+UniRef90_A0A1F8PDL9 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  306     2e-105
+UniRef90_A0A2M8AYY6 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  306     2e-105
+UniRef90_A0A938PDT7 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  306     3e-105
+UniRef90_A0A4Y3HXS3 Methylglyoxal synthase n=7 Tax=Vibrio TaxID=6...  306     3e-105
+UniRef90_A0A4V2PB63 Methylglyoxal synthase n=2 Tax=Volucribacter ...  306     3e-105
+UniRef90_A0A4P8QMQ6 Methylglyoxal synthase n=3 Tax=Brenneria TaxI...  306     3e-105
+UniRef90_A0A933CY32 Methylglyoxal synthase n=1 Tax=Deltaproteobac...  306     3e-105
+UniRef90_Q6LST5 Methylglyoxal synthase n=5 Tax=Photobacterium Tax...  306     3e-105
+UniRef90_A0A0M0HQY4 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=6...  306     3e-105
+UniRef90_A0A1X1BYK9 Methylglyoxal synthase n=6 Tax=Pantoea TaxID=...  306     3e-105
+UniRef90_A0A0L0AMH7 Methylglyoxal synthase n=9 Tax=Enterobacteria...  306     3e-105
+UniRef90_A0A0B8PC64 Methylglyoxal synthase n=2 Tax=Vibrio ishigak...  306     3e-105
+UniRef90_A0A7J3R1G6 Methylglyoxal synthase (Fragment) n=1 Tax=Can...  305     3e-105
+UniRef90_Q9CNN3 Methylglyoxal synthase n=11 Tax=Pasteurella TaxID...  306     3e-105
+UniRef90_A0A2N8ZIJ3 Methylglyoxal synthase n=2 Tax=Vibrio tapetis...  306     3e-105
+UniRef90_A0A973FE25 Methylglyoxal synthase n=1 Tax=Chlorobiaceae ...  306     4e-105
+UniRef90_A0A0F5VFU6 Methylglyoxal synthase n=12 Tax=Photobacteriu...  305     4e-105
+UniRef90_A0A264VZB7 Methylglyoxal synthase n=20 Tax=Providencia T...  305     4e-105
+UniRef90_A0A1H1PCD3 Methylglyoxal synthase n=1 Tax=Opitutus sp. G...  306     4e-105
+UniRef90_A0A957CM09 Methylglyoxal synthase n=1 Tax=Anaerolineales...  305     4e-105
+UniRef90_UPI00206AB23E methylglyoxal synthase n=3 Tax=Vibrio TaxI...  305     4e-105
+UniRef90_Q5E4D0 Methylglyoxal synthase n=8 Tax=Aliivibrio fischer...  305     4e-105
+UniRef90_UPI0023E20CCD methylglyoxal synthase n=2 Tax=unclassifie...  305     4e-105
+UniRef90_A0A919BR48 Methylglyoxal synthase n=1 Tax=Thalassotalea ...  305     4e-105
+UniRef90_A0A085GGX3 Methylglyoxal synthase n=9 Tax=Enterobacteria...  305     5e-105
+UniRef90_A0A2T3N0N7 Methylglyoxal synthase n=2 Tax=Photobacterium...  305     5e-105
+UniRef90_A0A0M0T711 Methylglyoxal synthase n=11 Tax=Xenorhabdus T...  305     5e-105
+UniRef90_A0A935J006 Methylglyoxal synthase n=1 Tax=Anaerolineales...  305     5e-105
+UniRef90_A0A1V4AYA4 Methylglyoxal synthase n=2 Tax=Canicola haemo...  305     5e-105
+UniRef90_UPI0032218F03 methylglyoxal synthase n=2 Tax=Marinimicro...  305     5e-105
+UniRef90_A0A085GJK3 Methylglyoxal synthase n=3 Tax=Ewingella amer...  305     5e-105
+UniRef90_A0A6B2FR67 Methylglyoxal synthase n=1 Tax=Enterobacteria...  305     5e-105
+UniRef90_A0A533Y924 Methylglyoxal synthase n=2 Tax=Nitrospirota b...  306     6e-105
+UniRef90_UPI0030DB7195 methylglyoxal synthase n=3 Tax=Gilvimarinu...  305     6e-105
+UniRef90_A0A9E0TLY8 Methylglyoxal synthase n=1 Tax=Verrucomicrobi...  306     6e-105
+UniRef90_I3IBA7 Methylglyoxal synthase n=2 Tax=Cellvibrio TaxID=1...  305     6e-105
+UniRef90_A0A524PCQ9 Methylglyoxal synthase n=3 Tax=Bacteria TaxID...  305     6e-105
+UniRef90_UPI001412E902 methylglyoxal synthase n=1 Tax=Emticicia s...  305     6e-105
+UniRef90_Q2NU68 Methylglyoxal synthase n=10 Tax=Sodalis TaxID=845...  305     6e-105
+UniRef90_A0A081G4Q6 Methylglyoxal synthase n=1 Tax=Marinobacteriu...  305     6e-105
+UniRef90_A0A3N5S444 Methylglyoxal synthase n=2 Tax=Chloroflexota ...  305     7e-105
+UniRef90_A0A953IIX6 Methylglyoxal synthase n=1 Tax=Thermoanaeroba...  305     7e-105
+UniRef90_A0A957TEK2 Methylglyoxal synthase n=1 Tax=Anaerolineales...  305     7e-105
+UniRef90_A0A2X4UMT4 Methylglyoxal synthase n=2 Tax=Leminorella Ta...  305     7e-105
+UniRef90_A0A533TXM5 Methylglyoxal synthase n=1 Tax=Chlorobium sp....  305     7e-105
+UniRef90_UPI001C6A8AD9 methylglyoxal synthase n=2 Tax=unclassifie...  305     7e-105
+UniRef90_A0A2M8RV43 Methylglyoxal synthase n=1 Tax=Caviibacterium...  305     8e-105
+UniRef90_Q8ZG71 Methylglyoxal synthase n=68 Tax=Yersinia TaxID=62...  305     8e-105
+UniRef90_A0A3A4QPW0 Methylglyoxal synthase n=1 Tax=Anaerolineacea...  305     8e-105
+UniRef90_A0A0J1HB93 Methylglyoxal synthase n=1 Tax=Photobacterium...  305     9e-105
+UniRef90_A0A6A9E6B7 Methylglyoxal synthase n=3 Tax=Gammaproteobac...  305     9e-105
+UniRef90_A0A518XBG8 Methylglyoxal synthase n=1 Tax=Pantoea disper...  305     9e-105
+UniRef90_A0A7X9HPN4 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  305     9e-105
+UniRef90_UPI00351D4896 methylglyoxal synthase n=1 Tax=Candidatus ...  305     1e-104
+UniRef90_A0A941U9G0 Methylglyoxal synthase n=3 Tax=Enterobacteria...  304     1e-104
+UniRef90_UPI001F1A0A39 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  304     1e-104
+UniRef90_UPI000673BA40 methylglyoxal synthase n=1 Tax=Gilvimarinu...  305     1e-104
+UniRef90_A0A263HAY8 Methylglyoxal synthase n=3 Tax=Pasteurellacea...  304     1e-104
+UniRef90_UPI001F032326 methylglyoxal synthase n=1 Tax=Vibrio styl...  304     1e-104
+UniRef90_A0A081N5W6 Methylglyoxal synthase n=4 Tax=Endozoicomonas...  304     1e-104
+UniRef90_A0A178K9S6 Methylglyoxal synthase n=1 Tax=Photobacterium...  304     1e-104
+UniRef90_A0A932BRR3 Methylglyoxal synthase n=2 Tax=Chloroflexota ...  305     1e-104
+UniRef90_A0A1M7YS47 Methylglyoxal synthase n=1 Tax=Vibrio quintil...  304     1e-104
+UniRef90_A0A1T0AUW0 Methylglyoxal synthase n=1 Tax=[Haemophilus] ...  304     1e-104
+UniRef90_A0A8J6QMP0 Methylglyoxal synthase n=3 Tax=Neiella TaxID=...  304     1e-104
+UniRef90_D0I6G0 Methylglyoxal synthase n=3 Tax=Grimontia hollisae...  304     1e-104
+UniRef90_A0A4P9VIF4 Methylglyoxal synthase n=2 Tax=Zooshikella Ta...  304     1e-104
+UniRef90_UPI0039E3334B methylglyoxal synthase n=1 Tax=Propionivib...  305     1e-104
+UniRef90_A0A842XLJ3 Methylglyoxal synthase n=1 Tax=Methanophagale...  304     1e-104
+UniRef90_A0A1I5M512 Methylglyoxal synthase n=4 Tax=Enterovibrio T...  304     1e-104
+UniRef90_A0A1E5E475 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  304     1e-104
+UniRef90_A0A957D5Y0 Methylglyoxal synthase n=1 Tax=Anaerolineales...  304     2e-104
+UniRef90_A0A7L9S309 Methylglyoxal synthase n=1 Tax=Thalassotalea ...  304     2e-104
+UniRef90_UPI001E5317B6 methylglyoxal synthase n=1 Tax=Vibrio sali...  304     2e-104
+UniRef90_A0A916YNG0 Methylglyoxal synthase n=4 Tax=Emticicia TaxI...  304     2e-104
+UniRef90_A0A0A3BB35 Methylglyoxal synthase n=1 Tax=Chelonobacter ...  304     2e-104
+UniRef90_A0A084A181 Methylglyoxal synthase n=1 Tax=Serratia sp. D...  304     2e-104
+UniRef90_A0A2C6DR52 Methylglyoxal synthase n=3 Tax=Budvicia TaxID...  303     2e-104
+UniRef90_A0A165LNT3 Methylglyoxal synthase n=1 Tax=Pelodictyon lu...  304     2e-104
+UniRef90_A0A095UGP6 Methylglyoxal synthase n=2 Tax=Tatumella TaxI...  304     2e-104
+UniRef90_A0A942GHQ8 Methylglyoxal synthase n=1 Tax=Melioribacter ...  304     2e-104
+UniRef90_UPI00167BDF77 methylglyoxal synthase n=1 Tax=Thalassotal...  303     3e-104
+UniRef90_A0A2T6FNI6 Methylglyoxal synthase n=2 Tax=Cellvibrio Tax...  303     3e-104
+UniRef90_A0A1F7TN22 Methylglyoxal synthase n=1 Tax=Candidatus Tec...  303     3e-104
+UniRef90_A0A2T3QL33 Methylglyoxal synthase n=6 Tax=Photobacterium...  303     3e-104
+UniRef90_UPI00073D6356 methylglyoxal synthase n=1 Tax=Entomohabit...  303     3e-104
+UniRef90_A0AA44G9X7 Methylglyoxal synthase n=1 Tax=Vibrio sp. UCD...  303     3e-104
+UniRef90_A0A2N0XSH2 Methylglyoxal synthase n=2 Tax=unclassified V...  303     3e-104
+UniRef90_A0A1E5D8P4 Methylglyoxal synthase n=7 Tax=Vibrionales Ta...  303     3e-104
+UniRef90_UPI0026E362A3 methylglyoxal synthase n=1 Tax=Flavitalea ...  303     3e-104
+UniRef90_A0A0F5ATS5 Methylglyoxal synthase n=20 Tax=Salinivibrio ...  303     4e-104
+UniRef90_UPI0021C3AC75 methylglyoxal synthase n=1 Tax=Vibrio gall...  303     4e-104
+UniRef90_UPI0023B1FA07 methylglyoxal synthase n=1 Tax=Vibrio sp. ...  303     4e-104
+UniRef90_A0A369WV64 Methylglyoxal synthase n=1 Tax=Motiliproteus ...  303     4e-104
+UniRef90_A0A958DAZ7 Methylglyoxal synthase n=1 Tax=Anaerolineae b...  303     4e-104
+UniRef90_A0A0L0GHZ0 Methylglyoxal synthase n=6 Tax=Enterobacteria...  303     4e-104
+UniRef90_A0A2U0S6M8 Methylglyoxal synthase n=2 Tax=Candidatus Bat...  303     4e-104
+UniRef90_A0A1F8YL22 Methylglyoxal synthase n=2 Tax=Bacteria TaxID...  303     4e-104
+UniRef90_A0A7V3X937 Methylglyoxal synthase n=1 Tax=Bacteroidia ba...  303     4e-104
+UniRef90_A0A317HSA3 Methylglyoxal synthase n=1 Tax=Blastocatellia...  303     4e-104
+UniRef90_UPI0003771A3D methylglyoxal synthase n=2 Tax=Pantoea Tax...  303     4e-104
+UniRef90_A0A1A7NQW0 Methylglyoxal synthase n=11 Tax=Gallibacteriu...  303     4e-104
+UniRef90_UPI001CC64E43 methylglyoxal synthase n=2 Tax=Geobacterac...  303     4e-104
+UniRef90_A0AA96HSY4 Methylglyoxal synthase n=1 Tax=Teredinibacter...  303     4e-104
+UniRef90_UPI0024E11105 methylglyoxal synthase n=1 Tax=Thalassotal...  303     5e-104
+UniRef90_A0A5C4QGU3 Methylglyoxal synthase n=4 Tax=Pasteurellacea...  303     5e-104
+UniRef90_UPI0013D8ADA2 methylglyoxal synthase n=1 Tax=Paraferrimo...  303     5e-104
+UniRef90_U3ANE5 Methylglyoxal synthase n=2 Tax=Vibrio harveyi gro...  303     5e-104
+UniRef90_A0A4R1GGB7 Methylglyoxal synthase n=1 Tax=Marinobacteriu...  302     6e-104
+UniRef90_UPI002ADEFC40 methylglyoxal synthase n=1 Tax=Erwinia sp....  303     6e-104
+UniRef90_UPI00351AC1DF methylglyoxal synthase n=1 Tax=Endozoicomo...  303     6e-104
+UniRef90_A0A2M8H175 Methylglyoxal synthase n=1 Tax=Vibrio sp. HA2...  302     6e-104
+UniRef90_A0A0J8V5J3 Methylglyoxal synthase n=4 Tax=Photobacterium...  302     6e-104
+UniRef90_A0A090IR26 Methylglyoxal synthase n=7 Tax=Aliivibrio Tax...  302     6e-104
+UniRef90_A0A1T4S1V8 Methylglyoxal synthase n=15 Tax=Bacteria TaxI...  302     7e-104
+UniRef90_A0A957VEP9 Methylglyoxal synthase n=1 Tax=Anaerolineae b...  303     7e-104
+UniRef90_UPI0026F0FF1E methylglyoxal synthase n=1 Tax=Pseudocolwe...  302     7e-104
+UniRef90_B3E3C5 Methylglyoxal synthase n=6 Tax=Trichlorobacter Ta...  302     7e-104
+UniRef90_A0A8K0Y053 Methylglyoxal synthase n=2 Tax=Tenebrionibact...  302     7e-104
+UniRef90_A0A1T4RID7 Methylglyoxal synthase n=27 Tax=root TaxID=1 ...  302     7e-104
+UniRef90_A0A367Z1V1 Methylglyoxal synthase n=1 Tax=Ignavibacterio...  302     7e-104
+UniRef90_A0A935MI39 Methylglyoxal synthase n=1 Tax=Anaerolineales...  302     7e-104
+UniRef90_A0A2U3B652 Methylglyoxal synthase n=1 Tax=Vibrio albus T...  302     7e-104
+UniRef90_UPI001EF588B2 methylglyoxal synthase n=1 Tax=Photobacter...  302     7e-104
+UniRef90_A0A839UQ92 Methylglyoxal synthase n=2 Tax=Simiduia TaxID...  302     8e-104
+UniRef90_UPI001EE79C52 methylglyoxal synthase n=1 Tax=Psychromona...  302     8e-104
+UniRef90_UPI003567B877 methylglyoxal synthase n=1 Tax=Pasteurella...  302     9e-104
+UniRef90_A0A7C5A301 Methylglyoxal synthase n=2 Tax=Anaerolineae T...  302     9e-104
+UniRef90_A0A7W0J7G5 Methylglyoxal synthase n=5 Tax=Chloroflexota ...  302     9e-104
+UniRef90_A0A0B5B8T4 Methylglyoxal synthase n=1 Tax=Geobacter pick...  302     9e-104
+UniRef90_UPI001BAA3108 methylglyoxal synthase n=1 Tax=Kistimonas ...  302     1e-103
+UniRef90_A0A969E4S4 Methylglyoxal synthase n=1 Tax=Saprospiraceae...  302     1e-103
+UniRef90_A0A1Q3MHB4 Methylglyoxal synthase n=2 Tax=Bacteria TaxID...  302     1e-103
+UniRef90_UPI0009712C5F methylglyoxal synthase n=2 Tax=Vibrio ostr...  302     1e-103
+UniRef90_A0A1R4B702 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  302     1e-103
+UniRef90_UPI00166870F1 methylglyoxal synthase n=2 Tax=Marinobacte...  302     1e-103
+UniRef90_UPI0014229C58 methylglyoxal synthase n=1 Tax=Candidatus ...  302     1e-103
+UniRef90_A0A968GZE3 Methylglyoxal synthase n=1 Tax=Melioribacter ...  302     1e-103
+UniRef90_A0A522DUJ0 Methylglyoxal synthase n=1 Tax=Chitinophagace...  302     1e-103
+UniRef90_A0A8T4D167 Methylglyoxal synthase n=2 Tax=TACK group Tax...  302     1e-103
+UniRef90_A0A9J7ADE9 Methylglyoxal synthase n=3 Tax=Gilvimarinus T...  302     1e-103
+UniRef90_A0A7C2S196 Methylglyoxal synthase n=1 Tax=Dadabacteria b...  302     1e-103
+UniRef90_A0A7Y0TJQ2 Methylglyoxal synthase n=1 Tax=Chlorobiaceae ...  302     1e-103
+UniRef90_A0A4R2MSX6 Methylglyoxal synthase n=1 Tax=Bisgaardia hud...  302     1e-103
+UniRef90_M1RJX7 Methylglyoxal synthase n=21 Tax=Bacteria TaxID=2 ...  302     1e-103
+UniRef90_B3PFP8 Methylglyoxal synthase n=1 Tax=Cellvibrio japonic...  302     1e-103
+UniRef90_A0A9D7SYR2 Methylglyoxal synthase n=1 Tax=Verrucomicrobi...  303     1e-103
+UniRef90_A0A1V2B989 Methylglyoxal synthase n=6 Tax=Chitinophaga T...  302     1e-103
+UniRef90_A0A1M5ZVQ8 Methylglyoxal synthase n=1 Tax=Vibrio aerogen...  302     1e-103
+UniRef90_A0A2U0S5W2 Methylglyoxal synthase n=2 Tax=Candidatus Bat...  302     1e-103
+UniRef90_U3CND5 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=662 R...  302     1e-103
+UniRef90_A0A7Y2SQ50 Methylglyoxal synthase n=1 Tax=Chloroflexales...  302     1e-103
+UniRef90_A0A0N1KHC3 Methylglyoxal synthase n=2 Tax=Moellerella wi...  302     2e-103
+UniRef90_A0A9E6JGQ1 Methylglyoxal synthase n=1 Tax=Chlorobiaceae ...  302     2e-103
+UniRef90_A0AAE3TE10 Methylglyoxal synthase n=1 Tax=Stygiobacter e...  302     2e-103
+UniRef90_A0A317I870 Methylglyoxal synthase n=1 Tax=Bacteroidota b...  301     2e-103
+UniRef90_A0AB39HJI0 Methylglyoxal synthase n=1 Tax=Vibrio sp. HB2...  301     2e-103
+UniRef90_A0AAE7C1Z1 Methylglyoxal synthase n=2 Tax=Pasteurellacea...  301     2e-103
+UniRef90_Q21L65 Methylglyoxal synthase n=3 Tax=Saccharophagus deg...  301     2e-103
+UniRef90_A0A1X1MZD7 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  301     2e-103
+UniRef90_UPI00165FE142 methylglyoxal synthase n=1 Tax=Teredinibac...  301     2e-103
+UniRef90_A0A2N7D7B8 Methylglyoxal synthase n=2 Tax=Vibrio TaxID=6...  301     2e-103
+UniRef90_UPI002673BE8A methylglyoxal synthase n=1 Tax=Gilvimarinu...  301     2e-103
+UniRef90_A0A1W1UBZ9 Methylglyoxal synthase n=1 Tax=Pasteurella te...  301     2e-103
+UniRef90_A0A316EUI2 Methylglyoxal synthase n=2 Tax=Arcicella TaxI...  301     2e-103
+UniRef90_R8AV34 Methylglyoxal synthase n=8 Tax=Plesiomonas shigel...  301     2e-103
+UniRef90_A0A1Y0FUN3 Methylglyoxal synthase n=1 Tax=Cellvibrio sp....  301     2e-103
+UniRef90_UPI002B2EDB88 methylglyoxal synthase n=1 Tax=Colwelliace...  301     2e-103
+UniRef90_A0A956X6S2 Methylglyoxal synthase n=1 Tax=Anaerolineales...  301     2e-103
+UniRef90_A0A952ZV24 Methylglyoxal synthase n=1 Tax=Candidatus Did...  301     2e-103
+UniRef90_A0A3E1EDX1 Methylglyoxal synthase n=1 Tax=Verrucomicrobi...  302     2e-103
+UniRef90_H2CCN7 Methylglyoxal synthase n=2 Tax=Leptonema illini T...  301     3e-103
+UniRef90_A0A0A2XWY6 Methylglyoxal synthase n=9 Tax=Gallibacterium...  301     3e-103
+UniRef90_UPI0003FD87A4 methylglyoxal synthase n=1 Tax=Chitinimona...  301     3e-103
+UniRef90_L0M4H8 Methylglyoxal synthase n=69 Tax=Enterobacteriacea...  301     3e-103
+UniRef90_A0A4P7CIN5 Methylglyoxal synthase n=3 Tax=Pasteurellacea...  301     3e-103
+UniRef90_C9PQL5 Methylglyoxal synthase n=1 Tax=Pasteurella dagmat...  301     3e-103
+UniRef90_A0A1Y1R2K7 Methylglyoxal synthase n=2 Tax=Oceanospirilla...  301     3e-103
+UniRef90_A0A431ML18 Methylglyoxal synthase n=2 Tax=Sphingobacteri...  300     3e-103
+UniRef90_A0A1J5SAJ2 Methylglyoxal synthase n=1 Tax=mine drainage ...  301     3e-103
+UniRef90_A0A521N170 Methylglyoxal synthase n=1 Tax=Chitinophagace...  301     3e-103
+UniRef90_UPI001B4408FD methylglyoxal synthase n=1 Tax=Propionivib...  301     3e-103
+UniRef90_UPI00040FA334 methylglyoxal synthase n=2 Tax=Psychromona...  300     3e-103
+UniRef90_A0A1M3HFV7 Methylglyoxal synthase n=1 Tax=Sphingobacteri...  301     3e-103
+UniRef90_A0A934F603 Methylglyoxal synthase n=1 Tax=Verrucomicrobi...  301     3e-103
+UniRef90_UPI0036436108 methylglyoxal synthase n=1 Tax=Thalassotal...  300     4e-103
+UniRef90_A0A966H1D5 Methylglyoxal synthase n=1 Tax=Chitinophagace...  300     4e-103
+UniRef90_UPI000782E923 methylglyoxal synthase n=1 Tax=Endozoicomo...  300     4e-103
+UniRef90_A0A537KLC0 Methylglyoxal synthase n=2 Tax=Bacteria TaxID...  300     4e-103
+UniRef90_A0A7C2M8B1 Methylglyoxal synthase n=1 Tax=Candidatus Bat...  300     4e-103
+UniRef90_A0A379EUU6 Methylglyoxal synthase n=5 Tax=Pasteurella Ta...  300     5e-103
+UniRef90_UPI00246CDC59 methylglyoxal synthase n=1 Tax=Orbus sasak...  300     5e-103
+UniRef90_UPI002FDD5DEE methylglyoxal synthase n=1 Tax=Phnomibacte...  300     5e-103
+UniRef90_A0AA48GUU8 Methylglyoxal synthase n=1 Tax=Mesoterricola ...  300     5e-103
+UniRef90_A0A1V5YGX9 Methylglyoxal synthase n=1 Tax=Chloroflexi ba...  300     5e-103
+UniRef90_A0A952C844 Methylglyoxal synthase n=1 Tax=Chitinophagace...  300     6e-103
+UniRef90_A0A959SVD7 Methylglyoxal synthase n=1 Tax=Chitinophagace...  300     6e-103
+UniRef90_A0A9D7LI38 Methylglyoxal synthase n=1 Tax=Opitutaceae ba...  300     6e-103
+UniRef90_A0A1G1I0S4 Methylglyoxal synthase n=1 Tax=Nitrospirae ba...  300     6e-103
+UniRef90_A0A5P9CP85 Methylglyoxal synthase n=6 Tax=Vibrio TaxID=6...  300     6e-103
+UniRef90_A0A938YT90 Methylglyoxal synthase n=1 Tax=Candidatus Bat...  300     6e-103
+UniRef90_K8WEX6 Methylglyoxal synthase n=1 Tax=Providencia sneebi...  300     6e-103
+UniRef90_A0A399I4A5 Methylglyoxal synthase n=1 Tax=Geobacter sp. ...  300     6e-103
+UniRef90_A0A081NJM1 Methylglyoxal synthase n=4 Tax=Endozoicomonas...  300     7e-103
+UniRef90_A0A2N6AQ03 Methylglyoxal synthase n=1 Tax=Hyphomicrobial...  301     7e-103
+UniRef90_A0A3C1T7X7 Methylglyoxal synthase n=2 Tax=Chitinophagace...  300     7e-103
+UniRef90_A0A536GM42 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  300     7e-103
+UniRef90_A0A1B7K0L0 Methylglyoxal synthase n=3 Tax=Providencia Ta...  300     7e-103
+UniRef90_A0A933F9A8 Methylglyoxal synthase n=2 Tax=candidate divi...  301     7e-103
+UniRef90_UPI0036155F02 methylglyoxal synthase n=1 Tax=Marinobacte...  300     7e-103
+UniRef90_UPI001AAD77A2 methylglyoxal synthase n=1 Tax=Spirabiliib...  300     7e-103
+UniRef90_A0A3C1WF34 Methylglyoxal synthase n=1 Tax=Fibrobacterota...  300     8e-103
+UniRef90_A0A800D7R2 Methylglyoxal synthase n=1 Tax=Anaerolineae b...  300     8e-103
+UniRef90_A0A128EVM7 Methylglyoxal synthase n=6 Tax=Grimontia TaxI...  300     8e-103
+UniRef90_A0A0A7S4A4 Methylglyoxal synthase n=7 Tax=Frischella per...  300     8e-103
+UniRef90_A0A1E5CEJ2 Methylglyoxal synthase n=4 Tax=Enterovibrio T...  300     9e-103
+UniRef90_A0A9D0KJ83 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  300     9e-103
+UniRef90_A0A8T7EH91 Methylglyoxal synthase n=2 Tax=Chloroflexota ...  300     9e-103
+UniRef90_A0A925KW44 Methylglyoxal synthase n=1 Tax=Chitinophagace...  299     9e-103
+UniRef90_A0A4R6J2E8 Methylglyoxal synthase n=6 Tax=Chitinophagace...  300     9e-103
+UniRef90_A0A537KHK0 Methylglyoxal synthase n=1 Tax=Bacteroidota b...  299     1e-102
+UniRef90_A0A423H2L2 Methylglyoxal synthase n=1 Tax=Pseudomonas br...  300     1e-102
+UniRef90_A0A1D8ATC2 Methylglyoxal synthase n=1 Tax=Lacunisphaera ...  300     1e-102
+UniRef90_A0A3D2JAN8 Methylglyoxal synthase n=1 Tax=Ktedonobacter ...  300     1e-102
+UniRef90_A0A533Y5R7 Methylglyoxal synthase n=1 Tax=Nitrospirota b...  300     1e-102
+UniRef90_A0A916FK91 Methylglyoxal synthase n=1 Tax=Thermoflexales...  299     1e-102
+UniRef90_K4KRV1 Methylglyoxal synthase n=1 Tax=Simiduia agarivora...  299     1e-102
+UniRef90_UPI00126495BC methylglyoxal synthase n=4 Tax=Agriterriba...  299     1e-102
+UniRef90_UPI001AACB7D5 methylglyoxal synthase n=2 Tax=Spirabiliib...  299     1e-102
+UniRef90_A0A2P8VQ84 Methylglyoxal synthase n=3 Tax=Siccibacter Ta...  299     1e-102
+UniRef90_A0A2Z4GDD2 Methylglyoxal synthase n=1 Tax=Arcticibacteri...  299     1e-102
+UniRef90_A0A257WDK7 Methylglyoxal synthase n=1 Tax=Sphingobacteri...  299     1e-102
+UniRef90_A0A1S1HZV8 Methylglyoxal synthase n=7 Tax=Providencia Ta...  299     1e-102
+UniRef90_C5BMN7 Methylglyoxal synthase n=2 Tax=Gammaproteobacteri...  299     1e-102
+UniRef90_A0A958BUT3 Methylglyoxal synthase n=3 Tax=Anaerolineae b...  300     1e-102
+UniRef90_K8WNA4 Methylglyoxal synthase n=1 Tax=Providencia burhod...  299     1e-102
+UniRef90_UPI00362AEE84 methylglyoxal synthase n=1 Tax=Seminibacte...  299     1e-102
+UniRef90_A0A2M8S564 Methylglyoxal synthase n=1 Tax=Conservatibact...  299     1e-102
+UniRef90_UPI00097097E2 methylglyoxal synthase n=2 Tax=Colwelliace...  299     1e-102
+UniRef90_A0A4P5T0Z5 Methylglyoxal synthase n=2 Tax=Bacteroidota T...  299     2e-102
+UniRef90_UPI003567D690 methylglyoxal synthase n=1 Tax=Psychromona...  299     2e-102
+UniRef90_A0A550GMZ9 Methylglyoxal synthase n=1 Tax=Candidatus Bat...  299     2e-102
+UniRef90_UPI002F93D0E0 methylglyoxal synthase n=1 Tax=Chitinimona...  299     2e-102
+UniRef90_A0A3N9U981 Methylglyoxal synthase n=1 Tax=Vibrio viridae...  299     2e-102
+UniRef90_UPI0018231845 methylglyoxal synthase n=1 Tax=Klebsiella ...  299     2e-102
+UniRef90_A0A1W9J191 Methylglyoxal synthase n=3 Tax=unclassified N...  299     2e-102
+UniRef90_UPI00263699C5 methylglyoxal synthase n=2 Tax=Runella sp....  298     2e-102
+UniRef90_A0A1B9LJ62 Methylglyoxal synthase n=1 Tax=Gilliamella sp...  298     2e-102
+UniRef90_A0A2N1KR11 Methylglyoxal synthase n=1 Tax=Siphonobacter ...  299     2e-102
+UniRef90_UPI002DBE0C82 methylglyoxal synthase n=1 Tax=Chitinophag...  298     2e-102
+UniRef90_A0A2E2XGU1 Methylglyoxal synthase n=1 Tax=Cellvibrionace...  298     2e-102
+UniRef90_A0A2N1VRK5 Methylglyoxal synthase n=1 Tax=Ignavibacteria...  298     2e-102
+UniRef90_A0A2N7DFL5 Methylglyoxal synthase n=1 Tax=Vibrio sp. 10N...  298     2e-102
+UniRef90_A0A3M1MJA0 Methylglyoxal synthase n=1 Tax=Anaerolineae b...  298     2e-102
+UniRef90_A0A957FGC1 Methylglyoxal synthase n=1 Tax=Anaerolineales...  299     2e-102
+UniRef90_A0A6I5ITA5 Methylglyoxal synthase n=7 Tax=unclassified V...  298     2e-102
+UniRef90_A0A3M2A7R5 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  299     2e-102
+UniRef90_A0A1B9JWW0 Methylglyoxal synthase n=2 Tax=root TaxID=1 R...  298     2e-102
+UniRef90_UPI0020358827 methylglyoxal synthase n=3 Tax=Motilimonas...  298     2e-102
+UniRef90_A0A843BWB2 Methylglyoxal synthase n=1 Tax=Candidatus Bat...  298     2e-102
+UniRef90_A0A062Y1P4 Methylglyoxal synthase n=3 Tax=Thermoanaeroba...  298     2e-102
+UniRef90_I2BAK1 Methylglyoxal synthase n=2 Tax=Shimwellia TaxID=1...  298     3e-102
+UniRef90_A0A2V4DWT8 Methylglyoxal synthase n=61 Tax=root TaxID=1 ...  298     3e-102
+UniRef90_UPI0021E73525 methylglyoxal synthase n=1 Tax=Propionivib...  298     3e-102
+UniRef90_A0A1H6ANV2 Methylglyoxal synthase n=1 Tax=Marinobacteriu...  298     3e-102
+UniRef90_A0A934LKH3 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  298     3e-102
+UniRef90_A0A537I277 Methylglyoxal synthase n=1 Tax=Bacteroidota b...  298     3e-102
+UniRef90_A0A1H4A0W1 Methylglyoxal synthase n=8 Tax=Lonsdalea TaxI...  298     3e-102
+UniRef90_A0A4Q1CEU5 Methylglyoxal synthase n=4 Tax=Lacibacter Tax...  298     3e-102
+UniRef90_A0A2U2SH08 Methylglyoxal synthase n=1 Tax=Anaerolineae b...  298     3e-102
+UniRef90_A0A8J2XSQ2 Methylglyoxal synthase n=1 Tax=Puia dinghuens...  298     3e-102
+UniRef90_A0A8J4PKJ6 MGS-like domain-containing protein n=1 Tax=Po...  298     3e-102
+UniRef90_A0A089PUS7 Methylglyoxal synthase n=2 Tax=Pluralibacter ...  298     3e-102
+UniRef90_A0A2P7QTS7 Methylglyoxal synthase n=2 Tax=Zobellella Tax...  298     3e-102
+UniRef90_A0A1Y0KRD0 Methylglyoxal synthase n=4 Tax=Pseudomonas Ta...  298     3e-102
+UniRef90_A0A2M7YRS2 Methylglyoxal synthase n=1 Tax=bacterium CG_4...  298     3e-102
+UniRef90_A0A3R9EAG0 Methylglyoxal synthase n=3 Tax=Vibrio TaxID=6...  298     3e-102
+UniRef90_A0A7W4WDN4 Methylglyoxal synthase n=2 Tax=Microbulbifer ...  298     4e-102
+UniRef90_A0A957YAU4 Methylglyoxal synthase n=2 Tax=Anaerolineae b...  299     4e-102
+UniRef90_UPI002243705E methylglyoxal synthase n=3 Tax=Microbulbif...  298     4e-102
+UniRef90_UPI001E3351B0 methylglyoxal synthase n=2 Tax=Microbulbif...  298     4e-102
+UniRef90_A0A553FIJ2 Methylglyoxal synthase n=1 Tax=Thalassomonas ...  298     4e-102
+UniRef90_A0A162BE79 Methylglyoxal synthase n=4 Tax=Marinomonas Ta...  297     4e-102
+UniRef90_A0A536NIV1 Methylglyoxal synthase n=1 Tax=Chloroflexota ...  298     4e-102
+UniRef90_A0A1R1LEM1 Methylglyoxal synthase n=1 Tax=Motiliproteus ...  298     5e-102
+UniRef90_A0A1Q4F9Q4 Methylglyoxal synthase n=1 Tax=Sphingobacteri...  297     5e-102
+UniRef90_UPI001421D6CD methylglyoxal synthase n=1 Tax=Pseudomaric...  297     5e-102
+UniRef90_A0A3Q9GC15 Methylglyoxal synthase n=1 Tax=Colwellia sp. ...  297     5e-102
+UniRef90_A0A2N0WTE7 Methylglyoxal synthase n=1 Tax=Alteromonadale...  297     6e-102
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>UniRef90_A0A7V5ZFS9 Methylglyoxal synthase n=1 Tax=Armatimonadota bacterium TaxID=2033014 
+RepID=A0A7V5ZFS9_UNCAM
+Length=153
+
+ Score = 328 bits (843),  Expect = 4e-114, Method: Composition-based stats.
+ Identities = 90/152 (59%), Positives = 109/152 (72%), Gaps = 0/152 (0%)
+
+Query  1    MELTTRTLPARKHIALVAHDHCKQMLMSWVERHQPLLEQHVLYATGTTGNLISRATGMNV  60
+            M  T   +P RK IALVAHDH K  L+ W   ++ LL QHVLYATGTTG L+ +A G+ V
+Sbjct  1    MHHTAVAMPQRKRIALVAHDHKKADLLEWARFNRDLLAQHVLYATGTTGRLLEQALGLPV  60
+
+Query  61   NAMLSGPMGGDQQVGALISEGKIDVLIFFWDPLNAVPHDPDVKALLRLATVWNIPVATNV  120
+              + SGP+GGDQQVGA I+EG+ID LIFFWDPL   PHDPDVKALLR+A VWNIPVA N 
+Sbjct  61   VKLQSGPLGGDQQVGAKIAEGEIDFLIFFWDPLEPQPHDPDVKALLRIAVVWNIPVACNR  120
+
+Query  121  ATADFIIQSPHFNDAVDILIPDYQRYLADRLK  152
+            A+ADFII SP      +  +PDY++YL   ++
+Sbjct  121  ASADFIISSPLMQGEYERTVPDYEQYLHRTVR  152
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.216    0.993    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0660    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1765164885035
+
+
+  Database: uniref90.fasta
+    Posted date:  Jan 10, 2026  12:23 AM
+  Number of letters in database: 71,627,808,805
+  Number of sequences in database:  208,005,650
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
