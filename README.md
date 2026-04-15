@@ -51,3 +51,9 @@ Run inference using the provided example input (`Example`):
 python infer.py
 ```
 The results will be saved to the `InferResult` directory by default.
+# GUI-Based Inference
+Launch the graphical user interface (GUI) by running:
+```python
+python SCOPE_GUI_infer.py
+```
+After the interface starts, follow the on-screen instructions to provide input data (e.g., PDB structure or sequence) and configure the required parameters. The prediction results will be automatically saved to the designated output directory within the project.
