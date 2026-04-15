@@ -3,7 +3,14 @@
 Download the dataset from Hugging Face: <https://huggingface.co/datasets/Biocollab/SCREEN/tree/main>. Extract the downloaded files into the `Dataset` directory.
 # Installation
 ## Environment
-
+Navigate to the `SCOPE` directory and create the environment using: 
+```python
+conda env create -f environment.yml
+```
+Then activate the environment:
+```python
+conda activate scope
+```
 ## Feature extraction and tool description
 ### BLAST+ for PSSM Profile Generation
 #### Download and Installation
