@@ -1,5 +1,7 @@
 # SCOPE
 # Data
+Download the dataset from Hugging Face: <https://huggingface.co/datasets/Biocollab/SCREEN/tree/main>
+Extract the downloaded files into the `Dataset` directory
 # Installation
 ## Environment
 
