@@ -34,4 +34,11 @@ Before running feature extraction, configure the following paths in `feature_ext
 In `evofea_embedding.py`, set the model directory as specified in the comments:
   - MODEL_DIR: Path to the ProtT5 pretrained model weights
 Ensure that all required model files are correctly downloaded and placed in the specified directory before running the embedding script.
+### Feature Extraction
+Navigate to the `SCOPE` directory and run:
+```python
+python feature_extract.py
+```
+This step will generate and/or update intermediate feature files, including PSSM profiles, HHM profiles, DSSP structural features, atomic features, contact maps, and sequence-based features; ensure that all required external tools (e.g., BLAST+, HH-suite, DSSP) are properly installed and configured before running it.
+
 
