@@ -25,3 +25,5 @@ Before running feature extraction, configure the following paths in `feature_ext
 ### ProtT5 Weights for Evolutionary Embedding
 In `evofea_embedding.py`, set the model directory as specified in the comments:
   - MODEL_DIR: Path to the ProtT5 pretrained model weights
+Ensure that all required model files are correctly downloaded and placed in the specified directory before running the embedding script.
+
