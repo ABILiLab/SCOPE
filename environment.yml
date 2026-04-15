@@ -1,4 +1,4 @@
-name: scope-gui
+name: scope
 channels:
   - bioconda
   - conda-forge
