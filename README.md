@@ -23,3 +23,5 @@ Before running feature extraction, configure the following paths in `feature_ext
   - `HHBLITS`: Path to the HHblits executable
   - `HHDB`: Path to the UniClust30 database (Make sure the UniClust30 database is fully downloaded and properly extracted before use)
 ### ProtT5 Weights for Evolutionary Embedding
+In `evofea_embedding.py`, set the model directory as specified in the comments:
+  - MODEL_DIR: Path to the ProtT5 pretrained model weights
