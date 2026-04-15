@@ -13,5 +13,6 @@ For detailed instructions, please refer to the official NCBI guide: <https://www
 Before running feature extraction, ensure that the following paths are correctly specified in `feature_extract.py`:
   - `PSIBLAST`: Path to the PSI-BLAST executable
   - `UR90`: Path to the UniRef90 sequence database
+
 **Note:** 
 The UniRef90 database should be preprocessed using `makeblastdb` prior to use.
