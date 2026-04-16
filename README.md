@@ -63,6 +63,8 @@ python SCOPE_GUI_infer.py
 ## Use SCOPE in this platform
 After successfully running the `SCOPE_GUI_infer.py` file, you can follow the steps below to use SCOPE on our platform.
 ### Input Data
+- Please upload a PDB file and a FASTA sequence for the enzyme you want to predict!
+![image](GUI/GUI_img/upload_pdb.png)
 ### Online feature extraction
 ### Predict and save results
 ### Results display
