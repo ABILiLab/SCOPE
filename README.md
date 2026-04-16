@@ -54,9 +54,11 @@ The results will be saved to the `InferResult` directory by default.
 # GUI (Graphical user interface)
 ## Introduction
 The platform integrates the SCOPE model for enzyme catalytic site prediction. It allows users to upload enzyme PDB structures or FASTA sequences to identify potential catalytic residues and visualize residue-level prediction scores.
-
+## Running Methods
 Launch the graphical user interface (GUI) by running:
 ```python
 python SCOPE_GUI_infer.py
 ```
-After the interface starts, follow the on-screen instructions to provide input data (e.g., PDB structure or sequence) and configure the required parameters. The prediction results will be automatically saved to the designated output directory within the project.
+## Use SCOPE in this platform
+After successfully running the `SCOPE_GUI_infer.py` file, you can follow the steps below to use SCOPE on our platform.
+### Input Data
