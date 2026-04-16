@@ -67,7 +67,7 @@ After successfully running the `SCOPE_GUI_infer.py` file, you can follow the ste
 ![image](GUI_img/Input-data.png)
 ### Online feature extraction
 - Please upload a PDB file and a FASTA sequence for the enzyme you want to predict!
-![image](GUI_img/feature extraction.png)
+![image](GUI_img/feature-extraction.png)
 ### Predict and save results
 ### Results display
 #### Results Table
