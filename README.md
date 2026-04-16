@@ -51,7 +51,10 @@ Run inference using the provided example input (`Example`):
 python infer.py
 ```
 The results will be saved to the `InferResult` directory by default.
-# GUI-Based Inference
+# GUI (Graphical user interface)
+## Introduction
+The platform integrates the SCOPE model for enzyme catalytic site prediction. It allows users to upload enzyme PDB structures or FASTA sequences to identify potential catalytic residues and visualize residue-level prediction scores.
+
 Launch the graphical user interface (GUI) by running:
 ```python
 python SCOPE_GUI_infer.py
