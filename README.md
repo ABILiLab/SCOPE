@@ -73,7 +73,12 @@ After successfully running the `SCOPE_GUI_infer.py` file, you can follow the ste
 ![image](GUI_img/pre-result.png)
 - If you want to continue to predict other proteins, please click `Clean` button first.
 ### Results display
-#### Results Table
+#### Prediction Table
 - The prediction results are presented in a table containing the residue position, amino acid type, prediction score, and predicted label.
 ![image](GUI_img/GUI-table-result.png)
-#### 3D structure visualization
+#### 3D Structure View
+- Predicted catalytic residues are highlighted in the interactive 3D structure to show their spatial locations and surrounding environment.
+![image](GUI_img/GUI-3D-result.png)
+#### Sequence View
+- The sequence panel displays residue-level prediction scores and labels, enabling intuitive interpretation along the protein sequence.
+![image](GUI_img/GUI-seq-result.png)
