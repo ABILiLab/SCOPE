@@ -74,4 +74,6 @@ After successfully running the `SCOPE_GUI_infer.py` file, you can follow the ste
 - If you want to continue to predict other proteins, please click `Clean` button first.
 ### Results display
 #### Results Table
+- The prediction results are presented in a table containing the residue position, amino acid type, prediction score, and predicted label.
+![image](GUI_img/pre-result.png)
 #### 3D structure visualization
