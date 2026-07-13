@@ -75,5 +75,5 @@ After successfully running the `SCOPE_GUI_infer.py` file, you can follow the ste
 ### Results display
 #### Results Table
 - The prediction results are presented in a table containing the residue position, amino acid type, prediction score, and predicted label.
-![image](GUI_img/pre-result.png)
+![image](GUI_img/GUI-table-result.png)
 #### 3D structure visualization
