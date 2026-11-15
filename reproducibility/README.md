@@ -90,19 +90,3 @@ Resource links:
 The packaged Linux workflow was tested in an independently installed
 Python 3.10 CPU environment. It generated features and predictions for
 the 245 residues of 1smn-A, reproducing the archived CPU reference output.
-
-This validation reused existing external executables, databases, and
-model resources. It was not a clean-machine installation test of every
-external dependency.
-
-Prepared-feature CPU inference was also executed in Google Colab.
-The 245 predicted probabilities differed from the archived CPU reference
-by at most 8 × 10^-8, with no classification changes at a threshold of 0.5.
-
-The Colab execution required corrections to upload-name handling and
-a manifest variable. These corrections are incorporated in the revised
-notebook. A fresh, uninterrupted execution of the revised notebook
-remains to be checked.
-
-This example validates the execution of the demonstrated workflow;
-it is not an additional benchmark of predictive accuracy.
